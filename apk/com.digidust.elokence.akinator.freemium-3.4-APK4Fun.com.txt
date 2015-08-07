@@ -1,0 +1,317 @@
+DEVICE: Nexus 7 4.4.4
+SCREEN_SIZE: 1200x1920 (softkey)
+
+:start
+touchDown 0 751 1669
+sleep 72
+touchUp 0
+sleep 6505
+touchDown 0 699 2018
+sleep 73
+touchUp 0
+sleep 9390
+touchDown 0 188 1949
+sleep 56
+touchUp 0
+sleep 5110
+touchDown 0 261 1922
+sleep 72
+touchUp 0
+sleep 6583
+touchDown 0 270 1942
+sleep 85
+touchUp 0
+sleep 3824
+touchDown 0 1080 1922
+sleep 60
+touchMove 0 1070 1922
+sleep 7
+touchMove 0 1069 1923
+sleep 28
+touchMove 0 1069 1924
+sleep 23
+touchUp 0
+sleep 3291
+touchDown 0 1083 1907
+sleep 60
+touchUp 0
+sleep 2492
+touchDown 0 1057 1936
+sleep 78
+touchUp 0
+sleep 2909
+touchDown 0 1085 1947
+sleep 77
+touchUp 0
+sleep 2580
+touchDown 0 1119 1934
+sleep 51
+touchUp 0
+sleep 2596
+touchDown 0 1091 1942
+sleep 73
+touchUp 0
+sleep 4876
+touchDown 0 1075 1937
+sleep 96
+touchUp 0
+sleep 2423
+touchDown 0 1097 1933
+sleep 79
+touchUp 0
+sleep 1847
+touchDown 0 1096 1947
+sleep 72
+touchUp 0
+sleep 2872
+touchDown 0 252 1969
+sleep 59
+touchMove 0 262 1961
+sleep 22
+touchMove 0 263 1961
+sleep 14
+touchMove 0 264 1961
+sleep 2
+touchMove 0 265 1962
+touchMove 0 266 1963
+sleep 3
+touchMove 0 267 1964
+sleep 9
+touchUp 0
+sleep 2133
+touchDown 0 1104 1946
+sleep 79
+touchUp 0
+sleep 3318
+touchDown 0 1104 1938
+sleep 79
+touchUp 0
+sleep 5656
+touchDown 0 1124 1928
+sleep 57
+touchUp 0
+sleep 2057
+touchDown 0 1090 1952
+sleep 61
+touchUp 0
+sleep 1952
+touchDown 0 1094 1944
+sleep 71
+touchUp 0
+sleep 2288
+touchDown 0 1101 1942
+sleep 71
+touchUp 0
+sleep 1893
+touchDown 0 244 1969
+sleep 90
+touchUp 0
+sleep 4298
+touchDown 0 816 1940
+sleep 84
+touchUp 0
+sleep 4743
+touchDown 0 807 1940
+sleep 76
+touchUp 0
+sleep 2431
+touchDown 0 219 1954
+sleep 79
+touchMove 0 229 1951
+sleep 7
+touchMove 0 230 1952
+sleep 34
+touchUp 0
+sleep 3541
+touchDown 0 816 1916
+sleep 47
+touchUp 0
+sleep 3078
+touchDown 0 1088 1937
+sleep 85
+touchUp 0
+sleep 11995
+touchDown 0 1096 1953
+sleep 49
+touchUp 0
+sleep 4845
+touchDown 0 1099 1951
+sleep 49
+touchUp 0
+sleep 3988
+touchDown 0 251 1944
+sleep 45
+touchMove 0 261 1939
+sleep 8
+touchMove 0 261 1940
+sleep 34
+touchUp 0
+sleep 10539
+touchDown 0 1022 1872
+sleep 33
+touchUp 0
+sleep 2082
+touchDown 0 277 1987
+sleep 44
+touchMove 0 287 1983
+sleep 6
+touchMove 0 290 1983
+sleep 42
+touchMove 0 293 1984
+sleep 3
+touchMove 0 296 1985
+sleep 15
+touchMove 0 299 1988
+touchMove 0 302 1992
+sleep 2
+touchMove 0 305 1998
+touchUp 0
+sleep 3991
+touchDown 0 1122 1931
+sleep 77
+touchUp 0
+sleep 3440
+touchDown 0 1119 1952
+sleep 71
+touchUp 0
+sleep 4028
+touchDown 0 1111 1950
+sleep 65
+touchUp 0
+sleep 3135
+touchDown 0 1139 1939
+sleep 66
+touchUp 0
+sleep 3956
+touchDown 0 1147 1944
+sleep 51
+touchUp 0
+sleep 2923
+touchDown 0 261 1928
+sleep 47
+touchMove 0 272 1931
+sleep 7
+touchMove 0 273 1932
+sleep 16
+touchMove 0 275 1933
+sleep 4
+touchMove 0 276 1934
+sleep 8
+touchMove 0 277 1935
+sleep 30
+touchMove 0 279 1938
+sleep 20
+touchUp 0
+sleep 2884
+touchDown 0 1143 1960
+sleep 54
+touchUp 0
+sleep 1834
+touchDown 0 1145 1947
+sleep 46
+touchUp 0
+sleep 2630
+touchDown 0 256 1942
+sleep 99
+touchUp 0
+sleep 6015
+touchDown 0 398 2085
+sleep 122
+touchUp 0
+sleep 4423
+touchDown 0 763 1947
+sleep 49
+touchUp 0
+sleep 2377
+touchDown 0 1139 1974
+sleep 79
+touchUp 0
+sleep 7209
+touchDown 0 1017 1900
+sleep 48
+touchMove 0 1007 1902
+sleep 10
+touchUp 0
+sleep 1610
+touchDown 0 317 1996
+sleep 62
+touchMove 0 327 2000
+sleep 7
+touchMove 0 328 2002
+sleep 29
+touchMove 0 329 2004
+touchMove 0 331 2007
+sleep 4
+touchMove 0 334 2012
+sleep 11
+touchUp 0
+sleep 5205
+touchDown 0 1120 1936
+sleep 66
+touchUp 0
+sleep 2137
+touchDown 0 1134 1951
+sleep 78
+touchUp 0
+sleep 2709
+touchDown 0 235 1904
+sleep 50
+touchUp 0
+sleep 2086
+touchDown 0 1145 1925
+sleep 61
+touchUp 0
+sleep 3865
+touchDown 0 1151 1935
+sleep 65
+touchUp 0
+sleep 1842
+touchDown 0 230 1953
+sleep 80
+touchUp 0
+sleep 3922
+touchDown 0 1153 1917
+sleep 55
+touchUp 0
+sleep 1889
+touchDown 0 221 1929
+sleep 59
+touchUp 0
+sleep 3852
+touchDown 0 242 1939
+sleep 59
+touchUp 0
+sleep 6767
+touchDown 0 1147 1933
+sleep 55
+touchUp 0
+sleep 2159
+touchDown 0 213 1928
+sleep 82
+touchUp 0
+sleep 1809
+touchDown 0 1146 1954
+sleep 45
+touchUp 0
+sleep 1950
+touchDown 0 223 1943
+sleep 42
+touchUp 0
+sleep 3300
+touchDown 0 216 1935
+sleep 61
+touchUp 0
+sleep 2537
+touchDown 0 1153 1945
+sleep 79
+touchUp 0
+sleep 2946
+touchDown 0 209 1926
+sleep 64
+touchUp 0
+sleep 14575
+touchDown 0 1018 1976
+sleep 59
+touchUp 0
+
+:end

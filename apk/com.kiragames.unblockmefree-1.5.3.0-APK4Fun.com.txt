@@ -1,0 +1,649 @@
+DEVICE: Nexus 7 4.4.4
+SCREEN_SIZE: 1200x1920 (softkey)
+
+:start
+touchDown 0 1211 1726
+sleep 73
+touchUp 0
+sleep 14842
+touchDown 0 882 1224
+sleep 82
+touchUp 0
+sleep 3637
+touchDown 0 854 1064
+sleep 29
+touchUp 0
+sleep 2241
+touchDown 0 1021 597
+sleep 56
+touchUp 0
+sleep 3622
+touchDown 0 929 1379
+sleep 61
+touchUp 0
+sleep 2098
+touchDown 0 1145 315
+sleep 74
+touchUp 0
+sleep 691
+touchDown 0 1160 326
+sleep 81
+touchUp 0
+sleep 445
+touchDown 0 1163 313
+sleep 82
+touchUp 0
+sleep 557
+touchDown 0 1168 308
+sleep 88
+touchUp 0
+sleep 2027
+touchDown 0 1144 298
+sleep 79
+touchUp 0
+sleep 120
+touchDown 0 1148 296
+sleep 52
+touchUp 0
+sleep 171
+touchDown 0 1140 294
+sleep 81
+touchUp 0
+sleep 136
+touchDown 0 1148 305
+sleep 34
+touchUp 0
+sleep 111
+touchDown 0 1143 283
+sleep 68
+touchUp 0
+sleep 192
+touchDown 0 1133 309
+sleep 46
+touchUp 0
+sleep 132
+touchDown 0 1132 319
+sleep 78
+touchUp 0
+sleep 334
+touchDown 0 1128 306
+sleep 122
+touchUp 0
+sleep 175
+touchDown 0 1139 303
+sleep 76
+touchUp 0
+sleep 100
+touchDown 0 1148 317
+sleep 66
+touchUp 0
+sleep 96
+touchDown 0 1140 327
+sleep 85
+touchUp 0
+sleep 291
+touchDown 0 1134 334
+sleep 69
+touchUp 0
+sleep 119
+touchDown 0 1130 331
+sleep 61
+touchMove 0 1121 341
+sleep 13
+touchMove 0 1121 342
+sleep 8
+touchUp 0
+sleep 105
+touchDown 0 1113 337
+sleep 80
+touchUp 0
+sleep 125
+touchDown 0 1112 337
+sleep 55
+touchUp 0
+sleep 130
+touchDown 0 1128 330
+sleep 71
+touchMove 0 1117 339
+sleep 9
+touchUp 0
+sleep 105
+touchDown 0 1111 335
+sleep 85
+touchUp 0
+sleep 122
+touchDown 0 1101 360
+sleep 67
+touchUp 0
+sleep 120
+touchDown 0 1126 346
+sleep 52
+touchUp 0
+sleep 414
+touchDown 0 221 332
+sleep 62
+touchUp 0
+sleep 144
+touchDown 0 215 290
+sleep 32
+touchUp 0
+sleep 139
+touchDown 0 217 275
+sleep 82
+touchUp 0
+sleep 100
+touchDown 0 236 298
+sleep 77
+touchUp 0
+sleep 100
+touchDown 0 237 306
+sleep 73
+touchUp 0
+sleep 94
+touchDown 0 242 334
+sleep 68
+touchUp 0
+sleep 88
+touchDown 0 241 319
+sleep 52
+touchUp 0
+sleep 96
+touchDown 0 247 317
+sleep 49
+touchUp 0
+sleep 104
+touchDown 0 247 327
+sleep 46
+touchUp 0
+sleep 121
+touchDown 0 255 324
+sleep 67
+touchUp 0
+sleep 106
+touchDown 0 246 351
+sleep 76
+touchUp 0
+sleep 100
+touchDown 0 260 339
+sleep 65
+touchUp 0
+sleep 100
+touchDown 0 264 339
+sleep 55
+touchUp 0
+sleep 92
+touchDown 0 264 354
+sleep 94
+touchUp 0
+sleep 73
+touchDown 0 1089 337
+sleep 80
+touchUp 0
+sleep 36
+touchDown 0 249 366
+sleep 70
+touchUp 0
+sleep 7
+touchDown 0 1091 338
+sleep 87
+touchUp 0
+sleep 25
+touchDown 0 252 359
+sleep 77
+touchUp 0
+sleep 35
+touchDown 0 1108 331
+sleep 68
+touchUp 0
+sleep 37
+touchDown 0 244 354
+sleep 75
+touchUp 0
+sleep 7
+touchDown 0 1109 338
+sleep 97
+touchUp 0
+sleep 49
+touchDown 0 216 353
+sleep 75
+touchUp 0
+sleep 130
+touchDown 0 234 367
+sleep 52
+touchUp 0
+sleep 122
+touchDown 0 1141 345
+sleep 88
+touchUp 0
+sleep 91
+touchDown 0 207 358
+sleep 40
+touchUp 0
+sleep 221
+touchDown 0 1147 337
+sleep 51
+touchMove 0 1137 341
+sleep 6
+touchMove 0 1136 341
+sleep 7
+touchMove 0 1135 341
+sleep 21
+touchUp 0
+sleep 77
+touchDown 0 1149 339
+sleep 54
+touchMove 0 1139 348
+sleep 38
+touchUp 0
+sleep 140
+touchDown 0 1154 354
+sleep 103
+touchUp 0
+sleep 67
+touchDown 0 1161 349
+sleep 87
+touchUp 0
+sleep 68
+touchDown 0 1164 347
+sleep 83
+touchUp 0
+sleep 106
+touchDown 0 1154 340
+sleep 53
+touchUp 0
+sleep 86
+touchDown 0 1149 341
+sleep 62
+touchUp 0
+sleep 80
+touchDown 0 1155 349
+sleep 70
+touchUp 0
+sleep 77
+touchDown 0 1167 341
+sleep 78
+touchUp 0
+sleep 110
+touchDown 0 230 346
+sleep 62
+touchUp 0
+sleep 88
+touchDown 0 246 342
+sleep 75
+touchUp 0
+sleep 96
+touchDown 0 238 341
+sleep 59
+touchUp 0
+sleep 131
+touchDown 0 228 336
+sleep 61
+touchUp 0
+sleep 86
+touchDown 0 238 342
+sleep 69
+touchUp 0
+sleep 105
+touchDown 0 232 342
+sleep 48
+touchUp 0
+sleep 86
+touchDown 0 242 342
+sleep 75
+touchUp 0
+sleep 87
+touchDown 0 253 341
+sleep 66
+touchUp 0
+sleep 86
+touchDown 0 252 350
+sleep 75
+touchUp 0
+sleep 107
+touchDown 0 249 348
+sleep 65
+touchUp 0
+sleep 119
+touchDown 0 233 355
+sleep 73
+touchUp 0
+sleep 101
+touchDown 0 229 366
+sleep 69
+touchUp 0
+sleep 91
+touchDown 0 230 361
+sleep 66
+touchUp 0
+sleep 444
+touchDown 0 1139 310
+sleep 80
+touchUp 0
+sleep 290
+touchDown 0 1144 319
+sleep 26
+touchUp 0
+sleep 192
+touchDown 0 1152 316
+sleep 55
+touchMove 0 1142 313
+sleep 39
+touchUp 0
+sleep 94
+touchDown 0 1146 302
+sleep 72
+touchUp 0
+sleep 105
+touchDown 0 1138 306
+sleep 71
+touchMove 0 1128 306
+sleep 6
+touchMove 0 1127 306
+sleep 12
+touchMove 0 1127 307
+sleep 17
+touchUp 0
+sleep 1374
+touchDown 0 362 2226
+sleep 26
+touchUp 0
+sleep 3360
+touchDown 0 853 1400
+sleep 73
+touchUp 0
+sleep 8284
+touchDown 0 865 1083
+sleep 66
+touchUp 0
+sleep 1735
+touchDown 0 970 893
+sleep 87
+touchUp 0
+sleep 2817
+touchDown 0 823 283
+sleep 74
+touchUp 0
+sleep 130
+touchDown 0 797 306
+sleep 81
+touchUp 0
+sleep 106
+touchDown 0 817 326
+sleep 71
+touchMove 0 807 326
+sleep 16
+touchUp 0
+sleep 101
+touchDown 0 792 317
+sleep 81
+touchUp 0
+sleep 120
+touchDown 0 779 323
+sleep 60
+touchUp 0
+sleep 133
+touchDown 0 773 323
+sleep 60
+touchUp 0
+sleep 85
+touchDown 0 802 313
+sleep 70
+touchMove 0 792 323
+sleep 7
+touchMove 0 791 324
+sleep 6
+touchMove 0 790 325
+sleep 11
+touchUp 0
+sleep 84
+touchDown 0 787 340
+sleep 100
+touchUp 0
+sleep 79
+touchDown 0 798 331
+sleep 80
+touchUp 0
+sleep 89
+touchDown 0 811 321
+sleep 80
+touchUp 0
+sleep 104
+touchDown 0 828 310
+sleep 88
+touchUp 0
+sleep 59
+touchDown 0 123 257
+sleep 82
+touchUp 0
+sleep 110
+touchDown 0 151 266
+sleep 62
+touchUp 0
+sleep 114
+touchDown 0 143 278
+sleep 60
+touchUp 0
+sleep 127
+touchDown 0 169 300
+sleep 66
+touchUp 0
+sleep 95
+touchDown 0 166 301
+sleep 67
+touchUp 0
+sleep 93
+touchDown 0 149 307
+sleep 65
+touchUp 0
+sleep 86
+touchDown 0 167 327
+sleep 68
+touchUp 0
+sleep 83
+touchDown 0 175 333
+sleep 61
+touchMove 0 165 327
+sleep 9
+touchUp 0
+sleep 87
+touchDown 0 178 313
+sleep 73
+touchUp 0
+sleep 59
+touchDown 0 825 334
+sleep 92
+touchUp 0
+sleep 91
+touchDown 0 862 279
+sleep 73
+touchMove 0 853 289
+sleep 10
+touchUp 0
+sleep 104
+touchDown 0 879 277
+sleep 55
+touchMove 0 870 287
+sleep 10
+touchUp 0
+sleep 95
+touchDown 0 855 307
+sleep 78
+touchUp 0
+sleep 97
+touchDown 0 839 331
+sleep 40
+touchUp 0
+sleep 76
+touchDown 0 843 320
+sleep 79
+touchUp 0
+sleep 91
+touchDown 0 842 328
+sleep 98
+touchUp 0
+sleep 67
+touchDown 0 835 316
+sleep 92
+touchUp 0
+sleep 86
+touchDown 0 837 315
+sleep 80
+touchUp 0
+sleep 82
+touchDown 0 835 313
+sleep 89
+touchUp 0
+sleep 80
+touchDown 0 153 331
+sleep 73
+touchMove 0 151 321
+sleep 6
+touchMove 0 151 320
+sleep 7
+touchMove 0 150 319
+sleep 6
+touchMove 0 149 318
+sleep 7
+touchMove 0 148 317
+sleep 9
+touchUp 0
+sleep 81
+touchDown 0 180 339
+sleep 85
+touchUp 0
+sleep 149
+touchDown 0 829 332
+sleep 92
+touchUp 0
+sleep 76
+touchDown 0 171 340
+sleep 47
+touchUp 0
+sleep 40
+touchDown 0 830 342
+sleep 75
+touchUp 0
+sleep 86
+touchDown 0 848 342
+sleep 81
+touchUp 0
+sleep 105
+touchDown 0 820 345
+sleep 78
+touchMove 0 810 347
+sleep 9
+touchUp 0
+sleep 91
+touchDown 0 838 343
+sleep 71
+touchUp 0
+sleep 96
+touchDown 0 842 316
+sleep 46
+touchMove 0 838 326
+sleep 6
+touchMove 0 838 327
+sleep 6
+touchMove 0 838 328
+sleep 6
+touchMove 0 838 329
+sleep 7
+touchMove 0 838 330
+sleep 5
+touchMove 0 837 331
+sleep 10
+touchUp 0
+sleep 81
+touchDown 0 826 336
+sleep 62
+touchMove 0 816 342
+sleep 6
+touchMove 0 815 342
+sleep 30
+touchUp 0
+sleep 92
+touchDown 0 837 322
+sleep 66
+touchUp 0
+sleep 115
+touchDown 0 788 344
+sleep 76
+touchUp 0
+sleep 104
+touchDown 0 812 332
+sleep 70
+touchMove 0 802 340
+sleep 13
+touchMove 0 803 340
+sleep 9
+touchUp 0
+sleep 115
+touchDown 0 818 335
+sleep 97
+touchUp 0
+sleep 102
+touchDown 0 154 323
+sleep 93
+touchUp 0
+sleep 102
+touchDown 0 817 323
+sleep 81
+touchUp 0
+sleep 95
+touchDown 0 826 311
+sleep 78
+touchUp 0
+sleep 52
+touchDown 0 150 337
+sleep 98
+touchUp 0
+sleep 74
+touchDown 0 787 364
+sleep 54
+touchUp 0
+sleep 141
+touchDown 0 127 312
+sleep 79
+touchUp 0
+sleep 73
+touchDown 0 854 334
+sleep 69
+touchUp 0
+sleep 124
+touchDown 0 108 309
+sleep 57
+touchUp 0
+sleep 76
+touchDown 0 826 339
+sleep 81
+touchUp 0
+sleep 109
+touchDown 0 42 287
+sleep 94
+touchUp 0
+sleep 39
+touchDown 0 826 319
+sleep 86
+touchUp 0
+sleep 46
+touchDown 0 183 337
+sleep 79
+touchUp 0
+sleep 67
+touchDown 0 852 302
+sleep 77
+touchUp 0
+sleep 104
+touchDown 0 839 304
+sleep 93
+touchUp 0
+sleep 1988
+touchDown 0 348 2222
+sleep 84
+touchUp 0
+sleep 1772
+touchDown 0 830 1399
+sleep 61
+touchUp 0
+
+:end
