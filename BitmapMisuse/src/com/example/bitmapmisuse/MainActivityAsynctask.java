@@ -92,6 +92,13 @@ public class MainActivityAsynctask extends Activity {
             String s = "myDecodeData() takes " + difference + " ms";
             timings += s + "\n";
             dataBmp = bm;
+            for (int i = 0; i < 10; ++i) {
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                }
+                publishProgress(i);
+            }
             return null;
         }
 

@@ -1,0 +1,6032 @@
+[
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask.onCreate",
+        "timestamp": 133001863836,
+        "threadName": "main",
+        "type": "UP_ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.open",
+        "timestamp": 133002013739,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.open",
+        "timestamp": 133002014562,
+        "threadName": "main",
+        "istreamAddr": 1100641736,
+        "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
+        "threadId": 1,
+        "duration": 122,
+        "parameter": "fromfile.jpg",
+        "type": "STREAM_GEN"
+    },
+    {
+        "methodId": "io.appswift.usercode.imageview.CustomImageView.setImageResource",
+        "timestamp": 133002016760,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.imageview.CustomImageView.setImageResource",
+        "pixelCount": 122500,
+        "timestamp": 133002045904,
+        "threadName": "main",
+        "threadId": 1,
+        "cacheHit": false,
+        "byteCount": 490000,
+        "type": "CACHING",
+        "duration": 28381,
+        "parameter": "2130837505"
+    },
+    {
+        "matchId": 1,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.execute",
+        "timestamp": 133002050604,
+        "threadName": "main",
+        "threadId": 1,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask.onCreate(MainActivityAsynctask.java:60)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.execute",
+        "timestamp": 133002052343,
+        "threadName": "main",
+        "threadId": 1,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask.onCreate(MainActivityAsynctask.java:60)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "matchId": 2,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.execute",
+        "timestamp": 133002053564,
+        "threadName": "main",
+        "threadId": 1,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask.onCreate(MainActivityAsynctask.java:61)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.execute",
+        "timestamp": 133002054785,
+        "threadName": "main",
+        "threadId": 1,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask.onCreate(MainActivityAsynctask.java:61)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "matchId": 3,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.execute",
+        "timestamp": 133002056036,
+        "threadName": "main",
+        "threadId": 1,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask.onCreate(MainActivityAsynctask.java:62)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.execute",
+        "timestamp": 133002057165,
+        "threadName": "main",
+        "threadId": 1,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask.onCreate(MainActivityAsynctask.java:62)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "matchId": 4,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.execute",
+        "timestamp": 133002058081,
+        "threadName": "main",
+        "threadId": 1,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask.onCreate(MainActivityAsynctask.java:63)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.execute",
+        "timestamp": 133002058996,
+        "threadName": "main",
+        "threadId": 1,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask.onCreate(MainActivityAsynctask.java:63)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask.onCreate",
+        "timestamp": 133002059851,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 1,
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground",
+        "timestamp": 133002060736,
+        "threadName": "AsyncTask #1",
+        "implicitAsync": true,
+        "threadId": 3544,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.decodeByteArray",
+        "timestamp": 133002061468,
+        "threadName": "AsyncTask #1",
+        "type": "ENTER",
+        "threadId": 3544
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.decodeByteArray",
+        "pixelCount": 122500,
+        "timestamp": 133002067694,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "cacheHit": false,
+        "byteCount": 490000,
+        "type": "CACHING",
+        "duration": 5616,
+        "parameter": ""
+    },
+    {
+        "matchId": 5,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002089117,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002090704,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "matchId": 6,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002112585,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002113714,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "matchId": 5,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002123022,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002123968,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 7,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002134832,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002135961,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "matchId": 8,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002157354,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002158544,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "matchId": 9,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002179663,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002181463,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "matchId": 6,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002185003,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002186041,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 7,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002188848,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002189978,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 8,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002192358,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002194830,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 10,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002202947,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002204168,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "matchId": 9,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002209509,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002211462,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 10,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002212499,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002213110,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 11,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002225195,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "matchId": 11,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002226751,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002226690,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002227850,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 12,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002248266,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "matchId": 12,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002249548,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002249487,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002250769,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 13,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002271185,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002273748,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "matchId": 13,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002273809,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002276770,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 14,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002295782,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "matchId": 14,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002297521,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.publishProgress",
+        "timestamp": 133002297460,
+        "threadName": "AsyncTask #1",
+        "threadId": 3544,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground(MainActivityAsynctask.java:100)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onProgressUpdate",
+        "timestamp": 133002298834,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.doInBackground",
+        "timestamp": 133002299261,
+        "threadName": "AsyncTask #1",
+        "type": "UP_EXIT",
+        "threadId": 3544
+    },
+    {
+        "matchId": 1,
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.onPostExecute",
+        "timestamp": 133002300634,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "matchId": 2,
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeFileTask.doInBackground",
+        "timestamp": 133002301275,
+        "threadName": "AsyncTask #2",
+        "implicitAsync": true,
+        "threadId": 3545,
+        "type": "UP_ENTER"
+    },
+    {
+        "matchId": 1,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onPostExecute",
+        "timestamp": 133002304449,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.decodeFile",
+        "timestamp": 133002306249,
+        "threadName": "AsyncTask #2",
+        "type": "ENTER",
+        "threadId": 3545
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onPostExecute",
+        "timestamp": 133002306372,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeDataTask.onPostExecute",
+        "timestamp": 133002314916,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.decodeFile",
+        "pixelCount": 122500,
+        "timestamp": 133002322332,
+        "threadName": "AsyncTask #2",
+        "threadId": 3545,
+        "cacheHit": false,
+        "byteCount": 490000,
+        "type": "CACHING",
+        "duration": 14831,
+        "parameter": "/data/data/com.example.bitmapmisuse/files/image.jpg"
+    },
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeFileTask.doInBackground",
+        "timestamp": 133002325262,
+        "threadName": "AsyncTask #2",
+        "type": "UP_EXIT",
+        "threadId": 3545
+    },
+    {
+        "matchId": 2,
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeFileTask.onPostExecute",
+        "timestamp": 133002326727,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "matchId": 3,
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeResourceTask.doInBackground",
+        "timestamp": 133002327673,
+        "threadName": "AsyncTask #3",
+        "implicitAsync": true,
+        "threadId": 3546,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.decodeResource",
+        "timestamp": 133002336767,
+        "threadName": "AsyncTask #3",
+        "type": "ENTER",
+        "threadId": 3546
+    },
+    {
+        "matchId": 2,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onPostExecute",
+        "timestamp": 133002336676,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.decodeResource",
+        "pixelCount": 122500,
+        "timestamp": 133002338262,
+        "threadName": "AsyncTask #3",
+        "threadId": 3546,
+        "cacheHit": true,
+        "byteCount": 490000,
+        "type": "CACHING",
+        "duration": 91,
+        "parameter": "2130837505"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onPostExecute",
+        "timestamp": 133002338659,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeResourceTask.doInBackground",
+        "timestamp": 133002339788,
+        "threadName": "AsyncTask #3",
+        "type": "UP_EXIT",
+        "threadId": 3546
+    },
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeFileTask.onPostExecute",
+        "timestamp": 133002340002,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 3,
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeResourceTask.onPostExecute",
+        "timestamp": 133002341375,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "matchId": 4,
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeStreamTask.doInBackground",
+        "timestamp": 133002341772,
+        "threadName": "AsyncTask #4",
+        "implicitAsync": true,
+        "threadId": 3547,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.open",
+        "timestamp": 133002342993,
+        "threadName": "AsyncTask #4",
+        "type": "ENTER",
+        "threadId": 3547
+    },
+    {
+        "matchId": 3,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onPostExecute",
+        "timestamp": 133002342626,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onPostExecute",
+        "timestamp": 133002343939,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.open",
+        "timestamp": 133002344061,
+        "threadName": "AsyncTask #4",
+        "istreamAddr": 1100294184,
+        "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
+        "threadId": 3547,
+        "duration": 214,
+        "parameter": "fromfile.jpg",
+        "type": "STREAM_GEN"
+    },
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeResourceTask.onPostExecute",
+        "timestamp": 133002345312,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.decodeStream",
+        "timestamp": 133002345526,
+        "threadName": "AsyncTask #4",
+        "type": "ENTER",
+        "threadId": 3547
+    },
+    {
+        "originKnown": true,
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.bitmap.LRUCacher.decodeStream",
+        "pixelCount": 122500,
+        "timestamp": 133002354040,
+        "threadName": "AsyncTask #4",
+        "byteCount": 490000,
+        "istreamAddr": 1100294184,
+        "cacheHit": false,
+        "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
+        "threadId": 3547,
+        "duration": 7538,
+        "type": "STREAM_ACCESS"
+    },
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeStreamTask.doInBackground",
+        "timestamp": 133002355749,
+        "threadName": "AsyncTask #4",
+        "type": "UP_EXIT",
+        "threadId": 3547
+    },
+    {
+        "matchId": 4,
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeStreamTask.onPostExecute",
+        "timestamp": 133002356604,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "matchId": 4,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onPostExecute",
+        "timestamp": 133002357702,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onPostExecute",
+        "timestamp": 133002359106,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 0,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.execute",
+        "timestamp": 133002361029,
+        "threadName": "main",
+        "threadId": 1,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeStreamTask.onPostExecute(MainActivityAsynctask.java:194)",
+        "type": "ASYNC_ENTER"
+    },
+    {
+        "matchId": 0,
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$JoinTask.doInBackground",
+        "timestamp": 133002363134,
+        "threadName": "AsyncTask #5",
+        "implicitAsync": true,
+        "threadId": 3548,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.execute",
+        "timestamp": 133002362982,
+        "threadName": "main",
+        "threadId": 1,
+        "callId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeStreamTask.onPostExecute(MainActivityAsynctask.java:194)",
+        "type": "ASYNC_EXIT"
+    },
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$JoinTask.doInBackground",
+        "timestamp": 133002364233,
+        "threadName": "AsyncTask #5",
+        "type": "UP_EXIT",
+        "threadId": 3548
+    },
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$DecodeStreamTask.onPostExecute",
+        "timestamp": 133002364569,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "matchId": 0,
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$JoinTask.onPostExecute",
+        "timestamp": 133002365728,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "matchId": 0,
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onPostExecute",
+        "timestamp": 133002366644,
+        "threadName": "main",
+        "implicitAsync": false,
+        "threadId": 1,
+        "type": "UP_ENTER"
+    },
+    {
+        "methodId": "io.appswift.usercode.appinsight.CustomAsyncTask.onPostExecute",
+        "timestamp": 133002367681,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "io.appswift.usercode.imageview.CustomImageView.setImageResource",
+        "timestamp": 133002368627,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.imageview.CustomImageView.setImageResource",
+        "pixelCount": 122500,
+        "timestamp": 133002369757,
+        "threadName": "main",
+        "threadId": 1,
+        "cacheHit": true,
+        "byteCount": 490000,
+        "type": "CACHING",
+        "duration": 245,
+        "parameter": "2130837505"
+    },
+    {
+        "methodId": "com.example.bitmapmisuse.MainActivityAsynctask$JoinTask.onPostExecute",
+        "timestamp": 133002376745,
+        "threadName": "main",
+        "type": "UP_EXIT",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005835852,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 457
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005850439,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 213
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005862341,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 1220
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005873266,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 61
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005883978,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 61
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005894720,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 61
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005905462,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005916479,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005927496,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005938726,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005949987,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005962469,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005973577,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005984838,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133005995825,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006007147,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006018011,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 61
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006028936,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 61
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006040533,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 366
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006052893,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 335
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006065283,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006076208,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006087133,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 61
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006097998,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006109197,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006122106,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006133459,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006146978,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 579
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006158209,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006169287,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006181280,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 1129
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006192541,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006203649,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006214605,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006225500,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006236517,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006247503,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006258612,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006269567,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006280950,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006292059,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006302984,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006313940,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006324865,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006335943,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006346868,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006358099,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006369024,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006380346,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006391271,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006402319,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006413519,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006424505,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006435614,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006446569,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006457678,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 61
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006468634,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006479803,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006491033,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006502691,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006513922,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006529516,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006544226,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006558294,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 366
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006569860,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006582067,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006593572,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 213
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006604772,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006615972,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006627050,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006638189,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006649145,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006661566,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006672369,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 61
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006683813,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006695715,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006706762,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006718878,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006729864,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006743109,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006754125,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006765325,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006776525,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006787512,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006798498,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006809423,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006822149,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006833349,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006844488,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006855871,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006866888,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006877844,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006888891,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006901373,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006912573,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006923895,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006935095,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006946569,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006958258,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006971960,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 1495
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006983526,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133006995062,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007006689,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007017706,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007028723,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007039831,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007052221,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007063177,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007074377,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007086492,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007097509,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007108526,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007119696,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007131842,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007143103,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007154150,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007165686,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007176824,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007187811,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007199591,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007212347,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007223730,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007235235,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007246160,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007257177,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007268133,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007281225,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007292333,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007303320,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007314276,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007325537,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007344091,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007355230,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007366796,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007377813,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007389379,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007401586,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007413427,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007424414,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007435705,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 213
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007447424,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007458715,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007469732,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007481848,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007492834,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007503790,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007515203,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007543310,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 366
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007555090,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 488
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007566412,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007577551,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007588751,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007599737,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007612310,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007623480,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007634405,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007645330,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007656835,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007668096,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007679479,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007691442,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007702459,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007713995,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007724920,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007736303,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007747564,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007758642,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007769934,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007782354,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007793310,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007804510,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007815649,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007826605,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007837561,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007848455,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007859960,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007872137,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007883673,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007894598,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007906286,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007917425,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 213
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007928625,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007939550,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007952551,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007963568,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007974523,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007985815,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133007997351,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008008734,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008019720,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008032171,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008043371,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008054296,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008065618,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008076574,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008087530,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008098883,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008111730,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008122656,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008134039,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008145086,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008156500,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008167486,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008179113,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008191564,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 1342
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008203161,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008214514,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008225775,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008236700,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008247686,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008258642,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008270056,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008282568,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008293646,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008304968,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008316442,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 244
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008327764,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008338903,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008349951,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008362615,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008373571,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008384558,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008395483,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008406744,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008418096,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008429449,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008441778,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008453649,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008464636,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008475561,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008486730,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008497778,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008508764,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008519689,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008531805,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008543127,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008554388,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008565435,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008576757,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008588201,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008599127,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008611914,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008623541,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 274
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008635107,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008647009,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008658026,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008668981,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008681921,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 244
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008692877,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008703833,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008714758,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008725714,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008736639,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008747839,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008758978,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008769934,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008782080,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008793768,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008804724,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008815649,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008826574,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008837499,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008848913,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008861608,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008872534,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008883764,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008894750,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008906164,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008917150,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008928106,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008939001,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008949926,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008962255,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008973547,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008984564,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133008995489,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009006781,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009017919,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009028906,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009039892,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009052618,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 274
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009063574,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009074530,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009085424,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009096350,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009107641,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009118688,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009129614,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009142004,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009152990,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009164343,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009176184,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009187170,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009198248,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009209295,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009222235,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009233251,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009244238,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009255224,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009266180,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009277166,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009288031,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009298956,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009310034,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009322393,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009333380,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009344335,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009355566,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009366735,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009377783,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009388800,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009399755,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009411871,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009423101,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009434057,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009444982,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009456427,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009467352,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009478247,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009489202,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009501348,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009512304,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009523229,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009534216,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009545172,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009556158,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009567358,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009578222,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009589147,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009601568,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009612524,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009624365,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009635290,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009646246,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009657202,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009668157,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009679113,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009690039,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009702154,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009713171,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009724127,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009735052,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009746282,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009757238,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009768225,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009779180,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009791510,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009802465,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009813421,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009824621,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009836004,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009847174,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009858557,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009869512,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009881719,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009892980,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009904058,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009915075,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009926123,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009937048,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009948004,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009958868,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009969793,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009982244,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133009993170,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010004217,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010015661,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010026617,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010037939,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010048895,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010059790,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010072821,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010083715,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010094671,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010105627,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010116522,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010127416,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010138372,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010149237,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010161596,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010172521,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010183447,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010194281,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010205206,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010216436,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010227453,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010238378,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010249304,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010261480,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010273016,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010283941,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010294866,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010305975,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 274
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010317755,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010329168,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 244
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010341955,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 1800
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010353094,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010370001,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 1434
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010382452,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010393530,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010404547,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010415502,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010426458,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010437414,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010448370,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010459295,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010471594,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010482672,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010493933,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010505377,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010517248,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010528784,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010539739,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010551885,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010562841,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010574468,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010586767,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010598608,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010609594,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010622625,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010634283,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010645269,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010656256,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010676885,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010695806,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010707800,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 305
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010719885,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010733312,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010744421,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010755499,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010766485,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010777471,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010788458,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010799383,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010811437,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010823034,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010834020,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010845007,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010856268,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010867254,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010878393,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010889349,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010901464,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010912451,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010923376,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010934912,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010945928,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010957006,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010968054,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010979040,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133010991491,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011002569,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011013647,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011024755,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011035742,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011046697,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011057989,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011068975,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011079962,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011092352,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011103582,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011114660,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011126043,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011137030,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011148809,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011159796,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011172247,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011183752,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011194738,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011205908,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011216925,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011227880,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011238806,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011249700,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011262060,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011273168,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011284094,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011295080,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011306402,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011317724,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011328710,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011339605,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011352362,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011363317,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011374365,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011385351,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011396307,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011407232,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011418218,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011429174,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011441564,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011452459,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011463415,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011474401,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011485693,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011497015,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011508245,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011519812,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011533972,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011545355,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011556311,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011567266,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011578192,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011589147,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011601477,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011612432,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011623449,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011634436,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011645422,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011656378,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011667333,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011678320,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011689276,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011701391,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011712316,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011723303,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011734259,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011745092,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011756048,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011767004,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011777929,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011788946,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011800054,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011812902,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011823950,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011834936,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011846197,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011857244,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011868139,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011879034,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011890051,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011902471,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011913702,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011924658,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011935644,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011946569,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011957556,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011968481,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011979345,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133011991400,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012002355,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012013311,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012024206,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012035437,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012046514,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012057531,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012068579,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012079534,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012091467,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012102362,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012113317,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012124273,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012135229,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012146154,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012157446,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012168402,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012179357,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012191564,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012202520,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012213781,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012224676,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012235632,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012246588,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012257513,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012268347,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012279333,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012292150,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012303259,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012314916,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012326116,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012337377,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012348394,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012359747,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012372839,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012383825,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012395788,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012406805,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012418280,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012429327,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012441625,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012452947,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012463934,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012474920,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012485906,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012496801,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012507818,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012518743,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012529608,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012541784,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012555456,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012567114,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012578497,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012589514,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012601995,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012613562,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012624517,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012635443,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012646734,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012658148,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012669409,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012726477,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012737738,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012748968,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012762213,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 183
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012773352,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012784429,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012795690,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012807104,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012818121,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012830023,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012841558,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012852514,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012863562,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012874639,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012885839,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012896948,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012907843,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012918768,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012929876,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012940954,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012952001,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012963201,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012974371,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012985357,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133012996374,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013007391,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013018408,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013029577,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013040716,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013051824,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013062750,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013073675,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013084539,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013095465,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013106726,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013117651,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013128576,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013139562,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013151037,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013162329,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013173376,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013184545,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013195623,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013206976,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013217993,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013228918,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013240240,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013251470,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013262457,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013273321,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013284246,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013295202,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013306280,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013317480,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013328283,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013339086,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013363439,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 213
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013374456,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013385443,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013396276,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013407141,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013418096,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013429113,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013441687,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013452795,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013463812,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013475317,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013486303,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013497259,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013508184,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013519079,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013529974,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013542120,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013553106,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013564489,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013575598,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013586767,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013597753,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013608709,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013621588,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013632604,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013643865,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013655004,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013666052,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013677008,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013688360,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013699316,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013711645,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013722631,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013733679,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013744604,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013755926,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013767462,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013778723,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013789617,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013802282,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013813299,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013824224,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013835180,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013846166,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013857061,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013867926,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013878912,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013891485,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013902441,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013913427,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013924322,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013935186,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013946478,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 427
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013957403,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013968359,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013979315,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133013992193,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014003424,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014014654,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014025610,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014036566,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014047735,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014058630,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014069586,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014082769,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 396
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014094030,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014105139,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 244
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014116156,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014127050,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014137915,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014148992,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014159918,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014172277,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014183172,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014194586,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014205877,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014217138,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014228826,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014239782,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014251959,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014262884,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 91
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014274481,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014285467,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014297003,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 122
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014307989,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014319311,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    },
+    {
+        "stacktrace": "",
+        "timestamp": 133014332708,
+        "type": "UI_PROBING",
+        "proberThreadId": 3549,
+        "waitingTime": 152
+    }
+]
