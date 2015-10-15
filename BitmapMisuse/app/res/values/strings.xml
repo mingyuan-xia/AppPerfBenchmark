@@ -4,5 +4,6 @@
     <string name="app_name">BitmapMisuse</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="button_text">Fresh</string>
 
 </resources>
