@@ -16,17 +16,33 @@
         <activity
             android:name=".MainActivityAsynctask"
             android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:exported="true"
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".IntentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:exported="true"
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
-        </activity>        
+        <activity android:name=".HelloActivity"/>
+
+        <service android:name=".ServiceDemo">
+            <intent-filter>
+                <action android:name="com.ServiceDemo"/>
+            </intent-filter>
+        </service>
+
+        <receiver android:name="BroadcastReceiverDemo">
+            <intent-filter>
+                <action android:name="com.BroadcastReceiver"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
