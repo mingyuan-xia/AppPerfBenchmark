@@ -14,6 +14,7 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.os.SystemClock;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -98,7 +99,7 @@ public class MainActivity extends Activity {
         }
     }
 
-    Handler myHandler = new Handler() {
+    Handler myHandler1_impl = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             switch (msg.what) {
@@ -129,6 +130,38 @@ public class MainActivity extends Activity {
         }
     };
 
+    Handler myHandler1_callback = new Handler(new Handler.Callback() {
+        @Override
+        public boolean handleMessage(Message msg) {
+            switch (msg.what) {
+                case 0x01:
+                    ivs[0].setImageBitmap(dataBmp);
+                    c++;
+                    break;
+                case 0x02:
+                    ivs[1].setImageBitmap(fileBmp);
+                    c++;
+                    break;
+                case 0x03:
+                    ivs[2].setImageBitmap(resourceBmp);
+                    c++;
+                    break;
+                case 0x04:
+                    ivs[3].setImageBitmap(streamBmp);
+                    c++;
+                    break;
+                default:
+                    break;
+            }
+            if (c == 4) {
+                Message message = new Message();
+                message.what = 0x77;
+                myHandler2.sendMessage(message);
+            }
+            return true;
+        }
+    });
+
     Handler myHandler2 = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -141,6 +174,14 @@ public class MainActivity extends Activity {
             }
         }
     };
+    class MyHandler extends Handler {
+        @Override
+        public void handleMessage(Message msg) {
+            // do nothing
+        }
+    }
+
+    MyHandler myHandler3 = new MyHandler();
 
     Thread decodeDataThread = new Thread(new Runnable() {
         @Override
@@ -153,7 +194,7 @@ public class MainActivity extends Activity {
             dataBmp = bm;
             Message message = new Message();
             message.what = 0x01;
-            myHandler.sendMessage(message);
+            myHandler1_impl.sendMessage(message);
         }
     });
 
@@ -169,7 +210,7 @@ public class MainActivity extends Activity {
             fileBmp = bm;
             Message message = new Message();
             message.what = 0x02;
-            myHandler.sendMessage(message);
+            myHandler1_callback.sendMessage(message);
         }
     });
 
@@ -187,7 +228,7 @@ public class MainActivity extends Activity {
             resourceBmp = bm;
             Message message = new Message();
             message.what = 0x03;
-            myHandler.sendMessage(message);
+            myHandler1_impl.sendMessage(message);
         }
     });
 
@@ -205,10 +246,71 @@ public class MainActivity extends Activity {
                 String s = "myDecodeStream() takes " + difference + " ms";
                 timings += s + "\n";
                 streamBmp = b;
-                Message message = new Message();
-                message.what = 0x04;
-                myHandler.sendMessage(message);
+                Message message = Message.obtain(myHandler1_impl, 0x04);
+                message.sendToTarget();
+
+                // Test asyncEntries
+                Thread.sleep(1000);
+                Message msg = Message.obtain(myHandler1_impl, new Runnable() {
+                    @Override
+                    public void run() {
+                        Log.d("TEST", "Message.callback");
+                    }
+                });
+                msg.sendToTarget();
+
+                Thread.sleep(500);
+                myHandler3.post(new Runnable() {
+                    @Override
+                    public void run() {
+
+                    }
+                });
+                Thread.sleep(500);
+                myHandler3.postAtFrontOfQueue(new Runnable() {
+                    @Override
+                    public void run() {
+
+                    }
+                });
+                Thread.sleep(500);
+                class MyRunnable implements Runnable {
+                    @Override
+                    public void run() {
+
+                    }
+                }
+                myHandler3.postAtTime(new MyRunnable(), SystemClock.uptimeMillis() + 500);
+                Thread.sleep(500);
+                myHandler3.postAtTime(new MyRunnable() {
+                    @Override
+                    public void run() {
+
+                    }
+                }, "tag", SystemClock.uptimeMillis() + 500);
+                Thread.sleep(500);
+                myHandler3.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+
+                    }
+                }, 500);
+                Thread.sleep(500);
+                myHandler3.sendEmptyMessage(1);
+                Thread.sleep(500);
+                myHandler3.sendEmptyMessageDelayed(2, 500);
+                Thread.sleep(500);
+                myHandler3.sendEmptyMessageAtTime(3, SystemClock.uptimeMillis() + 500);
+                Thread.sleep(500);
+                myHandler3.sendMessage(Message.obtain());
+                Thread.sleep(500);
+                myHandler3.sendMessageAtFrontOfQueue(Message.obtain());
+                Thread.sleep(500);
+                myHandler3.sendMessageAtTime(Message.obtain(), SystemClock.uptimeMillis() + 500);
+                Thread.sleep(500);
+                myHandler3.sendMessageDelayed(Message.obtain(), 500);
             } catch (IOException e) {
+            } catch (InterruptedException e) {
             }
         }
     });
