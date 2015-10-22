@@ -22,7 +22,7 @@
     <LinearLayout
             android:layout_margin="10dp"
             android:orientation="horizontal"
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         <TextView
                 android:paddingRight="20dp"
@@ -35,6 +35,32 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textview3_2"
                 android:text="start service"/>
+    </LinearLayout>
+
+
+    <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview5"
+            android:text="choose a picture"/>
+
+    <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview6_1"
+                android:text="start PollingService"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview6_2"
+                android:text="stop PollingService"/>
     </LinearLayout>
 
 </LinearLayout>

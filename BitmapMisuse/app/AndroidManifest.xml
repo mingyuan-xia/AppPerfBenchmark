@@ -43,6 +43,12 @@
                 <action android:name="com.BroadcastReceiver"/>
             </intent-filter>
         </receiver>
+
+        <service android:name=".PollingService">
+            <intent-filter>
+                <action android:name="com.PollingService"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

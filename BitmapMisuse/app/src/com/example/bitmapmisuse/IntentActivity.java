@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
@@ -55,6 +56,34 @@ public class IntentActivity extends Activity {
                 startService(new Intent(ServiceDemo.ACTION));
             }
         });
+
+        TextView tv5 = (TextView)findViewById(R.id.textview5);
+        tv5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_PICK);
+                intent.setType("image/*");
+                startActivityForResult(intent, 0x77);
+            }
+        });
+
+        TextView tv6 = (TextView)findViewById(R.id.textview6_1);
+        tv6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.v(TAG, "startPollingService");
+                PollingUtils.startPollingService(IntentActivity.this, 5, PollingService.class, PollingService.ACTION);
+            }
+        });
+
+        TextView tv7 = (TextView)findViewById(R.id.textview6_2);
+        tv7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.v(TAG, "stopPollingService");
+                PollingUtils.stopPollingService(IntentActivity.this, PollingService.class, PollingService.ACTION);
+            }
+        });
     }
 
     @Override
@@ -72,4 +101,21 @@ public class IntentActivity extends Activity {
             Log.v(TAG, "onServiceDisconnected");
         }
     };
+
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        switch (requestCode) {
+            case 0x77:
+            {
+                if (resultCode == RESULT_OK)
+                {
+                    Uri photoUri = data.getData();
+                    if (photoUri != null)
+                    {
+                        Log.v(TAG, photoUri.toString());
+                    }
+                }
+            }
+        }
+    }
 }
