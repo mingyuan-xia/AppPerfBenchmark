@@ -26,7 +26,7 @@ public class IntentActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(IntentActivity.this, HelloActivity.class);
+                intent.setClass(IntentActivity.this, MainActivityAsynctask.class);
                 startActivity(intent);
             }
         });
