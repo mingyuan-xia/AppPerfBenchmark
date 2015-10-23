@@ -309,6 +309,41 @@ public class MainActivity extends Activity {
                 myHandler3.sendMessageAtTime(Message.obtain(), SystemClock.uptimeMillis() + 500);
                 Thread.sleep(500);
                 myHandler3.sendMessageDelayed(Message.obtain(), 500);
+                Thread.sleep(500);
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+
+                    }
+                });
+                Thread.sleep(500);
+                ivs[0].post(new Runnable() {
+                    @Override
+                    public void run() {
+
+                    }
+                });
+                Thread.sleep(500);
+                ivs[1].postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+
+                    }
+                }, 500);
+                Thread.sleep(500);
+                ivs[2].postOnAnimation(new Runnable() {
+                    @Override
+                    public void run() {
+
+                    }
+                });
+                Thread.sleep(500);
+                ivs[3].postOnAnimationDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+
+                    }
+                }, 500);
             } catch (IOException e) {
             } catch (InterruptedException e) {
             }
