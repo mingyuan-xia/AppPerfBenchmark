@@ -1,0 +1,840 @@
+[
+    {
+        "proportion": "81%",
+        "free": "3781K/19040K,",
+        "paused": "16ms,",
+        "total": "16ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "481K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 594501852362,
+        "threadName": "Queue",
+        "type": "ENTER",
+        "threadId": 3202
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 594501870245,
+        "threadName": "Queue",
+        "threadId": 3202,
+        "istreamAddr": 1100369536,
+        "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
+        "type": "STREAM_GEN",
+        "duration": 7385,
+        "parameter": "2130837766"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 594501905615,
+        "threadName": "Queue",
+        "type": "ENTER",
+        "threadId": 3202
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 594501910132,
+        "threadName": "Queue",
+        "threadId": 3202,
+        "istreamAddr": 1100801000,
+        "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
+        "type": "STREAM_GEN",
+        "duration": 1495,
+        "parameter": "2130837766"
+    },
+    {
+        "proportion": "66%",
+        "free": "6629K/19040K,",
+        "paused": "50ms,",
+        "total": "50ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1319K,"
+    },
+    {
+        "proportion": "82%",
+        "free": "3478K/19040K,",
+        "paused": "40ms,",
+        "total": "40ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2760K,"
+    },
+    {
+        "proportion": "78%",
+        "free": "4257K/19040K,",
+        "paused": "42ms,",
+        "total": "45ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "598K,"
+    },
+    {
+        "proportion": "51%",
+        "free": "9497K/19040K,",
+        "paused": "61ms,",
+        "total": "87ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "9482K,"
+    },
+    {
+        "proportion": "65%",
+        "free": "6808K/19040K,",
+        "paused": "4ms+5ms,",
+        "total": "36ms",
+        "type": "GC_EXPLICIT",
+        "freed": "3273K,"
+    },
+    {
+        "proportion": "61%",
+        "free": "7523K/19040K,",
+        "paused": "29ms,",
+        "total": "29ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "710K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594635037482,
+        "threadName": "pool-2-thread-2",
+        "type": "ENTER",
+        "threadId": 3274
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 16384,
+        "timestamp": 594635044714,
+        "threadName": "pool-2-thread-2",
+        "decodingTime": 1434,
+        "cacheHit": false,
+        "byteCount": 65536,
+        "additionalState": "",
+        "threadId": 3274,
+        "duration": 1739,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594635238928,
+        "threadName": "pool-2-thread-4",
+        "type": "ENTER",
+        "threadId": 3276
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 16384,
+        "timestamp": 594635241736,
+        "threadName": "pool-2-thread-4",
+        "decodingTime": 1526,
+        "cacheHit": false,
+        "byteCount": 65536,
+        "additionalState": "",
+        "threadId": 3276,
+        "duration": 1648,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594635230109,
+        "threadName": "pool-2-thread-1",
+        "type": "ENTER",
+        "threadId": 3273
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594635235297,
+        "threadName": "pool-2-thread-3",
+        "type": "ENTER",
+        "threadId": 3275
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 16384,
+        "timestamp": 594635249732,
+        "threadName": "pool-2-thread-3",
+        "decodingTime": 1739,
+        "cacheHit": false,
+        "byteCount": 65536,
+        "additionalState": "",
+        "threadId": 3275,
+        "duration": 1831,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 16384,
+        "timestamp": 594635254218,
+        "threadName": "pool-2-thread-1",
+        "decodingTime": 6195,
+        "cacheHit": false,
+        "byteCount": 65536,
+        "additionalState": "",
+        "threadId": 3273,
+        "duration": 8820,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594635937750,
+        "threadName": "pool-2-thread-1",
+        "type": "ENTER",
+        "threadId": 3273
+    },
+    {
+        "proportion": "68%",
+        "free": "6266K/19040K,",
+        "paused": "37ms,",
+        "total": "38ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2883K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594636001227,
+        "threadName": "pool-2-thread-2",
+        "type": "ENTER",
+        "threadId": 3274
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 16384,
+        "timestamp": 594636004187,
+        "threadName": "pool-2-thread-2",
+        "decodingTime": 793,
+        "cacheHit": false,
+        "byteCount": 65536,
+        "additionalState": "",
+        "threadId": 3274,
+        "duration": 946,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594635997046,
+        "threadName": "pool-2-thread-4",
+        "type": "ENTER",
+        "threadId": 3276
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 10824,
+        "timestamp": 594636007697,
+        "threadName": "pool-2-thread-1",
+        "decodingTime": 68603,
+        "cacheHit": false,
+        "byteCount": 43296,
+        "additionalState": "",
+        "threadId": 3273,
+        "duration": 68695,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 16384,
+        "timestamp": 594636013098,
+        "threadName": "pool-2-thread-4",
+        "decodingTime": 977,
+        "cacheHit": false,
+        "byteCount": 65536,
+        "additionalState": "",
+        "threadId": 3276,
+        "duration": 1068,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594636195807,
+        "threadName": "pool-2-thread-3",
+        "type": "ENTER",
+        "threadId": 3275
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 30000,
+        "timestamp": 594636208319,
+        "threadName": "pool-2-thread-3",
+        "decodingTime": 9522,
+        "cacheHit": false,
+        "byteCount": 120000,
+        "additionalState": "",
+        "threadId": 3275,
+        "duration": 9826,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594637435950,
+        "threadName": "pool-2-thread-2",
+        "type": "ENTER",
+        "threadId": 3274
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594637456366,
+        "threadName": "pool-2-thread-4",
+        "type": "ENTER",
+        "threadId": 3276
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 10824,
+        "timestamp": 594637454932,
+        "threadName": "pool-2-thread-2",
+        "decodingTime": 1037,
+        "cacheHit": false,
+        "byteCount": 43296,
+        "additionalState": "",
+        "threadId": 3274,
+        "duration": 1282,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 16384,
+        "timestamp": 594637462042,
+        "threadName": "pool-2-thread-4",
+        "decodingTime": 3296,
+        "cacheHit": false,
+        "byteCount": 65536,
+        "additionalState": "",
+        "threadId": 3276,
+        "duration": 3509,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594637648230,
+        "threadName": "pool-2-thread-3",
+        "type": "ENTER",
+        "threadId": 3275
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594637661353,
+        "threadName": "pool-2-thread-1",
+        "type": "ENTER",
+        "threadId": 3273
+    },
+    {
+        "proportion": "68%",
+        "free": "6230K/19040K,",
+        "paused": "28ms,",
+        "total": "28ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1232K,"
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 16384,
+        "timestamp": 594637696875,
+        "threadName": "pool-2-thread-3",
+        "decodingTime": 29938,
+        "cacheHit": false,
+        "byteCount": 65536,
+        "additionalState": "",
+        "threadId": 3275,
+        "duration": 30060,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 16641,
+        "timestamp": 594637701300,
+        "threadName": "pool-2-thread-1",
+        "decodingTime": 32867,
+        "cacheHit": false,
+        "byteCount": 66564,
+        "additionalState": "",
+        "threadId": 3273,
+        "duration": 33081,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594638186713,
+        "threadName": "pool-2-thread-2",
+        "type": "ENTER",
+        "threadId": 3274
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 16384,
+        "timestamp": 594638190924,
+        "threadName": "pool-2-thread-2",
+        "decodingTime": 1251,
+        "cacheHit": false,
+        "byteCount": 65536,
+        "additionalState": "",
+        "threadId": 3274,
+        "duration": 1373,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594638394507,
+        "threadName": "pool-2-thread-4",
+        "type": "ENTER",
+        "threadId": 3276
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 16384,
+        "timestamp": 594638403967,
+        "threadName": "pool-2-thread-4",
+        "decodingTime": 2380,
+        "cacheHit": false,
+        "byteCount": 65536,
+        "additionalState": "",
+        "threadId": 3276,
+        "duration": 2502,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "proportion": "52%",
+        "free": "16684K/34076K,",
+        "paused": "9ms+17ms,",
+        "total": "296ms",
+        "type": "GC_EXPLICIT",
+        "freed": "4701K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "timestamp": 594639197730,
+        "threadName": "pool-2-thread-3",
+        "type": "ENTER",
+        "threadId": 3275
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 25600,
+        "timestamp": 594639201972,
+        "threadName": "pool-2-thread-3",
+        "decodingTime": 1922,
+        "cacheHit": false,
+        "byteCount": 102400,
+        "additionalState": "",
+        "threadId": 3275,
+        "duration": 2167,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeByteArray",
+        "parameter": "",
+        "type": "CACHING"
+    },
+    {
+        "proportion": "66%",
+        "free": "6591K/19040K,",
+        "paused": "48ms,",
+        "total": "50ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1402K,"
+    },
+    {
+        "proportion": "70%",
+        "free": "5867K/19040K,",
+        "paused": "27ms,",
+        "total": "28ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1596K,"
+    },
+    {
+        "proportion": "67%",
+        "free": "6324K/19040K,",
+        "paused": "27ms,",
+        "total": "27ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "629K,"
+    },
+    {
+        "proportion": "64%",
+        "free": "6968K/19040K,",
+        "paused": "18ms,",
+        "total": "18ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "616K,"
+    },
+    {
+        "proportion": "56%",
+        "free": "8390K/19040K,",
+        "paused": "18ms,",
+        "total": "18ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8K,"
+    },
+    {
+        "proportion": "51%",
+        "free": "9359K/19040K,",
+        "paused": "31ms,",
+        "total": "31ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "798K,"
+    },
+    {
+        "proportion": "78%",
+        "free": "4275K/19040K,",
+        "paused": "47ms,",
+        "total": "47ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "551K,"
+    },
+    {
+        "proportion": "47%",
+        "free": "10201K/19040K,",
+        "paused": "30ms,",
+        "total": "31ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1433K,"
+    },
+    {
+        "proportion": "48%",
+        "free": "9995K/19040K,",
+        "paused": "39ms+5ms,",
+        "total": "89ms",
+        "type": "GC_EXPLICIT",
+        "freed": "291K,"
+    },
+    {
+        "proportion": "47%",
+        "free": "10276K/19040K,",
+        "paused": "26ms,",
+        "total": "26ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1440K,"
+    },
+    {
+        "proportion": "41%",
+        "free": "11336K/19040K,",
+        "paused": "24ms,",
+        "total": "24ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1520K,"
+    },
+    {
+        "proportion": "31%",
+        "free": "13182K/19040K,",
+        "paused": "66ms,",
+        "total": "66ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1088K,"
+    },
+    {
+        "proportion": "19%",
+        "free": "15562K/19040K,",
+        "paused": "73ms,",
+        "total": "73ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1170K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 594696292944,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 16,
+        "pixelCount": 4096,
+        "timestamp": 594696295325,
+        "threadName": "main",
+        "decodingTime": 702,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1099,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837563",
+        "type": "CACHING"
+    },
+    {
+        "proportion": "41%",
+        "free": "11827K/19984K,",
+        "paused": "69ms,",
+        "total": "69ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "7616K,"
+    },
+    {
+        "proportion": "54%",
+        "free": "9196K/19984K,",
+        "paused": "50ms,",
+        "total": "51ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "4286K,"
+    },
+    {
+        "proportion": "66%",
+        "free": "6654K/19040K,",
+        "paused": "47ms,",
+        "total": "47ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1286K,"
+    },
+    {
+        "proportion": "78%",
+        "free": "4297K/19040K,",
+        "paused": "29ms,",
+        "total": "29ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "553K,"
+    },
+    {
+        "proportion": "49%",
+        "free": "10276K/19984K,",
+        "paused": "4ms+5ms,",
+        "total": "70ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1141K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 594706448401,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 25,
+        "pixelCount": 2304,
+        "timestamp": 594706452582,
+        "threadName": "main",
+        "decodingTime": 2716,
+        "cacheHit": false,
+        "byteCount": 9216,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2899,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837884",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 594706458380,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=48,height=48,config=ARGB_8888",
+        "timestamp": 594706459998,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 153,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 594706465979,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 34,
+        "pixelCount": 2304,
+        "timestamp": 594706470221,
+        "threadName": "main",
+        "decodingTime": 1801,
+        "cacheHit": false,
+        "byteCount": 9216,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2899,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837861",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 594706473731,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=48,height=48,config=ARGB_8888",
+        "timestamp": 594706475440,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 184,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 594706477088,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 34,
+        "pixelCount": 2304,
+        "timestamp": 594706480109,
+        "threadName": "main",
+        "decodingTime": 579,
+        "cacheHit": false,
+        "byteCount": 9216,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1282,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837884",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 594706481970,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=48,height=48,config=ARGB_8888",
+        "timestamp": 594706483099,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 91,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 594706484473,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 43,
+        "pixelCount": 2304,
+        "timestamp": 594706486640,
+        "threadName": "main",
+        "decodingTime": 579,
+        "cacheHit": false,
+        "byteCount": 9216,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 794,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837867",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 594706490698,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=48,height=48,config=ARGB_8888",
+        "timestamp": 594706492621,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 92,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "proportion": "68%",
+        "free": "6197K/19040K,",
+        "paused": "30ms,",
+        "total": "30ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "456K,"
+    },
+    {
+        "proportion": "70%",
+        "free": "5738K/19040K,",
+        "paused": "34ms,",
+        "total": "34ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "4415K,"
+    },
+    {
+        "proportion": "52%",
+        "free": "9207K/19040K,",
+        "paused": "31ms,",
+        "total": "32ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "582K,"
+    },
+    {
+        "proportion": "71%",
+        "free": "5566K/19040K,",
+        "paused": "28ms,",
+        "total": "28ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3777K,"
+    },
+    {
+        "proportion": "44%",
+        "free": "11352K/19984K,",
+        "paused": "42ms,",
+        "total": "42ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1504K,"
+    },
+    {
+        "proportion": "44%",
+        "free": "11283K/19984K,",
+        "paused": "5ms+7ms,",
+        "total": "58ms",
+        "type": "GC_EXPLICIT",
+        "freed": "610K,"
+    }
+]
