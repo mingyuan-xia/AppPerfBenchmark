@@ -11,9 +11,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-/**
- * Created by zzzkky on 15-10-20.
- */
 public class IntentActivity extends Activity {
     private static final String TAG = "IntentActivity";
     @Override

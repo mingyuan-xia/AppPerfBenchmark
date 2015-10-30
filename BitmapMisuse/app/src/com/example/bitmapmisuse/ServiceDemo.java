@@ -5,12 +5,9 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.util.Log;
 
-/**
- * Created by zzzkky on 15-10-21.
- */
 public class ServiceDemo extends Service {
     private static final String TAG = "ServiceDemo" ;
-    public static final String ACTION = "com.ServiceDemo";
+    public static final String ACTION = "com.example.bitmapmisuse.ACTION";
     @Override
     public IBinder onBind(Intent intent) {
         Log.v(TAG, "onBind");

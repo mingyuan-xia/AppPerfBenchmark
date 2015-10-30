@@ -7,12 +7,9 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 
-/**
- * Created by zzzkky on 15-10-22.
- */
 public class PollingService extends Service {
 
-    public static final String ACTION = "com.PollingService";
+    public static final String ACTION = "com.example.bitmapmisuse.ACTION";
 
     private Notification mNotification;
     private NotificationManager mManager;

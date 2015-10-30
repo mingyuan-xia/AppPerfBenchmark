@@ -6,9 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.SystemClock;
 
-/**
- * Created by zzzkky on 15-10-22.
- */
 public class PollingUtils {
 
     public static void startPollingService(Context context, int seconds, Class<?> cls,String action) {
