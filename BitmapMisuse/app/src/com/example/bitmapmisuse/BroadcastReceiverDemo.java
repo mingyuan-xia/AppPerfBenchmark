@@ -5,9 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-/**
- * Created by zzzkky on 15-10-21.
- */
 public class BroadcastReceiverDemo extends BroadcastReceiver {
     private static final String TAG = "BroadcastReceiverDemo" ;
     @Override

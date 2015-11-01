@@ -6,9 +6,6 @@ import android.view.View;
 import android.widget.TextView;
 import org.w3c.dom.Text;
 
-/**
- * Created by zzzkky on 15-10-20.
- */
 public class HelloActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
