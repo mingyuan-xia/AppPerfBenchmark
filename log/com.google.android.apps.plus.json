@@ -1,0 +1,662 @@
+[
+    {
+        "proportion": "79%",
+        "free": "4028K/19040K,",
+        "paused": "19ms,",
+        "total": "21ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "376K,"
+    },
+    {
+        "proportion": "44%",
+        "free": "11342K/20148K,",
+        "paused": "42ms,",
+        "total": "42ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2659K,"
+    },
+    {
+        "proportion": "45%",
+        "free": "22287K/40140K,",
+        "paused": "4ms+12ms,",
+        "total": "141ms",
+        "type": "GC_EXPLICIT",
+        "freed": "4768K,"
+    },
+    {
+        "proportion": "63%",
+        "free": "7147K/19040K,",
+        "paused": "40ms,",
+        "total": "40ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1428K,"
+    },
+    {
+        "proportion": "80%",
+        "free": "3882K/19040K,",
+        "paused": "18ms,",
+        "total": "18ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "656K,"
+    },
+    {
+        "proportion": "85%",
+        "free": "2945K/19040K,",
+        "paused": "21ms,",
+        "total": "21ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "219K,"
+    },
+    {
+        "proportion": "77%",
+        "free": "4400K/19040K,",
+        "paused": "12ms,",
+        "total": "12ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "154K,"
+    },
+    {
+        "proportion": "76%",
+        "free": "4627K/19040K,",
+        "paused": "15ms,",
+        "total": "15ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "375K,"
+    },
+    {
+        "proportion": "73%",
+        "free": "5184K/19040K,",
+        "paused": "16ms,",
+        "total": "16ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "119K,"
+    },
+    {
+        "proportion": "70%",
+        "free": "5760K/19040K,",
+        "paused": "17ms,",
+        "total": "17ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "286K,"
+    },
+    {
+        "proportion": "67%",
+        "free": "6413K/19040K,",
+        "paused": "48ms,",
+        "total": "49ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "5047K,"
+    },
+    {
+        "proportion": "69%",
+        "free": "6005K/19040K,",
+        "paused": "21ms,",
+        "total": "24ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "810K,"
+    },
+    {
+        "proportion": "65%",
+        "free": "6737K/19040K,",
+        "paused": "26ms,",
+        "total": "26ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "405K,"
+    },
+    {
+        "proportion": "70%",
+        "free": "5731K/19040K,",
+        "paused": "21ms,",
+        "total": "21ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3951K,"
+    },
+    {
+        "proportion": "71%",
+        "free": "5612K/19040K,",
+        "paused": "33ms,",
+        "total": "33ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "126K,"
+    },
+    {
+        "proportion": "64%",
+        "free": "20158K/54908K,",
+        "paused": "65ms,",
+        "total": "65ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "13286K,"
+    },
+    {
+        "proportion": "63%",
+        "free": "7167K/19040K,",
+        "paused": "62ms,",
+        "total": "69ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "949K,"
+    },
+    {
+        "proportion": "75%",
+        "free": "4783K/19040K,",
+        "paused": "34ms,",
+        "total": "35ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "709K,"
+    },
+    {
+        "proportion": "75%",
+        "free": "4828K/19040K,",
+        "paused": "37ms,",
+        "total": "37ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "702K,"
+    },
+    {
+        "proportion": "75%",
+        "free": "4891K/19040K,",
+        "paused": "35ms,",
+        "total": "35ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "690K,"
+    },
+    {
+        "proportion": "83%",
+        "free": "3383K/19040K,",
+        "paused": "23ms,",
+        "total": "23ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "607K,"
+    },
+    {
+        "proportion": "75%",
+        "free": "4844K/19040K,",
+        "paused": "35ms,",
+        "total": "35ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "833K,"
+    },
+    {
+        "proportion": "75%",
+        "free": "4852K/19040K,",
+        "paused": "37ms,",
+        "total": "37ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "762K,"
+    },
+    {
+        "proportion": "75%",
+        "free": "4871K/19040K,",
+        "paused": "34ms,",
+        "total": "35ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "752K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 937966152442,
+        "threadName": "AniwaysBackendSyncChecker",
+        "type": "ENTER",
+        "threadId": 3628
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 937966154974,
+        "threadName": "AniwaysBackendSyncChecker",
+        "threadId": 3628,
+        "istreamAddr": 1109598856,
+        "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
+        "type": "STREAM_GEN",
+        "duration": 976,
+        "parameter": "2131100494"
+    },
+    {
+        "proportion": "75%",
+        "free": "4788K/19040K,",
+        "paused": "35ms,",
+        "total": "35ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "862K,"
+    },
+    {
+        "proportion": "64%",
+        "free": "6863K/19040K,",
+        "paused": "37ms,",
+        "total": "45ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1827K,"
+    },
+    {
+        "proportion": "45%",
+        "free": "22288K/40140K,",
+        "paused": "4ms+18ms,",
+        "total": "173ms",
+        "type": "GC_EXPLICIT",
+        "freed": "3347K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 937992726477,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 937992729712,
+        "threadName": "main",
+        "threadId": 1,
+        "istreamAddr": 1100170360,
+        "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
+        "type": "STREAM_GEN",
+        "duration": 153,
+        "parameter": "2131099660"
+    },
+    {
+        "proportion": "48%",
+        "free": "20899K/40140K,",
+        "paused": "6ms+12ms,",
+        "total": "150ms",
+        "type": "GC_EXPLICIT",
+        "freed": "4402K,"
+    },
+    {
+        "proportion": "58%",
+        "free": "23593K/54908K,",
+        "paused": "43ms,",
+        "total": "44ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2317K,"
+    },
+    {
+        "proportion": "76%",
+        "free": "4754K/19040K,",
+        "paused": "41ms,",
+        "total": "41ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "786K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeFile",
+        "timestamp": 937996954718,
+        "threadName": "Thread-5067",
+        "type": "ENTER",
+        "threadId": 5067
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 9,
+        "pixelCount": 2304,
+        "timestamp": 937996976813,
+        "threadName": "Thread-5067",
+        "decodingTime": 4303,
+        "cacheHit": false,
+        "byteCount": 9216,
+        "additionalState": "false",
+        "threadId": 5067,
+        "duration": 6195,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeFile",
+        "parameter": "/storage/emulated/0/GOSMS/.sticker/hula_sticker_icon.jpg",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeFile",
+        "timestamp": 937996982550,
+        "threadName": "Thread-5067",
+        "type": "ENTER",
+        "threadId": 5067
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 18,
+        "pixelCount": 2304,
+        "timestamp": 937996991522,
+        "threadName": "Thread-5067",
+        "decodingTime": 3753,
+        "cacheHit": false,
+        "byteCount": 9216,
+        "additionalState": "false",
+        "threadId": 5067,
+        "duration": 3967,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeFile",
+        "parameter": "/storage/emulated/0/GOSMS/.sticker/mango_sticker_icon.jpg",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeFile",
+        "timestamp": 937996993811,
+        "threadName": "Thread-5067",
+        "type": "ENTER",
+        "threadId": 5067
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 27,
+        "pixelCount": 2304,
+        "timestamp": 937996996863,
+        "threadName": "Thread-5067",
+        "decodingTime": 2136,
+        "cacheHit": false,
+        "byteCount": 9216,
+        "additionalState": "false",
+        "threadId": 5067,
+        "duration": 2319,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeFile",
+        "parameter": "/storage/emulated/0/GOSMS/.sticker/CuteMoc_icon.jpg",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938003180548,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=912,height=1185,config=ARGB_8888",
+        "timestamp": 938003204291,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 18982,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938003937171,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=912,height=1185,config=ARGB_8888",
+        "timestamp": 938003976538,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 33203,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "proportion": "21%",
+        "free": "15112K/19040K,",
+        "paused": "52ms,",
+        "total": "56ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3866K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938003985022,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "26%",
+        "free": "14276K/19040K,",
+        "paused": "59ms,",
+        "total": "59ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "852K,"
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=1185,height=912,config=ARGB_8888",
+        "timestamp": 938004135199,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 77881,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938004145270,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "28%",
+        "free": "16982K/23264K,",
+        "paused": "26ms,",
+        "total": "26ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1528K,"
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=1185,height=912,config=ARGB_8888",
+        "timestamp": 938004188757,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 37078,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "proportion": "49%",
+        "free": "20854K/40140K,",
+        "paused": "155ms,",
+        "total": "156ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "4305K,"
+    },
+    {
+        "proportion": "22%",
+        "free": "21478K/27488K,",
+        "paused": "35ms,",
+        "total": "35ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "50K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938005842566,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=272,height=272,config=ARGB_8888",
+        "timestamp": 938005844367,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 123,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938005993445,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=272,height=272,config=ARGB_8888",
+        "timestamp": 938005994727,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 183,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "proportion": "75%",
+        "free": "4765K/19040K,",
+        "paused": "57ms,",
+        "total": "59ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "730K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938006359015,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=272,height=272,config=ARGB_8888",
+        "timestamp": 938006360724,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 824,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938006468695,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "15%",
+        "free": "23763K/27780K,",
+        "paused": "32ms,",
+        "total": "32ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "308K,"
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=272,height=272,config=ARGB_8888",
+        "timestamp": 938006504431,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 33996,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938006815527,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=272,height=272,config=ARGB_8888",
+        "timestamp": 938006817633,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 1007,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938007886786,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=272,height=272,config=ARGB_8888",
+        "timestamp": 938007891150,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 2014,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938011346991,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=272,height=272,config=ARGB_8888",
+        "timestamp": 938011361060,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 7538,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938011378912,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=272,height=272,config=ARGB_8888",
+        "timestamp": 938011385321,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 2502,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938011416358,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=272,height=272,config=ARGB_8888",
+        "timestamp": 938011418829,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 885,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 938012422339,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 938012425848,
+        "threadName": "main",
+        "threadId": 1,
+        "istreamAddr": 1099540288,
+        "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
+        "type": "STREAM_GEN",
+        "duration": 305,
+        "parameter": "2131099660"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 938021493933,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=272,height=272,config=ARGB_8888",
+        "timestamp": 938021500494,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 2655,
+        "type": "CREATE_BITMAP"
+    }
+]

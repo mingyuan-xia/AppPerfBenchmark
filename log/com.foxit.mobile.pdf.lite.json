@@ -1,69 +1,102 @@
 [
     {
         "proportion": "80%",
-        "free": "3973K/19040K,",
-        "paused": "34ms,",
-        "total": "35ms",
+        "free": "3980K/19040K,",
+        "paused": "38ms,",
+        "total": "39ms",
         "type": "GC_FOR_ALLOC",
-        "freed": "484K,"
+        "freed": "502K,"
     },
     {
-        "proportion": "62%",
-        "free": "7276K/19040K,",
-        "paused": "40ms,",
-        "total": "40ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "1617K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514919838385,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939627628272,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 16,
-        "pixelCount": 4096,
-        "timestamp": 514919843848,
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=272,height=272,config=ARGB_8888",
+        "timestamp": 939627630866,
         "threadName": "main",
-        "decodingTime": 794,
+        "threadId": 1,
+        "duration": 1038,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "proportion": "87%",
+        "free": "2606K/19040K,",
+        "paused": "1ms+2ms,",
+        "total": "31ms",
+        "type": "GC_EXPLICIT",
+        "freed": "42K,"
+    },
+    {
+        "proportion": "87%",
+        "free": "2606K/19040K,",
+        "paused": "2ms+3ms,",
+        "total": "18ms",
+        "type": "GC_EXPLICIT",
+        "freed": "<1K,"
+    },
+    {
+        "proportion": "87%",
+        "free": "2606K/19040K,",
+        "paused": "2ms+2ms,",
+        "total": "17ms",
+        "type": "GC_EXPLICIT",
+        "freed": "<1K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939628963416,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 4096,
+        "timestamp": 939628968726,
+        "threadName": "main",
+        "decodingTime": 762,
         "cacheHit": false,
         "byteCount": 16384,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 2930,
+        "duration": 2716,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837741",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514919891455,
+        "timestamp": 939629009070,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 16,
+        "currentCacheSize": 0,
         "pixelCount": 4096,
-        "timestamp": 514919898932,
+        "timestamp": 939629011298,
         "threadName": "main",
-        "decodingTime": 1251,
+        "decodingTime": 824,
         "cacheHit": false,
         "byteCount": 16384,
         "additionalState": "true",
         "threadId": 1,
-        "duration": 1892,
+        "duration": 1129,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837741",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.open",
-        "timestamp": 514919948218,
+        "timestamp": 939629049078,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
@@ -71,10 +104,10 @@
     {
         "stacktrace": "",
         "methodId": "io.appswift.usercode.cacher.LRUCacher.open",
-        "timestamp": 514919949255,
+        "timestamp": 939629050635,
         "threadName": "main",
         "threadId": 1,
-        "istreamAddr": 1102683936,
+        "istreamAddr": 1102641512,
         "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
         "type": "STREAM_GEN",
         "duration": 183,
@@ -82,1059 +115,1094 @@
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514920013281,
+        "timestamp": 939629094519,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 16,
+        "currentCacheSize": 0,
         "pixelCount": 4096,
-        "timestamp": 514920015448,
+        "timestamp": 939629096503,
         "threadName": "main",
         "decodingTime": 793,
         "cacheHit": false,
         "byteCount": 16384,
         "additionalState": "true",
         "threadId": 1,
-        "duration": 1099,
+        "duration": 1038,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837741",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.open",
-        "timestamp": 514920037055,
+        "timestamp": 939629118323,
         "threadName": "AsyncTask #1",
         "type": "ENTER",
-        "threadId": 1794
+        "threadId": 5198
     },
     {
         "stacktrace": "",
         "methodId": "io.appswift.usercode.cacher.LRUCacher.open",
-        "timestamp": 514920038153,
+        "timestamp": 939629119269,
         "threadName": "AsyncTask #1",
-        "threadId": 1794,
-        "istreamAddr": 1103227144,
+        "threadId": 5198,
+        "istreamAddr": 1103232600,
         "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
         "type": "STREAM_GEN",
-        "duration": 183,
+        "duration": 153,
         "parameter": "about_help/guide_0.part"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.open",
-        "timestamp": 514920083716,
+        "timestamp": 939629156134,
         "threadName": "AsyncTask #1",
         "type": "ENTER",
-        "threadId": 1794
+        "threadId": 5198
     },
     {
         "stacktrace": "",
         "methodId": "io.appswift.usercode.cacher.LRUCacher.open",
-        "timestamp": 514920084815,
+        "timestamp": 939629157050,
         "threadName": "AsyncTask #1",
-        "threadId": 1794,
-        "istreamAddr": 1103559168,
+        "threadId": 5198,
+        "istreamAddr": 1103551640,
         "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
         "type": "STREAM_GEN",
-        "duration": 275,
+        "duration": 214,
         "parameter": "about_help/guide_1.part"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.open",
-        "timestamp": 514920129126,
+        "timestamp": 939629199042,
         "threadName": "AsyncTask #1",
         "type": "ENTER",
-        "threadId": 1794
+        "threadId": 5198
     },
     {
         "stacktrace": "",
         "methodId": "io.appswift.usercode.cacher.LRUCacher.open",
-        "timestamp": 514920129889,
+        "timestamp": 939629200446,
         "threadName": "AsyncTask #1",
-        "threadId": 1794,
-        "istreamAddr": 1103591776,
+        "threadId": 5198,
+        "istreamAddr": 1103600008,
         "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
         "type": "STREAM_GEN",
-        "duration": 92,
+        "duration": 458,
         "parameter": "about_help/guide_2.part"
     },
     {
+        "proportion": "69%",
+        "free": "5958K/19040K,",
+        "paused": "54ms,",
+        "total": "54ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1106K,"
+    },
+    {
+        "proportion": "82%",
+        "free": "3429K/19040K,",
+        "paused": "41ms,",
+        "total": "44ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "620K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 939766269537,
+        "threadName": "AniwaysBackendSyncChecker",
+        "type": "ENTER",
+        "threadId": 3628
+    },
+    {
+        "stacktrace": "",
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.openRawResource",
+        "timestamp": 939766284613,
+        "threadName": "AniwaysBackendSyncChecker",
+        "threadId": 3628,
+        "istreamAddr": 1101386864,
+        "istreamType": "istream:android.content.res.AssetManager$AssetInputStream",
+        "type": "STREAM_GEN",
+        "duration": 610,
+        "parameter": "2131100494"
+    },
+    {
+        "proportion": "40%",
+        "free": "34168K/56180K,",
+        "paused": "39ms,",
+        "total": "39ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1404K,"
+    },
+    {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514920527075,
+        "timestamp": 939776778815,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 32,
+        "currentCacheSize": 0,
         "pixelCount": 4096,
-        "timestamp": 514920531317,
+        "timestamp": 939776782752,
         "threadName": "main",
-        "decodingTime": 641,
+        "decodingTime": 580,
         "cacheHit": false,
         "byteCount": 16384,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 1465,
+        "duration": 885,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837740",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514920573096,
-        "threadName": "Thread-1797",
+        "timestamp": 939776819922,
+        "threadName": "Thread-5201",
         "type": "ENTER",
-        "threadId": 1797
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=64,height=80,config=RGB_565",
-        "timestamp": 514920574255,
-        "threadName": "Thread-1797",
-        "threadId": 1797,
-        "duration": 274,
-        "type": "CREATE_BITMAP"
+        "threadId": 5201
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514920572974,
+        "timestamp": 939776819861,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 48,
+        "currentCacheSize": 0,
         "pixelCount": 4096,
-        "timestamp": 514920578253,
-        "threadName": "main",
-        "decodingTime": 977,
-        "cacheHit": false,
-        "byteCount": 16384,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 1342,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837678",
-        "type": "CACHING"
-    },
-    {
-        "proportion": "83%",
-        "free": "3392K/19040K,",
-        "paused": "25ms,",
-        "total": "25ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "276K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514933961401,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 48,
-        "pixelCount": 0,
-        "timestamp": 514933962897,
-        "threadName": "main",
-        "decodingTime": 458,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 702,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837506",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "timestamp": 514933977576,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 48,
-        "pixelCount": 182,
-        "timestamp": 514933979071,
-        "threadName": "main",
-        "decodingTime": 366,
-        "cacheHit": false,
-        "byteCount": 728,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 488,
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "parameter": "2130837552",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514933983710,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 72,
-        "pixelCount": 6144,
-        "timestamp": 514933985205,
+        "timestamp": 939776823096,
         "threadName": "main",
         "decodingTime": 519,
-        "cacheHit": false,
-        "byteCount": 24576,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 763,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837559",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "timestamp": 514933986945,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 75,
-        "pixelCount": 882,
-        "timestamp": 514933988257,
-        "threadName": "main",
-        "decodingTime": 366,
-        "cacheHit": false,
-        "byteCount": 3528,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 549,
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "parameter": "2130837563",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "timestamp": 514933989478,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 78,
-        "pixelCount": 882,
-        "timestamp": 514933990729,
-        "threadName": "main",
-        "decodingTime": 336,
-        "cacheHit": false,
-        "byteCount": 3528,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 488,
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "parameter": "2130837564",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "timestamp": 514933992194,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 78,
-        "pixelCount": 882,
-        "timestamp": 514933993506,
-        "threadName": "main",
-        "decodingTime": 366,
-        "cacheHit": false,
-        "byteCount": 3528,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 519,
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "parameter": "2130837563",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "timestamp": 514933994757,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 78,
-        "pixelCount": 882,
-        "timestamp": 514933996100,
-        "threadName": "main",
-        "decodingTime": 336,
-        "cacheHit": false,
-        "byteCount": 3528,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 488,
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "parameter": "2130837564",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "timestamp": 514934000464,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 78,
-        "pixelCount": 882,
-        "timestamp": 514934001837,
-        "threadName": "main",
-        "decodingTime": 305,
-        "cacheHit": false,
-        "byteCount": 3528,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 457,
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "parameter": "2130837563",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "timestamp": 514934003272,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 78,
-        "pixelCount": 882,
-        "timestamp": 514934004492,
-        "threadName": "main",
-        "decodingTime": 366,
-        "cacheHit": false,
-        "byteCount": 3528,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 488,
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "parameter": "2130837564",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "timestamp": 514934005652,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 119,
-        "pixelCount": 10640,
-        "timestamp": 514934007056,
-        "threadName": "main",
-        "decodingTime": 550,
-        "cacheHit": false,
-        "byteCount": 42560,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 672,
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "parameter": "2130837555",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "timestamp": 514934018530,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 119,
-        "pixelCount": 882,
-        "timestamp": 514934019934,
-        "threadName": "main",
-        "decodingTime": 367,
-        "cacheHit": false,
-        "byteCount": 3528,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 549,
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "parameter": "2130837563",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "timestamp": 514934021185,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 119,
-        "pixelCount": 882,
-        "timestamp": 514934022345,
-        "threadName": "main",
-        "decodingTime": 305,
-        "cacheHit": false,
-        "byteCount": 3528,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 488,
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "parameter": "2130837564",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934037024,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 119,
-        "pixelCount": 0,
-        "timestamp": 514934038275,
-        "threadName": "main",
-        "decodingTime": 275,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 488,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837948",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934041998,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 119,
-        "pixelCount": 0,
-        "timestamp": 514934043341,
-        "threadName": "main",
-        "decodingTime": 275,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 488,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837956",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934047400,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 119,
-        "pixelCount": 0,
-        "timestamp": 514934048773,
-        "threadName": "main",
-        "decodingTime": 274,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 457,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837782",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934050238,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 119,
-        "pixelCount": 0,
-        "timestamp": 514934051550,
-        "threadName": "main",
-        "decodingTime": 366,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 579,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837782",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934052741,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 119,
-        "pixelCount": 0,
-        "timestamp": 514934053931,
-        "threadName": "main",
-        "decodingTime": 275,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 519,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837955",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934066992,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 119,
-        "pixelCount": 0,
-        "timestamp": 514934068457,
-        "threadName": "main",
-        "decodingTime": 306,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 488,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837954",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934084387,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 119,
-        "pixelCount": 0,
-        "timestamp": 514934085639,
-        "threadName": "main",
-        "decodingTime": 275,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 458,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837957",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934126013,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 119,
-        "pixelCount": 0,
-        "timestamp": 514934127448,
-        "threadName": "main",
-        "decodingTime": 275,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 489,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130838006",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934139533,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 135,
-        "pixelCount": 4096,
-        "timestamp": 514934141608,
-        "threadName": "main",
-        "decodingTime": 458,
         "cacheHit": false,
         "byteCount": 16384,
         "additionalState": "false",
         "threadId": 1,
         "duration": 794,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837799",
+        "parameter": "2130837678",
         "type": "CACHING"
     },
     {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=64,height=80,config=RGB_565",
+        "timestamp": 939776822119,
+        "threadName": "Thread-5201",
+        "threadId": 5201,
+        "duration": 152,
+        "type": "CREATE_BITMAP"
+    },
+    {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934144965,
+        "timestamp": 939780920966,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 151,
-        "pixelCount": 4096,
-        "timestamp": 514934146491,
+        "currentCacheSize": 0,
+        "pixelCount": 0,
+        "timestamp": 939780923743,
         "threadName": "main",
-        "decodingTime": 457,
+        "decodingTime": 1404,
         "cacheHit": false,
-        "byteCount": 16384,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1740,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837506",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 939780944098,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 182,
+        "timestamp": 939780946326,
+        "threadName": "main",
+        "decodingTime": 550,
+        "cacheHit": false,
+        "byteCount": 728,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 763,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837552",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939780952918,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 0,
+        "pixelCount": 6144,
+        "timestamp": 939780955023,
+        "threadName": "main",
+        "decodingTime": 610,
+        "cacheHit": false,
+        "byteCount": 24576,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 946,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837559",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 939780957251,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 3,
+        "pixelCount": 882,
+        "timestamp": 939780960089,
+        "threadName": "main",
+        "decodingTime": 1007,
+        "cacheHit": false,
+        "byteCount": 3528,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1343,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837563",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 939780962134,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 6,
+        "pixelCount": 882,
+        "timestamp": 939780964270,
+        "threadName": "main",
+        "decodingTime": 489,
+        "cacheHit": false,
+        "byteCount": 3528,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 763,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837564",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 939780966986,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 6,
+        "pixelCount": 882,
+        "timestamp": 939780969733,
+        "threadName": "main",
+        "decodingTime": 397,
+        "cacheHit": false,
+        "byteCount": 3528,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1282,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837563",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 939780972144,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 6,
+        "pixelCount": 882,
+        "timestamp": 939780974951,
+        "threadName": "main",
+        "decodingTime": 794,
+        "cacheHit": false,
+        "byteCount": 3528,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1037,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837564",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 939780981696,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 6,
+        "pixelCount": 882,
+        "timestamp": 939780983466,
+        "threadName": "main",
+        "decodingTime": 397,
+        "cacheHit": false,
+        "byteCount": 3528,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 611,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837563",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 939780985388,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 6,
+        "pixelCount": 882,
+        "timestamp": 939780987189,
+        "threadName": "main",
+        "decodingTime": 366,
+        "cacheHit": false,
+        "byteCount": 3528,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 641,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837564",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 939780988898,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 10640,
+        "timestamp": 939780991278,
+        "threadName": "main",
+        "decodingTime": 580,
+        "cacheHit": false,
+        "byteCount": 42560,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1098,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837555",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 939781002722,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 882,
+        "timestamp": 939781004828,
+        "threadName": "main",
+        "decodingTime": 396,
+        "cacheHit": false,
+        "byteCount": 3528,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 671,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837563",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 939781006262,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 882,
+        "timestamp": 939781007880,
+        "threadName": "main",
+        "decodingTime": 397,
+        "cacheHit": false,
+        "byteCount": 3528,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 611,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130837564",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781024298,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 0,
+        "timestamp": 939781026160,
+        "threadName": "main",
+        "decodingTime": 489,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 946,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837948",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781030310,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 0,
+        "timestamp": 939781032111,
+        "threadName": "main",
+        "decodingTime": 489,
+        "cacheHit": false,
+        "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
         "duration": 733,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837800",
+        "parameter": "2130837956",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934221686,
+        "timestamp": 939781036566,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 151,
+        "currentCacheSize": 47,
         "pixelCount": 0,
-        "timestamp": 514934223120,
+        "timestamp": 939781038153,
         "threadName": "main",
         "decodingTime": 336,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 549,
+        "duration": 610,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837570",
+        "parameter": "2130837782",
         "type": "CACHING"
     },
     {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514934316901,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=64,height=64,config=ARGB_8888",
-        "timestamp": 514934318762,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 213,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514934322272,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=64,height=64,config=ARGB_8888",
-        "timestamp": 514934323523,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 153,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514934326422,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=64,height=64,config=ARGB_8888",
-        "timestamp": 514934327979,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 153,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514934329505,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=64,height=64,config=ARGB_8888",
-        "timestamp": 514934330939,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 153,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514934333228,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=64,height=64,config=ARGB_8888",
-        "timestamp": 514934335181,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 153,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514934337439,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=64,height=64,config=ARGB_8888",
-        "timestamp": 514934339453,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 152,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514934341132,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=64,height=64,config=ARGB_8888",
-        "timestamp": 514934342566,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 153,
-        "type": "CREATE_BITMAP"
-    },
-    {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934344122,
+        "timestamp": 939781039679,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 151,
+        "currentCacheSize": 47,
         "pixelCount": 0,
-        "timestamp": 514934346350,
+        "timestamp": 939781041052,
         "threadName": "main",
-        "decodingTime": 732,
+        "decodingTime": 335,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 1068,
+        "duration": 518,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837607",
+        "parameter": "2130837782",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934444312,
+        "timestamp": 939781042304,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 151,
+        "currentCacheSize": 47,
         "pixelCount": 0,
-        "timestamp": 514934447791,
-        "threadName": "main",
-        "decodingTime": 1831,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 2167,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837613",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934521918,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 151,
-        "pixelCount": 0,
-        "timestamp": 514934523657,
-        "threadName": "main",
-        "decodingTime": 458,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 702,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837602",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934595099,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 151,
-        "pixelCount": 0,
-        "timestamp": 514934596930,
-        "threadName": "main",
-        "decodingTime": 794,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 1007,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837626",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "timestamp": 514934600928,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 153,
-        "pixelCount": 729,
-        "timestamp": 514934602606,
-        "threadName": "main",
-        "decodingTime": 580,
-        "cacheHit": false,
-        "byteCount": 2916,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 763,
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
-        "parameter": "2130838091",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934608466,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 153,
-        "pixelCount": 0,
-        "timestamp": 514934610144,
+        "timestamp": 939781043677,
         "threadName": "main",
         "decodingTime": 397,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 671,
+        "duration": 580,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130838070",
+        "parameter": "2130837955",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934613226,
+        "timestamp": 939781056952,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 153,
+        "currentCacheSize": 47,
         "pixelCount": 0,
-        "timestamp": 514934615210,
+        "timestamp": 939781058508,
         "threadName": "main",
-        "decodingTime": 458,
+        "decodingTime": 427,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 732,
+        "duration": 640,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837534",
+        "parameter": "2130837954",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934769507,
+        "timestamp": 939781074774,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 153,
+        "currentCacheSize": 47,
         "pixelCount": 0,
-        "timestamp": 514934772101,
+        "timestamp": 939781076178,
         "threadName": "main",
         "decodingTime": 366,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 1434,
+        "duration": 580,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837957",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781117102,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 0,
+        "timestamp": 939781118689,
+        "threadName": "main",
+        "decodingTime": 458,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 671,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130838006",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781133521,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 4096,
+        "timestamp": 939781135260,
+        "threadName": "main",
+        "decodingTime": 519,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 763,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837799",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781138373,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 4096,
+        "timestamp": 939781140112,
+        "threadName": "main",
+        "decodingTime": 550,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 824,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837800",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781221442,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 0,
+        "timestamp": 939781223334,
+        "threadName": "main",
+        "decodingTime": 519,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 794,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837570",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939781306372,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=64,height=64,config=ARGB_8888",
+        "timestamp": 939781307654,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 122,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939781309851,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=64,height=64,config=ARGB_8888",
+        "timestamp": 939781311469,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 153,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939781313178,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=64,height=64,config=ARGB_8888",
+        "timestamp": 939781314398,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 183,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939781315741,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=64,height=64,config=ARGB_8888",
+        "timestamp": 939781316901,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 153,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939781318823,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=64,height=64,config=ARGB_8888",
+        "timestamp": 939781320075,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 184,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939781321936,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=64,height=64,config=ARGB_8888",
+        "timestamp": 939781323218,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 122,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939781325690,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=64,height=64,config=ARGB_8888",
+        "timestamp": 939781327185,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 122,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781328528,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 0,
+        "timestamp": 939781331427,
+        "threadName": "main",
+        "decodingTime": 519,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1129,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837607",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781451666,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 0,
+        "timestamp": 939781453711,
+        "threadName": "main",
+        "decodingTime": 518,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 824,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837613",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781536292,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 0,
+        "timestamp": 939781538214,
+        "threadName": "main",
+        "decodingTime": 550,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 793,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837602",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781619238,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 47,
+        "pixelCount": 0,
+        "timestamp": 939781621130,
+        "threadName": "main",
+        "decodingTime": 519,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 732,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837626",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "timestamp": 939781624915,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 729,
+        "timestamp": 939781628760,
+        "threadName": "main",
+        "decodingTime": 611,
+        "cacheHit": false,
+        "byteCount": 2916,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 916,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.decodeResource",
+        "parameter": "2130838091",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781635870,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 0,
+        "timestamp": 939781637763,
+        "threadName": "main",
+        "decodingTime": 488,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 794,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130838070",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781641638,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 0,
+        "timestamp": 939781643713,
+        "threadName": "main",
+        "decodingTime": 427,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 701,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837534",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939781811041,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 0,
+        "timestamp": 939781812994,
+        "threadName": "main",
+        "decodingTime": 671,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 885,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837511",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934776251,
+        "timestamp": 939781815405,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 153,
+        "currentCacheSize": 49,
         "pixelCount": 0,
-        "timestamp": 514934778967,
+        "timestamp": 939781817053,
         "threadName": "main",
-        "decodingTime": 733,
+        "decodingTime": 519,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 1861,
+        "duration": 732,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837543",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934869818,
+        "timestamp": 939781899115,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 153,
+        "currentCacheSize": 49,
         "pixelCount": 0,
-        "timestamp": 514934872382,
+        "timestamp": 939781901038,
         "threadName": "main",
-        "decodingTime": 367,
+        "decodingTime": 611,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 1404,
+        "duration": 824,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837594",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514934969855,
+        "timestamp": 939781988104,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 153,
+        "currentCacheSize": 49,
         "pixelCount": 0,
-        "timestamp": 514934972235,
+        "timestamp": 939781989996,
         "threadName": "main",
-        "decodingTime": 367,
+        "decodingTime": 611,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 1312,
+        "duration": 824,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837619",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514935064368,
+        "timestamp": 939782076300,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
@@ -1143,15 +1211,15 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=960,height=64,config=ARGB_8888",
-        "timestamp": 514935065650,
+        "timestamp": 939782078009,
         "threadName": "main",
         "threadId": 1,
-        "duration": 397,
+        "duration": 732,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514935067206,
+        "timestamp": 939782079260,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
@@ -1160,15 +1228,15 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=960,height=64,config=ARGB_8888",
-        "timestamp": 514935070075,
+        "timestamp": 939782080847,
         "threadName": "main",
         "threadId": 1,
-        "duration": 1587,
+        "duration": 641,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514935071417,
+        "timestamp": 939782081854,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
@@ -1177,15 +1245,15 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=960,height=64,config=ARGB_8888",
-        "timestamp": 514935074164,
+        "timestamp": 939782083533,
         "threadName": "main",
         "threadId": 1,
-        "duration": 1465,
+        "duration": 641,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514935075385,
+        "timestamp": 939782084479,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
@@ -1194,24 +1262,7 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=960,height=64,config=ARGB_8888",
-        "timestamp": 514935078131,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 1465,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514935079382,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=960,height=64,config=ARGB_8888",
-        "timestamp": 514935081732,
+        "timestamp": 939782086249,
         "threadName": "main",
         "threadId": 1,
         "duration": 610,
@@ -1219,7 +1270,7 @@
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514935082831,
+        "timestamp": 939782087470,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
@@ -1228,15 +1279,15 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=960,height=64,config=ARGB_8888",
-        "timestamp": 514935084235,
+        "timestamp": 939782089331,
         "threadName": "main",
         "threadId": 1,
-        "duration": 458,
+        "duration": 641,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514935085211,
+        "timestamp": 939782090552,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
@@ -1245,140 +1296,157 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=960,height=64,config=ARGB_8888",
-        "timestamp": 514935086829,
+        "timestamp": 939782092230,
         "threadName": "main",
         "threadId": 1,
-        "duration": 397,
+        "duration": 732,
         "type": "CREATE_BITMAP"
     },
     {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514935090216,
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939782094153,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 153,
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=960,height=64,config=ARGB_8888",
+        "timestamp": 939782096076,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 641,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939782098670,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
         "pixelCount": 0,
-        "timestamp": 514935092566,
+        "timestamp": 939782100989,
         "threadName": "main",
         "decodingTime": 580,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 854,
+        "duration": 855,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837520",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514935139807,
+        "timestamp": 939782147833,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 153,
+        "currentCacheSize": 49,
         "pixelCount": 0,
-        "timestamp": 514935142645,
+        "timestamp": 939782149664,
         "threadName": "main",
-        "decodingTime": 641,
+        "decodingTime": 549,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 915,
+        "duration": 824,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837524",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514935248511,
+        "timestamp": 939782241461,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 153,
+        "currentCacheSize": 49,
         "pixelCount": 0,
-        "timestamp": 514935250708,
+        "timestamp": 939782243384,
         "threadName": "main",
-        "decodingTime": 916,
+        "decodingTime": 458,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 1251,
+        "duration": 641,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837598",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 514936002265,
+        "timestamp": 939783072485,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "stacktrace": "",
-        "currentCacheSize": 153,
+        "currentCacheSize": 49,
         "pixelCount": 0,
-        "timestamp": 514936004340,
+        "timestamp": 939783074774,
         "threadName": "main",
-        "decodingTime": 915,
+        "decodingTime": 946,
         "cacheHit": false,
         "byteCount": 0,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 1160,
+        "duration": 1251,
         "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
         "parameter": "2130837506",
         "type": "CACHING"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514936107489,
+        "timestamp": 939783165961,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "proportion": "48%",
-        "free": "10031K/19040K,",
-        "paused": "51ms,",
-        "total": "51ms",
+        "proportion": "47%",
+        "free": "10123K/19040K,",
+        "paused": "49ms,",
+        "total": "49ms",
         "type": "GC_FOR_ALLOC",
-        "freed": "7933K,"
+        "freed": "8133K,"
     },
     {
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=1200,height=1697,config=RGB_565",
-        "timestamp": 514936177313,
+        "timestamp": 939783234656,
         "threadName": "main",
         "threadId": 1,
-        "duration": 69000,
+        "duration": 67261,
         "type": "CREATE_BITMAP"
     },
     {
         "proportion": "42%",
-        "free": "13430K/23020K,",
-        "paused": "24ms,",
-        "total": "24ms",
+        "free": "13460K/23020K,",
+        "paused": "27ms,",
+        "total": "27ms",
         "type": "GC_FOR_ALLOC",
-        "freed": "596K,"
+        "freed": "650K,"
     },
     {
         "proportion": "31%",
-        "free": "21981K/31572K,",
+        "free": "22010K/31572K,",
         "paused": "23ms,",
         "total": "23ms",
         "type": "GC_FOR_ALLOC",
@@ -1386,7 +1454,7 @@
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514936511847,
+        "timestamp": 939783624793,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
@@ -1395,481 +1463,49 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514936513953,
+        "timestamp": 939783627142,
         "threadName": "main",
         "threadId": 1,
-        "duration": 946,
+        "duration": 1159,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514936576788,
+        "timestamp": 939783701697,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "proportion": "27%",
-        "free": "23080K/31572K,",
-        "paused": "24ms,",
-        "total": "24ms",
+        "free": "23104K/31572K,",
+        "paused": "31ms,",
+        "total": "31ms",
         "type": "GC_FOR_ALLOC",
-        "freed": "24K,"
+        "freed": "29K,"
     },
     {
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514936602515,
+        "timestamp": 939783735327,
         "threadName": "main",
         "threadId": 1,
-        "duration": 24689,
+        "duration": 32562,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514936645575,
+        "timestamp": 939783781775,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "proportion": "27%",
-        "free": "23592K/32088K,",
-        "paused": "20ms,",
-        "total": "21ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514936668402,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 22033,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514936722662,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "27%",
-        "free": "24099K/32604K,",
-        "paused": "28ms,",
-        "total": "28ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "19K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514936752783,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 29205,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514936794287,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "26%",
-        "free": "24610K/33120K,",
-        "paused": "22ms,",
-        "total": "22ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514936818945,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 23681,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514936858496,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "26%",
-        "free": "25122K/33636K,",
-        "paused": "24ms,",
-        "total": "24ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514936884314,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 24689,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514936926856,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "25%",
-        "free": "25635K/34152K,",
-        "paused": "26ms,",
-        "total": "26ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514936954901,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 27038,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514937028967,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "25%",
-        "free": "26147K/34668K,",
-        "paused": "27ms,",
-        "total": "27ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514937058447,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 28473,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514937122931,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "25%",
-        "free": "26659K/35184K,",
-        "paused": "22ms,",
-        "total": "23ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514937148566,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 24536,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514937190650,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "24%",
-        "free": "27171K/35700K,",
-        "paused": "23ms,",
-        "total": "24ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514937216162,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 24414,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514937254248,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "24%",
-        "free": "27683K/36216K,",
-        "paused": "23ms,",
-        "total": "23ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514937279517,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 24231,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514937343939,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "24%",
-        "free": "28195K/36732K,",
-        "paused": "24ms,",
-        "total": "24ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514937370459,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 25452,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514937453162,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "23%",
-        "free": "28708K/37248K,",
-        "paused": "20ms,",
-        "total": "20ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "16K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=1200,height=1697,config=RGB_565",
-        "timestamp": 514937482031,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 27862,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514938203864,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "21%",
-        "free": "32691K/41228K,",
-        "paused": "22ms,",
-        "total": "22ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "64K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514938227698,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 22858,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "proportion": "41%",
-        "free": "24771K/41744K,",
-        "paused": "29ms,",
-        "total": "29ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8593K,"
-    },
-    {
-        "proportion": "42%",
-        "free": "24507K/41744K,",
-        "paused": "32ms,",
-        "total": "33ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "9226K,"
-    },
-    {
-        "proportion": "41%",
-        "free": "24642K/41744K,",
-        "paused": "32ms,",
+        "free": "23615K/32088K,",
+        "paused": "31ms,",
         "total": "32ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8659K,"
-    },
-    {
-        "proportion": "41%",
-        "free": "24648K/41744K,",
-        "paused": "25ms,",
-        "total": "26ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8583K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514942411383,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "41%",
-        "free": "24644K/41744K,",
-        "paused": "27ms,",
-        "total": "27ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8598K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514942443366,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 26581,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514942542273,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514942543372,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 183,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "proportion": "39%",
-        "free": "25668K/41744K,",
-        "paused": "26ms,",
-        "total": "26ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "35K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514942781775,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "32%",
-        "free": "34217K/50296K,",
-        "paused": "33ms,",
-        "total": "34ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "9K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514942817420,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 33753,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514942835059,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514942836188,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 336,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "proportion": "36%",
-        "free": "26699K/41692K,",
-        "paused": "28ms,",
-        "total": "28ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8586K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514943047431,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "30%",
-        "free": "35245K/50244K,",
-        "paused": "30ms,",
-        "total": "30ms",
         "type": "GC_FOR_ALLOC",
         "freed": "15K,"
     },
@@ -1877,650 +1513,22 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514943080237,
+        "timestamp": 939783815314,
         "threadName": "main",
         "threadId": 1,
-        "duration": 30670,
+        "duration": 32715,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514943265051,
+        "timestamp": 939783857947,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514943266455,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 213,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514943511664,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514943512702,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 245,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "proportion": "39%",
-        "free": "25157K/41180K,",
-        "paused": "31ms,",
-        "total": "31ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "11710K,"
-    },
-    {
-        "proportion": "39%",
-        "free": "25160K/41180K,",
-        "paused": "47ms,",
-        "total": "47ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8560K,"
-    },
-    {
-        "proportion": "39%",
-        "free": "25156K/41180K,",
-        "paused": "32ms,",
-        "total": "32ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8581K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514945380377,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "32%",
-        "free": "33842K/49732K,",
-        "paused": "40ms,",
-        "total": "40ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "74K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=1200,height=1697,config=RGB_565",
-        "timestamp": 514945427527,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 40588,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "proportion": "29%",
-        "free": "29411K/41180K,",
-        "paused": "41ms,",
-        "total": "41ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8681K,"
-    },
-    {
-        "proportion": "30%",
-        "free": "28898K/41180K,",
-        "paused": "42ms,",
-        "total": "42ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "9133K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514948433295,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "30%",
-        "free": "28882K/41180K,",
-        "paused": "34ms,",
-        "total": "34ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8621K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514948469885,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 34759,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "proportion": "29%",
-        "free": "29390K/41180K,",
-        "paused": "46ms,",
-        "total": "46ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "22K,"
-    },
-    {
-        "proportion": "29%",
-        "free": "29391K/41180K,",
-        "paused": "36ms,",
-        "total": "37ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8586K,"
-    },
-    {
-        "proportion": "29%",
-        "free": "29391K/41180K,",
-        "paused": "42ms,",
-        "total": "43ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8583K,"
-    },
-    {
-        "proportion": "29%",
-        "free": "29391K/41180K,",
-        "paused": "38ms,",
-        "total": "38ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8594K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514956409674,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "29%",
-        "free": "29392K/41180K,",
-        "paused": "35ms,",
-        "total": "35ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8564K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514956450964,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 35308,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514956622748,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514956624365,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 335,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "proportion": "27%",
-        "free": "30434K/41180K,",
-        "paused": "52ms,",
-        "total": "53ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "63K,"
-    },
-    {
-        "proportion": "27%",
-        "free": "30435K/41180K,",
-        "paused": "35ms,",
-        "total": "36ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8614K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514962278388,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "27%",
-        "free": "30432K/41180K,",
-        "paused": "41ms,",
-        "total": "41ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8573K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514962327490,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 41961,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "proportion": "25%",
-        "free": "30946K/41180K,",
-        "paused": "42ms,",
-        "total": "43ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "59K,"
-    },
-    {
-        "proportion": "28%",
-        "free": "29924K/41180K,",
-        "paused": "34ms,",
-        "total": "34ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "9636K,"
-    },
-    {
-        "proportion": "22%",
-        "free": "38819K/49732K,",
-        "paused": "37ms,",
-        "total": "37ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "166K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514965677619,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514965678992,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 305,
-        "type": "CREATE_BITMAP"
     },
     {
         "proportion": "26%",
-        "free": "30787K/41180K,",
-        "paused": "48ms,",
-        "total": "48ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8627K,"
-    },
-    {
-        "proportion": "27%",
-        "free": "30302K/41180K,",
-        "paused": "60ms,",
-        "total": "60ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "9140K,"
-    },
-    {
-        "proportion": "27%",
-        "free": "30302K/41180K,",
-        "paused": "39ms,",
-        "total": "39ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8620K,"
-    },
-    {
-        "proportion": "27%",
-        "free": "30301K/41180K,",
-        "paused": "50ms,",
-        "total": "50ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8620K,"
-    },
-    {
-        "proportion": "29%",
-        "free": "29491K/41180K,",
-        "paused": "49ms,",
-        "total": "49ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "9729K,"
-    },
-    {
-        "proportion": "29%",
-        "free": "29491K/41180K,",
-        "paused": "44ms,",
-        "total": "44ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8616K,"
-    },
-    {
-        "proportion": "29%",
-        "free": "29474K/41180K,",
-        "paused": "39ms,",
-        "total": "39ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8630K,"
-    },
-    {
-        "proportion": "30%",
-        "free": "28979K/41180K,",
-        "paused": "47ms,",
-        "total": "50ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "9228K,"
-    },
-    {
-        "proportion": "31%",
-        "free": "28463K/41180K,",
-        "paused": "42ms,",
-        "total": "42ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "9295K,"
-    },
-    {
-        "proportion": "31%",
-        "free": "28623K/41180K,",
-        "paused": "38ms,",
-        "total": "39ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8686K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514977857916,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "31%",
-        "free": "28636K/41180K,",
-        "paused": "35ms,",
-        "total": "36ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "8578K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514977895484,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 35615,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514977990424,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514977991370,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 153,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514978007239,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514978008185,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 214,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 514978027716,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 514978028906,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 305,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "proportion": "25%",
-        "free": "30900K/41180K,",
-        "paused": "44ms,",
-        "total": "44ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "194K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515000078101,
-        "threadName": "Thread-1811",
-        "type": "ENTER",
-        "threadId": 1811
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=64,height=80,config=RGB_565",
-        "timestamp": 515000087927,
-        "threadName": "Thread-1811",
-        "threadId": 1811,
-        "duration": 3021,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 515000252020,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 153,
-        "pixelCount": 4096,
-        "timestamp": 515000272437,
-        "threadName": "main",
-        "decodingTime": 2166,
-        "cacheHit": false,
-        "byteCount": 16384,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 3418,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837740",
-        "type": "CACHING"
-    },
-    {
-        "proportion": "62%",
-        "free": "19054K/49732K,",
-        "paused": "35ms,",
-        "total": "36ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "20901K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 515029511817,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 153,
-        "pixelCount": 4096,
-        "timestamp": 515029516852,
-        "threadName": "main",
-        "decodingTime": 519,
-        "cacheHit": false,
-        "byteCount": 16384,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 855,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837740",
-        "type": "CACHING"
-    },
-    {
-        "proportion": "36%",
-        "free": "12752K/19740K,",
-        "paused": "51ms,",
-        "total": "51ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "11788K,"
-    },
-    {
-        "proportion": "71%",
-        "free": "5552K/19040K,",
-        "paused": "32ms,",
-        "total": "33ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "4003K,"
-    },
-    {
-        "proportion": "58%",
-        "free": "23173K/54912K,",
-        "paused": "32ms,",
-        "total": "32ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "22508K,"
-    },
-    {
-        "proportion": "41%",
-        "free": "18186K/30572K,",
-        "paused": "7ms+12ms,",
-        "total": "142ms",
-        "type": "GC_EXPLICIT",
-        "freed": "5254K,"
-    },
-    {
-        "proportion": "36%",
-        "free": "12824K/19740K,",
-        "paused": "35ms,",
-        "total": "35ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "2298K,"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "timestamp": 515070157233,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "stacktrace": "",
-        "currentCacheSize": 153,
-        "pixelCount": 0,
-        "timestamp": 515070160651,
-        "threadName": "main",
-        "decodingTime": 610,
-        "cacheHit": false,
-        "byteCount": 0,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 1770,
-        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
-        "parameter": "2130837506",
-        "type": "CACHING"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515070210791,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "27%",
-        "free": "20913K/28292K,",
-        "paused": "24ms,",
-        "total": "24ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "543K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=1200,height=1697,config=RGB_565",
-        "timestamp": 515070247382,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 34363,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515070636359,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "23%",
-        "free": "24870K/32272K,",
-        "paused": "36ms,",
-        "total": "36ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "40K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515070675848,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 38330,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515070755988,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "23%",
-        "free": "25382K/32788K,",
+        "free": "24127K/32604K,",
         "paused": "33ms,",
         "total": "33ms",
         "type": "GC_FOR_ALLOC",
@@ -2530,173 +1538,23 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515070791205,
+        "timestamp": 939783892890,
         "threadName": "main",
         "threadId": 1,
-        "duration": 34058,
+        "duration": 33967,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515070838110,
+        "timestamp": 939783936865,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "proportion": "23%",
-        "free": "25894K/33304K,",
-        "paused": "24ms,",
-        "total": "24ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515070863745,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 24841,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515070902472,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "22%",
-        "free": "26406K/33820K,",
+        "proportion": "26%",
+        "free": "24640K/33120K,",
         "paused": "26ms,",
-        "total": "26ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515070930670,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 27435,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515070991339,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "22%",
-        "free": "26913K/34336K,",
-        "paused": "31ms,",
-        "total": "31ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "19K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515071024481,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 32013,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515071066809,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "22%",
-        "free": "27425K/34852K,",
-        "paused": "29ms,",
-        "total": "30ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "15K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515071098090,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 30274,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515071156744,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "22%",
-        "free": "27936K/35368K,",
-        "paused": "31ms,",
-        "total": "31ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515071189520,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 31707,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515071263739,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "21%",
-        "free": "28449K/35884K,",
-        "paused": "24ms,",
-        "total": "24ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515071289710,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 25147,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515071360999,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "21%",
-        "free": "28961K/36400K,",
-        "paused": "27ms,",
         "total": "27ms",
         "type": "GC_FOR_ALLOC",
         "freed": "14K,"
@@ -2705,47 +1563,22 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515071389319,
+        "timestamp": 939783965430,
         "threadName": "main",
         "threadId": 1,
-        "duration": 27557,
+        "duration": 27466,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515071434821,
+        "timestamp": 939784018347,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "proportion": "21%",
-        "free": "29473K/36916K,",
-        "paused": "34ms,",
-        "total": "35ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "14K,"
-    },
-    {
-        "stacktrace": "",
-        "methodId": "CreateTransformedBitmap",
-        "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515071472235,
-        "threadName": "main",
-        "threadId": 1,
-        "duration": 36133,
-        "type": "CREATE_BITMAP"
-    },
-    {
-        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515071534857,
-        "threadName": "main",
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "proportion": "20%",
-        "free": "29985K/37432K,",
+        "proportion": "26%",
+        "free": "25152K/33636K,",
         "paused": "25ms,",
         "total": "25ms",
         "type": "GC_FOR_ALLOC",
@@ -2755,24 +1588,24 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515071561896,
+        "timestamp": 939784045264,
         "threadName": "main",
         "threadId": 1,
-        "duration": 26062,
+        "duration": 25910,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515071621344,
+        "timestamp": 939784084387,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "proportion": "20%",
-        "free": "30497K/37948K,",
-        "paused": "33ms,",
-        "total": "33ms",
+        "proportion": "25%",
+        "free": "25664K/34152K,",
+        "paused": "30ms,",
+        "total": "30ms",
         "type": "GC_FOR_ALLOC",
         "freed": "14K,"
     },
@@ -2780,68 +1613,770 @@
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=512,height=512,config=RGB_565",
-        "timestamp": 515071656317,
+        "timestamp": 939784116522,
         "threadName": "main",
         "threadId": 1,
-        "duration": 34149,
+        "duration": 31311,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515071754492,
+        "timestamp": 939784188483,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "25%",
+        "free": "26176K/34668K,",
+        "paused": "31ms,",
+        "total": "31ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "14K,"
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=512,height=512,config=RGB_565",
+        "timestamp": 939784221961,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 32196,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939784280371,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "25%",
+        "free": "26688K/35184K,",
+        "paused": "26ms,",
+        "total": "26ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "14K,"
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=512,height=512,config=RGB_565",
+        "timestamp": 939784308997,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 27588,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939784352545,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "24%",
+        "free": "27200K/35700K,",
+        "paused": "25ms,",
+        "total": "25ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "14K,"
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=512,height=512,config=RGB_565",
+        "timestamp": 939784381018,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 27466,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939784422827,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "24%",
+        "free": "27712K/36216K,",
+        "paused": "24ms,",
+        "total": "24ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "14K,"
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=512,height=512,config=RGB_565",
+        "timestamp": 939784448981,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 25116,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939784493903,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "24%",
+        "free": "28224K/36732K,",
+        "paused": "23ms,",
+        "total": "23ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "14K,"
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=512,height=512,config=RGB_565",
+        "timestamp": 939784519598,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 24505,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939784623541,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "23%",
+        "free": "28737K/37248K,",
+        "paused": "24ms,",
+        "total": "24ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "16K,"
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=1200,height=1697,config=RGB_565",
+        "timestamp": 939784655798,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 31219,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "proportion": "20%",
+        "free": "33057K/41228K,",
+        "paused": "28ms,",
+        "total": "28ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "168K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939786552039,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
         "proportion": "20%",
-        "free": "31009K/38464K,",
-        "paused": "29ms,",
-        "total": "30ms",
+        "free": "33201K/41228K,",
+        "paused": "37ms,",
+        "total": "38ms",
         "type": "GC_FOR_ALLOC",
-        "freed": "16K,"
+        "freed": "99K,"
     },
     {
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
-        "parameters": "width=1200,height=1697,config=RGB_565",
-        "timestamp": 515071790991,
+        "parameters": "width=512,height=512,config=RGB_565",
+        "timestamp": 939786595465,
         "threadName": "main",
         "threadId": 1,
-        "duration": 35492,
+        "duration": 39612,
         "type": "CREATE_BITMAP"
     },
     {
         "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
-        "timestamp": 515072123450,
+        "timestamp": 939786637122,
         "threadName": "main",
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "proportion": "18%",
-        "free": "34987K/42444K,",
-        "paused": "27ms,",
-        "total": "27ms",
+        "proportion": "40%",
+        "free": "25164K/41744K,",
+        "paused": "50ms,",
+        "total": "50ms",
         "type": "GC_FOR_ALLOC",
-        "freed": "16K,"
+        "freed": "8564K,"
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=512,height=512,config=RGB_565",
+        "timestamp": 939786689368,
+        "threadName": "main",
+        "threadId": 1,
+        "duration": 51422,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939786717719,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
     },
     {
         "stacktrace": "",
         "methodId": "CreateTransformedBitmap",
         "parameters": "width=1200,height=1697,config=RGB_565",
-        "timestamp": 515072157813,
+        "timestamp": 939786720862,
         "threadName": "main",
         "threadId": 1,
-        "duration": 33631,
+        "duration": 1160,
         "type": "CREATE_BITMAP"
     },
     {
-        "proportion": "16%",
-        "free": "39329K/46424K,",
-        "paused": "34ms,",
-        "total": "34ms",
+        "proportion": "29%",
+        "free": "29676K/41744K,",
+        "paused": "30ms,",
+        "total": "30ms",
         "type": "GC_FOR_ALLOC",
-        "freed": "147K,"
+        "freed": "52K,"
+    },
+    {
+        "proportion": "31%",
+        "free": "28654K/41180K,",
+        "paused": "45ms,",
+        "total": "45ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "9641K,"
+    },
+    {
+        "proportion": "31%",
+        "free": "28653K/41180K,",
+        "paused": "34ms,",
+        "total": "35ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8618K,"
+    },
+    {
+        "proportion": "31%",
+        "free": "28653K/41180K,",
+        "paused": "39ms,",
+        "total": "39ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8622K,"
+    },
+    {
+        "proportion": "31%",
+        "free": "28654K/41180K,",
+        "paused": "33ms,",
+        "total": "33ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8606K,"
+    },
+    {
+        "proportion": "31%",
+        "free": "28653K/41180K,",
+        "paused": "42ms,",
+        "total": "42ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8619K,"
+    },
+    {
+        "proportion": "31%",
+        "free": "28654K/41180K,",
+        "paused": "39ms,",
+        "total": "40ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8620K,"
+    },
+    {
+        "proportion": "31%",
+        "free": "28653K/41180K,",
+        "paused": "40ms,",
+        "total": "40ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8617K,"
+    },
+    {
+        "proportion": "30%",
+        "free": "28866K/41180K,",
+        "paused": "36ms,",
+        "total": "36ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8712K,"
+    },
+    {
+        "proportion": "30%",
+        "free": "28866K/41180K,",
+        "paused": "38ms,",
+        "total": "38ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8622K,"
+    },
+    {
+        "proportion": "30%",
+        "free": "28849K/41180K,",
+        "paused": "34ms,",
+        "total": "35ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8634K,"
+    },
+    {
+        "proportion": "30%",
+        "free": "29059K/41180K,",
+        "paused": "40ms,",
+        "total": "40ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8675K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.LRUCacher.createBitmap",
+        "timestamp": 939799435919,
+        "threadName": "Thread-5215",
+        "type": "ENTER",
+        "threadId": 5215
+    },
+    {
+        "stacktrace": "",
+        "methodId": "CreateTransformedBitmap",
+        "parameters": "width=64,height=80,config=RGB_565",
+        "timestamp": 939799441931,
+        "threadName": "Thread-5215",
+        "threadId": 5215,
+        "duration": 549,
+        "type": "CREATE_BITMAP"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939799607062,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939799620612,
+        "threadName": "main",
+        "decodingTime": 1434,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1862,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837740",
+        "type": "CACHING"
+    },
+    {
+        "proportion": "62%",
+        "free": "19181K/49732K,",
+        "paused": "37ms,",
+        "total": "37ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "18934K,"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801163550,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801166296,
+        "threadName": "main",
+        "decodingTime": 610,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1007,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837740",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801173743,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801176154,
+        "threadName": "main",
+        "decodingTime": 488,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 885,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801197974,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801200903,
+        "threadName": "main",
+        "decodingTime": 793,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1312,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801221808,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801223944,
+        "threadName": "main",
+        "decodingTime": 489,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 702,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801248908,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801252570,
+        "threadName": "main",
+        "decodingTime": 580,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 885,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801282813,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801286231,
+        "threadName": "main",
+        "decodingTime": 580,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 885,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801310034,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801313818,
+        "threadName": "main",
+        "decodingTime": 458,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2136,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801348853,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801351630,
+        "threadName": "main",
+        "decodingTime": 580,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 885,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801378088,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801382086,
+        "threadName": "main",
+        "decodingTime": 549,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 885,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801409949,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801414954,
+        "threadName": "main",
+        "decodingTime": 2625,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 3083,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801440863,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801443884,
+        "threadName": "main",
+        "decodingTime": 641,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 976,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801468756,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801471350,
+        "threadName": "main",
+        "decodingTime": 428,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 671,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801493048,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801495673,
+        "threadName": "main",
+        "decodingTime": 518,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 946,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801517218,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801519629,
+        "threadName": "main",
+        "decodingTime": 488,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 793,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801542914,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801545508,
+        "threadName": "main",
+        "decodingTime": 519,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 794,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801566626,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801569037,
+        "threadName": "main",
+        "decodingTime": 610,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 916,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
+    },
+    {
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "timestamp": 939801593024,
+        "threadName": "main",
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "stacktrace": "",
+        "currentCacheSize": 49,
+        "pixelCount": 4096,
+        "timestamp": 939801595435,
+        "threadName": "main",
+        "decodingTime": 488,
+        "cacheHit": false,
+        "byteCount": 16384,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 794,
+        "methodId": "io.appswift.usercode.cacher.CustomImageLoader.setImageResource",
+        "parameter": "2130837702",
+        "type": "CACHING"
     }
 ]
