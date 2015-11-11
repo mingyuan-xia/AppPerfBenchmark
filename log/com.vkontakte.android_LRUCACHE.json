@@ -1,0 +1,514 @@
+[
+    {
+        "proportion": "61%",
+        "free": "7472K/19040K,",
+        "paused": "63ms,",
+        "total": "63ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "11507K,"
+    },
+    {
+        "proportion": "66%",
+        "free": "6647K/19040K,",
+        "paused": "53ms,",
+        "total": "53ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2449K,"
+    },
+    {
+        "proportion": "63%",
+        "free": "7153K/19040K,",
+        "paused": "39ms,",
+        "total": "39ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "706K,"
+    },
+    {
+        "proportion": "58%",
+        "free": "8097K/19040K,",
+        "paused": "24ms,",
+        "total": "26ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "55K,"
+    },
+    {
+        "proportion": "60%",
+        "free": "8094K/19992K,",
+        "paused": "36ms,",
+        "total": "36ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1466K,"
+    },
+    {
+        "proportion": "60%",
+        "free": "8148K/19992K,",
+        "paused": "39ms,",
+        "total": "39ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1166K,"
+    },
+    {
+        "proportion": "55%",
+        "free": "9089K/19992K,",
+        "paused": "26ms,",
+        "total": "26ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "53K,"
+    },
+    {
+        "proportion": "57%",
+        "free": "9054K/20944K,",
+        "paused": "38ms,",
+        "total": "38ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1405K,"
+    },
+    {
+        "proportion": "53%",
+        "free": "10005K/20944K,",
+        "paused": "24ms,",
+        "total": "24ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "52K,"
+    },
+    {
+        "proportion": "55%",
+        "free": "9998K/21896K,",
+        "paused": "58ms,",
+        "total": "58ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1469K,"
+    },
+    {
+        "proportion": "51%",
+        "free": "10943K/21896K,",
+        "paused": "32ms,",
+        "total": "37ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "169K,"
+    },
+    {
+        "proportion": "53%",
+        "free": "10947K/22848K,",
+        "paused": "29ms,",
+        "total": "30ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1458K,"
+    },
+    {
+        "proportion": "51%",
+        "free": "11304K/22848K,",
+        "paused": "39ms,",
+        "total": "39ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2425K,"
+    },
+    {
+        "proportion": "51%",
+        "free": "11223K/22848K,",
+        "paused": "31ms,",
+        "total": "32ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "545K,"
+    },
+    {
+        "proportion": "48%",
+        "free": "12457K/23800K,",
+        "paused": "24ms,",
+        "total": "31ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "101K,"
+    },
+    {
+        "proportion": "46%",
+        "free": "13424K/24752K,",
+        "paused": "37ms,",
+        "total": "37ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "28K,"
+    },
+    {
+        "proportion": "45%",
+        "free": "14392K/25704K,",
+        "paused": "29ms,",
+        "total": "30ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "18K,"
+    },
+    {
+        "proportion": "54%",
+        "free": "12505K/26656K,",
+        "paused": "37ms,",
+        "total": "37ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3348K,"
+    },
+    {
+        "proportion": "53%",
+        "free": "12636K/26656K,",
+        "paused": "55ms,",
+        "total": "56ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2296K,"
+    },
+    {
+        "proportion": "50%",
+        "free": "13538K/26656K,",
+        "paused": "30ms,",
+        "total": "30ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2444K,"
+    },
+    {
+        "proportion": "49%",
+        "free": "13701K/26656K,",
+        "paused": "39ms,",
+        "total": "39ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3483K,"
+    },
+    {
+        "proportion": "49%",
+        "free": "13662K/26656K,",
+        "paused": "52ms,",
+        "total": "58ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2683K,"
+    },
+    {
+        "proportion": "47%",
+        "free": "14996K/28084K,",
+        "paused": "24ms,",
+        "total": "24ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "140K,"
+    },
+    {
+        "proportion": "45%",
+        "free": "16410K/29512K,",
+        "paused": "26ms,",
+        "total": "28ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "59K,"
+    },
+    {
+        "proportion": "43%",
+        "free": "17834K/30940K,",
+        "paused": "23ms,",
+        "total": "23ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "35K,"
+    },
+    {
+        "proportion": "49%",
+        "free": "16688K/32368K,",
+        "paused": "30ms,",
+        "total": "30ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3082K,"
+    },
+    {
+        "proportion": "47%",
+        "free": "17393K/32368K,",
+        "paused": "63ms,",
+        "total": "63ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3992K,"
+    },
+    {
+        "proportion": "40%",
+        "free": "19484K/32368K,",
+        "paused": "44ms,",
+        "total": "44ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1911K,"
+    },
+    {
+        "proportion": "45%",
+        "free": "18485K/33440K,",
+        "paused": "59ms,",
+        "total": "61ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2544K,"
+    },
+    {
+        "proportion": "40%",
+        "free": "20214K/33440K,",
+        "paused": "50ms,",
+        "total": "50ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3567K,"
+    },
+    {
+        "proportion": "37%",
+        "free": "21220K/33440K,",
+        "paused": "61ms,",
+        "total": "63ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "4755K,"
+    },
+    {
+        "proportion": "33%",
+        "free": "22492K/33440K,",
+        "paused": "67ms,",
+        "total": "68ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "4919K,"
+    },
+    {
+        "proportion": "28%",
+        "free": "24207K/33440K,",
+        "paused": "61ms,",
+        "total": "62ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "4146K,"
+    },
+    {
+        "proportion": "24%",
+        "free": "25596K/33440K,",
+        "paused": "80ms,",
+        "total": "80ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "5814K,"
+    },
+    {
+        "proportion": "19%",
+        "free": "27251K/33440K,",
+        "paused": "92ms,",
+        "total": "101ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "4104K,"
+    },
+    {
+        "proportion": "21%",
+        "free": "27746K/34868K,",
+        "paused": "88ms,",
+        "total": "88ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3429K,"
+    },
+    {
+        "proportion": "14%",
+        "free": "31235K/36000K,",
+        "paused": "68ms,",
+        "total": "69ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "4703K,"
+    },
+    {
+        "proportion": "16%",
+        "free": "32250K/37956K,",
+        "paused": "67ms,",
+        "total": "67ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3124K,"
+    },
+    {
+        "proportion": "16%",
+        "free": "34237K/40456K,",
+        "paused": "73ms,",
+        "total": "73ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "6153K,"
+    },
+    {
+        "proportion": "14%",
+        "free": "35766K/41528K,",
+        "paused": "74ms,",
+        "total": "74ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2102K,"
+    },
+    {
+        "proportion": "16%",
+        "free": "36761K/43568K,",
+        "paused": "59ms,",
+        "total": "60ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2056K,"
+    },
+    {
+        "proportion": "16%",
+        "free": "37803K/44640K,",
+        "paused": "47ms,",
+        "total": "58ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "87K,"
+    },
+    {
+        "proportion": "17%",
+        "free": "38031K/45712K,",
+        "paused": "97ms,",
+        "total": "98ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "5883K,"
+    },
+    {
+        "proportion": "17%",
+        "free": "39155K/46852K,",
+        "paused": "50ms,",
+        "total": "56ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "60K,"
+    },
+    {
+        "proportion": "22%",
+        "free": "37521K/47992K,",
+        "paused": "56ms,",
+        "total": "56ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3285K,"
+    },
+    {
+        "proportion": "17%",
+        "free": "40050K/47992K,",
+        "paused": "54ms,",
+        "total": "54ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3342K,"
+    },
+    {
+        "proportion": "19%",
+        "free": "39754K/48756K,",
+        "paused": "39ms,",
+        "total": "39ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1158K,"
+    },
+    {
+        "proportion": "15%",
+        "free": "41450K/48756K,",
+        "paused": "36ms,",
+        "total": "36ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "158K,"
+    },
+    {
+        "proportion": "19%",
+        "free": "40238K/49604K,",
+        "paused": "48ms,",
+        "total": "48ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2769K,"
+    },
+    {
+        "proportion": "24%",
+        "free": "40216K/52304K,",
+        "paused": "37ms,",
+        "total": "37ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2930K,"
+    },
+    {
+        "proportion": "26%",
+        "free": "40715K/54708K,",
+        "paused": "41ms,",
+        "total": "41ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2412K,"
+    },
+    {
+        "proportion": "20%",
+        "free": "44033K/54708K,",
+        "paused": "66ms,",
+        "total": "67ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "4873K,"
+    },
+    {
+        "proportion": "18%",
+        "free": "45354K/54708K,",
+        "paused": "84ms,",
+        "total": "89ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "6871K,"
+    },
+    {
+        "proportion": "16%",
+        "free": "46183K/54708K,",
+        "paused": "63ms,",
+        "total": "69ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1488K,"
+    },
+    {
+        "proportion": "16%",
+        "free": "47150K/55660K,",
+        "paused": "44ms,",
+        "total": "49ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "28K,"
+    },
+    {
+        "proportion": "17%",
+        "free": "47280K/56612K,",
+        "paused": "47ms,",
+        "total": "50ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "886K,"
+    },
+    {
+        "proportion": "20%",
+        "free": "46302K/57564K,",
+        "paused": "79ms,",
+        "total": "80ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2404K,"
+    },
+    {
+        "proportion": "18%",
+        "free": "47358K/57564K,",
+        "paused": "71ms,",
+        "total": "79ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "656K,"
+    },
+    {
+        "proportion": "18%",
+        "free": "48755K/58992K,",
+        "paused": "49ms,",
+        "total": "50ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "404K,"
+    },
+    {
+        "proportion": "22%",
+        "free": "46368K/58992K,",
+        "paused": "53ms,",
+        "total": "53ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3413K,"
+    },
+    {
+        "proportion": "23%",
+        "free": "45613K/58992K,",
+        "paused": "51ms,",
+        "total": "55ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "4612K,"
+    },
+    {
+        "proportion": "25%",
+        "free": "45780K/60596K,",
+        "paused": "82ms,",
+        "total": "82ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1814K,"
+    },
+    {
+        "proportion": "25%",
+        "free": "45894K/60596K,",
+        "paused": "90ms,",
+        "total": "90ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "7337K,"
+    },
+    {
+        "proportion": "24%",
+        "free": "46486K/60596K,",
+        "paused": "90ms,",
+        "total": "91ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2509K,"
+    }
+]
