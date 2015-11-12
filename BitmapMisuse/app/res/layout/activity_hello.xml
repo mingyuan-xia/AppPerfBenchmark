@@ -2,14 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+    android:weightSum="1">
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:padding="10dp"
-            android:text="Hello world"/>
+            android:text="@string/hello_world"/>
 
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:padding="10dp"
-              android:text="Finish"
-            android:id="@+id/textview_finish"/>
+              android:text="Finish 2nd Activity"
+            android:id="@+id/tv_finish_2ndActivity"/>
 
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="send broadcast (through LocalBroadcastManager)"
+        android:id="@+id/tv_local_broadcast" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="send sync broadcast (through LocalBroadcastManager)"
+        android:id="@+id/tv_local_broadcast_sync" />
 </LinearLayout>
