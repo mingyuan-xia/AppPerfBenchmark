@@ -37,9 +37,17 @@
             </intent-filter>
         </service>
 
-        <receiver android:name="BroadcastReceiverDemo">
+        <receiver android:name=".LocalReceiver">
             <intent-filter>
-                <action android:name="com.BroadcastReceiver" />
+                <action android:name="com.example.bitmapmisuse.BROADCAST" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".RemoteReceiver"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.example.bitmapmisuse.BROADCAST_REMOTE" />
             </intent-filter>
         </receiver>
 

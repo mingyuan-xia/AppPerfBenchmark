@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SharedPreferences_put"
+            android:id="@+id/SharedPreferences_put"
+            android:padding="10dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SharedPreferences_get"
+            android:id="@+id/SharedPreferences_get"
+            android:padding="10dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SharedPreferences_rm"
+            android:id="@+id/SharedPreferences_rm"
+            android:padding="10dp"/>
+
+</LinearLayout>

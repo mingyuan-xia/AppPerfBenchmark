@@ -16,8 +16,15 @@
             android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textview2"
-            android:text="send broadcast"/>
+            android:id="@+id/tv_broadcast_tolocal"
+            android:text="send broadcast (to receiver in this process, i.e. LocalReceiver)"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_broadcast_toremote"
+        android:text="send broadcast (to receiver in remote process, i.e. RemoteReceiver)"/>
 
     <LinearLayout
             android:layout_margin="10dp"

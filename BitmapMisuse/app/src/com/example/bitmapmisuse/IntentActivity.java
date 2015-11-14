@@ -1,18 +1,42 @@
 package com.example.bitmapmisuse;
 
 import android.app.Activity;
+import android.content.BroadcastReceiver;
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
 public class IntentActivity extends Activity {
     private static final String TAG = "IntentActivity";
+
+    private BroadcastReceiver receiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            Log.v(TAG, "dynamic registered receiver (through LocalBroadcastManager)");
+        }
+    };
+
+    private BroadcastReceiver receiverBlock = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            Log.v(TAG, "dynamic registered long-time running receiver (through LocalBroadcastManager)");
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                // do nothing
+            }
+        }
+    };
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,19 +46,36 @@ public class IntentActivity extends Activity {
         tv1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setClass(IntentActivity.this, MainActivityAsynctask.class);
+                Intent intent = new Intent(IntentActivity.this, HelloActivity.class);
                 startActivity(intent);
             }
         });
 
-        TextView tv2 = (TextView)findViewById(R.id.textview2);
-        tv2.setOnClickListener(new View.OnClickListener() {
+        TextView tvBroadcastToLocal = (TextView)findViewById(R.id.tv_broadcast_tolocal);
+        tvBroadcastToLocal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent("com.BroadcastReceiver");
-                intent.putExtra("key", "value");
-                sendBroadcast(intent);
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(LocalReceiver.ACTION);
+                        sendBroadcast(intent);
+                    }
+                }).start();
+            }
+        });
+
+        TextView tvBroadcastToRemote = (TextView)findViewById(R.id.tv_broadcast_toremote);
+        tvBroadcastToRemote.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(RemoteReceiver.ACTION);
+                        sendBroadcast(intent);
+                    }
+                }).start();
             }
         });
 
@@ -81,12 +122,19 @@ public class IntentActivity extends Activity {
                 PollingUtils.stopPollingService(IntentActivity.this, PollingService.class, PollingService.ACTION);
             }
         });
+
+        LocalBroadcastManager.getInstance(this).registerReceiver(receiver,
+                new IntentFilter("com.example.bitmapmisuse.LOCAL_BROADCAST"));
+        LocalBroadcastManager.getInstance(this).registerReceiver(receiverBlock,
+                new IntentFilter("com.example.bitmapmisuse.LOCAL_BROADCAST_SYNC"));
     }
 
     @Override
     protected void onDestroy() {
         Log.v(TAG, "onDestroy unbindService");
         unbindService(conn);
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(receiver);
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(receiverBlock);
         super.onDestroy();
     };
 
