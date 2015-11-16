@@ -1,365 +1,58 @@
 [
     {
-        "proportion": "13%",
-        "free": "16683K/19040K,",
-        "paused": "2ms+9ms,",
-        "total": "49ms",
+        "proportion": "46%",
+        "free": "10430K/19040K,",
+        "paused": "3ms+3ms,",
+        "total": "38ms",
         "type": "GC_EXPLICIT",
-        "freed": "1564K,"
-    },
-    {
-        "proportion": "32%",
-        "free": "13010K/19040K,",
-        "paused": "15ms+3ms,",
-        "total": "40ms",
-        "type": "GC_EXPLICIT",
-        "freed": "3673K,"
-    },
-    {
-        "proportion": "31%",
-        "free": "13146K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "27ms",
-        "type": "GC_EXPLICIT",
-        "freed": "158K,"
-    },
-    {
-        "proportion": "31%",
-        "free": "13145K/19040K,",
-        "paused": "2ms+2ms,",
-        "total": "27ms",
-        "type": "GC_EXPLICIT",
-        "freed": "<1K,"
-    },
-    {
-        "proportion": "31%",
-        "free": "13205K/19040K,",
-        "paused": "15ms,",
-        "total": "15ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "770K,"
-    },
-    {
-        "proportion": "31%",
-        "free": "13229K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "35ms",
-        "type": "GC_EXPLICIT",
-        "freed": "3189K,"
-    },
-    {
-        "proportion": "45%",
-        "free": "10533K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "30ms",
-        "type": "GC_EXPLICIT",
-        "freed": "2695K,"
-    },
-    {
-        "proportion": "45%",
-        "free": "10533K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "29ms",
-        "type": "GC_EXPLICIT",
-        "freed": "<1K,"
-    },
-    {
-        "proportion": "45%",
-        "free": "10533K/19040K,",
-        "paused": "2ms+2ms,",
-        "total": "47ms",
-        "type": "GC_EXPLICIT",
-        "freed": "<1K,"
+        "freed": "1566K,"
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340368656380,
+        "timestamp": 501813944192,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 30,
-        "pixelCount": 7847,
-        "timestamp": 340368661446,
-        "threadName": "main",
-        "decodingTime": 1129,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 3326,
-        "methodId": "setImageResource",
-        "parameter": "2130837513",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340368664956,
-        "duration": 6836,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340368665352,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 60,
-        "pixelCount": 7847,
-        "timestamp": 340368668099,
-        "threadName": "main",
-        "decodingTime": 1800,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 2106,
-        "methodId": "setImageResource",
-        "parameter": "2130837510",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340368668862,
-        "duration": 2869,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340368669686,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 90,
-        "pixelCount": 7847,
-        "timestamp": 340368673134,
-        "threadName": "main",
-        "decodingTime": 1922,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 2258,
-        "methodId": "setImageResource",
-        "parameter": "2130837517",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340368673989,
-        "duration": 3113,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340368675637,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 120,
-        "pixelCount": 7847,
-        "timestamp": 340368679116,
-        "threadName": "main",
-        "decodingTime": 1617,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 2350,
-        "methodId": "setImageResource",
-        "parameter": "2130837507",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340368680825,
-        "duration": 4059,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340368682107,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 150,
-        "pixelCount": 7847,
-        "timestamp": 340368685097,
-        "threadName": "main",
-        "decodingTime": 1404,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 1861,
-        "methodId": "setImageResource",
-        "parameter": "2130837515",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340368686165,
-        "duration": 2929,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340368688119,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 180,
-        "pixelCount": 7847,
-        "timestamp": 340368691018,
-        "threadName": "main",
-        "decodingTime": 1648,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 1953,
-        "methodId": "setImageResource",
-        "parameter": "2130837511",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340368692055,
-        "duration": 2990,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340372406624,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 232,
-        "pixelCount": 13335,
-        "timestamp": 340372409463,
-        "threadName": "main",
-        "decodingTime": 1343,
-        "cacheHit": false,
-        "byteCount": 53340,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 1831,
-        "methodId": "setImageResource",
-        "parameter": "2130837955",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340372412209,
-        "duration": 4577,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340374584847,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 232,
-        "pixelCount": 13335,
-        "timestamp": 340374588235,
-        "threadName": "main",
-        "decodingTime": 2655,
-        "cacheHit": false,
-        "byteCount": 53340,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 2961,
-        "methodId": "setImageResource",
-        "parameter": "2130837955",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340374592202,
-        "duration": 6928,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "proportion": "38%",
-        "free": "11807K/19040K,",
-        "paused": "3ms+5ms,",
-        "total": "40ms",
-        "type": "GC_EXPLICIT",
-        "freed": "1385K,"
-    },
-    {
-        "proportion": "43%",
-        "free": "10945K/19040K,",
-        "paused": "2ms+5ms,",
-        "total": "41ms",
-        "type": "GC_EXPLICIT",
-        "freed": "891K,"
-    },
-    {
-        "proportion": "43%",
-        "free": "10888K/19040K,",
-        "paused": "3ms+4ms,",
-        "total": "35ms",
-        "type": "GC_EXPLICIT",
-        "freed": "172K,"
-    },
-    {
-        "proportion": "44%",
-        "free": "10843K/19040K,",
-        "paused": "2ms+4ms,",
-        "total": "36ms",
-        "type": "GC_EXPLICIT",
-        "freed": "44K,"
-    },
-    {
-        "proportion": "44%",
-        "free": "10843K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "30ms",
-        "type": "GC_EXPLICIT",
-        "freed": "<1K,"
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340376745278,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 240,
-        "pixelCount": 2209,
-        "timestamp": 340376746651,
+        "currentCacheSize": 0,
+        "pixelCount": 0,
+        "timestamp": 501813949074,
         "threadName": "main",
         "decodingTime": 549,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2899,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501813950905,
+        "duration": 4730,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501813951668,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 8,
+        "pixelCount": 2209,
+        "timestamp": 501813952981,
+        "threadName": "main",
+        "decodingTime": 640,
         "cacheHit": false,
         "byteCount": 8836,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 946,
+        "duration": 977,
         "methodId": "setImageResource",
         "parameter": "2130837744",
         "type": "CACHING",
@@ -367,65 +60,134 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340376747719,
-        "duration": 2014,
+        "timestamp": 501813953835,
+        "duration": 1831,
         "type": "EXIT",
         "threadId": 1
     },
     {
-        "proportion": "43%",
-        "free": "10966K/19040K,",
-        "paused": "3ms+3ms,",
+        "proportion": "45%",
+        "free": "10558K/19040K,",
+        "paused": "4ms+3ms,",
+        "total": "29ms",
+        "type": "GC_EXPLICIT",
+        "freed": "85K,"
+    },
+    {
+        "proportion": "45%",
+        "free": "10557K/19040K,",
+        "paused": "2ms+3ms,",
         "total": "27ms",
         "type": "GC_EXPLICIT",
-        "freed": "134K,"
+        "freed": "1K,"
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340381556649,
+        "timestamp": 501814033150,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 292,
-        "pixelCount": 13335,
-        "timestamp": 340381558724,
+        "currentCacheSize": 28,
+        "pixelCount": 5184,
+        "timestamp": 501814035256,
         "threadName": "main",
-        "decodingTime": 1312,
+        "decodingTime": 793,
         "cacheHit": false,
-        "byteCount": 53340,
+        "byteCount": 20736,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 1617,
+        "duration": 1099,
         "methodId": "setImageResource",
-        "parameter": "2130837971",
+        "parameter": "2130837924",
         "type": "CACHING",
         "knownOrigin": true
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340381560372,
-        "duration": 3265,
+        "timestamp": 501814036324,
+        "duration": 2167,
         "type": "EXIT",
         "threadId": 1
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388805947,
+        "timestamp": 501814037301,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 301,
-        "pixelCount": 2401,
-        "timestamp": 340388807107,
+        "currentCacheSize": 28,
+        "pixelCount": 2209,
+        "timestamp": 501814038582,
         "threadName": "main",
         "decodingTime": 518,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 793,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501814039651,
+        "duration": 1862,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "45%",
+        "free": "10654K/19040K,",
+        "paused": "2ms+2ms,",
+        "total": "25ms",
+        "type": "GC_EXPLICIT",
+        "freed": "84K,"
+    },
+    {
+        "proportion": "40%",
+        "free": "11578K/19040K,",
+        "paused": "31ms,",
+        "total": "31ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1782K,"
+    },
+    {
+        "proportion": "39%",
+        "free": "11677K/19040K,",
+        "paused": "3ms+4ms,",
+        "total": "42ms",
+        "type": "GC_EXPLICIT",
+        "freed": "886K,"
+    },
+    {
+        "proportion": "39%",
+        "free": "11748K/19040K,",
+        "paused": "2ms+4ms,",
+        "total": "38ms",
+        "type": "GC_EXPLICIT",
+        "freed": "594K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822584237,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 37,
+        "pixelCount": 2401,
+        "timestamp": 501822585885,
+        "threadName": "main",
+        "decodingTime": 611,
         "cacheHit": false,
         "byteCount": 9604,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 794,
+        "duration": 885,
         "methodId": "setImageResource",
         "parameter": "2130837555",
         "type": "CACHING",
@@ -433,28 +195,28 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388808602,
-        "duration": 2289,
+        "timestamp": 501822587441,
+        "duration": 2441,
         "type": "EXIT",
         "threadId": 1
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388809914,
+        "timestamp": 501822588967,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
+        "currentCacheSize": 46,
         "pixelCount": 2401,
-        "timestamp": 340388812142,
+        "timestamp": 501822591775,
         "threadName": "main",
-        "decodingTime": 854,
+        "decodingTime": 1160,
         "cacheHit": false,
         "byteCount": 9604,
         "additionalState": "false",
         "threadId": 1,
-        "duration": 1099,
+        "duration": 1435,
         "methodId": "setImageResource",
         "parameter": "2130837556",
         "type": "CACHING",
@@ -462,28 +224,28 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388813698,
-        "duration": 2655,
+        "timestamp": 501822595132,
+        "duration": 4792,
         "type": "EXIT",
         "threadId": 1
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388814767,
+        "timestamp": 501822596657,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
+        "currentCacheSize": 46,
         "pixelCount": 2401,
-        "timestamp": 340388816964,
+        "timestamp": 501822599618,
         "threadName": "main",
-        "decodingTime": 824,
+        "decodingTime": 1618,
         "cacheHit": false,
         "byteCount": 9604,
         "additionalState": "true",
         "threadId": 1,
-        "duration": 1129,
+        "duration": 1984,
         "methodId": "setImageResource",
         "parameter": "2130837556",
         "type": "CACHING",
@@ -491,21 +253,21 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388818459,
-        "duration": 2624,
+        "timestamp": 501822600594,
+        "duration": 2960,
         "type": "EXIT",
         "threadId": 1
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388819619,
+        "timestamp": 501822602120,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
+        "currentCacheSize": 46,
         "pixelCount": 2401,
-        "timestamp": 340388821938,
+        "timestamp": 501822603615,
         "threadName": "main",
         "decodingTime": 641,
         "cacheHit": false,
@@ -520,21 +282,328 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388822762,
-        "duration": 1770,
+        "timestamp": 501822605599,
+        "duration": 2930,
         "type": "EXIT",
         "threadId": 1
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388823464,
+        "timestamp": 501822606515,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
+        "currentCacheSize": 46,
         "pixelCount": 2401,
-        "timestamp": 340388824685,
+        "timestamp": 501822607949,
+        "threadName": "main",
+        "decodingTime": 702,
+        "cacheHit": false,
+        "byteCount": 9604,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 977,
+        "methodId": "setImageResource",
+        "parameter": "2130837556",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822608895,
+        "duration": 1923,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822610970,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 46,
+        "pixelCount": 2401,
+        "timestamp": 501822613045,
+        "threadName": "main",
+        "decodingTime": 946,
+        "cacheHit": false,
+        "byteCount": 9604,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1312,
+        "methodId": "setImageResource",
+        "parameter": "2130837556",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822613900,
+        "duration": 2167,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822615334,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 46,
+        "pixelCount": 2401,
+        "timestamp": 501822617318,
+        "threadName": "main",
+        "decodingTime": 1098,
+        "cacheHit": false,
+        "byteCount": 9604,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1373,
+        "methodId": "setImageResource",
+        "parameter": "2130837556",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822618294,
+        "duration": 2349,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822620309,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 46,
+        "pixelCount": 2401,
+        "timestamp": 501822621926,
+        "threadName": "main",
+        "decodingTime": 824,
+        "cacheHit": false,
+        "byteCount": 9604,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1099,
+        "methodId": "setImageResource",
+        "parameter": "2130837555",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822622964,
+        "duration": 2137,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822623696,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 46,
+        "pixelCount": 2401,
+        "timestamp": 501822625558,
+        "threadName": "main",
+        "decodingTime": 1007,
+        "cacheHit": false,
+        "byteCount": 9604,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1374,
+        "methodId": "setImageResource",
+        "parameter": "2130837556",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822628121,
+        "duration": 3937,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822628945,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 46,
+        "pixelCount": 2401,
+        "timestamp": 501822630868,
+        "threadName": "main",
+        "decodingTime": 794,
+        "cacheHit": false,
+        "byteCount": 9604,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1465,
+        "methodId": "setImageResource",
+        "parameter": "2130837555",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501822631875,
+        "duration": 2472,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "30%",
+        "free": "13343K/19040K,",
+        "paused": "3ms+5ms,",
+        "total": "42ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1084K,"
+    },
+    {
+        "proportion": "37%",
+        "free": "12153K/19040K,",
+        "paused": "2ms+5ms,",
+        "total": "40ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1193K,"
+    },
+    {
+        "proportion": "34%",
+        "free": "12756K/19040K,",
+        "paused": "2ms+4ms,",
+        "total": "36ms",
+        "type": "GC_EXPLICIT",
+        "freed": "344K,"
+    },
+    {
+        "proportion": "37%",
+        "free": "12155K/19040K,",
+        "paused": "4ms+6ms,",
+        "total": "46ms",
+        "type": "GC_EXPLICIT",
+        "freed": "604K,"
+    },
+    {
+        "proportion": "34%",
+        "free": "12748K/19040K,",
+        "paused": "2ms+5ms,",
+        "total": "41ms",
+        "type": "GC_EXPLICIT",
+        "freed": "338K,"
+    },
+    {
+        "proportion": "37%",
+        "free": "12151K/19040K,",
+        "paused": "3ms+5ms,",
+        "total": "43ms",
+        "type": "GC_EXPLICIT",
+        "freed": "618K,"
+    },
+    {
+        "proportion": "37%",
+        "free": "12081K/19040K,",
+        "paused": "4ms+6ms,",
+        "total": "46ms",
+        "type": "GC_EXPLICIT",
+        "freed": "382K,"
+    },
+    {
+        "proportion": "34%",
+        "free": "12743K/19040K,",
+        "paused": "3ms+8ms,",
+        "total": "51ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1908K,"
+    },
+    {
+        "proportion": "34%",
+        "free": "12703K/19040K,",
+        "paused": "3ms+6ms,",
+        "total": "45ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1042K,"
+    },
+    {
+        "proportion": "33%",
+        "free": "12790K/19040K,",
+        "paused": "2ms+9ms,",
+        "total": "46ms",
+        "type": "GC_EXPLICIT",
+        "freed": "939K,"
+    },
+    {
+        "proportion": "32%",
+        "free": "13084K/19040K,",
+        "paused": "3ms+10ms,",
+        "total": "51ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1648K,"
+    },
+    {
+        "proportion": "34%",
+        "free": "12641K/19040K,",
+        "paused": "3ms+4ms,",
+        "total": "44ms",
+        "type": "GC_EXPLICIT",
+        "freed": "579K,"
+    },
+    {
+        "proportion": "31%",
+        "free": "13186K/19040K,",
+        "paused": "27ms,",
+        "total": "27ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "925K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501882013039,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 46,
+        "pixelCount": 2401,
+        "timestamp": 501882014382,
+        "threadName": "main",
+        "decodingTime": 610,
+        "cacheHit": false,
+        "byteCount": 9604,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 977,
+        "methodId": "setImageResource",
+        "parameter": "2130837555",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501882015877,
+        "duration": 2472,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501882016671,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 46,
+        "pixelCount": 2401,
+        "timestamp": 501882018258,
         "threadName": "main",
         "decodingTime": 610,
         "cacheHit": false,
@@ -549,28 +618,28 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388826272,
-        "duration": 2472,
+        "timestamp": 501882020424,
+        "duration": 3051,
         "type": "EXIT",
         "threadId": 1
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388827065,
+        "timestamp": 501882020821,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
+        "currentCacheSize": 46,
         "pixelCount": 2401,
-        "timestamp": 340388830300,
+        "timestamp": 501882022378,
         "threadName": "main",
-        "decodingTime": 2319,
+        "decodingTime": 671,
         "cacheHit": false,
         "byteCount": 9604,
         "additionalState": "true",
         "threadId": 1,
-        "duration": 2747,
+        "duration": 1007,
         "methodId": "setImageResource",
         "parameter": "2130837556",
         "type": "CACHING",
@@ -578,21 +647,50 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388831307,
-        "duration": 3754,
+        "timestamp": 501882023781,
+        "duration": 2410,
         "type": "EXIT",
         "threadId": 1
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388832009,
+        "timestamp": 501882024361,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
+        "currentCacheSize": 46,
         "pixelCount": 2401,
-        "timestamp": 340388833809,
+        "timestamp": 501882025826,
+        "threadName": "main",
+        "decodingTime": 519,
+        "cacheHit": false,
+        "byteCount": 9604,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 854,
+        "methodId": "setImageResource",
+        "parameter": "2130837556",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501882026528,
+        "duration": 1556,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501882027535,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 46,
+        "pixelCount": 2401,
+        "timestamp": 501882028725,
         "threadName": "main",
         "decodingTime": 611,
         "cacheHit": false,
@@ -607,57 +705,28 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388835854,
-        "duration": 2960,
+        "timestamp": 501882029488,
+        "duration": 1678,
         "type": "EXIT",
         "threadId": 1
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388836556,
+        "timestamp": 501882029976,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
+        "currentCacheSize": 46,
         "pixelCount": 2401,
-        "timestamp": 340388838082,
+        "timestamp": 501882031685,
         "threadName": "main",
-        "decodingTime": 610,
+        "decodingTime": 550,
         "cacheHit": false,
         "byteCount": 9604,
         "additionalState": "true",
         "threadId": 1,
-        "duration": 1099,
-        "methodId": "setImageResource",
-        "parameter": "2130837555",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340388839638,
-        "duration": 2655,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340388840829,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 310,
-        "pixelCount": 2401,
-        "timestamp": 340388842660,
-        "threadName": "main",
-        "decodingTime": 793,
-        "cacheHit": false,
-        "byteCount": 9604,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1191,
+        "duration": 824,
         "methodId": "setImageResource",
         "parameter": "2130837556",
         "type": "CACHING",
@@ -665,28 +734,57 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388843728,
-        "duration": 2259,
+        "timestamp": 501882032418,
+        "duration": 1557,
         "type": "EXIT",
         "threadId": 1
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388846657,
+        "timestamp": 501882032754,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
+        "currentCacheSize": 46,
         "pixelCount": 2401,
-        "timestamp": 340388848397,
+        "timestamp": 501882033913,
         "threadName": "main",
-        "decodingTime": 641,
+        "decodingTime": 550,
         "cacheHit": false,
         "byteCount": 9604,
         "additionalState": "true",
         "threadId": 1,
-        "duration": 977,
+        "duration": 824,
+        "methodId": "setImageResource",
+        "parameter": "2130837556",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501882034585,
+        "duration": 1496,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501882034951,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 46,
+        "pixelCount": 2401,
+        "timestamp": 501882036507,
+        "threadName": "main",
+        "decodingTime": 549,
+        "cacheHit": false,
+        "byteCount": 9604,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1281,
         "methodId": "setImageResource",
         "parameter": "2130837555",
         "type": "CACHING",
@@ -694,197 +792,315 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340388849831,
-        "duration": 2411,
+        "timestamp": 501882038003,
+        "duration": 2777,
         "type": "EXIT",
         "threadId": 1
     },
     {
-        "proportion": "34%",
-        "free": "12674K/19040K,",
-        "paused": "7ms+6ms,",
+        "methodId": "setImageResource",
+        "timestamp": 501882040200,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 46,
+        "pixelCount": 2401,
+        "timestamp": 501882043954,
+        "threadName": "main",
+        "decodingTime": 1038,
+        "cacheHit": false,
+        "byteCount": 9604,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2137,
+        "methodId": "setImageResource",
+        "parameter": "2130837556",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501882048623,
+        "duration": 6806,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501882050759,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 46,
+        "pixelCount": 2401,
+        "timestamp": 501882054940,
+        "threadName": "main",
+        "decodingTime": 916,
+        "cacheHit": false,
+        "byteCount": 9604,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2197,
+        "methodId": "setImageResource",
+        "parameter": "2130837555",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501882058999,
+        "duration": 6256,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "18%",
+        "free": "15636K/19040K,",
+        "paused": "38ms,",
+        "total": "39ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1098K,"
+    },
+    {
+        "proportion": "31%",
+        "free": "13228K/19040K,",
+        "paused": "6ms+10ms,",
         "total": "60ms",
         "type": "GC_EXPLICIT",
-        "freed": "475K,"
-    },
-    {
-        "proportion": "38%",
-        "free": "11864K/19040K,",
-        "paused": "3ms+4ms,",
-        "total": "49ms",
-        "type": "GC_EXPLICIT",
-        "freed": "927K,"
-    },
-    {
-        "proportion": "38%",
-        "free": "11973K/19040K,",
-        "paused": "5ms+3ms,",
-        "total": "49ms",
-        "type": "GC_EXPLICIT",
-        "freed": "187K,"
-    },
-    {
-        "proportion": "34%",
-        "free": "12726K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "38ms",
-        "type": "GC_EXPLICIT",
-        "freed": "358K,"
-    },
-    {
-        "proportion": "37%",
-        "free": "12148K/19040K,",
-        "paused": "2ms+4ms,",
-        "total": "30ms",
-        "type": "GC_EXPLICIT",
-        "freed": "580K,"
-    },
-    {
-        "proportion": "34%",
-        "free": "12752K/19040K,",
-        "paused": "2ms+4ms,",
-        "total": "38ms",
-        "type": "GC_EXPLICIT",
-        "freed": "324K,"
-    },
-    {
-        "proportion": "37%",
-        "free": "12150K/19040K,",
-        "paused": "7ms+5ms,",
-        "total": "53ms",
-        "type": "GC_EXPLICIT",
-        "freed": "604K,"
-    },
-    {
-        "proportion": "37%",
-        "free": "12071K/19040K,",
-        "paused": "8ms+5ms,",
-        "total": "78ms",
-        "type": "GC_EXPLICIT",
-        "freed": "194K,"
-    },
-    {
-        "proportion": "37%",
-        "free": "12129K/19040K,",
-        "paused": "4ms+7ms,",
-        "total": "53ms",
-        "type": "GC_EXPLICIT",
-        "freed": "233K,"
-    },
-    {
-        "proportion": "33%",
-        "free": "12916K/19040K,",
-        "paused": "2ms+5ms,",
-        "total": "48ms",
-        "type": "GC_EXPLICIT",
-        "freed": "2075K,"
-    },
-    {
-        "proportion": "34%",
-        "free": "12693K/19040K,",
-        "paused": "5ms+4ms,",
-        "total": "46ms",
-        "type": "GC_EXPLICIT",
-        "freed": "340K,"
-    },
-    {
-        "proportion": "34%",
-        "free": "12574K/19040K,",
-        "paused": "4ms+3ms,",
-        "total": "73ms",
-        "type": "GC_EXPLICIT",
-        "freed": "504K,"
+        "freed": "2920K,"
     },
     {
         "proportion": "35%",
-        "free": "12499K/19040K,",
-        "paused": "4ms+5ms,",
-        "total": "39ms",
+        "free": "12416K/19040K,",
+        "paused": "6ms+6ms,",
+        "total": "52ms",
         "type": "GC_EXPLICIT",
-        "freed": "252K,"
-    },
-    {
-        "proportion": "35%",
-        "free": "12405K/19040K,",
-        "paused": "3ms+4ms,",
-        "total": "31ms",
-        "type": "GC_EXPLICIT",
-        "freed": "131K,"
+        "freed": "813K,"
     },
     {
         "proportion": "36%",
-        "free": "12335K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "34ms",
+        "free": "12347K/19040K,",
+        "paused": "3ms+4ms,",
+        "total": "40ms",
+        "type": "GC_EXPLICIT",
+        "freed": "70K,"
+    },
+    {
+        "proportion": "36%",
+        "free": "12277K/19040K,",
+        "paused": "3ms+5ms,",
+        "total": "43ms",
         "type": "GC_EXPLICIT",
         "freed": "71K,"
     },
     {
         "proportion": "36%",
-        "free": "12265K/19040K,",
+        "free": "12213K/19040K,",
         "paused": "2ms+3ms,",
-        "total": "33ms",
+        "total": "41ms",
         "type": "GC_EXPLICIT",
-        "freed": "70K,"
+        "freed": "65K,"
     },
     {
-        "proportion": "36%",
-        "free": "12196K/19040K,",
-        "paused": "3ms+3ms,",
-        "total": "38ms",
+        "proportion": "37%",
+        "free": "12152K/19040K,",
+        "paused": "2ms+5ms,",
+        "total": "43ms",
         "type": "GC_EXPLICIT",
-        "freed": "70K,"
+        "freed": "62K,"
+    },
+    {
+        "proportion": "37%",
+        "free": "12092K/19040K,",
+        "paused": "3ms+4ms,",
+        "total": "44ms",
+        "type": "GC_EXPLICIT",
+        "freed": "62K,"
     },
     {
         "proportion": "38%",
-        "free": "11915K/19040K,",
+        "free": "11813K/19040K,",
         "paused": "3ms+4ms,",
-        "total": "42ms",
+        "total": "39ms",
         "type": "GC_EXPLICIT",
-        "freed": "282K,"
+        "freed": "279K,"
     },
     {
-        "proportion": "41%",
-        "free": "11371K/19040K,",
-        "paused": "2ms+5ms,",
-        "total": "33ms",
-        "type": "GC_EXPLICIT",
-        "freed": "745K,"
-    },
-    {
-        "proportion": "41%",
-        "free": "11237K/19040K,",
-        "paused": "2ms+2ms,",
-        "total": "26ms",
-        "type": "GC_EXPLICIT",
-        "freed": "248K,"
-    },
-    {
-        "proportion": "42%",
-        "free": "11212K/19040K,",
-        "paused": "3ms+3ms,",
-        "total": "30ms",
-        "type": "GC_EXPLICIT",
-        "freed": "24K,"
-    },
-    {
-        "proportion": "42%",
-        "free": "11104K/19040K,",
+        "proportion": "39%",
+        "free": "11745K/19040K,",
         "paused": "2ms+3ms,",
-        "total": "28ms",
+        "total": "34ms",
         "type": "GC_EXPLICIT",
-        "freed": "108K,"
+        "freed": "70K,"
+    },
+    {
+        "proportion": "39%",
+        "free": "11675K/19040K,",
+        "paused": "2ms+3ms,",
+        "total": "32ms",
+        "type": "GC_EXPLICIT",
+        "freed": "71K,"
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340414985451,
+        "timestamp": 501889329995,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
+        "currentCacheSize": 376,
+        "pixelCount": 84579,
+        "timestamp": 501889334237,
+        "threadName": "main",
+        "decodingTime": 3570,
+        "cacheHit": false,
+        "byteCount": 338316,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 3876,
+        "methodId": "setImageResource",
+        "parameter": "2130837660",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501889334878,
+        "duration": 4517,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "36%",
+        "free": "12311K/19040K,",
+        "paused": "4ms+5ms,",
+        "total": "42ms",
+        "type": "GC_EXPLICIT",
+        "freed": "649K,"
+    },
+    {
+        "proportion": "38%",
+        "free": "11959K/19040K,",
+        "paused": "3ms+4ms,",
+        "total": "34ms",
+        "type": "GC_EXPLICIT",
+        "freed": "545K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501890348611,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 376,
+        "pixelCount": 0,
+        "timestamp": 501890349618,
+        "threadName": "main",
+        "decodingTime": 274,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 550,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501890350442,
+        "duration": 1374,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501890350960,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 376,
         "pixelCount": 2209,
-        "timestamp": 340414986764,
+        "timestamp": 501890352242,
+        "threadName": "main",
+        "decodingTime": 641,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 976,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501890353066,
+        "duration": 1800,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "37%",
+        "free": "12053K/19040K,",
+        "paused": "2ms+4ms,",
+        "total": "33ms",
+        "type": "GC_EXPLICIT",
+        "freed": "55K,"
+    },
+    {
+        "proportion": "38%",
+        "free": "11979K/19040K,",
+        "paused": "2ms+3ms,",
+        "total": "30ms",
+        "type": "GC_EXPLICIT",
+        "freed": "74K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501890434762,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 376,
+        "pixelCount": 5184,
+        "timestamp": 501890436349,
+        "threadName": "main",
+        "decodingTime": 763,
+        "cacheHit": false,
+        "byteCount": 20736,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1099,
+        "methodId": "setImageResource",
+        "parameter": "2130837924",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501890437386,
+        "duration": 2136,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501890437997,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 376,
+        "pixelCount": 2209,
+        "timestamp": 501890439248,
         "threadName": "main",
         "decodingTime": 549,
         "cacheHit": false,
@@ -899,68 +1115,81 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340414987588,
+        "timestamp": 501890440438,
+        "duration": 2045,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "37%",
+        "free": "12053K/19040K,",
+        "paused": "2ms+3ms,",
+        "total": "31ms",
+        "type": "GC_EXPLICIT",
+        "freed": "106K,"
+    },
+    {
+        "proportion": "37%",
+        "free": "12128K/19040K,",
+        "paused": "3ms+6ms,",
+        "total": "49ms",
+        "type": "GC_EXPLICIT",
+        "freed": "686K,"
+    },
+    {
+        "proportion": "41%",
+        "free": "11397K/19040K,",
+        "paused": "2ms+4ms,",
+        "total": "37ms",
+        "type": "GC_EXPLICIT",
+        "freed": "903K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501899476266,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 376,
+        "pixelCount": 0,
+        "timestamp": 501899477486,
+        "threadName": "main",
+        "decodingTime": 488,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 763,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501899478402,
         "duration": 1679,
         "type": "EXIT",
         "threadId": 1
     },
     {
-        "proportion": "42%",
-        "free": "11214K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "25ms",
-        "type": "GC_EXPLICIT",
-        "freed": "145K,"
-    },
-    {
-        "proportion": "40%",
-        "free": "11479K/19040K,",
-        "paused": "3ms+5ms,",
-        "total": "44ms",
-        "type": "GC_EXPLICIT",
-        "freed": "1599K,"
-    },
-    {
-        "proportion": "40%",
-        "free": "11431K/19040K,",
-        "paused": "4ms+3ms,",
-        "total": "33ms",
-        "type": "GC_EXPLICIT",
-        "freed": "383K,"
-    },
-    {
-        "proportion": "41%",
-        "free": "11397K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "30ms",
-        "type": "GC_EXPLICIT",
-        "freed": "34K,"
-    },
-    {
-        "proportion": "41%",
-        "free": "11289K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "30ms",
-        "type": "GC_EXPLICIT",
-        "freed": "107K,"
-    },
-    {
         "methodId": "setImageResource",
-        "timestamp": 340430534707,
+        "timestamp": 501899479012,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
+        "currentCacheSize": 376,
         "pixelCount": 2209,
-        "timestamp": 340430535927,
+        "timestamp": 501899480416,
         "threadName": "main",
-        "decodingTime": 458,
+        "decodingTime": 671,
         "cacheHit": false,
         "byteCount": 8836,
         "additionalState": "true",
         "threadId": 1,
-        "duration": 793,
+        "duration": 946,
         "methodId": "setImageResource",
         "parameter": "2130837744",
         "type": "CACHING",
@@ -968,63 +1197,3878 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340430536751,
+        "timestamp": 501899481362,
+        "duration": 1892,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "40%",
+        "free": "11491K/19040K,",
+        "paused": "3ms+4ms,",
+        "total": "35ms",
+        "type": "GC_EXPLICIT",
+        "freed": "55K,"
+    },
+    {
+        "proportion": "41%",
+        "free": "11417K/19040K,",
+        "paused": "3ms+3ms,",
+        "total": "30ms",
+        "type": "GC_EXPLICIT",
+        "freed": "74K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501899565102,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 376,
+        "pixelCount": 5184,
+        "timestamp": 501899566659,
+        "threadName": "main",
+        "decodingTime": 763,
+        "cacheHit": false,
+        "byteCount": 20736,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1099,
+        "methodId": "setImageResource",
+        "parameter": "2130837924",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501899567666,
+        "duration": 2106,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501899568276,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 376,
+        "pixelCount": 2209,
+        "timestamp": 501899569497,
+        "threadName": "main",
+        "decodingTime": 519,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 794,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501899570382,
+        "duration": 1679,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "40%",
+        "free": "11490K/19040K,",
+        "paused": "2ms+3ms,",
+        "total": "31ms",
+        "type": "GC_EXPLICIT",
+        "freed": "106K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900789712,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 406,
+        "pixelCount": 7847,
+        "timestamp": 501900791634,
+        "threadName": "main",
+        "decodingTime": 885,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1190,
+        "methodId": "setImageResource",
+        "parameter": "2130837513",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900792672,
+        "duration": 2228,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900793160,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 436,
+        "pixelCount": 7847,
+        "timestamp": 501900795449,
+        "threadName": "main",
+        "decodingTime": 1526,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1892,
+        "methodId": "setImageResource",
+        "parameter": "2130837510",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900796456,
+        "duration": 2899,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900796975,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 466,
+        "pixelCount": 7847,
+        "timestamp": 501900800301,
+        "threadName": "main",
+        "decodingTime": 916,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1282,
+        "methodId": "setImageResource",
+        "parameter": "2130837517",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900801583,
+        "duration": 2564,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900802193,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 496,
+        "pixelCount": 7847,
+        "timestamp": 501900803750,
+        "threadName": "main",
+        "decodingTime": 854,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1129,
+        "methodId": "setImageResource",
+        "parameter": "2130837507",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900804726,
+        "duration": 2105,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900805184,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 526,
+        "pixelCount": 7847,
+        "timestamp": 501900806954,
+        "threadName": "main",
+        "decodingTime": 794,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1068,
+        "methodId": "setImageResource",
+        "parameter": "2130837515",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900807900,
+        "duration": 2014,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900808388,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 556,
+        "pixelCount": 7847,
+        "timestamp": 501900810128,
+        "threadName": "main",
+        "decodingTime": 885,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1190,
+        "methodId": "setImageResource",
+        "parameter": "2130837511",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501900811654,
+        "duration": 2716,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501904279488,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 608,
+        "pixelCount": 13335,
+        "timestamp": 501904282540,
+        "threadName": "main",
+        "decodingTime": 1922,
+        "cacheHit": false,
+        "byteCount": 53340,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2228,
+        "methodId": "setImageResource",
+        "parameter": "2130837955",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501904283944,
+        "duration": 3632,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501906256173,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 608,
+        "pixelCount": 13335,
+        "timestamp": 501906258706,
+        "threadName": "main",
+        "decodingTime": 1648,
+        "cacheHit": false,
+        "byteCount": 53340,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2014,
+        "methodId": "setImageResource",
+        "parameter": "2130837955",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501906260232,
+        "duration": 3540,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "34%",
+        "free": "12658K/19040K,",
+        "paused": "6ms+5ms,",
+        "total": "46ms",
+        "type": "GC_EXPLICIT",
+        "freed": "996K,"
+    },
+    {
+        "proportion": "38%",
+        "free": "11838K/19040K,",
+        "paused": "4ms+5ms,",
+        "total": "44ms",
+        "type": "GC_EXPLICIT",
+        "freed": "848K,"
+    },
+    {
+        "proportion": "39%",
+        "free": "11675K/19040K,",
+        "paused": "3ms+3ms,",
+        "total": "40ms",
+        "type": "GC_EXPLICIT",
+        "freed": "453K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908619607,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 608,
+        "pixelCount": 0,
+        "timestamp": 501908621834,
+        "threadName": "main",
+        "decodingTime": 793,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1098,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908623574,
+        "duration": 2838,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908624764,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 608,
+        "pixelCount": 2209,
+        "timestamp": 501908626931,
+        "threadName": "main",
+        "decodingTime": 854,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1190,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908628365,
+        "duration": 2624,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "39%",
+        "free": "11749K/19040K,",
+        "paused": "3ms+3ms,",
+        "total": "35ms",
+        "type": "GC_EXPLICIT",
+        "freed": "75K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908678170,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 650,
+        "pixelCount": 10914,
+        "timestamp": 501908680153,
+        "threadName": "main",
+        "decodingTime": 1129,
+        "cacheHit": false,
+        "byteCount": 43656,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1464,
+        "methodId": "setImageResource",
+        "parameter": "2130837882",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908681435,
+        "duration": 2746,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908682778,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 650,
+        "pixelCount": 0,
+        "timestamp": 501908685189,
+        "threadName": "main",
+        "decodingTime": 854,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1434,
+        "methodId": "setImageResource",
+        "parameter": "2130837767",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908686288,
+        "duration": 2533,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908687691,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 650,
+        "pixelCount": 0,
+        "timestamp": 501908689705,
+        "threadName": "main",
+        "decodingTime": 794,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1068,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908691201,
+        "duration": 2564,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908692422,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 650,
+        "pixelCount": 2209,
+        "timestamp": 501908694527,
+        "threadName": "main",
+        "decodingTime": 855,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1159,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908695656,
+        "duration": 2288,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "38%",
+        "free": "11811K/19040K,",
+        "paused": "2ms+4ms,",
+        "total": "33ms",
+        "type": "GC_EXPLICIT",
+        "freed": "124K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908749062,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 650,
+        "pixelCount": 5184,
+        "timestamp": 501908750710,
+        "threadName": "main",
+        "decodingTime": 824,
+        "cacheHit": false,
+        "byteCount": 20736,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1160,
+        "methodId": "setImageResource",
+        "parameter": "2130837924",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908752114,
+        "duration": 2564,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908753365,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 650,
+        "pixelCount": 2209,
+        "timestamp": 501908755471,
+        "threadName": "main",
+        "decodingTime": 854,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1129,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501908756631,
+        "duration": 2289,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "38%",
+        "free": "11884K/19040K,",
+        "paused": "3ms+3ms,",
+        "total": "33ms",
+        "type": "GC_EXPLICIT",
+        "freed": "107K,"
+    },
+    {
+        "proportion": "23%",
+        "free": "14812K/19040K,",
+        "paused": "19ms,",
+        "total": "19ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "39K,"
+    },
+    {
+        "proportion": "19%",
+        "free": "15447K/19040K,",
+        "paused": "18ms,",
+        "total": "18ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "8K,"
+    },
+    {
+        "proportion": "19%",
+        "free": "16092K/19688K,",
+        "paused": "18ms,",
+        "total": "18ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2K,"
+    },
+    {
+        "proportion": "18%",
+        "free": "16852K/20336K,",
+        "paused": "19ms,",
+        "total": "19ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "37K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913411629,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "16%",
+        "free": "19051K/22540K,",
+        "paused": "22ms,",
+        "total": "22ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "24K,"
+    },
+    {
+        "currentCacheSize": 2150,
+        "pixelCount": 384000,
+        "timestamp": 501913465157,
+        "threadName": "main",
+        "decodingTime": 52643,
+        "cacheHit": false,
+        "byteCount": 1536000,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 53009,
+        "methodId": "setImageResource",
+        "parameter": "2130837978",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913466134,
+        "duration": 53986,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913468850,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 2180,
+        "pixelCount": 7920,
+        "timestamp": 501913470589,
+        "threadName": "main",
+        "decodingTime": 885,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1129,
+        "methodId": "setImageResource",
+        "parameter": "2130837597",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913471444,
+        "duration": 1984,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913471963,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 2210,
+        "pixelCount": 7920,
+        "timestamp": 501913473458,
+        "threadName": "main",
+        "decodingTime": 763,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1099,
+        "methodId": "setImageResource",
+        "parameter": "2130837593",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913474282,
+        "duration": 1923,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913474801,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 2240,
+        "pixelCount": 7920,
+        "timestamp": 501913476205,
+        "threadName": "main",
+        "decodingTime": 763,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1008,
+        "methodId": "setImageResource",
+        "parameter": "2130837589",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913476998,
+        "duration": 1801,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913477486,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 2240,
+        "pixelCount": 7920,
+        "timestamp": 501913478890,
+        "threadName": "main",
+        "decodingTime": 763,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1038,
+        "methodId": "setImageResource",
+        "parameter": "2130837589",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913479684,
+        "duration": 1832,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913480202,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 2270,
+        "pixelCount": 7920,
+        "timestamp": 501913481698,
+        "threadName": "main",
+        "decodingTime": 855,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1129,
+        "methodId": "setImageResource",
+        "parameter": "2130837587",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913482522,
+        "duration": 1953,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913482979,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 2300,
+        "pixelCount": 7920,
+        "timestamp": 501913484475,
+        "threadName": "main",
+        "decodingTime": 855,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1129,
+        "methodId": "setImageResource",
+        "parameter": "2130837595",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913485268,
+        "duration": 1922,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913487191,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 2620,
+        "pixelCount": 81920,
+        "timestamp": 501913493081,
+        "threadName": "main",
+        "decodingTime": 4943,
+        "cacheHit": false,
+        "byteCount": 327680,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 5402,
+        "methodId": "setImageResource",
+        "parameter": "2130837906",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913493905,
+        "duration": 6226,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913495370,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "13%",
+        "free": "21278K/24368K,",
+        "paused": "22ms,",
+        "total": "22ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "105K,"
+    },
+    {
+        "currentCacheSize": 3030,
+        "pixelCount": 104960,
+        "timestamp": 501913524056,
+        "threadName": "main",
+        "decodingTime": 27893,
+        "cacheHit": false,
+        "byteCount": 419840,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 28229,
+        "methodId": "setImageResource",
+        "parameter": "2130837822",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913525063,
+        "duration": 29236,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913525582,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3437,
+        "pixelCount": 104320,
+        "timestamp": 501913531472,
+        "threadName": "main",
+        "decodingTime": 5188,
+        "cacheHit": false,
+        "byteCount": 417280,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 5493,
+        "methodId": "setImageResource",
+        "parameter": "2130837772",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913532265,
+        "duration": 6286,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913533913,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3437,
+        "pixelCount": 0,
+        "timestamp": 501913534798,
+        "threadName": "main",
+        "decodingTime": 245,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 458,
+        "methodId": "setImageResource",
+        "parameter": "0",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913535592,
+        "duration": 1252,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913536049,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3437,
+        "pixelCount": 0,
+        "timestamp": 501913537697,
+        "threadName": "main",
+        "decodingTime": 183,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 457,
+        "methodId": "setImageResource",
+        "parameter": "0",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913538582,
+        "duration": 1342,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913539071,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3437,
+        "pixelCount": 0,
+        "timestamp": 501913540230,
+        "threadName": "main",
+        "decodingTime": 489,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 793,
+        "methodId": "setImageResource",
+        "parameter": "2130968576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913541299,
+        "duration": 1862,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913555215,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3489,
+        "pixelCount": 13335,
+        "timestamp": 501913556832,
+        "threadName": "main",
+        "decodingTime": 885,
+        "cacheHit": false,
+        "byteCount": 53340,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1190,
+        "methodId": "setImageResource",
+        "parameter": "2130837960",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501913557656,
+        "duration": 2014,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "12%",
+        "free": "22344K/25188K,",
+        "paused": "3ms+5ms,",
+        "total": "37ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1404K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934363869,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3489,
+        "pixelCount": 0,
+        "timestamp": 501934365121,
+        "threadName": "main",
+        "decodingTime": 457,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 733,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934366006,
+        "duration": 1618,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934366616,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3489,
+        "pixelCount": 2209,
+        "timestamp": 501934367989,
+        "threadName": "main",
+        "decodingTime": 641,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 976,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934369240,
+        "duration": 2227,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "42%",
+        "free": "14673K/25188K,",
+        "paused": "2ms+4ms,",
+        "total": "33ms",
+        "type": "GC_EXPLICIT",
+        "freed": "7783K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934416146,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3489,
+        "pixelCount": 10914,
+        "timestamp": 501934418160,
+        "threadName": "main",
+        "decodingTime": 1190,
+        "cacheHit": false,
+        "byteCount": 43656,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1526,
+        "methodId": "setImageResource",
+        "parameter": "2130837882",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934419076,
+        "duration": 2442,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934419686,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3489,
+        "pixelCount": 0,
+        "timestamp": 501934420785,
+        "threadName": "main",
+        "decodingTime": 396,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 641,
+        "methodId": "setImageResource",
+        "parameter": "2130837767",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934421609,
+        "duration": 1465,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934422188,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3489,
+        "pixelCount": 0,
+        "timestamp": 501934423836,
+        "threadName": "main",
+        "decodingTime": 793,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1037,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934424691,
+        "duration": 1892,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934425271,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3489,
+        "pixelCount": 2209,
+        "timestamp": 501934426430,
+        "threadName": "main",
+        "decodingTime": 519,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 763,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934427376,
+        "duration": 1709,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "42%",
+        "free": "14688K/25188K,",
+        "paused": "2ms+3ms,",
+        "total": "32ms",
+        "type": "GC_EXPLICIT",
+        "freed": "170K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934477059,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3489,
+        "pixelCount": 5184,
+        "timestamp": 501934479073,
+        "threadName": "main",
+        "decodingTime": 793,
+        "cacheHit": false,
+        "byteCount": 20736,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1129,
+        "methodId": "setImageResource",
+        "parameter": "2130837924",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934480080,
+        "duration": 2136,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934480721,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3489,
+        "pixelCount": 2209,
+        "timestamp": 501934481942,
+        "threadName": "main",
+        "decodingTime": 519,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 794,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501934482888,
+        "duration": 1740,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "42%",
+        "free": "14761K/25188K,",
+        "paused": "2ms+3ms,",
+        "total": "32ms",
+        "type": "GC_EXPLICIT",
+        "freed": "107K,"
+    },
+    {
+        "proportion": "28%",
+        "free": "18282K/25188K,",
+        "paused": "27ms,",
+        "total": "28ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "91K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501940456368,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3489,
+        "pixelCount": 7920,
+        "timestamp": 501940460915,
+        "threadName": "main",
+        "decodingTime": 3784,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 4059,
+        "methodId": "setImageResource",
+        "parameter": "2130837597",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501940462105,
+        "duration": 5249,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501940462624,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3489,
+        "pixelCount": 7920,
+        "timestamp": 501940465249,
+        "threadName": "main",
+        "decodingTime": 1008,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1282,
+        "methodId": "setImageResource",
+        "parameter": "2130837589",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501940466775,
+        "duration": 2808,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501940468575,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3519,
+        "pixelCount": 7920,
+        "timestamp": 501940474618,
+        "threadName": "main",
+        "decodingTime": 4394,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 5310,
+        "methodId": "setImageResource",
+        "parameter": "2130837591",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501940478585,
+        "duration": 9277,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501940479561,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3519,
+        "pixelCount": 7920,
+        "timestamp": 501940482064,
+        "threadName": "main",
+        "decodingTime": 1220,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1495,
+        "methodId": "setImageResource",
+        "parameter": "2130837587",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501940483315,
+        "duration": 2746,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501940484322,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3519,
+        "pixelCount": 7920,
+        "timestamp": 501940489236,
+        "threadName": "main",
+        "decodingTime": 2685,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 3357,
+        "methodId": "setImageResource",
+        "parameter": "2130837595",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501940491921,
+        "duration": 6042,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941330575,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3589,
+        "pixelCount": 18081,
+        "timestamp": 501941333840,
+        "threadName": "main",
+        "decodingTime": 1861,
+        "cacheHit": false,
+        "byteCount": 72324,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2472,
+        "methodId": "setImageResource",
+        "parameter": "2130837584",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941334725,
+        "duration": 3357,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941335427,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3650,
+        "pixelCount": 15729,
+        "timestamp": 501941338265,
+        "threadName": "main",
+        "decodingTime": 1618,
+        "cacheHit": false,
+        "byteCount": 62916,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2380,
+        "methodId": "setImageResource",
+        "parameter": "2130837580",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941339455,
+        "duration": 3570,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941340127,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3714,
+        "pixelCount": 16464,
+        "timestamp": 501941342538,
+        "threadName": "main",
+        "decodingTime": 1495,
+        "cacheHit": false,
+        "byteCount": 65856,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1954,
+        "methodId": "setImageResource",
+        "parameter": "2130837579",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941344063,
+        "duration": 3479,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941344643,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3778,
+        "pixelCount": 16611,
+        "timestamp": 501941347237,
+        "threadName": "main",
+        "decodingTime": 1708,
+        "cacheHit": false,
+        "byteCount": 66444,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2136,
+        "methodId": "setImageResource",
+        "parameter": "2130837586",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941348549,
+        "duration": 3448,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941349160,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3846,
+        "pixelCount": 17640,
+        "timestamp": 501941351937,
+        "threadName": "main",
+        "decodingTime": 1831,
+        "cacheHit": false,
+        "byteCount": 70560,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2258,
+        "methodId": "setImageResource",
+        "parameter": "2130837585",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941352944,
+        "duration": 3265,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941353646,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3907,
+        "pixelCount": 15729,
+        "timestamp": 501941356148,
+        "threadName": "main",
+        "decodingTime": 1648,
+        "cacheHit": false,
+        "byteCount": 62916,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2075,
+        "methodId": "setImageResource",
+        "parameter": "2130837582",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941357125,
+        "duration": 3052,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941357735,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 3964,
+        "pixelCount": 14847,
+        "timestamp": 501941360482,
+        "threadName": "main",
+        "decodingTime": 1496,
+        "cacheHit": false,
+        "byteCount": 59388,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1984,
+        "methodId": "setImageResource",
+        "parameter": "2130837583",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941361519,
+        "duration": 3021,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941362160,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4023,
+        "pixelCount": 15141,
+        "timestamp": 501941364815,
+        "threadName": "main",
+        "decodingTime": 1648,
+        "cacheHit": false,
+        "byteCount": 60564,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2258,
+        "methodId": "setImageResource",
+        "parameter": "2130837581",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941365761,
+        "duration": 3204,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941366341,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4023,
+        "pixelCount": 14847,
+        "timestamp": 501941368661,
+        "threadName": "main",
+        "decodingTime": 1495,
+        "cacheHit": false,
+        "byteCount": 59388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1893,
+        "methodId": "setImageResource",
+        "parameter": "2130837583",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941369759,
+        "duration": 2991,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941370766,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501941373971,
+        "threadName": "main",
+        "decodingTime": 2319,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2716,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941374917,
+        "duration": 3662,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941376046,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501941379464,
+        "threadName": "main",
+        "decodingTime": 2411,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2960,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941380837,
+        "duration": 4333,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941381936,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501941385018,
+        "threadName": "main",
+        "decodingTime": 2198,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2655,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941385995,
+        "duration": 3632,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941387154,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501941390359,
+        "threadName": "main",
+        "decodingTime": 2320,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2778,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941391305,
+        "duration": 3724,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941392434,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501941395486,
+        "threadName": "main",
+        "decodingTime": 2136,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2594,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941396432,
+        "duration": 3540,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941397591,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501941400796,
+        "threadName": "main",
+        "decodingTime": 2288,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2686,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941401986,
+        "duration": 3876,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941403298,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501941406319,
+        "threadName": "main",
+        "decodingTime": 2106,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2563,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941407296,
+        "duration": 3540,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941408517,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501941411996,
+        "threadName": "main",
+        "decodingTime": 2381,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 3052,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941413857,
+        "duration": 4913,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941417916,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "13%",
+        "free": "22127K/25188K,",
+        "paused": "28ms,",
+        "total": "28ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1324K,"
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501941450661,
+        "threadName": "main",
+        "decodingTime": 30426,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 30883,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501941451607,
+        "duration": 31829,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501942259560,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 13335,
+        "timestamp": 501942261666,
+        "threadName": "main",
+        "decodingTime": 1190,
+        "cacheHit": false,
+        "byteCount": 53340,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1587,
+        "methodId": "setImageResource",
+        "parameter": "2130837960",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501942262551,
+        "duration": 2472,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501944776681,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 13335,
+        "timestamp": 501944779275,
+        "threadName": "main",
+        "decodingTime": 1679,
+        "cacheHit": false,
+        "byteCount": 53340,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2045,
+        "methodId": "setImageResource",
+        "parameter": "2130837960",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501944780861,
+        "duration": 3631,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501946204293,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 13335,
+        "timestamp": 501946206795,
+        "threadName": "main",
+        "decodingTime": 1404,
+        "cacheHit": false,
+        "byteCount": 53340,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1770,
+        "methodId": "setImageResource",
+        "parameter": "2130837960",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501946211403,
+        "duration": 6378,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "29%",
+        "free": "18162K/25364K,",
+        "paused": "4ms+7ms,",
+        "total": "59ms",
+        "type": "GC_EXPLICIT",
+        "freed": "5162K,"
+    },
+    {
+        "proportion": "31%",
+        "free": "17706K/25364K,",
+        "paused": "3ms+4ms,",
+        "total": "35ms",
+        "type": "GC_EXPLICIT",
+        "freed": "782K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950807473,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 0,
+        "timestamp": 501950808510,
+        "threadName": "main",
+        "decodingTime": 335,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 610,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950809334,
+        "duration": 1434,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950809823,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 2209,
+        "timestamp": 501950811043,
+        "threadName": "main",
+        "decodingTime": 580,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 854,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950811837,
+        "duration": 1648,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "40%",
+        "free": "15360K/25364K,",
+        "paused": "2ms+4ms,",
+        "total": "33ms",
+        "type": "GC_EXPLICIT",
+        "freed": "2459K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950858651,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 10914,
+        "timestamp": 501950860634,
+        "threadName": "main",
+        "decodingTime": 1159,
+        "cacheHit": false,
+        "byteCount": 43656,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1495,
+        "methodId": "setImageResource",
+        "parameter": "2130837882",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950861550,
+        "duration": 2411,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950862221,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 0,
+        "timestamp": 501950863412,
+        "threadName": "main",
+        "decodingTime": 580,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 794,
+        "methodId": "setImageResource",
+        "parameter": "2130837767",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950864297,
+        "duration": 1679,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950864876,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 0,
+        "timestamp": 501950865822,
+        "threadName": "main",
+        "decodingTime": 336,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 549,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950866585,
+        "duration": 1312,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950867165,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 2209,
+        "timestamp": 501950868325,
+        "threadName": "main",
+        "decodingTime": 427,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 794,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950869149,
+        "duration": 1618,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "40%",
+        "free": "15375K/25364K,",
+        "paused": "2ms+3ms,",
+        "total": "32ms",
+        "type": "GC_EXPLICIT",
+        "freed": "170K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950919564,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 5184,
+        "timestamp": 501950921181,
+        "threadName": "main",
+        "decodingTime": 732,
+        "cacheHit": false,
+        "byteCount": 20736,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1068,
+        "methodId": "setImageResource",
+        "parameter": "2130837924",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950922127,
+        "duration": 2014,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950922768,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 2209,
+        "timestamp": 501950924142,
+        "threadName": "main",
+        "decodingTime": 580,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 885,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501950925027,
+        "duration": 1770,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "40%",
+        "free": "15447K/25364K,",
+        "paused": "2ms+4ms,",
+        "total": "32ms",
+        "type": "GC_EXPLICIT",
+        "freed": "107K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501952268197,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7920,
+        "timestamp": 501952269845,
+        "threadName": "main",
+        "decodingTime": 1008,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1282,
+        "methodId": "setImageResource",
+        "parameter": "2130837597",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501952270791,
+        "duration": 2228,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501952271126,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7920,
+        "timestamp": 501952272439,
+        "threadName": "main",
+        "decodingTime": 794,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1038,
+        "methodId": "setImageResource",
+        "parameter": "2130837589",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501952273080,
+        "duration": 1679,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501952273476,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7920,
+        "timestamp": 501952274819,
+        "threadName": "main",
+        "decodingTime": 763,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1068,
+        "methodId": "setImageResource",
+        "parameter": "2130837591",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501952275460,
+        "duration": 1709,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501952275765,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7920,
+        "timestamp": 501952277169,
+        "threadName": "main",
+        "decodingTime": 885,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1129,
+        "methodId": "setImageResource",
+        "parameter": "2130837587",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501952277779,
+        "duration": 1739,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501952278237,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7920,
+        "timestamp": 501952279793,
+        "threadName": "main",
+        "decodingTime": 854,
+        "cacheHit": false,
+        "byteCount": 31680,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1098,
+        "methodId": "setImageResource",
+        "parameter": "2130837595",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501952280648,
+        "duration": 1953,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "28%",
+        "free": "18486K/25364K,",
+        "paused": "23ms,",
+        "total": "23ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "1266K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953135628,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 18081,
+        "timestamp": 501953138466,
+        "threadName": "main",
+        "decodingTime": 1740,
+        "cacheHit": false,
+        "byteCount": 72324,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2258,
+        "methodId": "setImageResource",
+        "parameter": "2130837584",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953139565,
+        "duration": 3357,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953140206,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 15729,
+        "timestamp": 501953142556,
+        "threadName": "main",
+        "decodingTime": 1465,
+        "cacheHit": false,
+        "byteCount": 62916,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1892,
+        "methodId": "setImageResource",
+        "parameter": "2130837580",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953143593,
+        "duration": 2929,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953144234,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 16464,
+        "timestamp": 501953146493,
+        "threadName": "main",
+        "decodingTime": 1373,
+        "cacheHit": false,
+        "byteCount": 65856,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1801,
+        "methodId": "setImageResource",
+        "parameter": "2130837579",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953147469,
+        "duration": 2777,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953148018,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 16611,
+        "timestamp": 501953150612,
+        "threadName": "main",
+        "decodingTime": 1678,
+        "cacheHit": false,
+        "byteCount": 66444,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2136,
+        "methodId": "setImageResource",
+        "parameter": "2130837586",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953151650,
+        "duration": 3174,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953152230,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 17640,
+        "timestamp": 501953154824,
+        "threadName": "main",
+        "decodingTime": 1770,
+        "cacheHit": false,
+        "byteCount": 70560,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2136,
+        "methodId": "setImageResource",
+        "parameter": "2130837585",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953155861,
+        "duration": 3173,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953156472,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 15729,
+        "timestamp": 501953158913,
+        "threadName": "main",
+        "decodingTime": 1557,
+        "cacheHit": false,
+        "byteCount": 62916,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1983,
+        "methodId": "setImageResource",
+        "parameter": "2130837582",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953159920,
+        "duration": 2990,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953160775,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 14847,
+        "timestamp": 501953162758,
+        "threadName": "main",
+        "decodingTime": 1129,
+        "cacheHit": false,
+        "byteCount": 59388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1586,
+        "methodId": "setImageResource",
+        "parameter": "2130837583",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953163796,
+        "duration": 2624,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953165780,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 15141,
+        "timestamp": 501953168007,
+        "threadName": "main",
+        "decodingTime": 1404,
+        "cacheHit": false,
+        "byteCount": 60564,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1770,
+        "methodId": "setImageResource",
+        "parameter": "2130837581",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953168954,
+        "duration": 2717,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953169503,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 14847,
+        "timestamp": 501953171639,
+        "threadName": "main",
+        "decodingTime": 1312,
+        "cacheHit": false,
+        "byteCount": 59388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1709,
+        "methodId": "setImageResource",
+        "parameter": "2130837583",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953172616,
+        "duration": 2686,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953173470,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501953176156,
+        "threadName": "main",
+        "decodingTime": 1861,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2259,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953177407,
+        "duration": 3510,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953178506,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501953182351,
+        "threadName": "main",
+        "decodingTime": 3021,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 3357,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953183297,
+        "duration": 4303,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953184304,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501953187020,
+        "threadName": "main",
+        "decodingTime": 1922,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2289,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953187722,
+        "duration": 2991,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953188790,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501953191598,
+        "threadName": "main",
+        "decodingTime": 1892,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2472,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953192299,
+        "duration": 3173,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953193673,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501953196572,
+        "threadName": "main",
+        "decodingTime": 1831,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2380,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953197457,
+        "duration": 3265,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953201241,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501953206338,
+        "threadName": "main",
+        "decodingTime": 1831,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2198,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953207223,
+        "duration": 3083,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953208871,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501953211770,
+        "threadName": "main",
+        "decodingTime": 1983,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2381,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953212655,
+        "duration": 3266,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953214242,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501953217324,
+        "threadName": "main",
+        "decodingTime": 1861,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2289,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953218178,
+        "duration": 3143,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953219430,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 32940,
+        "timestamp": 501953222848,
+        "threadName": "main",
+        "decodingTime": 2533,
+        "cacheHit": false,
+        "byteCount": 131760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 2930,
+        "methodId": "setImageResource",
+        "parameter": "2130837576",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501953224221,
+        "duration": 4303,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "30%",
+        "free": "17887K/25364K,",
+        "paused": "3ms+5ms,",
+        "total": "44ms",
+        "type": "GC_EXPLICIT",
+        "freed": "3578K,"
+    },
+    {
+        "proportion": "30%",
+        "free": "17762K/25364K,",
+        "paused": "3ms+5ms,",
+        "total": "42ms",
+        "type": "GC_EXPLICIT",
+        "freed": "480K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957770669,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 0,
+        "timestamp": 501957772256,
+        "threadName": "main",
+        "decodingTime": 794,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1099,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957773751,
+        "duration": 2594,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957775033,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 2209,
+        "timestamp": 501957777016,
+        "threadName": "main",
+        "decodingTime": 824,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1129,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957778298,
+        "duration": 2411,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "40%",
+        "free": "15416K/25364K,",
+        "paused": "4ms+3ms,",
+        "total": "38ms",
+        "type": "GC_EXPLICIT",
+        "freed": "2458K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957831612,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 10914,
+        "timestamp": 501957833535,
+        "threadName": "main",
+        "decodingTime": 1098,
+        "cacheHit": false,
+        "byteCount": 43656,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1404,
+        "methodId": "setImageResource",
+        "parameter": "2130837882",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957835000,
+        "duration": 2869,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957836281,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 0,
+        "timestamp": 501957838814,
+        "threadName": "main",
+        "decodingTime": 1129,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1709,
+        "methodId": "setImageResource",
+        "parameter": "2130837767",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957840096,
+        "duration": 2991,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957841317,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 0,
+        "timestamp": 501957842538,
+        "threadName": "main",
+        "decodingTime": 458,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 733,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957843484,
+        "duration": 1679,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957844216,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 2209,
+        "timestamp": 501957845467,
+        "threadName": "main",
+        "decodingTime": 580,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 854,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957846444,
+        "duration": 1831,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "40%",
+        "free": "15431K/25364K,",
+        "paused": "3ms+4ms,",
+        "total": "37ms",
+        "type": "GC_EXPLICIT",
+        "freed": "170K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957902016,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 5184,
+        "timestamp": 501957903420,
+        "threadName": "main",
+        "decodingTime": 732,
+        "cacheHit": false,
+        "byteCount": 20736,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 976,
+        "methodId": "setImageResource",
+        "parameter": "2130837924",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957904427,
+        "duration": 1983,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957905068,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 2209,
+        "timestamp": 501957906624,
+        "threadName": "main",
+        "decodingTime": 672,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1007,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501957907601,
+        "duration": 1984,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "39%",
+        "free": "15504K/25364K,",
+        "paused": "2ms+4ms,",
+        "total": "34ms",
+        "type": "GC_EXPLICIT",
+        "freed": "107K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958188759,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501958190621,
+        "threadName": "main",
+        "decodingTime": 885,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1190,
+        "methodId": "setImageResource",
+        "parameter": "2130837513",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958191506,
+        "duration": 2075,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958192025,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501958193764,
+        "threadName": "main",
+        "decodingTime": 1038,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1281,
+        "methodId": "setImageResource",
+        "parameter": "2130837510",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958194680,
+        "duration": 2197,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958195168,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501958196663,
+        "threadName": "main",
+        "decodingTime": 824,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1068,
+        "methodId": "setImageResource",
+        "parameter": "2130837517",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958197426,
+        "duration": 1831,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958197915,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501958199715,
+        "threadName": "main",
+        "decodingTime": 1160,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1404,
+        "methodId": "setImageResource",
+        "parameter": "2130837507",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958200936,
+        "duration": 2625,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958201394,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501958202798,
+        "threadName": "main",
+        "decodingTime": 732,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1008,
+        "methodId": "setImageResource",
+        "parameter": "2130837515",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958203560,
+        "duration": 1770,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958204171,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501958205636,
+        "threadName": "main",
+        "decodingTime": 824,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1099,
+        "methodId": "setImageResource",
+        "parameter": "2130837511",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501958206429,
+        "duration": 1892,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501962284157,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 13335,
+        "timestamp": 501962286324,
+        "threadName": "main",
+        "decodingTime": 1342,
+        "cacheHit": false,
+        "byteCount": 53340,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1709,
+        "methodId": "setImageResource",
+        "parameter": "2130837960",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501962287758,
+        "duration": 3143,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964401620,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501964403237,
+        "threadName": "main",
+        "decodingTime": 885,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1160,
+        "methodId": "setImageResource",
+        "parameter": "2130837513",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964404610,
+        "duration": 2533,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964406045,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501964408608,
+        "threadName": "main",
+        "decodingTime": 1464,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1770,
+        "methodId": "setImageResource",
+        "parameter": "2130837510",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964421731,
+        "duration": 14893,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964423195,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501964430398,
+        "threadName": "main",
+        "decodingTime": 3326,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 4914,
+        "methodId": "setImageResource",
+        "parameter": "2130837517",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964432229,
+        "duration": 6745,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964437234,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501964439736,
+        "threadName": "main",
+        "decodingTime": 1404,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1678,
+        "methodId": "setImageResource",
+        "parameter": "2130837507",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964442788,
+        "duration": 4730,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964446084,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501964448556,
+        "threadName": "main",
+        "decodingTime": 1037,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1313,
+        "methodId": "setImageResource",
+        "parameter": "2130837515",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964449776,
+        "duration": 2533,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964450783,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 7847,
+        "timestamp": 501964452828,
+        "threadName": "main",
+        "decodingTime": 1464,
+        "cacheHit": false,
+        "byteCount": 31388,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1678,
+        "methodId": "setImageResource",
+        "parameter": "2130837511",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501964454262,
+        "duration": 3112,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "37%",
+        "free": "16137K/25364K,",
+        "paused": "4ms+5ms,",
+        "total": "42ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1748K,"
+    },
+    {
+        "proportion": "37%",
+        "free": "16093K/25364K,",
+        "paused": "4ms+4ms,",
+        "total": "42ms",
+        "type": "GC_EXPLICIT",
+        "freed": "489K,"
+    },
+    {
+        "proportion": "40%",
+        "free": "15465K/25364K,",
+        "paused": "3ms+5ms,",
+        "total": "39ms",
+        "type": "GC_EXPLICIT",
+        "freed": "951K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501969809395,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 0,
+        "timestamp": 501969811074,
+        "threadName": "main",
+        "decodingTime": 366,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1099,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501969812111,
+        "duration": 2136,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501969812752,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 2209,
+        "timestamp": 501969814065,
+        "threadName": "main",
+        "decodingTime": 580,
+        "cacheHit": false,
+        "byteCount": 8836,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 885,
+        "methodId": "setImageResource",
+        "parameter": "2130837744",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501969815072,
+        "duration": 1892,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "40%",
+        "free": "15424K/25364K,",
+        "paused": "3ms+3ms,",
+        "total": "34ms",
+        "type": "GC_EXPLICIT",
+        "freed": "153K,"
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501969862374,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 10914,
+        "timestamp": 501969864327,
+        "threadName": "main",
+        "decodingTime": 1159,
+        "cacheHit": false,
+        "byteCount": 43656,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1465,
+        "methodId": "setImageResource",
+        "parameter": "2130837882",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501969865212,
+        "duration": 2350,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501969865853,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 0,
+        "timestamp": 501969867074,
+        "threadName": "main",
+        "decodingTime": 550,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 824,
+        "methodId": "setImageResource",
+        "parameter": "2130837767",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501969867867,
         "duration": 1617,
         "type": "EXIT",
         "threadId": 1
     },
     {
-        "proportion": "41%",
-        "free": "11399K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "30ms",
-        "type": "GC_EXPLICIT",
-        "freed": "144K,"
-    },
-    {
-        "proportion": "40%",
-        "free": "11502K/19040K,",
-        "paused": "3ms+5ms,",
-        "total": "42ms",
-        "type": "GC_EXPLICIT",
-        "freed": "1590K,"
-    },
-    {
-        "proportion": "40%",
-        "free": "11476K/19040K,",
-        "paused": "5ms+4ms,",
-        "total": "46ms",
-        "type": "GC_EXPLICIT",
-        "freed": "266K,"
-    },
-    {
-        "proportion": "40%",
-        "free": "11434K/19040K,",
-        "paused": "2ms+3ms,",
-        "total": "37ms",
-        "type": "GC_EXPLICIT",
-        "freed": "42K,"
-    },
-    {
-        "proportion": "41%",
-        "free": "11326K/19040K,",
-        "paused": "3ms+3ms,",
-        "total": "34ms",
-        "type": "GC_EXPLICIT",
-        "freed": "108K,"
-    },
-    {
         "methodId": "setImageResource",
-        "timestamp": 340435157845,
+        "timestamp": 501969868508,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
-        "pixelCount": 2209,
-        "timestamp": 340435159310,
+        "currentCacheSize": 4151,
+        "pixelCount": 0,
+        "timestamp": 501969869515,
         "threadName": "main",
-        "decodingTime": 519,
+        "decodingTime": 396,
+        "cacheHit": false,
+        "byteCount": 0,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 610,
+        "methodId": "setImageResource",
+        "parameter": "2130837761",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501969870339,
+        "duration": 1434,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "setImageResource",
+        "timestamp": 501969870888,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 4151,
+        "pixelCount": 2209,
+        "timestamp": 501969872140,
+        "threadName": "main",
+        "decodingTime": 579,
         "cacheHit": false,
         "byteCount": 8836,
         "additionalState": "true",
@@ -1037,1041 +5081,83 @@
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340435161111,
-        "duration": 2656,
+        "timestamp": 501969872994,
+        "duration": 1709,
         "type": "EXIT",
         "threadId": 1
     },
     {
         "proportion": "40%",
-        "free": "11435K/19040K,",
-        "paused": "2ms+4ms,",
-        "total": "33ms",
+        "free": "15439K/25364K,",
+        "paused": "3ms+4ms,",
+        "total": "31ms",
         "type": "GC_EXPLICIT",
-        "freed": "144K,"
+        "freed": "169K,"
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340435712929,
+        "timestamp": 501969922524,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340435714882,
+        "currentCacheSize": 4151,
+        "pixelCount": 5184,
+        "timestamp": 501969924019,
         "threadName": "main",
-        "decodingTime": 1007,
+        "decodingTime": 733,
         "cacheHit": false,
-        "byteCount": 31388,
+        "byteCount": 20736,
         "additionalState": "true",
         "threadId": 1,
-        "duration": 1342,
+        "duration": 1037,
         "methodId": "setImageResource",
-        "parameter": "2130837513",
+        "parameter": "2130837924",
         "type": "CACHING",
         "knownOrigin": true
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340435715706,
-        "duration": 2166,
+        "timestamp": 501969924935,
+        "duration": 1953,
         "type": "EXIT",
         "threadId": 1
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340435716622,
+        "timestamp": 501969925545,
         "type": "ENTER",
         "threadId": 1
     },
     {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340435720223,
+        "currentCacheSize": 4151,
+        "pixelCount": 2209,
+        "timestamp": 501969926888,
         "threadName": "main",
-        "decodingTime": 2380,
+        "decodingTime": 641,
         "cacheHit": false,
-        "byteCount": 31388,
+        "byteCount": 8836,
         "additionalState": "true",
         "threadId": 1,
-        "duration": 2747,
+        "duration": 915,
         "methodId": "setImageResource",
-        "parameter": "2130837510",
+        "parameter": "2130837744",
         "type": "CACHING",
         "knownOrigin": true
     },
     {
         "methodId": "setImageResource",
-        "timestamp": 340435721078,
-        "duration": 3602,
+        "timestamp": 501969927773,
+        "duration": 1800,
         "type": "EXIT",
         "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340435722329,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340435727517,
-        "threadName": "main",
-        "decodingTime": 1770,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 2106,
-        "methodId": "setImageResource",
-        "parameter": "2130837517",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340435728493,
-        "duration": 3082,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340435729287,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340435732949,
-        "threadName": "main",
-        "decodingTime": 1739,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 2167,
-        "methodId": "setImageResource",
-        "parameter": "2130837507",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340435733956,
-        "duration": 3174,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340435734719,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340435737801,
-        "threadName": "main",
-        "decodingTime": 1252,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1617,
-        "methodId": "setImageResource",
-        "parameter": "2130837515",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340435738717,
-        "duration": 2533,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340435743538,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340435746346,
-        "threadName": "main",
-        "decodingTime": 1038,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1434,
-        "methodId": "setImageResource",
-        "parameter": "2130837511",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340435747323,
-        "duration": 2411,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "proportion": "38%",
-        "free": "11935K/19040K,",
-        "paused": "29ms,",
-        "total": "29ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "2467K,"
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441280709,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340441282448,
-        "threadName": "main",
-        "decodingTime": 976,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1312,
-        "methodId": "setImageResource",
-        "parameter": "2130837513",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441283364,
-        "duration": 2228,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441283913,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340441285958,
-        "threadName": "main",
-        "decodingTime": 1129,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1465,
-        "methodId": "setImageResource",
-        "parameter": "2130837510",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441286904,
-        "duration": 2411,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441287881,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340441289620,
-        "threadName": "main",
-        "decodingTime": 1007,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1312,
-        "methodId": "setImageResource",
-        "parameter": "2130837517",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441290627,
-        "duration": 2319,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441291634,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340441293526,
-        "threadName": "main",
-        "decodingTime": 1068,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1404,
-        "methodId": "setImageResource",
-        "parameter": "2130837507",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441294564,
-        "duration": 2442,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441295113,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340441296792,
-        "threadName": "main",
-        "decodingTime": 885,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1221,
-        "methodId": "setImageResource",
-        "parameter": "2130837515",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441298531,
-        "duration": 2960,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441299111,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 310,
-        "pixelCount": 7847,
-        "timestamp": 340441301339,
-        "threadName": "main",
-        "decodingTime": 1465,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1770,
-        "methodId": "setImageResource",
-        "parameter": "2130837511",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340441302285,
-        "duration": 2716,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "proportion": "38%",
-        "free": "11947K/19040K,",
-        "paused": "2ms+4ms,",
-        "total": "34ms",
-        "type": "GC_EXPLICIT",
-        "freed": "770K,"
     },
     {
         "proportion": "39%",
-        "free": "11780K/19040K,",
-        "paused": "10ms+5ms,",
-        "total": "60ms",
+        "free": "15512K/25364K,",
+        "paused": "3ms+4ms,",
+        "total": "30ms",
         "type": "GC_EXPLICIT",
-        "freed": "168K,"
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340444724190,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 362,
-        "pixelCount": 13335,
-        "timestamp": 340444727913,
-        "threadName": "main",
-        "decodingTime": 2991,
-        "cacheHit": false,
-        "byteCount": 53340,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 3295,
-        "methodId": "setImageResource",
-        "parameter": "2130837938",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340444729500,
-        "duration": 4882,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "proportion": "31%",
-        "free": "13184K/19040K,",
-        "paused": "31ms,",
-        "total": "31ms",
-        "type": "GC_FOR_ALLOC",
-        "freed": "1666K,"
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340463562386,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 414,
-        "pixelCount": 13335,
-        "timestamp": 340463564767,
-        "threadName": "main",
-        "decodingTime": 1556,
-        "cacheHit": false,
-        "byteCount": 53340,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 1893,
-        "methodId": "setImageResource",
-        "parameter": "2130837958",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340463569131,
-        "duration": 6257,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "proportion": "27%",
-        "free": "13947K/19040K,",
-        "paused": "3ms+10ms,",
-        "total": "47ms",
-        "type": "GC_EXPLICIT",
-        "freed": "2365K,"
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340467965737,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 414,
-        "pixelCount": 7847,
-        "timestamp": 340467968758,
-        "threadName": "main",
-        "decodingTime": 1282,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1587,
-        "methodId": "setImageResource",
-        "parameter": "2130837513",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340467974404,
-        "duration": 7233,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340467975258,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 414,
-        "pixelCount": 7847,
-        "timestamp": 340467977700,
-        "threadName": "main",
-        "decodingTime": 1373,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1648,
-        "methodId": "setImageResource",
-        "parameter": "2130837510",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340467979500,
-        "duration": 3448,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340467984200,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 414,
-        "pixelCount": 7847,
-        "timestamp": 340467988442,
-        "threadName": "main",
-        "decodingTime": 1404,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1739,
-        "methodId": "setImageResource",
-        "parameter": "2130837517",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340467989846,
-        "duration": 3143,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340467990487,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 414,
-        "pixelCount": 7847,
-        "timestamp": 340467992776,
-        "threadName": "main",
-        "decodingTime": 1129,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1465,
-        "methodId": "setImageResource",
-        "parameter": "2130837507",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340467993874,
-        "duration": 2563,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340467994424,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 414,
-        "pixelCount": 7847,
-        "timestamp": 340467996102,
-        "threadName": "main",
-        "decodingTime": 916,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1221,
-        "methodId": "setImageResource",
-        "parameter": "2130837515",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340467997048,
-        "duration": 2167,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340467998086,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 414,
-        "pixelCount": 7847,
-        "timestamp": 340467999886,
-        "threadName": "main",
-        "decodingTime": 1037,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1343,
-        "methodId": "setImageResource",
-        "parameter": "2130837511",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340468000893,
-        "duration": 2350,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340471687874,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 466,
-        "pixelCount": 13335,
-        "timestamp": 340471689675,
-        "threadName": "main",
-        "decodingTime": 1098,
-        "cacheHit": false,
-        "byteCount": 53340,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 1404,
-        "methodId": "setImageResource",
-        "parameter": "2130837960",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340471691018,
-        "duration": 2747,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475801461,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 466,
-        "pixelCount": 7847,
-        "timestamp": 340475806344,
-        "threadName": "main",
-        "decodingTime": 3479,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 3785,
-        "methodId": "setImageResource",
-        "parameter": "2130837513",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475807686,
-        "duration": 5127,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475808602,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 466,
-        "pixelCount": 7847,
-        "timestamp": 340475817818,
-        "threadName": "main",
-        "decodingTime": 8118,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 8423,
-        "methodId": "setImageResource",
-        "parameter": "2130837510",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475819649,
-        "duration": 10254,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475820168,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 466,
-        "pixelCount": 7847,
-        "timestamp": 340475825539,
-        "threadName": "main",
-        "decodingTime": 1739,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 2075,
-        "methodId": "setImageResource",
-        "parameter": "2130837517",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475826638,
-        "duration": 3174,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475827462,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 466,
-        "pixelCount": 7847,
-        "timestamp": 340475830483,
-        "threadName": "main",
-        "decodingTime": 1831,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 2167,
-        "methodId": "setImageResource",
-        "parameter": "2130837507",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475831277,
-        "duration": 2961,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475832894,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 466,
-        "pixelCount": 7847,
-        "timestamp": 340475834511,
-        "threadName": "main",
-        "decodingTime": 946,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1281,
-        "methodId": "setImageResource",
-        "parameter": "2130837515",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475835305,
-        "duration": 2075,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475835641,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 466,
-        "pixelCount": 7847,
-        "timestamp": 340475841134,
-        "threadName": "main",
-        "decodingTime": 4853,
-        "cacheHit": false,
-        "byteCount": 31388,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 5127,
-        "methodId": "setImageResource",
-        "parameter": "2130837511",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340475841836,
-        "duration": 5829,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "proportion": "31%",
-        "free": "13298K/19040K,",
-        "paused": "3ms+6ms,",
-        "total": "41ms",
-        "type": "GC_EXPLICIT",
-        "freed": "2481K,"
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340479995797,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 466,
-        "pixelCount": 13335,
-        "timestamp": 340479998238,
-        "threadName": "main",
-        "decodingTime": 1618,
-        "cacheHit": false,
-        "byteCount": 53340,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1922,
-        "methodId": "setImageResource",
-        "parameter": "2130837955",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340479999642,
-        "duration": 3326,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340482345162,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 466,
-        "pixelCount": 13335,
-        "timestamp": 340482347390,
-        "threadName": "main",
-        "decodingTime": 1373,
-        "cacheHit": false,
-        "byteCount": 53340,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1801,
-        "methodId": "setImageResource",
-        "parameter": "2130837955",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340482349007,
-        "duration": 3418,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "proportion": "30%",
-        "free": "13402K/19040K,",
-        "paused": "3ms+8ms,",
-        "total": "44ms",
-        "type": "GC_EXPLICIT",
-        "freed": "742K,"
-    },
-    {
-        "proportion": "34%",
-        "free": "12575K/19040K,",
-        "paused": "5ms+6ms,",
-        "total": "67ms",
-        "type": "GC_EXPLICIT",
-        "freed": "856K,"
-    },
-    {
-        "proportion": "35%",
-        "free": "12542K/19040K,",
-        "paused": "4ms+4ms,",
-        "total": "47ms",
-        "type": "GC_EXPLICIT",
-        "freed": "218K,"
-    },
-    {
-        "proportion": "35%",
-        "free": "12491K/19040K,",
-        "paused": "2ms+4ms,",
-        "total": "38ms",
-        "type": "GC_EXPLICIT",
-        "freed": "50K,"
-    },
-    {
-        "proportion": "35%",
-        "free": "12433K/19040K,",
-        "paused": "2ms+4ms,",
-        "total": "34ms",
-        "type": "GC_EXPLICIT",
-        "freed": "58K,"
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340484567727,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 466,
-        "pixelCount": 2209,
-        "timestamp": 340484569008,
-        "threadName": "main",
-        "decodingTime": 488,
-        "cacheHit": false,
-        "byteCount": 8836,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 793,
-        "methodId": "setImageResource",
-        "parameter": "2130837744",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340484570290,
-        "duration": 2075,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340484585885,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 486,
-        "pixelCount": 5184,
-        "timestamp": 340484587472,
-        "threadName": "main",
-        "decodingTime": 885,
-        "cacheHit": false,
-        "byteCount": 20736,
-        "additionalState": "false",
-        "threadId": 1,
-        "duration": 1191,
-        "methodId": "setImageResource",
-        "parameter": "2130837925",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340484588692,
-        "duration": 2411,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340484589791,
-        "type": "ENTER",
-        "threadId": 1
-    },
-    {
-        "currentCacheSize": 486,
-        "pixelCount": 2209,
-        "timestamp": 340484591836,
-        "threadName": "main",
-        "decodingTime": 793,
-        "cacheHit": false,
-        "byteCount": 8836,
-        "additionalState": "true",
-        "threadId": 1,
-        "duration": 1068,
-        "methodId": "setImageResource",
-        "parameter": "2130837744",
-        "type": "CACHING",
-        "knownOrigin": true
-    },
-    {
-        "methodId": "setImageResource",
-        "timestamp": 340484592965,
-        "duration": 2197,
-        "type": "EXIT",
-        "threadId": 1
-    },
-    {
-        "proportion": "35%",
-        "free": "12537K/19040K,",
-        "paused": "3ms+5ms,",
-        "total": "49ms",
-        "type": "GC_EXPLICIT",
-        "freed": "199K,"
+        "freed": "107K,"
     }
 ]
