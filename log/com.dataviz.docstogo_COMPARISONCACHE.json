@@ -1,0 +1,1334 @@
+[
+    {
+        "methodId": "open",
+        "timestamp": 506130210549,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "duration": 122,
+        "timestamp": 506130212380,
+        "type": "STREAM_GEN",
+        "methodId": "open",
+        "threadId": 1
+    },
+    {
+        "methodId": "open",
+        "timestamp": 506130212655,
+        "duration": 397,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "open",
+        "timestamp": 506130427163,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "duration": 92,
+        "timestamp": 506130427621,
+        "type": "STREAM_GEN",
+        "methodId": "open",
+        "threadId": 1
+    },
+    {
+        "methodId": "open",
+        "timestamp": 506130427926,
+        "duration": 397,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506226781441,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 36,
+        "pixelCount": 9216,
+        "timestamp": 506226782998,
+        "threadName": "main",
+        "decodingTime": 793,
+        "cacheHit": false,
+        "byteCount": 36864,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1160,
+        "methodId": "decodeResource",
+        "parameter": "2130837788",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506226784798,
+        "duration": 2960,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "51%",
+        "free": "9365K/19040K,",
+        "paused": "4ms+9ms,",
+        "total": "64ms",
+        "type": "GC_EXPLICIT",
+        "freed": "6557K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506227241097,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "51%",
+        "free": "9364K/19040K,",
+        "paused": "35ms,",
+        "total": "35ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3K,"
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506227296822,
+        "duration": 55023,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506227297677,
+        "duration": 55878,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506227330941,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 59,
+        "pixelCount": 5940,
+        "timestamp": 506227334481,
+        "threadName": "main",
+        "decodingTime": 1099,
+        "cacheHit": false,
+        "byteCount": 23760,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 1587,
+        "methodId": "decodeResource",
+        "parameter": "2130837753",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506227336648,
+        "duration": 3754,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506227339242,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 82,
+        "pixelCount": 5940,
+        "timestamp": 506227343514,
+        "threadName": "main",
+        "decodingTime": 1282,
+        "cacheHit": false,
+        "byteCount": 23760,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 2289,
+        "methodId": "decodeResource",
+        "parameter": "2130837754",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506227348549,
+        "duration": 7324,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "45%",
+        "free": "12609K/22556K,",
+        "paused": "38ms,",
+        "total": "39ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "718K,"
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506227593972,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 224,
+        "pixelCount": 36448,
+        "timestamp": 506227598092,
+        "threadName": "main",
+        "decodingTime": 3479,
+        "cacheHit": false,
+        "byteCount": 145792,
+        "additionalState": "false",
+        "threadId": 1,
+        "duration": 3662,
+        "methodId": "decodeResource",
+        "parameter": "2130837614",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506227599434,
+        "duration": 5004,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506227899392,
+        "type": "ENTER",
+        "threadId": 4676
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506227899788,
+        "duration": 0,
+        "type": "EXIT",
+        "threadId": 4676
+    },
+    {
+        "proportion": "43%",
+        "free": "13028K/22556K,",
+        "paused": "3ms+4ms,",
+        "total": "40ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1016K,"
+    },
+    {
+        "proportion": "43%",
+        "free": "12997K/22556K,",
+        "paused": "4ms+4ms,",
+        "total": "43ms",
+        "type": "GC_EXPLICIT",
+        "freed": "30K,"
+    },
+    {
+        "proportion": "43%",
+        "free": "13019K/22556K,",
+        "paused": "3ms+5ms,",
+        "total": "38ms",
+        "type": "GC_EXPLICIT",
+        "freed": "10K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506228021981,
+        "type": "ENTER",
+        "threadId": 4676
+    },
+    {
+        "proportion": "43%",
+        "free": "13017K/22556K,",
+        "paused": "45ms,",
+        "total": "45ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3K,"
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506228081948,
+        "duration": 59540,
+        "type": "CREATE_BITMAP",
+        "threadId": 4676
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506228085488,
+        "duration": 63080,
+        "type": "EXIT",
+        "threadId": 4676
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506228176278,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506228177163,
+        "duration": 31,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "43%",
+        "free": "13018K/22556K,",
+        "paused": "6ms+5ms,",
+        "total": "53ms",
+        "type": "GC_EXPLICIT",
+        "freed": "3537K,"
+    },
+    {
+        "proportion": "43%",
+        "free": "13013K/22556K,",
+        "paused": "2ms+6ms,",
+        "total": "46ms",
+        "type": "GC_EXPLICIT",
+        "freed": "4K,"
+    },
+    {
+        "proportion": "43%",
+        "free": "13018K/22556K,",
+        "paused": "4ms+5ms,",
+        "total": "47ms",
+        "type": "GC_EXPLICIT",
+        "freed": "<1K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506228324380,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "43%",
+        "free": "13018K/22556K,",
+        "paused": "34ms,",
+        "total": "34ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2K,"
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506228365883,
+        "duration": 41076,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506228366372,
+        "duration": 41565,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506228559121,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506228559945,
+        "duration": 31,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "51%",
+        "free": "12713K/25636K,",
+        "paused": "3ms+5ms,",
+        "total": "41ms",
+        "type": "GC_EXPLICIT",
+        "freed": "3746K,"
+    },
+    {
+        "proportion": "51%",
+        "free": "12699K/25636K,",
+        "paused": "2ms+5ms,",
+        "total": "44ms",
+        "type": "GC_EXPLICIT",
+        "freed": "15K,"
+    },
+    {
+        "proportion": "51%",
+        "free": "12703K/25636K,",
+        "paused": "4ms+4ms,",
+        "total": "44ms",
+        "type": "GC_EXPLICIT",
+        "freed": "<1K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506228690987,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506228691994,
+        "duration": 518,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506228692574,
+        "duration": 1098,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "43%",
+        "free": "12812K/22116K,",
+        "paused": "42ms,",
+        "total": "42ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3222K,"
+    },
+    {
+        "proportion": "40%",
+        "free": "13357K/22116K,",
+        "paused": "4ms+5ms,",
+        "total": "48ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1478K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506243296548,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "41%",
+        "free": "13210K/22116K,",
+        "paused": "31ms,",
+        "total": "31ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "149K,"
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506243335366,
+        "duration": 37842,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506243335915,
+        "duration": 38391,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506249383889,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506249384713,
+        "duration": 31,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "36%",
+        "free": "16333K/25184K,",
+        "paused": "4ms+5ms,",
+        "total": "56ms",
+        "type": "GC_EXPLICIT",
+        "freed": "317K,"
+    },
+    {
+        "proportion": "36%",
+        "free": "16310K/25184K,",
+        "paused": "7ms+6ms,",
+        "total": "53ms",
+        "type": "GC_EXPLICIT",
+        "freed": "23K,"
+    },
+    {
+        "proportion": "36%",
+        "free": "16314K/25184K,",
+        "paused": "3ms+5ms,",
+        "total": "44ms",
+        "type": "GC_EXPLICIT",
+        "freed": "<1K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506249540413,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "36%",
+        "free": "16314K/25184K,",
+        "paused": "31ms,",
+        "total": "31ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2K,"
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506249579384,
+        "duration": 38574,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506249580300,
+        "duration": 39490,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "44%",
+        "free": "15946K/28252K,",
+        "paused": "45ms,",
+        "total": "47ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "3900K,"
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506271326180,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 224,
+        "pixelCount": 9216,
+        "timestamp": 506271327736,
+        "threadName": "main",
+        "decodingTime": 702,
+        "cacheHit": false,
+        "byteCount": 36864,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 1037,
+        "methodId": "decodeResource",
+        "parameter": "2130837788",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506271328591,
+        "duration": 1892,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "41%",
+        "free": "16863K/28252K,",
+        "paused": "8ms+9ms,",
+        "total": "84ms",
+        "type": "GC_EXPLICIT",
+        "freed": "2465K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506271593941,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506271595040,
+        "duration": 92,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506271596840,
+        "duration": 1892,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "43%",
+        "free": "16333K/28252K,",
+        "paused": "5ms+4ms,",
+        "total": "47ms",
+        "type": "GC_EXPLICIT",
+        "freed": "549K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506271649148,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "43%",
+        "free": "16333K/28252K,",
+        "paused": "30ms,",
+        "total": "30ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2K,"
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506271690285,
+        "duration": 40161,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506271691109,
+        "duration": 40985,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "37%",
+        "free": "20287K/32200K,",
+        "paused": "3ms+6ms,",
+        "total": "43ms",
+        "type": "GC_EXPLICIT",
+        "freed": "6K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506271738747,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506271739571,
+        "duration": 61,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506271740456,
+        "duration": 946,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "37%",
+        "free": "20294K/32200K,",
+        "paused": "4ms+4ms,",
+        "total": "41ms",
+        "type": "GC_EXPLICIT",
+        "freed": "8K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506271784554,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506271785500,
+        "duration": 61,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506271786660,
+        "duration": 1221,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506271802071,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 224,
+        "pixelCount": 5940,
+        "timestamp": 506271803353,
+        "threadName": "main",
+        "decodingTime": 610,
+        "cacheHit": false,
+        "byteCount": 23760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 855,
+        "methodId": "decodeResource",
+        "parameter": "2130837753",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506271804604,
+        "duration": 2106,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506271805703,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 224,
+        "pixelCount": 5940,
+        "timestamp": 506271807534,
+        "threadName": "main",
+        "decodingTime": 763,
+        "cacheHit": false,
+        "byteCount": 23760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 916,
+        "methodId": "decodeResource",
+        "parameter": "2130837754",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506271808602,
+        "duration": 1984,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506271877419,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 224,
+        "pixelCount": 36448,
+        "timestamp": 506271881814,
+        "threadName": "main",
+        "decodingTime": 3845,
+        "cacheHit": false,
+        "byteCount": 145792,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 3998,
+        "methodId": "decodeResource",
+        "parameter": "2130837614",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506271882699,
+        "duration": 4883,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "35%",
+        "free": "21191K/32200K,",
+        "paused": "3ms+6ms,",
+        "total": "50ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1073K,"
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506272260201,
+        "type": "ENTER",
+        "threadId": 4697
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506272260628,
+        "duration": 0,
+        "type": "EXIT",
+        "threadId": 4697
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506272265938,
+        "type": "ENTER",
+        "threadId": 4700
+    },
+    {
+        "currentCacheSize": 240,
+        "pixelCount": 4320,
+        "timestamp": 506272267708,
+        "threadName": "Thread-4700",
+        "decodingTime": 824,
+        "cacheHit": false,
+        "byteCount": 17280,
+        "additionalState": "false",
+        "threadId": 4700,
+        "duration": 1037,
+        "methodId": "decodeResource",
+        "parameter": "2130837798",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506272268685,
+        "duration": 2014,
+        "type": "EXIT",
+        "threadId": 4700
+    },
+    {
+        "proportion": "34%",
+        "free": "21343K/32200K,",
+        "paused": "5ms+5ms,",
+        "total": "52ms",
+        "type": "GC_EXPLICIT",
+        "freed": "65K,"
+    },
+    {
+        "proportion": "34%",
+        "free": "21346K/32200K,",
+        "paused": "3ms+4ms,",
+        "total": "52ms",
+        "type": "GC_EXPLICIT",
+        "freed": "1K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506272364358,
+        "type": "ENTER",
+        "threadId": 4697
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506272369332,
+        "duration": 4547,
+        "type": "CREATE_BITMAP",
+        "threadId": 4697
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506272369820,
+        "duration": 5035,
+        "type": "EXIT",
+        "threadId": 4697
+    },
+    {
+        "proportion": "28%",
+        "free": "23476K/32200K,",
+        "paused": "11ms+7ms,",
+        "total": "81ms",
+        "type": "GC_EXPLICIT",
+        "freed": "98K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506272516030,
+        "type": "ENTER",
+        "threadId": 4701
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506272517129,
+        "duration": 580,
+        "type": "CREATE_BITMAP",
+        "threadId": 4701
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506272517525,
+        "duration": 976,
+        "type": "EXIT",
+        "threadId": 4701
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506272587563,
+        "type": "ENTER",
+        "threadId": 4701
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506272588143,
+        "duration": 31,
+        "type": "EXIT",
+        "threadId": 4701
+    },
+    {
+        "proportion": "27%",
+        "free": "23579K/32200K,",
+        "paused": "6ms+6ms,",
+        "total": "74ms",
+        "type": "GC_EXPLICIT",
+        "freed": "713K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506273670449,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506273671486,
+        "duration": 396,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506273672188,
+        "duration": 1098,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "21%",
+        "free": "25677K/32200K,",
+        "paused": "6ms+5ms,",
+        "total": "68ms",
+        "type": "GC_EXPLICIT",
+        "freed": "647K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506278427987,
+        "type": "ENTER",
+        "threadId": 4707
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506278430337,
+        "duration": 1526,
+        "type": "CREATE_BITMAP",
+        "threadId": 4707
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506278430947,
+        "duration": 2136,
+        "type": "EXIT",
+        "threadId": 4707
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506278517220,
+        "type": "ENTER",
+        "threadId": 4707
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506278517586,
+        "duration": 30,
+        "type": "EXIT",
+        "threadId": 4707
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506283308846,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "recycle",
+        "timestamp": 506283309426,
+        "duration": 31,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "27%",
+        "free": "23581K/32200K,",
+        "paused": "4ms+7ms,",
+        "total": "62ms",
+        "type": "GC_EXPLICIT",
+        "freed": "2948K,"
+    },
+    {
+        "proportion": "27%",
+        "free": "23554K/32200K,",
+        "paused": "3ms+5ms,",
+        "total": "52ms",
+        "type": "GC_EXPLICIT",
+        "freed": "27K,"
+    },
+    {
+        "proportion": "27%",
+        "free": "23553K/32200K,",
+        "paused": "3ms+5ms,",
+        "total": "46ms",
+        "type": "GC_EXPLICIT",
+        "freed": "<1K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506283473855,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506283474434,
+        "duration": 61,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506283474892,
+        "duration": 519,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506286608742,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 240,
+        "pixelCount": 9216,
+        "timestamp": 506286609902,
+        "threadName": "main",
+        "decodingTime": 702,
+        "cacheHit": false,
+        "byteCount": 36864,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 854,
+        "methodId": "decodeResource",
+        "parameter": "2130837788",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506286610543,
+        "duration": 1495,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "38%",
+        "free": "17626K/28252K,",
+        "paused": "4ms+14ms,",
+        "total": "76ms",
+        "type": "GC_EXPLICIT",
+        "freed": "7992K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506286875954,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "38%",
+        "free": "17623K/28252K,",
+        "paused": "36ms,",
+        "total": "36ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "5K,"
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506286921639,
+        "duration": 45166,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506286922219,
+        "duration": 45746,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "59%",
+        "free": "13279K/32188K,",
+        "paused": "5ms+6ms,",
+        "total": "55ms",
+        "type": "GC_EXPLICIT",
+        "freed": "8296K,"
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506286985207,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506286985695,
+        "duration": 91,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506286986062,
+        "duration": 458,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506286993386,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 240,
+        "pixelCount": 5940,
+        "timestamp": 506286994515,
+        "threadName": "main",
+        "decodingTime": 610,
+        "cacheHit": false,
+        "byteCount": 23760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 763,
+        "methodId": "decodeResource",
+        "parameter": "2130837753",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506286995339,
+        "duration": 1587,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506286995675,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 240,
+        "pixelCount": 5940,
+        "timestamp": 506286996621,
+        "threadName": "main",
+        "decodingTime": 519,
+        "cacheHit": false,
+        "byteCount": 23760,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 641,
+        "methodId": "decodeResource",
+        "parameter": "2130837754",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506286997323,
+        "duration": 1343,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "decodeStream",
+        "timestamp": 506287430947,
+        "type": "ENTER",
+        "threadId": 4717
+    },
+    {
+        "methodId": "decodeStream",
+        "timestamp": 506287432320,
+        "duration": 885,
+        "type": "EXIT",
+        "threadId": 4717
+    },
+    {
+        "proportion": "58%",
+        "free": "13534K/32188K,",
+        "paused": "5ms+6ms,",
+        "total": "63ms",
+        "type": "GC_EXPLICIT",
+        "freed": "529K,"
+    },
+    {
+        "methodId": "decodeStream",
+        "timestamp": 506287499032,
+        "type": "ENTER",
+        "threadId": 4717
+    },
+    {
+        "currentCacheSize": 240,
+        "pixelCount": 40000,
+        "timestamp": 506287506661,
+        "threadName": "Thread-4717",
+        "decodingTime": 6988,
+        "cacheHit": false,
+        "byteCount": 160000,
+        "additionalState": "false",
+        "threadId": 4717,
+        "duration": 7172,
+        "methodId": "decodeStream",
+        "parameter": "istream:com.dataviz.dxtg.common.g.c.f",
+        "type": "CACHING",
+        "knownOrigin": false
+    },
+    {
+        "originKnown": false,
+        "methodId": "decodeStream",
+        "timestamp": 506287507760,
+        "threadId": 4717,
+        "duration": 8271,
+        "type": "STREAM_ACCESS"
+    },
+    {
+        "methodId": "decodeStream",
+        "timestamp": 506287508278,
+        "duration": 8789,
+        "type": "EXIT",
+        "threadId": 4717
+    },
+    {
+        "methodId": "createScaleBitmap",
+        "timestamp": 506287509591,
+        "type": "ENTER",
+        "threadId": 4717
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506287512948,
+        "duration": 1923,
+        "type": "CREATE_BITMAP",
+        "threadId": 4717
+    },
+    {
+        "methodId": "createScaleBitmap",
+        "timestamp": 506287513466,
+        "duration": 2441,
+        "type": "EXIT",
+        "threadId": 4717
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506287867837,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "proportion": "58%",
+        "free": "13831K/32188K,",
+        "paused": "45ms,",
+        "total": "45ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "237K,"
+    },
+    {
+        "methodId": "CreateTransformedBitmap",
+        "timestamp": 506287917397,
+        "duration": 49011,
+        "type": "CREATE_BITMAP",
+        "threadId": 1
+    },
+    {
+        "methodId": "createBitmap",
+        "timestamp": 506287919076,
+        "duration": 50690,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506288035226,
+        "type": "ENTER",
+        "threadId": 4720
+    },
+    {
+        "currentCacheSize": 256,
+        "pixelCount": 4320,
+        "timestamp": 506288048775,
+        "threadName": "Thread-4720",
+        "decodingTime": 7690,
+        "cacheHit": false,
+        "byteCount": 17280,
+        "additionalState": "false",
+        "threadId": 4720,
+        "duration": 8667,
+        "methodId": "decodeResource",
+        "parameter": "2130837834",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506288054391,
+        "duration": 14283,
+        "type": "EXIT",
+        "threadId": 4720
+    },
+    {
+        "proportion": "45%",
+        "free": "17917K/32188K,",
+        "paused": "33ms,",
+        "total": "33ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "331K,"
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506289630746,
+        "type": "ENTER",
+        "threadId": 1
+    },
+    {
+        "currentCacheSize": 256,
+        "pixelCount": 4320,
+        "timestamp": 506289631936,
+        "threadName": "main",
+        "decodingTime": 671,
+        "cacheHit": false,
+        "byteCount": 17280,
+        "additionalState": "true",
+        "threadId": 1,
+        "duration": 855,
+        "methodId": "decodeResource",
+        "parameter": "2130837834",
+        "type": "CACHING",
+        "knownOrigin": true
+    },
+    {
+        "methodId": "decodeResource",
+        "timestamp": 506289632760,
+        "duration": 1679,
+        "type": "EXIT",
+        "threadId": 1
+    },
+    {
+        "proportion": "44%",
+        "free": "10723K/19044K,",
+        "paused": "61ms,",
+        "total": "61ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "12321K,"
+    },
+    {
+        "proportion": "43%",
+        "free": "11011K/19044K,",
+        "paused": "53ms,",
+        "total": "53ms",
+        "type": "GC_FOR_ALLOC",
+        "freed": "2441K,"
+    }
+]
