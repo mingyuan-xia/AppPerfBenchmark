@@ -1,5 +1,6 @@
 package com.example.bitmapmisuse;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -9,11 +10,12 @@ import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.HandlerThread;
 import android.os.IBinder;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
 
 public class IntentActivity extends Activity {
     private static final String TAG = "IntentActivity";
@@ -37,13 +39,24 @@ public class IntentActivity extends Activity {
         }
     };
 
+    private BroadcastReceiver receiverWorkerThread = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            Log.v(TAG, "receiver running on worker thread, result code: " +
+                    Integer.toString(getResultCode()));
+        }
+    };
+
+    private HandlerThread workerThread;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intent);
+        workerThread = new HandlerThread("Receiver");
+        workerThread.start();
 
-        TextView tv1 = (TextView)findViewById(R.id.textview1);
-        tv1.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_start_activity).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(IntentActivity.this, HelloActivity.class);
@@ -51,52 +64,77 @@ public class IntentActivity extends Activity {
             }
         });
 
-        TextView tvBroadcastToLocal = (TextView)findViewById(R.id.tv_broadcast_tolocal);
-        tvBroadcastToLocal.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_broadcast_to_local).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        Intent intent = new Intent(LocalReceiver.ACTION);
-                        sendBroadcast(intent);
+                        try {
+                            Intent intent = new Intent(LocalReceiver.REGULAR);
+                            sendBroadcast(intent);
+                            Thread.sleep(100);
+                            sendBroadcast(intent, Manifest.permission.CAMERA);
+                        } catch (InterruptedException e) {
+                        }
                     }
                 }).start();
             }
         });
 
-        TextView tvBroadcastToRemote = (TextView)findViewById(R.id.tv_broadcast_toremote);
-        tvBroadcastToRemote.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_broadcast_to_remote).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        Intent intent = new Intent(RemoteReceiver.ACTION);
-                        sendBroadcast(intent);
+                        try {
+                            Intent intent = new Intent(RemoteReceiver.REGULAR);
+                            sendBroadcast(intent);
+                            Thread.sleep(100);
+                            sendBroadcast(intent, Manifest.permission.CAMERA);
+                        } catch (InterruptedException e) {
+                        }
                     }
                 }).start();
             }
         });
 
-        TextView tv3 = (TextView)findViewById(R.id.textview3_1);
-        tv3.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_ordered_broadcast).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            Intent intent = new Intent(LocalReceiver.ORDERED);
+                            sendOrderedBroadcast(intent, Manifest.permission.CAMERA);
+                            Thread.sleep(100);
+                            sendOrderedBroadcast(intent, Manifest.permission.CAMERA,
+                                    receiverWorkerThread, new Handler(workerThread.getLooper()),
+                                    0, null, null);
+                        } catch (InterruptedException e) {
+                        }
+                    }
+                }).start();
+            }
+        });
+
+        findViewById(R.id.btn3_1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 bindService(new Intent(ServiceDemo.ACTION), conn, BIND_AUTO_CREATE);
             }
         });
 
-        TextView tv4 = (TextView)findViewById(R.id.textview3_2);
-        tv4.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn3_2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startService(new Intent(ServiceDemo.ACTION));
             }
         });
 
-        TextView tv5 = (TextView)findViewById(R.id.textview5);
-        tv5.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn5).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_PICK);
@@ -105,8 +143,7 @@ public class IntentActivity extends Activity {
             }
         });
 
-        TextView tv6 = (TextView)findViewById(R.id.textview6_1);
-        tv6.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn6_1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.v(TAG, "startPollingService");
@@ -114,8 +151,7 @@ public class IntentActivity extends Activity {
             }
         });
 
-        TextView tv7 = (TextView)findViewById(R.id.textview6_2);
-        tv7.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn6_2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.v(TAG, "stopPollingService");
