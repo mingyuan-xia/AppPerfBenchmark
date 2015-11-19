@@ -17,6 +17,8 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 import android.view.View;
 
+import java.util.ArrayList;
+
 public class IntentActivity extends Activity {
     private static final String TAG = "IntentActivity";
 
@@ -48,6 +50,7 @@ public class IntentActivity extends Activity {
     };
 
     private HandlerThread workerThread;
+    private ArrayList<BroadcastReceiver> receivers = new ArrayList<BroadcastReceiver>();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,7 +62,7 @@ public class IntentActivity extends Activity {
         findViewById(R.id.btn_start_activity).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(IntentActivity.this, HelloActivity.class);
+                Intent intent = new Intent(IntentActivity.this, SecondActivity.class);
                 startActivity(intent);
             }
         });
@@ -120,6 +123,66 @@ public class IntentActivity extends Activity {
             }
         });
 
+        findViewById(R.id.btn_sticky_broadcast).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            Intent intent = new Intent(LocalReceiver.REGULAR);
+                            sendStickyBroadcast(intent);
+                            Thread.sleep(100);
+                            intent.setAction(LocalReceiver.ORDERED);
+                            sendStickyOrderedBroadcast(intent, receiverWorkerThread,
+                                    new Handler(workerThread.getLooper()),
+                                    0, null, null);
+                        } catch (InterruptedException e) {
+                        }
+                    }
+                }).start();
+            }
+        });
+
+        findViewById(R.id.btn_register_receiver).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                BroadcastReceiver receiver1 = new BroadcastReceiver() {
+                    @Override
+                    public void onReceive(Context context, Intent intent) {
+                        Log.v(TAG, "dynamic registered receiver");
+                    }
+                };
+                BroadcastReceiver receiver2 = new BroadcastReceiver() {
+                    @Override
+                    public void onReceive(Context context, Intent intent) {
+                        Log.v(TAG, "dynamic registered receiver on workerThread");
+                    }
+                };
+                receivers.add(receiver1);
+                receivers.add(receiver2);
+                IntentFilter filter = new IntentFilter(LocalReceiver.ORDERED);
+                filter.addAction(LocalReceiver.REGULAR);
+                registerReceiver(receiver1, filter);
+                registerReceiver(receiver2, filter, null, new Handler(workerThread.getLooper()));
+            }
+        });
+
+        findViewById(R.id.btn_local_broadcast).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LocalBroadcastManager.getInstance(IntentActivity.this).
+                        sendBroadcast(new Intent("com.example.bitmapmisuse.LOCAL_BROADCAST"));
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        LocalBroadcastManager.getInstance(IntentActivity.this).sendBroadcastSync(
+                                new Intent("com.example.bitmapmisuse.LOCAL_BROADCAST_SYNC"));
+                    }
+                }).start();
+            }
+        });
+
         findViewById(R.id.btn3_1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -167,8 +230,12 @@ public class IntentActivity extends Activity {
 
     @Override
     protected void onDestroy() {
-        Log.v(TAG, "onDestroy unbindService");
-        unbindService(conn);
+        //Log.v(TAG, "onDestroy unbindService");
+        //unbindService(conn);
+        for (BroadcastReceiver receiver : receivers)
+            unregisterReceiver(receiver);
+        removeStickyBroadcast(new Intent(LocalReceiver.REGULAR));
+        removeStickyBroadcast(new Intent(LocalReceiver.ORDERED));
         LocalBroadcastManager.getInstance(this).unregisterReceiver(receiver);
         LocalBroadcastManager.getInstance(this).unregisterReceiver(receiverBlock);
         super.onDestroy();

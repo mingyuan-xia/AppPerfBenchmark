@@ -44,7 +44,7 @@ public class PollingService extends Service {
     private void showNotification() {
         mNotification.when = System.currentTimeMillis();
         //Navigator to the new activity when click the notification title
-        Intent i = new Intent(this, HelloActivity.class);
+        Intent i = new Intent(this, SecondActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, i,
                 PendingIntent.FLAG_UPDATE_CURRENT);
         mNotification.setLatestEventInfo(this,

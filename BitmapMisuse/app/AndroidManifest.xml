@@ -5,6 +5,7 @@
     android:versionName="1.0">
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
 
     <application
         android:allowBackup="true"
@@ -27,7 +28,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".HelloActivity" />
+        <activity android:name=".SecondActivity" />
 
         <service android:name=".ServiceDemo">
             <intent-filter>
