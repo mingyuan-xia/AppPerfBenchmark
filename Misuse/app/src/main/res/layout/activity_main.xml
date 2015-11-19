@@ -32,4 +32,11 @@
             android:id="@+id/StorageActivity"
             android:padding="10dp"/>
 
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HttpClientActivity"
+            android:id="@+id/HttpClientActivity"
+            android:padding="10dp"/>
+
 </LinearLayout>

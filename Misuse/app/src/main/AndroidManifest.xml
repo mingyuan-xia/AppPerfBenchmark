@@ -36,6 +36,10 @@
                 android:name=".StorageActivity"
                 android:label="@string/app_name" >
         </activity>
+        <activity
+                android:name=".HttpClientActivity"
+                android:label="@string/app_name" >
+        </activity>
         <provider android:name="NotePadProvider"
                   android:authorities="com.example.misuse.NotePad" />
     </application>
