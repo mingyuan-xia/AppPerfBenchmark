@@ -4,9 +4,7 @@
     android:versionCode="1"
     android:versionName="1.0">
 
-    <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -40,6 +38,7 @@
         <receiver android:name=".LocalReceiver">
             <intent-filter>
                 <action android:name="com.example.bitmapmisuse.BROADCAST" />
+                <action android:name="com.example.bitmapmisuse.BROADCAST_LOCAL" />
             </intent-filter>
         </receiver>
 
@@ -47,6 +46,7 @@
             android:name=".RemoteReceiver"
             android:process=":remote">
             <intent-filter>
+                <action android:name="com.example.bitmapmisuse.BROADCAST" />
                 <action android:name="com.example.bitmapmisuse.BROADCAST_REMOTE" />
             </intent-filter>
         </receiver>

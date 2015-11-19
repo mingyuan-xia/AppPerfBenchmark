@@ -4,70 +4,101 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <TextView
-            android:layout_margin="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textview1"
-            android:text="start activity"/>
-
-
-    <TextView
-            android:layout_margin="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/tv_broadcast_tolocal"
-            android:text="send broadcast (to receiver in this process, i.e. LocalReceiver)"/>
-
-    <TextView
-        android:layout_margin="10dp"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_start_activity"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_broadcast_toremote"
-        android:text="send broadcast (to receiver in remote process, i.e. RemoteReceiver)"/>
+        android:layout_margin="5dp"
+        android:text="start activity"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/btn_broadcast_to_local"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="send broadcast to receiver in this process (i.e. LocalReceiver)"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_broadcast_to_remote"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="send broadcast to receiver in remote process (i.e. RemoteReceiver)"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_ordered_broadcast"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="send ordered broadcast to both local and remote receiver"
+        android:textSize="14sp" />
 
     <LinearLayout
-            android:layout_margin="10dp"
-            android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn3_1"
+            style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-        <TextView
-                android:paddingRight="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textview3_1"
-                android:text="bind service"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textview3_2"
-                android:text="start service"/>
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:text="bind service"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn3_2"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start service"
+            android:textSize="14sp" />
+
     </LinearLayout>
 
 
-    <TextView
-            android:layout_margin="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textview5"
-            android:text="choose a picture"/>
+    <Button
+        android:id="@+id/btn5"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="choose a picture"
+        android:textSize="14sp" />
 
     <LinearLayout
-            android:layout_margin="10dp"
-            android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn6_1"
+            style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-        <TextView
-                android:paddingRight="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textview6_1"
-                android:text="start PollingService"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textview6_2"
-                android:text="stop PollingService"/>
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:text="start PollingService"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn6_2"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stop PollingService"
+            android:textSize="14sp" />
+
     </LinearLayout>
 
 </LinearLayout>

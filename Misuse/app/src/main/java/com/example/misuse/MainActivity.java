@@ -18,6 +18,7 @@ public class MainActivity extends Activity {
         Button SQLiteActivity = (Button)findViewById(R.id.SQLiteActivity);
         Button SharedPreferencesActivity = (Button)findViewById(R.id.SharedPreferencesActivity);
         Button ContentProviderActivity = (Button)findViewById(R.id.ContentProviderActivity);
+        Button StorageActivity = (Button)findViewById(R.id.StorageActivity);
 
         SQLiteActivity.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +40,14 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ContentProviderActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        StorageActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, StorageActivity.class);
                 startActivity(intent);
             }
         });
