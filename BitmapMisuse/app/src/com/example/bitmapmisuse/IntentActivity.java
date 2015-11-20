@@ -67,6 +67,16 @@ public class IntentActivity extends Activity {
             }
         });
 
+        findViewById(R.id.btn_start_activities).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent[] intents = new Intent[2];
+                intents[0] = new Intent(IntentActivity.this, SecondActivity.class);
+                intents[1] = new Intent(IntentActivity.this, ThirdActivity.class);
+                startActivities(intents);
+            }
+        });
+
         findViewById(R.id.btn_broadcast_to_local).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

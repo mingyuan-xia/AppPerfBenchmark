@@ -4,13 +4,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 
-public class SecondActivity extends Activity {
+public class ThirdActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_third);
 
-        findViewById(R.id.btn_finish_2ndActivity).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_finish_3rdActivity).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
