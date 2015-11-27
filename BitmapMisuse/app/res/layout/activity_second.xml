@@ -13,11 +13,29 @@
         android:text="Second Activity" />
 
     <Button
-        android:id="@+id/btn_finish_2ndActivity"
+        android:id="@+id/btn_finish_2nd_activity"
         style="@android:style/Widget.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:text="Finish 2nd Activity"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_return_from_2nd_activity"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Return from 2nd Activity"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_start_self_single_top"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Start this Activity using singleTop"
         android:textSize="14sp" />
 </LinearLayout>

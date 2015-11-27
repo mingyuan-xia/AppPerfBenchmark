@@ -11,14 +11,30 @@
         android:padding="10dp"
         android:text="First Activity" />
 
-    <Button
-        android:id="@+id/btn_start_activity"
-        style="@android:style/Widget.Button"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="start second activity"
-        android:textSize="14sp" />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_start_activity"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:text="start 2nd activity"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_start_activity_for_result"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start 2nd activity for result"
+            android:textSize="14sp" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/btn_start_activities"
@@ -27,6 +43,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:text="start activities (2nd and 3rd)"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_start_pick_image"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="choose a picture through remote activity"
         android:textSize="14sp" />
 
     <Button
@@ -114,16 +139,6 @@
             android:textSize="14sp" />
 
     </LinearLayout>
-
-
-    <Button
-        android:id="@+id/btn5"
-        style="@android:style/Widget.Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:text="choose a picture"
-        android:textSize="14sp" />
 
     <LinearLayout
         android:layout_width="match_parent"

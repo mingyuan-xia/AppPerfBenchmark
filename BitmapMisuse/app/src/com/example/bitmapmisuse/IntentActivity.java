@@ -59,11 +59,21 @@ public class IntentActivity extends Activity {
         workerThread = new HandlerThread("Receiver");
         workerThread.start();
 
+        // activity tests
+
         findViewById(R.id.btn_start_activity).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(IntentActivity.this, SecondActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.btn_start_activity_for_result).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(IntentActivity.this, SecondActivity.class);
+                startActivityForResult(intent, 0x76);
             }
         });
 
@@ -76,6 +86,17 @@ public class IntentActivity extends Activity {
                 startActivities(intents);
             }
         });
+
+        findViewById(R.id.btn_start_pick_image).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_PICK);
+                intent.setType("image/*");
+                startActivityForResult(intent, 0x77);
+            }
+        });
+
+        // broadcast tests
 
         findViewById(R.id.btn_broadcast_to_local).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -193,6 +214,8 @@ public class IntentActivity extends Activity {
             }
         });
 
+        // service tests
+
         findViewById(R.id.btn3_1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -204,15 +227,6 @@ public class IntentActivity extends Activity {
             @Override
             public void onClick(View v) {
                 startService(new Intent(ServiceDemo.ACTION));
-            }
-        });
-
-        findViewById(R.id.btn5).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_PICK);
-                intent.setType("image/*");
-                startActivityForResult(intent, 0x77);
             }
         });
 
@@ -263,13 +277,15 @@ public class IntentActivity extends Activity {
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
-            case 0x77:
-            {
-                if (resultCode == RESULT_OK)
-                {
+            case 0x76: {
+                if (resultCode == 0x77) {
+                    Log.v(TAG, "result from second activity");
+                }
+            }
+            case 0x77: {
+                if (resultCode == RESULT_OK) {
                     Uri photoUri = data.getData();
-                    if (photoUri != null)
-                    {
+                    if (photoUri != null) {
                         Log.v(TAG, photoUri.toString());
                     }
                 }
