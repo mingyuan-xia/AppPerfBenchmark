@@ -216,17 +216,24 @@ public class IntentActivity extends Activity {
 
         // service tests
 
-        findViewById(R.id.btn3_1).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_start_service).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                bindService(new Intent(ServiceDemo.ACTION), conn, BIND_AUTO_CREATE);
+                startService(new Intent(DemoService.ACTION));
             }
         });
 
-        findViewById(R.id.btn3_2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_stop_service).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startService(new Intent(ServiceDemo.ACTION));
+                stopService(new Intent(DemoService.ACTION));
+            }
+        });
+
+        findViewById(R.id.btn3_1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bindService(new Intent(DemoService.ACTION), conn, BIND_AUTO_CREATE);
             }
         });
 

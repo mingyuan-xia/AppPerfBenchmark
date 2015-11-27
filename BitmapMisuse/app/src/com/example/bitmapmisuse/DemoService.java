@@ -5,8 +5,8 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.util.Log;
 
-public class ServiceDemo extends Service {
-    private static final String TAG = "ServiceDemo" ;
+public class DemoService extends Service {
+    private static final String TAG = "DemoService" ;
     public static final String ACTION = "com.example.bitmapmisuse.ACTION";
     @Override
     public IBinder onBind(Intent intent) {
@@ -35,6 +35,16 @@ public class ServiceDemo extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.v(TAG, "onStartCommand");
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(2000);
+                    stopSelf();
+                } catch (InterruptedException e) {
+                }
+            }
+        }).start();
         return super.onStartCommand(intent, flags, startId);
     }
 }

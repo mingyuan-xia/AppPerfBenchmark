@@ -27,7 +27,7 @@
         <activity android:name=".SecondActivity" />
         <activity android:name=".ThirdActivity" />
 
-        <service android:name=".ServiceDemo">
+        <service android:name=".DemoService">
             <intent-filter>
                 <action android:name="com.example.bitmapmisuse.ACTION" />
             </intent-filter>
