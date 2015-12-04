@@ -183,4 +183,38 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btn_start_activity_intent_sender"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:text="start 2nd activity through IntentSender"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_start_activity_for_result_intent_sender"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:text="start 2nd activity for result through IntentSender"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_start_service_intent_sender"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start service through IntentSender"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_send_broadcast_to_local_intent_sender"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send broadcast to local through IntentSender"
+        android:textSize="14sp" />
+
 </LinearLayout>

@@ -2,11 +2,13 @@ package com.example.bitmapmisuse;
 
 import android.Manifest;
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.IntentSender;
 import android.content.ServiceConnection;
 import android.net.Uri;
 import android.os.Bundle;
@@ -266,6 +268,64 @@ public class IntentActivity extends Activity {
                 Log.v(TAG, "stop polling service");
                 PollingUtils.stopPollingService(IntentActivity.this,
                         PolledService.class, PolledService.ACTION);
+            }
+        });
+
+        // PendingIntent and IntentSender tests
+
+        findViewById(R.id.btn_start_activity_intent_sender)
+                .setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(IntentActivity.this, SecondActivity.class);
+                IntentSender sender = PendingIntent.getActivity(IntentActivity.this, 0, intent,
+                        PendingIntent.FLAG_ONE_SHOT).getIntentSender();
+                try {
+                    IntentActivity.this.startIntentSender(sender, null, 0, 0, 0);
+                } catch (IntentSender.SendIntentException e) {
+                }
+            }
+        });
+
+        findViewById(R.id.btn_start_activity_for_result_intent_sender)
+                .setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(IntentActivity.this, SecondActivity.class);
+                        IntentSender sender = PendingIntent.getActivity(IntentActivity.this, 0, intent,
+                                PendingIntent.FLAG_ONE_SHOT).getIntentSender();
+                        try {
+                            IntentActivity.this.startIntentSenderForResult(sender, 0x76, null, 0, 0, 0);
+                        } catch (IntentSender.SendIntentException e) {
+                        }
+                    }
+                });
+
+        findViewById(R.id.btn_start_service_intent_sender)
+                .setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DemoService.ACTION);
+                IntentSender sender = PendingIntent.getService(IntentActivity.this, 0, intent,
+                        PendingIntent.FLAG_ONE_SHOT).getIntentSender();
+                try {
+                    IntentActivity.this.startIntentSender(sender, null, 0, 0, 0);
+                } catch (IntentSender.SendIntentException e) {
+                }
+            }
+        });
+
+        findViewById(R.id.btn_send_broadcast_to_local_intent_sender)
+                .setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LocalReceiver.REGULAR);
+                IntentSender sender = PendingIntent.getBroadcast(IntentActivity.this, 0, intent,
+                        PendingIntent.FLAG_ONE_SHOT).getIntentSender();
+                try {
+                    IntentActivity.this.startIntentSender(sender, null, 0, 0, 0);
+                } catch (IntentSender.SendIntentException e) {
+                }
             }
         });
 
