@@ -189,7 +189,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingRight="20dp"
-        android:text="start 2nd activity through IntentSender"
+        android:text="start 2nd activity through IntentSender / PendingIntent"
         android:textSize="14sp" />
 
     <Button
@@ -206,15 +206,23 @@
         style="@android:style/Widget.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="start service through IntentSender"
+        android:text="start service through IntentSender / PendingIntent"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_send_broadcast_to_local_intent_sender"
+        android:id="@+id/btn_broadcast_to_local_intent_sender"
         style="@android:style/Widget.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="send broadcast to local through IntentSender"
+        android:text="send broadcast to local through IntentSender / PendingIntent"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_ordered_broadcast_intent_sender"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send ordered broadcast through IntentSender / PendingIntent"
         android:textSize="14sp" />
 
 </LinearLayout>

@@ -277,13 +277,23 @@ public class IntentActivity extends Activity {
                 .setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(IntentActivity.this, SecondActivity.class);
-                IntentSender sender = PendingIntent.getActivity(IntentActivity.this, 0, intent,
-                        PendingIntent.FLAG_ONE_SHOT).getIntentSender();
-                try {
-                    IntentActivity.this.startIntentSender(sender, null, 0, 0, 0);
-                } catch (IntentSender.SendIntentException e) {
-                }
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(IntentActivity.this, SecondActivity.class);
+                        PendingIntent pendingIntent = PendingIntent.getActivity(IntentActivity.this,
+                                0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                        IntentSender sender = pendingIntent.getIntentSender();
+                        try {
+                            pendingIntent.send(IntentActivity.this, 0, null);
+                            Thread.sleep(100);
+                            IntentActivity.this.startIntentSender(sender, null, 0, 0, 0);
+                        } catch (IntentSender.SendIntentException e) {
+                        } catch (PendingIntent.CanceledException e) {
+                        } catch (InterruptedException e) {
+                        }
+                    }
+                }).start();
             }
         });
 
@@ -293,7 +303,7 @@ public class IntentActivity extends Activity {
                     public void onClick(View v) {
                         Intent intent = new Intent(IntentActivity.this, SecondActivity.class);
                         IntentSender sender = PendingIntent.getActivity(IntentActivity.this, 0, intent,
-                                PendingIntent.FLAG_ONE_SHOT).getIntentSender();
+                                PendingIntent.FLAG_UPDATE_CURRENT).getIntentSender();
                         try {
                             IntentActivity.this.startIntentSenderForResult(sender, 0x76, null, 0, 0, 0);
                         } catch (IntentSender.SendIntentException e) {
@@ -305,27 +315,89 @@ public class IntentActivity extends Activity {
                 .setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DemoService.ACTION);
-                IntentSender sender = PendingIntent.getService(IntentActivity.this, 0, intent,
-                        PendingIntent.FLAG_ONE_SHOT).getIntentSender();
-                try {
-                    IntentActivity.this.startIntentSender(sender, null, 0, 0, 0);
-                } catch (IntentSender.SendIntentException e) {
-                }
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(DemoService.ACTION);
+                        PendingIntent pendingIntent = PendingIntent.getService(IntentActivity.this,
+                                0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                        IntentSender sender = pendingIntent.getIntentSender();
+                        try {
+                            pendingIntent.send(1);
+                            Thread.sleep(100);
+                            IntentActivity.this.startIntentSender(sender, null, 0, 0, 0);
+                        } catch (IntentSender.SendIntentException e) {
+                        } catch (PendingIntent.CanceledException e) {
+                        } catch (InterruptedException e) {
+                        }
+                    }
+                }).start();
             }
         });
 
-        findViewById(R.id.btn_send_broadcast_to_local_intent_sender)
+        findViewById(R.id.btn_broadcast_to_local_intent_sender)
                 .setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LocalReceiver.REGULAR);
-                IntentSender sender = PendingIntent.getBroadcast(IntentActivity.this, 0, intent,
-                        PendingIntent.FLAG_ONE_SHOT).getIntentSender();
-                try {
-                    IntentActivity.this.startIntentSender(sender, null, 0, 0, 0);
-                } catch (IntentSender.SendIntentException e) {
-                }
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(LocalReceiver.REGULAR);
+                        PendingIntent pendingIntent = PendingIntent.getBroadcast(IntentActivity.this,
+                                0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                        IntentSender sender = pendingIntent.getIntentSender();
+                        try {
+                            pendingIntent.send();
+                            Thread.sleep(100);
+                            IntentActivity.this.startIntentSender(sender, null, 0, 0, 0);
+                        } catch (IntentSender.SendIntentException e) {
+                        } catch (PendingIntent.CanceledException e) {
+                        } catch (InterruptedException e) {
+                        }
+                    }
+                }).start();
+            }
+        });
+
+        findViewById(R.id.btn_ordered_broadcast_intent_sender)
+                .setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(LocalReceiver.ORDERED);
+                        PendingIntent pendingIntent = PendingIntent.getBroadcast(IntentActivity.this,
+                                0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                        IntentSender sender = pendingIntent.getIntentSender();
+                        try {
+                            pendingIntent.send(IntentActivity.this, 0, null,
+                                    new PendingIntent.OnFinished() {
+                                @Override
+                                public void onSendFinished(PendingIntent pendingIntent,
+                                                           Intent intent, int resultCode,
+                                                           String resultData, Bundle resultExtras) {
+                                    Log.v(TAG, "PendingIntent.OnFinished running on worker thread, " +
+                                            "result code: " + Integer.toString(resultCode));
+                                }
+                            }, new Handler(workerThread.getLooper()), Manifest.permission.CAMERA);
+                            Thread.sleep(100);
+                            sender.sendIntent(IntentActivity.this, 0, null,
+                                    new IntentSender.OnFinished() {
+                                @Override
+                                public void onSendFinished(IntentSender IntentSender, Intent intent,
+                                                           int resultCode, String resultData,
+                                                           Bundle resultExtras) {
+                                    Log.v(TAG, "IntentSender.OnFinished running on worker thread, " +
+                                            "result code: " + Integer.toString(resultCode));
+                                }
+                            }, new Handler(workerThread.getLooper()), Manifest.permission.CAMERA);
+                        } catch (IntentSender.SendIntentException e) {
+                        } catch (PendingIntent.CanceledException e) {
+                        } catch (InterruptedException e) {
+                        }
+                    }
+                }).start();
             }
         });
 
