@@ -138,16 +138,25 @@
             android:text="stop service"
             android:textSize="14sp" />
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/btn_bind_service"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:text="bind service"
+            android:textSize="14sp" />
 
-    <Button
-        android:id="@+id/btn3_1"
-        style="@android:style/Widget.Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingRight="20dp"
-        android:text="bind service"
-        android:textSize="14sp" />
+        <Button
+            android:id="@+id/btn_unbind_service"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:text="unbind service"
+            android:textSize="14sp" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -156,20 +165,20 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn6_1"
+            android:id="@+id/btn_start_polling_service"
             style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingRight="20dp"
-            android:text="start PollingService"
+            android:text="start polling service (start the service per second)"
             android:textSize="14sp" />
 
         <Button
-            android:id="@+id/btn6_2"
+            android:id="@+id/btn_stop_polling_service"
             style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="stop PollingService"
+            android:text="stop polling service"
             android:textSize="14sp" />
 
     </LinearLayout>

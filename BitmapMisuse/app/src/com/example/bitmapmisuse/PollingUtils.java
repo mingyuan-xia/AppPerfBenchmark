@@ -8,7 +8,8 @@ import android.os.SystemClock;
 
 public class PollingUtils {
 
-    public static void startPollingService(Context context, int seconds, Class<?> cls,String action) {
+    public static void startPollingService(Context context, int seconds,
+                                           Class<?> cls, String action) {
         AlarmManager manager = (AlarmManager) context
                 .getSystemService(Context.ALARM_SERVICE);
 

@@ -18,6 +18,7 @@ import android.util.Log;
 import android.view.View;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class IntentActivity extends Activity {
     private static final String TAG = "IntentActivity";
@@ -51,6 +52,7 @@ public class IntentActivity extends Activity {
 
     private HandlerThread workerThread;
     private ArrayList<BroadcastReceiver> receivers = new ArrayList<BroadcastReceiver>();
+    private Stack<MyServiceConnection> conns = new Stack<MyServiceConnection>();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -230,26 +232,40 @@ public class IntentActivity extends Activity {
             }
         });
 
-        findViewById(R.id.btn3_1).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_bind_service).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MyServiceConnection conn = new MyServiceConnection();
+                conns.push(conn);
                 bindService(new Intent(DemoService.ACTION), conn, BIND_AUTO_CREATE);
             }
         });
 
-        findViewById(R.id.btn6_1).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_unbind_service).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.v(TAG, "startPollingService");
-                PollingUtils.startPollingService(IntentActivity.this, 5, PollingService.class, PollingService.ACTION);
+                if (!conns.empty()) {
+                    MyServiceConnection conn = conns.pop();
+                    unbindService(conn);
+                }
             }
         });
 
-        findViewById(R.id.btn6_2).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_start_polling_service).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.v(TAG, "stopPollingService");
-                PollingUtils.stopPollingService(IntentActivity.this, PollingService.class, PollingService.ACTION);
+                Log.v(TAG, "start polling service");
+                PollingUtils.startPollingService(IntentActivity.this, 1,
+                        PolledService.class, PolledService.ACTION);
+            }
+        });
+
+        findViewById(R.id.btn_stop_polling_service).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.v(TAG, "stop polling service");
+                PollingUtils.stopPollingService(IntentActivity.this,
+                        PolledService.class, PolledService.ACTION);
             }
         });
 
@@ -261,8 +277,6 @@ public class IntentActivity extends Activity {
 
     @Override
     protected void onDestroy() {
-        //Log.v(TAG, "onDestroy unbindService");
-        //unbindService(conn);
         for (BroadcastReceiver receiver : receivers)
             unregisterReceiver(receiver);
         removeStickyBroadcast(new Intent(LocalReceiver.REGULAR));
@@ -270,16 +284,16 @@ public class IntentActivity extends Activity {
         LocalBroadcastManager.getInstance(this).unregisterReceiver(receiver);
         LocalBroadcastManager.getInstance(this).unregisterReceiver(receiverBlock);
         super.onDestroy();
-    };
+    }
 
-    ServiceConnection conn = new ServiceConnection() {
+    class MyServiceConnection implements ServiceConnection {
         public void onServiceConnected(ComponentName name, IBinder service) {
             Log.v(TAG, "onServiceConnected");
         }
         public void onServiceDisconnected(ComponentName name) {
             Log.v(TAG, "onServiceDisconnected");
         }
-    };
+    }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);

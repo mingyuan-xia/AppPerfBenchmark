@@ -29,22 +29,18 @@ public class DemoService extends Service {
     @Override
     public boolean onUnbind(Intent intent) {
         Log.v(TAG, "onUnbind");
-        return super.onUnbind(intent);
+        return true;
+    }
+
+    @Override
+    public void onRebind(Intent intent) {
+        Log.v(TAG, "onRebind");
+        super.onRebind(intent);
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.v(TAG, "onStartCommand");
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    Thread.sleep(2000);
-                    stopSelf();
-                } catch (InterruptedException e) {
-                }
-            }
-        }).start();
         return super.onStartCommand(intent, flags, startId);
     }
 }

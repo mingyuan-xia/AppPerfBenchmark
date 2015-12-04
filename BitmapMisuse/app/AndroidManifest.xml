@@ -48,7 +48,7 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".PollingService">
+        <service android:name=".PolledService">
             <intent-filter>
                 <action android:name="com.example.bitmapmisuse.ACTION" />
             </intent-filter>
