@@ -211,6 +211,10 @@ public class IntentActivity extends Activity {
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
+                        try {
+                            Thread.sleep(100);
+                        } catch (InterruptedException e) {
+                        }
                         LocalBroadcastManager.getInstance(IntentActivity.this).sendBroadcastSync(
                                 new Intent("com.example.bitmapmisuse.LOCAL_BROADCAST_SYNC"));
                     }
