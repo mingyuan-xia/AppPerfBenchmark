@@ -3,8 +3,6 @@ package com.example.misuse;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -21,6 +19,7 @@ public class MainActivity extends Activity {
         Button StorageActivity = (Button)findViewById(R.id.StorageActivity);
         Button HttpClientActivity = (Button)findViewById(R.id.HttpClientActivity);
         Button FragmentActivity = (Button)findViewById(R.id.FragmentActivity);
+        Button WebviewActivity = (Button)findViewById(R.id.WebviewActivity);
 
         SQLiteActivity.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,6 +65,14 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, FragmentActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        WebviewActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
                 startActivity(intent);
             }
         });
