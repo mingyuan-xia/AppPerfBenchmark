@@ -3,6 +3,23 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <EditText
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:id="@+id/WebView_tv"
+                android:text="http://www.stackoverflow.com/"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/WebView_enter"
+                android:text="enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
 
     <LinearLayout
             android:layout_width="fill_parent"
@@ -15,12 +32,12 @@
                 android:layout_height="wrap_content"/>
         <Button
                 android:id="@+id/WebView_bt2"
-                android:text="bt2"
+                android:text="disable JS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         <Button
                 android:id="@+id/WebView_bt3"
-                android:text="bt3"
+                android:text="enable JS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
     </LinearLayout>
