@@ -19,7 +19,8 @@ public class MainActivity extends Activity {
         Button StorageActivity = (Button)findViewById(R.id.StorageActivity);
         Button HttpClientActivity = (Button)findViewById(R.id.HttpClientActivity);
         Button FragmentActivity = (Button)findViewById(R.id.FragmentActivity);
-        Button WebviewActivity = (Button)findViewById(R.id.WebviewActivity);
+        Button WebViewActivity = (Button)findViewById(R.id.WebviewActivity);
+        Button BufferedActivity = (Button)findViewById(R.id.BufferedActivity);
 
         SQLiteActivity.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,10 +70,18 @@ public class MainActivity extends Activity {
             }
         });
 
-        WebviewActivity.setOnClickListener(new View.OnClickListener() {
+        WebViewActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        BufferedActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BufferedReaderWriterActivity.class);
                 startActivity(intent);
             }
         });
