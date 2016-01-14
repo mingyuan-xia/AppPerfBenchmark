@@ -2,3845 +2,2797 @@ DEVICE: Nexus 7 4.4.4
 SCREEN_SIZE: 1200x1920 (softkey)
 
 :start
-touchDown 0 519 1837
-sleep 56
+touchDown 0 438 1854
+sleep 62
+touchMove 0 428 1844
+sleep 31
 touchUp 0
-sleep 1504
-touchDown 0 940 807
-sleep 53
+sleep 1657
+touchDown 0 895 765
+sleep 62
+touchMove 0 892 775
+sleep 7
+touchMove 0 893 776
+sleep 18
 touchUp 0
-sleep 1964
-touchDown 0 318 1924
-sleep 70
+sleep 1137
+touchDown 0 372 1866
+sleep 76
 touchUp 0
-sleep 849
-touchDown 0 905 1492
+sleep 76
+touchDown 0 909 1544
+sleep 105
+touchUp 0
 sleep 47
-touchUp 0
-sleep 802
-touchDown 0 57 1683
-sleep 120
-touchUp 0
-sleep 227
-touchDown 0 818 1873
-sleep 66
-touchUp 0
-sleep 310
-touchDown 0 622 1673
-sleep 54
-touchUp 0
-sleep 437
-touchDown 0 463 1916
+touchDown 0 99 1707
 sleep 90
 touchUp 0
-sleep 183
-touchDown 0 714 1656
-sleep 75
-touchUp 0
-sleep 282
-touchDown 0 790 1861
-sleep 47
-touchUp 0
-sleep 269
-touchDown 0 429 1900
-sleep 52
-touchMove 0 426 1910
-sleep 6
-touchMove 0 426 1911
-sleep 6
-touchMove 0 426 1912
+sleep 39
+touchDown 0 839 1865
+sleep 58
+touchMove 0 828 1861
 sleep 11
 touchUp 0
-sleep 136
-touchDown 0 714 1659
-sleep 34
-touchUp 0
-sleep 512
-touchDown 0 810 1850
-sleep 61
-touchUp 0
-sleep 814
-touchDown 0 28 2097
-sleep 54
-touchUp 0
-sleep 967
-touchDown 0 110 1700
-sleep 47
-touchUp 0
-sleep 503
-touchDown 0 52 2047
-sleep 67
-touchUp 0
-sleep 466
-touchDown 0 26 1494
-sleep 60
-touchUp 0
-sleep 166
-touchDown 0 39 1523
-sleep 63
-touchUp 0
-sleep 889
-touchDown 0 1155 2016
-sleep 34
-touchUp 0
-sleep 459
-touchDown 0 446 1897
-sleep 51
-touchUp 0
-sleep 333
-touchDown 0 1043 1468
-sleep 58
-touchUp 0
-sleep 260
-touchDown 0 924 1869
-sleep 71
-touchUp 0
-sleep 644
-touchDown 0 934 934
-sleep 64
-touchUp 0
-sleep 1116
-touchDown 0 543 1516
-sleep 64
-touchUp 0
-sleep 317
-touchDown 0 436 1853
-sleep 67
-touchUp 0
-sleep 578
-touchDown 0 1102 1713
-sleep 91
-touchUp 0
-sleep 280
-touchDown 0 1026 1512
+sleep 161
+touchDown 0 631 1681
 sleep 70
 touchUp 0
-sleep 299
-touchDown 0 796 1495
-sleep 46
-touchUp 0
-sleep 546
-touchDown 0 373 1666
-sleep 52
-touchUp 0
-sleep 477
-touchDown 0 45 2045
+sleep 1197
+touchDown 0 454 1875
 sleep 61
 touchUp 0
-sleep 804
-touchDown 0 515 1478
+sleep 14
+touchDown 0 755 1719
+sleep 89
+touchUp 0
+sleep 146
+touchDown 0 798 1867
 sleep 70
-touchMove 0 515 1488
-sleep 6
-touchMove 0 515 1489
-sleep 6
-touchMove 0 515 1490
-sleep 7
-touchMove 0 515 1491
-sleep 11
 touchUp 0
-sleep 302
-touchDown 0 387 1490
-sleep 63
-touchUp 0
-sleep 610
-touchDown 0 1159 1516
-sleep 85
-touchUp 0
-sleep 530
-touchDown 0 649 1537
-sleep 68
-touchUp 0
-sleep 609
-touchDown 0 879 1295
-sleep 56
-touchUp 0
-sleep 8370
-touchDown 0 1132 1012
-sleep 29
-touchUp 0
-sleep 3538
-touchDown 0 481 1515
-sleep 58
-touchUp 0
-sleep 19705
-touchDown 0 908 1553
-sleep 26
-touchMove 0 908 1542
-sleep 7
-touchMove 0 909 1533
-sleep 7
-touchMove 0 911 1519
-sleep 6
-touchMove 0 914 1497
-sleep 9
-touchMove 0 916 1476
-sleep 4
-touchMove 0 917 1462
-sleep 6
-touchMove 0 918 1447
-sleep 7
-touchMove 0 922 1423
-sleep 7
-touchMove 0 923 1400
-sleep 6
-touchMove 0 925 1377
-sleep 7
-touchMove 0 927 1354
-sleep 6
-touchMove 0 929 1331
-sleep 16
-touchMove 0 931 1308
-sleep 7
-touchMove 0 934 1284
-sleep 6
-touchMove 0 937 1251
-sleep 7
-touchMove 0 941 1219
-sleep 6
-touchMove 0 945 1188
-sleep 7
-touchMove 0 949 1159
-sleep 8
-touchMove 0 953 1131
-sleep 5
-touchMove 0 957 1102
-sleep 6
-touchMove 0 962 1075
-sleep 7
-touchMove 0 967 1048
-sleep 6
-touchMove 0 972 1022
-sleep 7
-touchMove 0 978 998
-sleep 6
-touchMove 0 984 974
-sleep 7
-touchMove 0 989 951
-sleep 7
-touchMove 0 995 928
-sleep 6
-touchMove 0 1001 906
-sleep 7
-touchMove 0 1006 884
-sleep 15
-touchMove 0 1011 864
-sleep 7
-touchMove 0 1014 851
-sleep 7
-touchMove 0 1019 833
-sleep 7
-touchMove 0 1026 807
-sleep 6
-touchMove 0 1032 785
-sleep 7
-touchMove 0 1039 765
-sleep 7
-touchMove 0 1043 753
-sleep 6
-touchMove 0 1047 741
-sleep 6
-touchMove 0 1051 730
-sleep 7
-touchMove 0 1056 719
-sleep 6
-touchMove 0 1062 707
-sleep 6
-touchMove 0 1069 696
-sleep 12
-touchUp 0
-sleep 574
-touchDown 0 897 1421
-sleep 30
-touchMove 0 896 1400
-sleep 7
-touchMove 0 896 1384
-sleep 16
-touchMove 0 898 1357
-sleep 6
-touchMove 0 900 1329
-sleep 7
-touchMove 0 903 1289
-sleep 6
-touchMove 0 907 1238
-sleep 7
-touchMove 0 910 1204
-sleep 6
-touchMove 0 914 1170
-sleep 7
-touchMove 0 919 1138
-sleep 6
-touchMove 0 925 1105
-sleep 7
-touchMove 0 930 1073
-sleep 6
-touchMove 0 936 1041
-sleep 7
-touchMove 0 942 1011
-sleep 7
-touchMove 0 948 982
-sleep 6
-touchMove 0 953 954
-sleep 7
-touchMove 0 958 927
-sleep 6
-touchMove 0 964 900
-sleep 7
-touchMove 0 970 874
-sleep 7
-touchMove 0 976 849
-sleep 15
-touchMove 0 983 824
-sleep 7
-touchMove 0 990 799
-sleep 7
-touchMove 0 997 769
-sleep 6
-touchMove 0 1005 742
-sleep 7
-touchMove 0 1013 717
-sleep 6
-touchMove 0 1020 694
-sleep 7
-touchMove 0 1027 674
-sleep 6
-touchMove 0 1034 655
-sleep 7
-touchMove 0 1039 643
-sleep 6
-touchMove 0 1044 631
-sleep 8
-touchMove 0 1049 619
-sleep 5
-touchMove 0 1055 607
-sleep 6
-touchMove 0 1061 593
-sleep 11
-touchUp 0
-sleep 2267
-touchDown 0 399 2224
-sleep 42
-touchUp 0
-sleep 2602
-touchDown 0 520 1654
-sleep 52
-touchUp 0
-sleep 3945
-touchDown 0 1234 420
-sleep 54
-touchUp 0
-sleep 1964
-touchDown 0 385 2218
-sleep 65
-touchUp 0
-sleep 1815
-touchDown 0 505 1796
-sleep 62
-touchUp 0
-sleep 3560
-touchDown 0 908 1668
-sleep 30
-touchMove 0 908 1658
-sleep 7
-touchMove 0 908 1651
-sleep 6
-touchMove 0 909 1642
-sleep 6
-touchMove 0 911 1629
-sleep 7
-touchMove 0 912 1616
-sleep 6
-touchMove 0 914 1602
-sleep 6
-touchMove 0 916 1588
-sleep 8
-touchMove 0 920 1567
-sleep 7
-touchMove 0 924 1546
-sleep 13
-touchMove 0 926 1533
-sleep 7
-touchMove 0 928 1519
-sleep 6
-touchMove 0 932 1502
-sleep 6
-touchMove 0 939 1477
-sleep 7
-touchMove 0 945 1455
-sleep 6
-touchMove 0 951 1436
-sleep 7
-touchMove 0 954 1425
-sleep 6
-touchMove 0 956 1417
-sleep 9
-touchMove 0 958 1409
-sleep 7
-touchMove 0 961 1397
-sleep 4
-touchMove 0 965 1386
-sleep 7
-touchMove 0 968 1375
-sleep 5
-touchMove 0 971 1364
-sleep 7
-touchMove 0 973 1356
-sleep 6
-touchMove 0 975 1348
-sleep 6
-touchMove 0 978 1337
-sleep 7
-touchMove 0 981 1326
-sleep 15
-touchMove 0 984 1315
-sleep 7
-touchMove 0 987 1305
-sleep 6
-touchMove 0 990 1296
-sleep 6
-touchMove 0 993 1284
-sleep 7
-touchMove 0 997 1272
-sleep 6
-touchMove 0 1000 1261
-sleep 7
-touchMove 0 1004 1250
-sleep 6
-touchMove 0 1007 1240
-sleep 7
-touchMove 0 1009 1233
-sleep 7
-touchMove 0 1010 1228
-sleep 6
-touchMove 0 1012 1222
-sleep 6
-touchMove 0 1015 1215
-sleep 6
-touchMove 0 1017 1207
-sleep 6
-touchMove 0 1019 1199
-sleep 7
-touchMove 0 1021 1191
-sleep 6
-touchMove 0 1023 1184
-sleep 7
-touchMove 0 1025 1176
-sleep 16
-touchMove 0 1027 1169
-sleep 6
-touchMove 0 1029 1161
-sleep 6
-touchMove 0 1032 1151
-sleep 7
-touchMove 0 1036 1138
-sleep 6
-touchMove 0 1040 1126
-sleep 6
-touchMove 0 1044 1114
-sleep 7
-touchMove 0 1048 1103
-sleep 6
-touchMove 0 1051 1091
-sleep 6
-touchMove 0 1054 1079
-sleep 7
-touchMove 0 1056 1067
-sleep 6
-touchMove 0 1060 1055
-sleep 6
-touchMove 0 1064 1042
-sleep 7
-touchMove 0 1068 1028
-sleep 6
-touchMove 0 1075 1007
-sleep 7
-touchMove 0 1080 988
-sleep 7
-touchMove 0 1084 976
-sleep 6
-touchMove 0 1088 964
-sleep 15
-touchMove 0 1091 951
-sleep 6
-touchMove 0 1094 938
-sleep 6
-touchMove 0 1099 921
-sleep 7
-touchMove 0 1107 896
-sleep 7
-touchMove 0 1114 873
-sleep 6
-touchMove 0 1120 852
-sleep 6
-touchMove 0 1126 833
-sleep 7
-touchMove 0 1130 821
-sleep 6
-touchMove 0 1134 809
-sleep 6
-touchMove 0 1139 796
-sleep 7
-touchMove 0 1144 783
-sleep 6
-touchMove 0 1149 770
-sleep 6
-touchMove 0 1161 751
-sleep 6
-touchMove 0 1171 727
-sleep 11
-touchUp 0
-sleep 1082
-touchDown 0 396 2221
-sleep 115
-touchUp 0
-sleep 3377
-touchDown 0 567 1839
-sleep 43
-touchMove 0 566 1829
-sleep 10
-touchMove 0 566 1826
-sleep 4
-touchMove 0 567 1822
-sleep 15
-touchMove 0 568 1818
-sleep 5
-touchMove 0 569 1814
-sleep 9
-touchMove 0 571 1809
-touchMove 0 572 1804
-sleep 13
-touchMove 0 574 1799
-sleep 11
-touchMove 0 575 1794
-touchMove 0 577 1787
-sleep 33
-touchMove 0 581 1776
-touchMove 0 584 1765
-touchMove 0 586 1758
-touchMove 0 588 1751
-sleep 13
-touchMove 0 589 1746
-sleep 4
-touchMove 0 590 1740
-touchMove 0 592 1735
-sleep 6
-touchMove 0 594 1728
-touchMove 0 596 1721
-sleep 5
-touchMove 0 598 1713
-sleep 7
-touchMove 0 600 1705
-sleep 9
-touchMove 0 603 1697
-sleep 4
-touchMove 0 605 1690
-sleep 11
-touchMove 0 607 1683
-sleep 11
-touchMove 0 608 1678
-sleep 6
-touchMove 0 610 1672
-sleep 6
-touchMove 0 612 1663
-sleep 7
-touchMove 0 615 1652
-sleep 6
-touchMove 0 618 1641
-sleep 7
-touchMove 0 621 1631
-sleep 6
-touchMove 0 623 1624
-sleep 6
-touchMove 0 625 1617
-sleep 6
-touchMove 0 627 1612
-sleep 7
-touchMove 0 629 1607
-sleep 6
-touchMove 0 631 1602
-sleep 7
-touchMove 0 633 1597
-sleep 6
-touchMove 0 634 1592
-sleep 6
-touchMove 0 636 1587
-sleep 6
-touchMove 0 637 1582
-sleep 7
-touchMove 0 639 1577
-sleep 6
-touchMove 0 641 1572
-sleep 16
-touchMove 0 643 1567
-sleep 6
-touchMove 0 645 1562
-sleep 7
-touchMove 0 646 1557
-sleep 7
-touchMove 0 648 1552
-sleep 6
-touchMove 0 649 1547
-sleep 6
-touchMove 0 651 1542
-sleep 7
-touchMove 0 652 1537
-sleep 6
-touchMove 0 653 1532
-sleep 6
-touchMove 0 655 1527
-sleep 6
-touchMove 0 657 1522
-sleep 7
-touchMove 0 658 1516
-sleep 7
-touchMove 0 659 1511
-sleep 6
-touchMove 0 660 1505
-sleep 7
-touchMove 0 662 1498
-sleep 6
-touchMove 0 664 1490
-sleep 6
-touchMove 0 666 1483
-sleep 7
-touchMove 0 668 1476
-sleep 15
-touchMove 0 669 1468
-sleep 7
-touchMove 0 671 1460
-sleep 6
-touchMove 0 673 1451
-sleep 7
-touchMove 0 677 1438
-sleep 7
-touchMove 0 679 1426
-sleep 6
-touchMove 0 681 1414
-sleep 6
-touchMove 0 684 1403
-sleep 7
-touchMove 0 687 1392
-sleep 7
-touchMove 0 690 1381
-sleep 7
-touchMove 0 691 1373
-sleep 6
-touchMove 0 693 1365
-sleep 7
-touchMove 0 695 1353
-sleep 6
-touchMove 0 698 1341
-sleep 7
-touchMove 0 701 1329
-sleep 6
-touchMove 0 704 1318
-sleep 7
-touchMove 0 707 1307
-sleep 6
-touchMove 0 710 1296
-sleep 16
-touchMove 0 713 1285
-sleep 6
-touchMove 0 715 1277
-sleep 7
-touchMove 0 718 1268
-sleep 6
-touchMove 0 722 1255
-sleep 7
-touchMove 0 726 1243
-sleep 7
-touchMove 0 729 1232
-sleep 6
-touchMove 0 732 1222
-sleep 7
-touchMove 0 734 1215
-sleep 6
-touchMove 0 736 1208
-sleep 7
-touchMove 0 738 1200
-sleep 7
-touchMove 0 741 1193
-sleep 6
-touchMove 0 744 1186
-sleep 7
-touchMove 0 747 1179
-sleep 7
-touchMove 0 750 1172
-sleep 6
-touchMove 0 753 1165
-sleep 6
-touchMove 0 756 1158
-sleep 7
-touchMove 0 758 1153
-sleep 15
-touchMove 0 760 1148
-sleep 6
-touchMove 0 762 1143
-sleep 7
-touchMove 0 765 1135
-sleep 6
-touchMove 0 770 1124
-sleep 7
-touchMove 0 774 1115
-sleep 7
-touchMove 0 777 1108
-sleep 6
-touchMove 0 780 1101
-sleep 7
-touchMove 0 782 1096
-sleep 6
-touchMove 0 784 1091
-sleep 7
-touchMove 0 786 1086
-sleep 7
-touchMove 0 789 1081
-sleep 6
-touchMove 0 792 1074
-sleep 7
-touchMove 0 795 1067
-sleep 6
-touchMove 0 798 1060
-sleep 7
-touchMove 0 801 1053
-sleep 11
-touchMove 0 805 1046
-sleep 3
-touchMove 0 808 1039
-sleep 21
-touchMove 0 811 1032
-touchMove 0 814 1026
-sleep 6
-touchMove 0 817 1019
-sleep 6
-touchMove 0 819 1011
-sleep 12
-touchUp 0
-sleep 486
-touchDown 0 481 1509
-sleep 60
-touchUp 0
-sleep 3525
-touchDown 0 690 1168
+sleep 64
+touchDown 0 445 1884
 sleep 74
 touchUp 0
-sleep 754
-touchDown 0 698 1735
-sleep 47
-touchMove 0 694 1720
-sleep 7
-touchMove 0 695 1710
-sleep 6
-touchMove 0 698 1695
-sleep 8
-touchMove 0 703 1669
-sleep 6
-touchMove 0 708 1645
-sleep 6
-touchMove 0 713 1622
-sleep 6
-touchMove 0 718 1598
-sleep 15
-touchMove 0 722 1575
-touchMove 0 727 1552
-sleep 4
-touchMove 0 732 1528
-sleep 6
-touchMove 0 737 1506
-sleep 7
-touchMove 0 742 1484
-sleep 17
-touchMove 0 747 1463
-sleep 5
-touchMove 0 752 1443
-sleep 6
-touchMove 0 756 1426
-sleep 7
-touchMove 0 762 1401
-sleep 6
-touchMove 0 768 1378
-sleep 7
-touchMove 0 773 1357
-sleep 6
-touchMove 0 777 1336
-sleep 7
-touchMove 0 779 1323
-sleep 7
-touchMove 0 782 1310
-sleep 6
-touchMove 0 784 1297
-sleep 6
-touchMove 0 787 1284
-sleep 7
-touchMove 0 790 1271
-sleep 7
-touchMove 0 792 1258
-sleep 7
-touchMove 0 794 1245
-sleep 6
-touchMove 0 796 1233
-sleep 6
-touchMove 0 798 1221
-sleep 7
-touchMove 0 800 1209
-sleep 17
-touchMove 0 802 1197
-sleep 6
-touchMove 0 804 1185
-sleep 7
-touchMove 0 806 1170
-sleep 6
-touchMove 0 809 1148
-sleep 7
-touchMove 0 811 1129
-sleep 5
-touchMove 0 812 1119
-sleep 7
-touchMove 0 813 1111
-sleep 6
-touchMove 0 814 1103
-sleep 7
-touchMove 0 816 1095
-sleep 7
-touchMove 0 818 1083
-sleep 5
-touchMove 0 820 1072
-sleep 7
-touchMove 0 823 1061
-sleep 7
-touchMove 0 825 1050
-sleep 6
-touchMove 0 827 1042
-sleep 8
-touchMove 0 829 1034
-sleep 5
-touchMove 0 830 1026
-sleep 6
-touchMove 0 832 1017
-sleep 16
-touchMove 0 835 1005
-sleep 7
-touchMove 0 838 994
-sleep 6
-touchMove 0 841 981
-sleep 6
-touchMove 0 844 968
-sleep 7
-touchMove 0 848 955
-sleep 6
-touchMove 0 852 942
-sleep 10
-touchMove 0 855 929
-sleep 5
-touchMove 0 858 916
-sleep 6
-touchMove 0 861 903
-sleep 6
-touchMove 0 864 889
-sleep 7
-touchMove 0 870 868
-sleep 7
-touchMove 0 876 848
-sleep 7
-touchMove 0 880 835
-sleep 5
-touchMove 0 884 822
-sleep 11
-touchMove 0 889 809
-sleep 2
-touchMove 0 896 788
-sleep 7
-touchMove 0 903 769
-sleep 16
-touchMove 0 907 757
-sleep 6
-touchMove 0 912 745
-sleep 6
-touchMove 0 918 730
-sleep 7
-touchMove 0 927 708
-sleep 7
-touchMove 0 936 688
-sleep 6
-touchMove 0 945 671
-sleep 7
-touchMove 0 951 660
-sleep 7
-touchMove 0 956 649
-sleep 7
-touchMove 0 962 638
-sleep 8
-touchMove 0 969 626
-sleep 5
-touchMove 0 976 614
-sleep 6
-touchMove 0 988 594
-sleep 6
-touchMove 0 999 575
-sleep 5
-touchMove 0 1008 557
-sleep 6
-touchMove 0 1013 548
-sleep 11
+sleep 27
+touchDown 0 751 1711
+sleep 71
 touchUp 0
-sleep 642
-touchDown 0 674 1687
-sleep 37
-touchMove 0 675 1671
-sleep 6
-touchMove 0 678 1657
-sleep 7
-touchMove 0 683 1635
-sleep 17
-touchMove 0 689 1613
-sleep 6
-touchMove 0 695 1590
-sleep 7
-touchMove 0 704 1558
-sleep 8
-touchMove 0 713 1527
-sleep 4
-touchMove 0 722 1498
-sleep 6
-touchMove 0 730 1470
-sleep 6
-touchMove 0 738 1443
-sleep 7
-touchMove 0 747 1416
-sleep 8
-touchMove 0 755 1391
-sleep 5
-touchMove 0 763 1365
-sleep 9
-touchMove 0 771 1339
-sleep 5
-touchMove 0 779 1315
-sleep 6
-touchMove 0 786 1291
-sleep 7
-touchMove 0 793 1268
-sleep 7
-touchMove 0 799 1246
-sleep 6
-touchMove 0 805 1224
-sleep 7
-touchMove 0 812 1203
-sleep 15
-touchMove 0 818 1183
-sleep 7
-touchMove 0 822 1170
-sleep 7
-touchMove 0 827 1153
-sleep 6
-touchMove 0 834 1128
-sleep 6
-touchMove 0 841 1106
-sleep 7
-touchMove 0 846 1085
-sleep 6
-touchMove 0 851 1065
-sleep 9
-touchMove 0 854 1053
-sleep 5
-touchMove 0 858 1041
-sleep 6
-touchMove 0 862 1028
-sleep 6
-touchMove 0 865 1015
-sleep 7
-touchMove 0 869 1002
-sleep 6
-touchMove 0 873 989
-sleep 7
-touchMove 0 877 975
-sleep 7
-touchMove 0 884 954
-sleep 6
-touchMove 0 890 934
-sleep 6
-touchMove 0 894 922
-sleep 16
-touchMove 0 898 909
-sleep 6
-touchMove 0 903 896
-sleep 7
-touchMove 0 912 870
-sleep 6
-touchMove 0 921 846
-sleep 9
-touchMove 0 930 824
-sleep 5
-touchMove 0 938 804
-sleep 6
-touchMove 0 947 785
-sleep 7
-touchMove 0 952 774
-sleep 6
-touchMove 0 958 762
-sleep 7
-touchMove 0 964 750
-sleep 6
-touchMove 0 971 738
-sleep 6
-touchMove 0 977 726
-sleep 8
-touchMove 0 984 713
-sleep 6
-touchMove 0 996 693
-sleep 6
-touchMove 0 1007 675
-sleep 7
-touchMove 0 1019 658
-sleep 6
-touchMove 0 1027 647
-sleep 15
-touchMove 0 1035 637
-sleep 6
-touchMove 0 1044 625
-sleep 11
-touchUp 0
-sleep 1104
-touchDown 0 756 1307
-sleep 17
-touchMove 0 758 1297
-sleep 6
-touchMove 0 760 1290
-sleep 6
-touchMove 0 765 1277
-sleep 7
-touchMove 0 770 1263
-sleep 15
-touchMove 0 778 1241
-sleep 7
-touchMove 0 786 1220
-sleep 7
-touchMove 0 797 1190
-sleep 5
-touchMove 0 808 1161
-sleep 7
-touchMove 0 819 1134
-sleep 6
-touchMove 0 831 1106
-sleep 7
-touchMove 0 843 1078
-sleep 6
-touchMove 0 856 1049
-sleep 6
-touchMove 0 870 1021
-sleep 7
-touchMove 0 883 994
-sleep 6
-touchMove 0 895 967
-sleep 6
-touchMove 0 906 943
-sleep 7
-touchMove 0 917 919
-sleep 7
-touchMove 0 927 896
-sleep 8
-touchMove 0 937 874
-sleep 4
-touchMove 0 947 854
-sleep 7
-touchMove 0 956 834
-sleep 15
-touchMove 0 964 815
-sleep 7
-touchMove 0 969 803
-sleep 6
-touchMove 0 977 788
-sleep 7
-touchMove 0 991 765
-sleep 6
-touchMove 0 1004 746
-sleep 5
-touchMove 0 1013 727
-sleep 12
-touchUp 0
-sleep 1007
-touchDown 0 404 2208
-sleep 61
-touchUp 0
-sleep 1477
-touchDown 0 531 1863
-sleep 51
-touchMove 0 532 1849
-sleep 7
-touchMove 0 534 1841
-sleep 7
-touchMove 0 536 1832
-sleep 6
-touchMove 0 539 1819
-sleep 6
-touchMove 0 542 1805
-sleep 7
-touchMove 0 548 1782
-sleep 6
-touchMove 0 554 1761
-sleep 7
-touchMove 0 559 1742
-sleep 6
-touchMove 0 563 1729
-sleep 7
-touchMove 0 567 1715
-sleep 6
-touchMove 0 573 1693
-sleep 6
-touchMove 0 579 1673
-sleep 7
-touchMove 0 583 1660
-sleep 6
-touchMove 0 588 1646
-sleep 16
-touchMove 0 593 1626
-sleep 7
-touchMove 0 597 1614
-sleep 7
-touchMove 0 601 1598
-sleep 6
-touchMove 0 606 1574
-sleep 7
-touchMove 0 610 1552
-sleep 7
-touchMove 0 615 1532
-sleep 6
-touchMove 0 618 1520
-sleep 6
-touchMove 0 621 1507
-sleep 7
-touchMove 0 624 1494
-sleep 6
-touchMove 0 628 1481
-sleep 7
-touchMove 0 632 1468
-sleep 7
-touchMove 0 636 1455
-sleep 6
-touchMove 0 640 1442
-sleep 7
-touchMove 0 647 1422
-sleep 6
-touchMove 0 652 1410
-sleep 7
-touchMove 0 655 1397
-sleep 7
-touchMove 0 659 1385
-sleep 15
-touchMove 0 662 1373
-sleep 6
-touchMove 0 667 1361
-sleep 7
-touchMove 0 671 1346
-sleep 7
-touchMove 0 679 1325
-sleep 6
-touchMove 0 687 1306
-sleep 7
-touchMove 0 691 1295
-sleep 7
-touchMove 0 693 1287
-sleep 6
-touchMove 0 696 1279
-sleep 7
-touchMove 0 701 1267
-sleep 6
-touchMove 0 706 1256
-sleep 7
-touchMove 0 711 1244
-sleep 6
-touchMove 0 716 1233
-sleep 7
-touchMove 0 720 1222
-sleep 7
-touchMove 0 725 1211
-sleep 6
-touchMove 0 730 1200
-sleep 7
-touchMove 0 735 1189
-sleep 7
-touchMove 0 739 1178
-sleep 15
-touchMove 0 743 1166
-sleep 7
-touchMove 0 749 1154
-sleep 6
-touchMove 0 755 1141
-sleep 6
-touchMove 0 765 1121
-sleep 7
-touchMove 0 777 1101
-sleep 6
-touchMove 0 787 1085
-sleep 6
-touchMove 0 793 1075
-sleep 10
-touchUp 0
-sleep 819
-touchDown 0 505 1630
-sleep 63
-touchUp 0
-sleep 1902
-touchDown 0 1215 1222
-sleep 58
-touchMove 0 1200 1224
-sleep 5
-touchMove 0 1197 1225
-sleep 7
-touchMove 0 1192 1226
-sleep 6
-touchMove 0 1185 1227
-sleep 15
-touchMove 0 1175 1227
-sleep 7
-touchMove 0 1161 1228
-sleep 6
-touchMove 0 1142 1229
-sleep 7
-touchMove 0 1113 1230
-sleep 6
-touchMove 0 1086 1231
-sleep 7
-touchMove 0 1062 1231
-sleep 8
-touchMove 0 1039 1231
-sleep 7
-touchMove 0 1015 1232
-sleep 5
-touchMove 0 993 1232
-sleep 6
-touchMove 0 972 1233
-sleep 7
-touchMove 0 957 1234
-sleep 6
-touchMove 0 942 1235
-sleep 7
-touchMove 0 919 1236
-sleep 8
-touchMove 0 896 1238
-sleep 6
-touchMove 0 875 1240
-sleep 10
-touchMove 0 861 1242
-sleep 5
-touchMove 0 847 1244
-sleep 14
-touchMove 0 832 1246
-sleep 6
-touchMove 0 810 1249
-sleep 7
-touchMove 0 785 1252
-sleep 7
-touchMove 0 763 1255
-sleep 6
-touchMove 0 745 1257
-sleep 6
-touchMove 0 733 1259
-sleep 8
-touchMove 0 723 1260
-sleep 5
-touchMove 0 710 1262
-sleep 10
-touchMove 0 698 1264
-sleep 3
-touchMove 0 686 1267
-sleep 6
-touchMove 0 677 1269
-sleep 6
-touchMove 0 668 1271
-sleep 6
-touchMove 0 657 1274
-sleep 11
-touchUp 0
-sleep 574
-touchDown 0 1143 1268
-sleep 51
-touchMove 0 1130 1265
-sleep 7
-touchMove 0 1121 1263
-sleep 6
-touchMove 0 1108 1260
-sleep 7
-touchMove 0 1094 1258
-sleep 7
-touchMove 0 1079 1257
-sleep 6
-touchMove 0 1055 1256
-sleep 7
-touchMove 0 1032 1255
-sleep 7
-touchMove 0 1008 1255
-sleep 6
-touchMove 0 986 1256
-sleep 6
-touchMove 0 962 1257
-sleep 7
-touchMove 0 938 1259
-sleep 7
-touchMove 0 915 1261
-sleep 6
-touchMove 0 891 1264
-sleep 6
-touchMove 0 867 1267
-sleep 6
-touchMove 0 842 1271
-sleep 16
-touchMove 0 817 1274
-sleep 6
-touchMove 0 794 1278
-sleep 7
-touchMove 0 761 1284
-sleep 7
-touchMove 0 731 1290
-sleep 6
-touchMove 0 702 1297
-sleep 8
-touchMove 0 675 1304
-sleep 6
-touchMove 0 649 1310
-sleep 6
-touchMove 0 624 1316
-sleep 6
-touchMove 0 601 1323
-sleep 6
-touchMove 0 579 1329
-sleep 6
-touchMove 0 560 1336
-sleep 6
-touchMove 0 543 1339
-sleep 6
-touchMove 0 520 1346
-sleep 11
-touchUp 0
-sleep 708
-touchDown 0 1238 1214
-sleep 42
-touchMove 0 1228 1214
-sleep 6
-touchMove 0 1225 1214
-sleep 6
-touchMove 0 1221 1214
-sleep 6
-touchMove 0 1217 1214
-sleep 7
-touchMove 0 1211 1214
-sleep 6
-touchMove 0 1201 1213
-sleep 6
-touchMove 0 1187 1212
-sleep 6
-touchMove 0 1174 1212
-sleep 7
-touchMove 0 1160 1212
-sleep 9
-touchMove 0 1145 1212
-sleep 13
-touchMove 0 1122 1212
-sleep 6
-touchMove 0 1100 1212
-sleep 7
-touchMove 0 1070 1214
-sleep 7
-touchMove 0 1041 1215
-sleep 5
-touchMove 0 1014 1217
-sleep 7
-touchMove 0 989 1218
-sleep 6
-touchMove 0 965 1220
-sleep 7
-touchMove 0 940 1222
-sleep 7
-touchMove 0 915 1225
-sleep 6
-touchMove 0 890 1228
-sleep 6
-touchMove 0 866 1231
-sleep 7
-touchMove 0 842 1234
-sleep 7
-touchMove 0 818 1237
-sleep 6
-touchMove 0 796 1240
-sleep 7
-touchMove 0 774 1243
-sleep 6
-touchMove 0 752 1247
-sleep 8
-touchMove 0 730 1251
-sleep 15
-touchMove 0 710 1255
-sleep 5
-touchMove 0 696 1259
-sleep 6
-touchMove 0 676 1262
-sleep 6
-touchMove 0 650 1272
-sleep 11
-touchUp 0
-sleep 2167
-touchDown 0 1128 1247
-sleep 39
-touchMove 0 1117 1247
-sleep 15
-touchMove 0 1112 1246
-touchMove 0 1105 1246
-sleep 6
-touchMove 0 1095 1245
-sleep 9
-touchMove 0 1079 1244
-sleep 4
-touchMove 0 1055 1244
-sleep 46
-touchMove 0 1031 1244
-sleep 3
-touchMove 0 1007 1244
-sleep 4
-touchMove 0 984 1245
-touchMove 0 959 1246
-sleep 2
-touchMove 0 935 1247
-touchMove 0 911 1249
-sleep 3
-touchMove 0 885 1251
-sleep 7
-touchMove 0 860 1254
-touchMove 0 833 1257
-sleep 17
-touchMove 0 807 1260
-touchMove 0 781 1264
-sleep 4
-touchMove 0 746 1273
-sleep 10
-touchMove 0 714 1281
-sleep 3
-touchMove 0 682 1289
-sleep 6
-touchMove 0 652 1299
-sleep 15
-touchUp 0
-sleep 831
-touchDown 0 1215 1233
-sleep 31
-touchMove 0 1204 1233
-sleep 6
-touchMove 0 1200 1232
-sleep 7
-touchMove 0 1193 1231
-sleep 6
-touchMove 0 1184 1229
-sleep 9
-touchMove 0 1170 1227
-sleep 6
-touchMove 0 1155 1225
-sleep 8
-touchMove 0 1131 1223
-sleep 6
-touchMove 0 1109 1221
-sleep 9
-touchMove 0 1086 1220
-touchMove 0 1062 1220
-sleep 12
-touchMove 0 1040 1220
-sleep 4
-touchMove 0 1017 1220
-sleep 12
-touchMove 0 995 1221
-sleep 6
-touchMove 0 980 1222
-sleep 8
-touchMove 0 959 1223
-sleep 5
-touchMove 0 926 1226
-sleep 7
-touchMove 0 896 1229
-sleep 6
-touchMove 0 867 1232
-sleep 7
-touchMove 0 841 1235
-sleep 6
-touchMove 0 815 1240
-sleep 6
-touchMove 0 791 1246
-sleep 11
-touchUp 0
-sleep 1747
-touchDown 0 455 1430
-sleep 47
-touchMove 0 467 1432
-sleep 6
-touchMove 0 481 1429
-sleep 8
-touchMove 0 512 1421
-sleep 6
-touchMove 0 540 1413
-sleep 13
-touchMove 0 569 1406
-sleep 6
-touchMove 0 597 1400
-sleep 2
-touchMove 0 624 1395
-sleep 24
-touchMove 0 652 1390
-touchMove 0 680 1386
-touchMove 0 708 1383
-touchMove 0 735 1381
-sleep 7
-touchMove 0 762 1379
-sleep 6
-touchMove 0 789 1378
-sleep 6
-touchMove 0 815 1377
-sleep 7
-touchMove 0 841 1377
-sleep 6
-touchMove 0 865 1377
-sleep 16
-touchMove 0 889 1377
-sleep 11
-touchMove 0 912 1377
-sleep 2
-touchMove 0 941 1378
-sleep 11
-touchMove 0 969 1379
-touchMove 0 992 1380
-sleep 8
-touchMove 0 1012 1381
-sleep 8
-touchMove 0 1026 1382
-sleep 4
-touchMove 0 1039 1383
-sleep 6
-touchMove 0 1052 1384
-sleep 7
-touchMove 0 1066 1385
-sleep 6
-touchMove 0 1079 1386
-sleep 10
-touchMove 0 1092 1388
-sleep 2
-touchMove 0 1106 1390
-sleep 6
-touchMove 0 1120 1392
-sleep 9
-touchMove 0 1136 1395
-sleep 3
-touchMove 0 1158 1399
-sleep 25
-touchUp 0
-sleep 586
-touchDown 0 397 1516
-sleep 25
-touchMove 0 409 1516
-sleep 6
-touchMove 0 418 1515
-sleep 7
-touchMove 0 432 1514
-sleep 6
-touchMove 0 446 1513
-sleep 7
-touchMove 0 461 1511
-sleep 6
-touchMove 0 486 1507
-sleep 7
-touchMove 0 512 1504
-sleep 7
-touchMove 0 539 1501
-sleep 6
-touchMove 0 566 1499
-sleep 7
-touchMove 0 594 1497
-sleep 6
-touchMove 0 622 1495
-sleep 16
-touchMove 0 652 1494
-sleep 6
-touchMove 0 681 1493
-sleep 6
-touchMove 0 720 1493
-sleep 7
-touchMove 0 757 1494
-sleep 6
-touchMove 0 792 1494
-sleep 6
-touchMove 0 825 1495
-sleep 7
-touchMove 0 856 1496
-sleep 6
-touchMove 0 887 1497
-sleep 7
-touchMove 0 917 1498
-sleep 6
-touchMove 0 947 1498
-sleep 6
-touchMove 0 976 1499
-sleep 7
-touchMove 0 1004 1500
-sleep 6
-touchMove 0 1032 1501
-sleep 6
-touchMove 0 1059 1502
-sleep 7
-touchMove 0 1084 1503
-sleep 6
-touchMove 0 1108 1504
-sleep 6
-touchMove 0 1130 1505
-sleep 15
-touchMove 0 1154 1509
-sleep 9
-touchUp 0
-sleep 491
-touchDown 0 394 1471
-sleep 34
-touchMove 0 408 1476
-sleep 5
-touchMove 0 418 1476
-sleep 5
-touchMove 0 433 1476
-sleep 7
-touchMove 0 457 1475
-sleep 6
-touchMove 0 481 1473
-sleep 7
-touchMove 0 504 1471
-sleep 6
-touchMove 0 529 1469
-sleep 7
-touchMove 0 554 1466
-sleep 6
-touchMove 0 580 1464
-sleep 15
-touchMove 0 605 1462
-sleep 7
-touchMove 0 632 1460
-sleep 10
-touchMove 0 670 1459
-sleep 4
-touchMove 0 705 1458
-sleep 6
-touchMove 0 738 1458
-sleep 7
-touchMove 0 770 1459
-sleep 6
-touchMove 0 801 1460
-sleep 5
-touchMove 0 831 1461
-sleep 7
-touchMove 0 860 1462
-sleep 6
-touchMove 0 890 1464
-sleep 6
-touchMove 0 918 1466
-sleep 6
-touchMove 0 947 1467
-sleep 6
-touchMove 0 975 1468
-sleep 6
-touchMove 0 1003 1469
-sleep 8
-touchMove 0 1031 1471
-sleep 5
-touchMove 0 1060 1474
-sleep 6
-touchMove 0 1085 1475
-sleep 20
-touchUp 0
-sleep 501
-touchDown 0 339 1482
-sleep 46
-touchMove 0 351 1489
-sleep 6
-touchMove 0 356 1490
-sleep 6
-touchMove 0 365 1490
-sleep 6
-touchMove 0 379 1490
-sleep 7
-touchMove 0 394 1490
-sleep 6
-touchMove 0 419 1489
-sleep 16
-touchMove 0 442 1488
-sleep 7
-touchMove 0 465 1487
-sleep 7
-touchMove 0 498 1486
-sleep 6
-touchMove 0 529 1485
-sleep 6
-touchMove 0 559 1484
-sleep 6
-touchMove 0 587 1483
-sleep 7
-touchMove 0 614 1482
-sleep 6
-touchMove 0 642 1482
-sleep 6
-touchMove 0 669 1482
-sleep 6
-touchMove 0 697 1482
-sleep 7
-touchMove 0 722 1481
-sleep 6
-touchMove 0 748 1480
-sleep 6
-touchMove 0 775 1480
-sleep 7
-touchMove 0 801 1480
-sleep 6
-touchMove 0 827 1480
-sleep 7
-touchMove 0 852 1480
-sleep 5
-touchMove 0 877 1480
-sleep 16
-touchMove 0 902 1481
-sleep 6
-touchMove 0 927 1482
-sleep 8
-touchMove 0 959 1485
-sleep 5
-touchMove 0 987 1488
-sleep 6
-touchMove 0 1014 1492
-sleep 7
-touchMove 0 1040 1496
-sleep 6
-touchMove 0 1064 1500
-sleep 6
-touchMove 0 1087 1505
-sleep 6
-touchMove 0 1108 1511
-sleep 6
-touchMove 0 1133 1519
-sleep 10
-touchUp 0
-sleep 530
-touchDown 0 277 1454
-sleep 44
-touchMove 0 290 1453
-sleep 7
-touchMove 0 297 1452
-sleep 7
-touchMove 0 310 1450
-sleep 7
-touchMove 0 323 1448
-sleep 6
-touchMove 0 338 1446
-sleep 7
-touchMove 0 361 1442
-sleep 7
-touchMove 0 383 1439
-sleep 6
-touchMove 0 405 1437
-sleep 7
-touchMove 0 426 1435
-sleep 15
-touchMove 0 440 1434
-sleep 7
-touchMove 0 456 1433
-sleep 6
-touchMove 0 490 1431
-sleep 6
-touchMove 0 521 1429
-sleep 7
-touchMove 0 550 1427
-sleep 6
-touchMove 0 575 1425
-sleep 7
-touchMove 0 602 1424
-sleep 7
-touchMove 0 629 1423
-sleep 6
-touchMove 0 655 1421
-sleep 9
-touchMove 0 681 1419
-sleep 4
-touchMove 0 705 1417
-sleep 7
-touchMove 0 729 1416
-sleep 5
-touchMove 0 751 1415
-sleep 7
-touchMove 0 774 1414
-sleep 6
-touchMove 0 797 1413
-sleep 8
-touchMove 0 822 1412
-sleep 5
-touchMove 0 846 1411
-sleep 15
-touchMove 0 868 1410
-sleep 7
-touchMove 0 891 1410
-sleep 6
-touchMove 0 926 1410
-sleep 6
-touchMove 0 960 1411
-sleep 6
-touchMove 0 991 1411
-sleep 6
-touchMove 0 1023 1412
-sleep 6
-touchMove 0 1054 1414
-sleep 7
-touchMove 0 1083 1415
-sleep 6
-touchMove 0 1112 1418
-sleep 6
-touchMove 0 1140 1419
-sleep 9
-touchMove 0 1172 1420
-sleep 11
-touchUp 0
-sleep 663
-touchDown 0 334 1428
-sleep 44
-touchMove 0 347 1429
-sleep 15
-touchMove 0 354 1429
-sleep 7
-touchMove 0 367 1427
-sleep 6
-touchMove 0 387 1424
-sleep 7
-touchMove 0 418 1419
-sleep 6
-touchMove 0 448 1414
-sleep 6
-touchMove 0 477 1409
-sleep 8
-touchMove 0 506 1404
-sleep 8
-touchMove 0 535 1400
-sleep 6
-touchMove 0 565 1396
-sleep 5
-touchMove 0 594 1393
-sleep 9
-touchMove 0 622 1391
-sleep 5
-touchMove 0 652 1388
-sleep 49
-touchMove 0 680 1386
-touchMove 0 708 1384
-touchMove 0 734 1382
-touchMove 0 759 1381
-sleep 2
-touchMove 0 785 1379
-touchMove 0 808 1378
-sleep 4
-touchMove 0 831 1377
-sleep 5
-touchMove 0 860 1377
-sleep 6
-touchMove 0 885 1376
-sleep 6
-touchMove 0 909 1376
-sleep 7
-touchMove 0 931 1376
-sleep 6
-touchMove 0 952 1375
-sleep 6
-touchMove 0 966 1375
-sleep 7
-touchMove 0 980 1375
-sleep 6
-touchMove 0 1004 1375
-sleep 6
-touchMove 0 1028 1383
-sleep 11
-touchUp 0
-sleep 713
-touchDown 0 348 2229
-sleep 58
-touchUp 0
-sleep 1705
-touchDown 0 653 1881
-sleep 49
-touchMove 0 653 1869
-sleep 7
-touchMove 0 654 1862
-sleep 6
-touchMove 0 655 1848
-sleep 7
-touchMove 0 660 1825
-sleep 8
-touchMove 0 664 1801
-sleep 14
-touchMove 0 667 1778
-sleep 6
-touchMove 0 671 1756
-sleep 6
-touchMove 0 676 1726
-sleep 7
-touchMove 0 682 1697
-sleep 6
-touchMove 0 686 1668
-sleep 6
-touchMove 0 691 1641
-sleep 7
-touchMove 0 695 1615
-sleep 7
-touchMove 0 699 1589
-sleep 7
-touchMove 0 703 1563
-sleep 6
-touchMove 0 706 1537
-sleep 7
-touchMove 0 710 1511
-sleep 6
-touchMove 0 715 1486
-sleep 7
-touchMove 0 719 1461
-sleep 11
-touchMove 0 723 1437
-sleep 2
-touchMove 0 728 1414
-sleep 7
-touchMove 0 733 1392
-sleep 7
-touchMove 0 738 1370
-sleep 15
-touchMove 0 742 1349
-sleep 7
-touchMove 0 746 1328
-sleep 7
-touchMove 0 752 1302
-sleep 6
-touchMove 0 758 1278
-sleep 6
-touchMove 0 763 1256
-sleep 7
-touchMove 0 767 1235
-sleep 6
-touchMove 0 772 1214
-sleep 7
-touchMove 0 777 1194
-sleep 7
-touchMove 0 780 1182
-sleep 6
-touchMove 0 783 1169
-sleep 7
-touchMove 0 787 1156
-sleep 6
-touchMove 0 790 1143
-sleep 7
-touchMove 0 793 1130
-sleep 7
-touchMove 0 796 1117
-sleep 7
-touchMove 0 799 1104
-sleep 7
-touchMove 0 801 1091
-sleep 6
-touchMove 0 804 1078
-sleep 17
-touchMove 0 807 1065
-sleep 5
-touchMove 0 810 1054
-sleep 8
-touchMove 0 815 1040
-sleep 5
-touchMove 0 823 1019
-sleep 6
-touchMove 0 830 1000
-sleep 7
-touchMove 0 835 989
-sleep 5
-touchMove 0 842 977
-sleep 12
-touchUp 0
-sleep 1351
-touchDown 0 522 1788
-sleep 68
-touchUp 0
-sleep 1227
-touchDown 0 711 1835
-sleep 60
-touchMove 0 711 1825
-sleep 5
-touchMove 0 712 1819
-sleep 7
-touchMove 0 713 1810
-sleep 6
-touchMove 0 715 1795
-sleep 6
-touchMove 0 719 1772
-sleep 6
-touchMove 0 722 1750
-sleep 7
-touchMove 0 726 1728
-sleep 7
-touchMove 0 729 1705
-sleep 37
-touchMove 0 733 1682
-sleep 2
-touchMove 0 737 1657
-touchMove 0 741 1633
-touchMove 0 745 1609
-sleep 3
-touchMove 0 750 1584
-sleep 9
-touchMove 0 754 1558
-sleep 4
-touchMove 0 761 1522
-sleep 4
-touchMove 0 767 1488
-sleep 6
-touchMove 0 772 1457
-sleep 10
-touchMove 0 777 1426
-sleep 3
-touchMove 0 781 1397
-sleep 6
-touchMove 0 786 1369
-sleep 7
-touchMove 0 791 1341
-sleep 7
-touchMove 0 796 1315
-sleep 7
-touchMove 0 800 1288
-sleep 5
-touchMove 0 804 1262
-sleep 7
-touchMove 0 808 1237
-sleep 7
-touchMove 0 812 1212
-sleep 6
-touchMove 0 815 1187
-sleep 6
-touchMove 0 818 1162
-sleep 7
-touchMove 0 821 1139
-sleep 16
-touchMove 0 824 1117
-sleep 6
-touchMove 0 827 1095
-sleep 6
-touchMove 0 830 1066
-sleep 7
-touchMove 0 833 1038
-sleep 7
-touchMove 0 836 1013
-sleep 7
-touchMove 0 839 989
-sleep 6
-touchMove 0 842 965
-sleep 8
-touchMove 0 845 942
-sleep 5
-touchMove 0 848 919
-sleep 7
-touchMove 0 851 895
-sleep 6
-touchMove 0 854 871
-sleep 6
-touchMove 0 859 846
-sleep 7
-touchMove 0 864 821
-sleep 7
-touchMove 0 869 795
-sleep 6
-touchMove 0 875 768
-sleep 7
-touchMove 0 882 741
-sleep 6
-touchMove 0 891 713
-sleep 16
-touchMove 0 900 686
-sleep 7
-touchMove 0 909 657
-sleep 6
-touchMove 0 925 615
-sleep 6
-touchMove 0 956 532
-sleep 7
-touchMove 0 982 474
-sleep 6
-touchMove 0 993 452
-sleep 7
-touchMove 0 1005 427
-sleep 6
-touchMove 0 1018 401
-sleep 6
-touchMove 0 1033 376
-sleep 7
-touchMove 0 1047 351
-sleep 6
-touchMove 0 1062 327
-sleep 6
-touchMove 0 1080 306
-sleep 11
-touchUp 0
-sleep 918
-touchDown 0 695 1750
-sleep 37
-touchMove 0 691 1738
-sleep 7
-touchMove 0 691 1728
-sleep 6
-touchMove 0 692 1713
-sleep 6
-touchMove 0 694 1689
-sleep 7
-touchMove 0 697 1663
-sleep 6
-touchMove 0 700 1639
-sleep 7
-touchMove 0 704 1614
-sleep 7
-touchMove 0 708 1589
-sleep 15
-touchMove 0 712 1563
-sleep 6
-touchMove 0 717 1536
-sleep 7
-touchMove 0 724 1499
-sleep 6
-touchMove 0 731 1464
-sleep 7
-touchMove 0 738 1430
-sleep 7
-touchMove 0 745 1397
-sleep 7
-touchMove 0 752 1365
-sleep 6
-touchMove 0 759 1333
-sleep 7
-touchMove 0 766 1300
-sleep 6
-touchMove 0 772 1268
-sleep 9
-touchMove 0 778 1236
-sleep 4
-touchMove 0 785 1203
-sleep 7
-touchMove 0 792 1171
-sleep 6
-touchMove 0 799 1141
-sleep 7
-touchMove 0 806 1110
-sleep 6
-touchMove 0 813 1079
-sleep 7
-touchMove 0 820 1048
-sleep 16
-touchMove 0 828 1018
-sleep 6
-touchMove 0 835 989
-sleep 8
-touchMove 0 847 950
-sleep 6
-touchMove 0 862 902
-sleep 6
-touchMove 0 872 871
-sleep 7
-touchMove 0 882 840
-sleep 6
-touchMove 0 892 811
-sleep 7
-touchMove 0 903 782
-sleep 6
-touchMove 0 914 754
-sleep 7
-touchMove 0 925 728
-sleep 7
-touchMove 0 937 702
-sleep 6
-touchMove 0 949 677
-sleep 6
-touchMove 0 962 653
-sleep 7
-touchMove 0 974 630
-sleep 6
-touchMove 0 988 609
-sleep 7
-touchMove 0 1001 590
-sleep 6
-touchMove 0 1014 572
-sleep 15
-touchMove 0 1028 556
-sleep 10
-touchUp 0
-sleep 601
-touchDown 0 383 2198
-sleep 81
-touchUp 0
-sleep 1904
-touchDown 0 1070 1520
-sleep 62
-touchUp 0
-sleep 1895
-touchDown 0 383 2220
-sleep 56
-touchUp 0
-sleep 1445
-touchDown 0 1113 1666
+sleep 144
+touchDown 0 789 1866
 sleep 57
 touchUp 0
-sleep 6715
-touchDown 0 368 2237
-sleep 60
-touchMove 0 358 2237
-sleep 5
-touchMove 0 358 2236
-sleep 10
+sleep 1208
+touchDown 0 58 2059
+sleep 58
 touchUp 0
-sleep 1333
-touchDown 0 1059 1738
-sleep 61
-touchMove 0 1051 1722
-sleep 17
-touchMove 0 1051 1697
-touchMove 0 1051 1673
-touchMove 0 1051 1650
-sleep 6
-touchMove 0 1051 1629
-sleep 5
-touchMove 0 1051 1615
+sleep 711
+touchDown 0 114 1675
+sleep 53
+touchMove 0 108 1685
 sleep 7
-touchMove 0 1052 1600
-sleep 6
-touchMove 0 1053 1577
-sleep 7
-touchMove 0 1055 1555
-sleep 6
-touchMove 0 1058 1534
-sleep 6
-touchMove 0 1060 1514
-sleep 7
-touchMove 0 1060 1502
-sleep 7
-touchMove 0 1061 1490
-sleep 5
-touchMove 0 1062 1477
-sleep 8
-touchMove 0 1063 1464
-sleep 14
-touchMove 0 1064 1451
-sleep 7
-touchMove 0 1065 1438
-sleep 6
-touchMove 0 1067 1421
-sleep 9
-touchMove 0 1071 1396
-sleep 5
-touchMove 0 1074 1374
-sleep 6
-touchMove 0 1076 1354
-sleep 7
-touchMove 0 1078 1341
-sleep 6
-touchMove 0 1081 1328
-sleep 7
-touchMove 0 1083 1315
-sleep 6
-touchMove 0 1085 1302
-sleep 9
-touchMove 0 1087 1289
-sleep 5
-touchMove 0 1089 1275
-sleep 6
-touchMove 0 1091 1262
-sleep 7
-touchMove 0 1093 1249
-sleep 6
-touchMove 0 1095 1237
-sleep 6
-touchMove 0 1098 1224
-sleep 8
-touchMove 0 1100 1211
-sleep 14
-touchMove 0 1102 1199
-sleep 6
-touchMove 0 1105 1187
-sleep 6
-touchMove 0 1108 1173
-sleep 7
-touchMove 0 1111 1160
-sleep 6
-touchMove 0 1113 1148
-sleep 7
-touchMove 0 1116 1137
-sleep 6
-touchMove 0 1119 1126
-sleep 7
-touchMove 0 1120 1119
-sleep 6
-touchMove 0 1121 1114
-sleep 7
-touchMove 0 1122 1109
-sleep 6
-touchMove 0 1124 1104
-sleep 6
-touchMove 0 1126 1098
-sleep 7
-touchMove 0 1129 1090
-sleep 6
-touchMove 0 1132 1082
-sleep 6
-touchMove 0 1136 1076
-sleep 6
-touchMove 0 1138 1070
-sleep 20
+touchMove 0 108 1689
+sleep 12
 touchUp 0
-sleep 433
-touchDown 0 1121 1367
-sleep 64
+sleep 805
+touchDown 0 59 2091
+sleep 66
 touchUp 0
-sleep 4067
-touchDown 0 399 2217
-sleep 95
+sleep 507
+touchDown 0 58 1481
+sleep 49
 touchUp 0
-sleep 1820
-touchDown 0 1151 1751
-sleep 37
-touchMove 0 1144 1737
-sleep 6
-touchMove 0 1143 1730
-sleep 15
-touchMove 0 1142 1717
-sleep 4
-touchMove 0 1141 1704
-touchMove 0 1141 1691
-sleep 6
-touchMove 0 1140 1678
-sleep 7
-touchMove 0 1140 1665
-sleep 5
-touchMove 0 1141 1651
-sleep 6
-touchMove 0 1141 1638
-sleep 15
-touchMove 0 1142 1626
-sleep 6
-touchMove 0 1143 1615
-sleep 7
-touchMove 0 1145 1601
-sleep 6
-touchMove 0 1148 1581
-sleep 8
-touchMove 0 1150 1570
-sleep 5
-touchMove 0 1151 1559
-sleep 7
-touchMove 0 1152 1552
-sleep 6
-touchMove 0 1153 1546
-sleep 6
-touchMove 0 1154 1540
-sleep 7
-touchMove 0 1155 1532
-sleep 6
-touchMove 0 1157 1523
-sleep 6
-touchMove 0 1159 1512
-sleep 7
-touchMove 0 1161 1501
-sleep 6
-touchMove 0 1162 1494
-sleep 7
-touchMove 0 1164 1487
-sleep 6
-touchMove 0 1165 1480
-sleep 7
-touchMove 0 1166 1472
-sleep 15
-touchMove 0 1168 1464
-sleep 7
-touchMove 0 1169 1456
-sleep 6
-touchMove 0 1171 1447
-sleep 7
-touchMove 0 1173 1435
-sleep 7
-touchMove 0 1174 1424
-sleep 6
-touchMove 0 1175 1416
-sleep 6
-touchMove 0 1176 1408
-sleep 6
-touchMove 0 1178 1399
-sleep 7
-touchMove 0 1180 1388
-sleep 7
-touchMove 0 1182 1377
-sleep 6
-touchMove 0 1184 1370
-sleep 6
-touchMove 0 1185 1364
-sleep 6
-touchMove 0 1186 1358
-sleep 7
-touchMove 0 1188 1350
-sleep 6
-touchMove 0 1189 1342
-sleep 6
-touchMove 0 1190 1334
-sleep 7
-touchMove 0 1192 1326
-sleep 15
-touchMove 0 1194 1318
-sleep 7
-touchMove 0 1196 1311
-sleep 6
-touchMove 0 1198 1303
-sleep 7
-touchMove 0 1201 1295
-sleep 6
-touchMove 0 1204 1287
-sleep 6
-touchMove 0 1207 1279
-sleep 6
-touchMove 0 1210 1271
-sleep 7
-touchMove 0 1213 1261
-sleep 6
-touchMove 0 1216 1254
-sleep 6
-touchMove 0 1219 1247
-sleep 7
-touchMove 0 1222 1240
-sleep 6
-touchMove 0 1224 1235
-sleep 6
-touchMove 0 1227 1229
-sleep 7
-touchMove 0 1232 1219
-sleep 6
-touchMove 0 1237 1209
-sleep 7
-touchMove 0 1241 1201
-sleep 5
-touchMove 0 1246 1191
-sleep 20
+sleep 176
+touchDown 0 46 1498
+sleep 70
 touchUp 0
-sleep 551
-touchDown 0 1207 1486
-sleep 60
+sleep 1759
+touchDown 0 1146 2039
+sleep 80
 touchUp 0
-sleep 5866
-touchDown 0 1025 258
+sleep 463
+touchDown 0 456 1911
+sleep 65
+touchUp 0
+sleep 65
+touchDown 0 1036 1540
+sleep 91
+touchUp 0
+sleep 184
+touchDown 0 942 1845
 sleep 84
 touchUp 0
-sleep 2556
-touchDown 0 404 2212
-sleep 74
+sleep 541
+touchDown 0 913 888
+sleep 91
 touchUp 0
-sleep 1164
-touchDown 0 774 260
-sleep 78
+sleep 1893
+touchDown 0 565 1519
+sleep 87
 touchUp 0
-sleep 1452
-touchDown 0 392 2227
-sleep 51
-touchUp 0
-sleep 1318
-touchDown 0 1079 1662
-sleep 45
-touchMove 0 1074 1650
-sleep 2
-touchMove 0 1074 1641
-sleep 5
-touchMove 0 1074 1629
-sleep 8
-touchMove 0 1074 1616
-sleep 35
-touchMove 0 1075 1601
-sleep 13
-touchMove 0 1077 1578
-sleep 5
-touchMove 0 1079 1549
-sleep 6
-touchMove 0 1081 1523
-touchMove 0 1083 1499
-touchMove 0 1085 1475
-touchMove 0 1087 1453
-touchMove 0 1088 1432
-sleep 18
-touchMove 0 1089 1419
-touchMove 0 1091 1404
-sleep 3
-touchMove 0 1095 1381
-sleep 3
-touchMove 0 1098 1359
-sleep 8
-touchMove 0 1101 1337
-sleep 5
-touchMove 0 1104 1317
-sleep 6
-touchMove 0 1106 1304
-sleep 7
-touchMove 0 1107 1290
-sleep 7
-touchMove 0 1109 1275
-sleep 15
-touchMove 0 1113 1254
-sleep 6
-touchMove 0 1115 1233
-sleep 7
-touchMove 0 1118 1215
-sleep 6
-touchMove 0 1121 1188
-sleep 7
-touchMove 0 1125 1163
-sleep 6
-touchMove 0 1128 1140
-sleep 6
-touchMove 0 1131 1120
-sleep 7
-touchMove 0 1132 1108
-sleep 6
-touchMove 0 1134 1095
-sleep 7
-touchMove 0 1137 1081
-sleep 6
-touchMove 0 1139 1067
-sleep 6
-touchMove 0 1143 1046
-sleep 6
-touchMove 0 1148 1026
-sleep 7
-touchMove 0 1151 1013
-sleep 7
-touchMove 0 1154 1000
-sleep 6
-touchMove 0 1157 987
-sleep 6
-touchMove 0 1159 974
-sleep 16
-touchMove 0 1161 961
-sleep 6
-touchMove 0 1164 948
-sleep 6
-touchMove 0 1168 932
-sleep 7
-touchMove 0 1174 910
-sleep 7
-touchMove 0 1180 890
-sleep 6
-touchMove 0 1182 878
-sleep 7
-touchMove 0 1185 866
-sleep 6
-touchMove 0 1188 854
-sleep 6
-touchMove 0 1191 843
-sleep 8
-touchMove 0 1194 831
-sleep 5
-touchMove 0 1197 819
-sleep 7
-touchMove 0 1201 807
-sleep 6
-touchMove 0 1204 796
-sleep 6
-touchMove 0 1207 785
-sleep 7
-touchMove 0 1212 774
-sleep 7
-touchMove 0 1217 763
-sleep 5
-touchMove 0 1221 752
-sleep 16
-touchMove 0 1227 742
-sleep 7
-touchMove 0 1230 735
-sleep 11
-touchMove 0 1235 725
-sleep 6
-touchUp 0
-sleep 655
-touchDown 0 1130 1640
-sleep 48
-touchUp 0
-sleep 1531
-touchDown 0 962 1758
-sleep 50
-touchMove 0 955 1748
-sleep 9
-touchMove 0 955 1744
-sleep 2
-touchMove 0 955 1738
-sleep 22
-touchMove 0 955 1731
-touchMove 0 956 1722
-sleep 6
-touchMove 0 957 1709
-sleep 6
-touchMove 0 959 1694
-sleep 7
-touchMove 0 961 1671
-sleep 6
-touchMove 0 964 1650
-sleep 8
-touchMove 0 966 1638
-sleep 4
-touchMove 0 967 1626
-sleep 6
-touchMove 0 969 1615
-sleep 7
-touchMove 0 971 1603
-sleep 7
-touchMove 0 973 1591
-sleep 6
-touchMove 0 975 1579
-sleep 6
-touchMove 0 977 1567
-sleep 7
-touchMove 0 978 1555
-sleep 6
-touchMove 0 980 1542
-sleep 6
-touchMove 0 982 1530
-sleep 7
-touchMove 0 985 1518
-sleep 7
-touchMove 0 987 1506
-sleep 15
-touchMove 0 989 1493
-sleep 7
-touchMove 0 990 1480
-sleep 9
-touchMove 0 994 1465
-sleep 4
-touchMove 0 998 1443
-sleep 7
-touchMove 0 1002 1424
-sleep 6
-touchMove 0 1004 1413
-sleep 7
-touchMove 0 1006 1401
-sleep 6
-touchMove 0 1008 1390
-sleep 6
-touchMove 0 1011 1379
-sleep 7
-touchMove 0 1013 1371
-sleep 6
-touchMove 0 1014 1363
-sleep 7
-touchMove 0 1016 1355
-sleep 6
-touchMove 0 1018 1347
-sleep 6
-touchMove 0 1019 1339
-sleep 7
-touchMove 0 1021 1328
-sleep 7
-touchMove 0 1023 1320
-sleep 6
-touchMove 0 1024 1313
-sleep 16
-touchMove 0 1025 1306
-sleep 7
-touchMove 0 1026 1300
-sleep 6
-touchMove 0 1028 1292
-sleep 6
-touchMove 0 1030 1281
-sleep 6
-touchMove 0 1032 1270
-sleep 7
-touchMove 0 1034 1259
-sleep 6
-touchMove 0 1036 1252
-sleep 7
-touchMove 0 1037 1244
-sleep 6
-touchMove 0 1038 1236
-sleep 7
-touchMove 0 1039 1228
-sleep 6
-touchMove 0 1040 1219
-sleep 7
-touchMove 0 1043 1206
-sleep 6
-touchMove 0 1045 1194
-sleep 7
-touchMove 0 1048 1181
-sleep 6
-touchMove 0 1050 1167
-sleep 7
-touchMove 0 1053 1153
-sleep 6
-touchMove 0 1057 1131
-sleep 16
-touchMove 0 1060 1112
-sleep 7
-touchMove 0 1063 1100
-sleep 6
-touchMove 0 1066 1082
-sleep 6
-touchMove 0 1072 1054
-sleep 6
-touchMove 0 1078 1027
-sleep 8
-touchMove 0 1084 1002
-sleep 6
-touchMove 0 1091 978
-sleep 9
-touchMove 0 1097 955
-sleep 4
-touchMove 0 1104 933
-sleep 8
-touchMove 0 1110 911
-sleep 5
-touchMove 0 1116 890
-sleep 8
-touchMove 0 1123 870
-sleep 5
-touchMove 0 1130 850
-sleep 6
-touchMove 0 1135 837
-sleep 7
-touchMove 0 1143 815
-sleep 7
-touchMove 0 1151 794
-sleep 6
-touchMove 0 1158 774
-sleep 15
-touchMove 0 1166 754
-sleep 6
-touchMove 0 1173 736
-sleep 6
-touchMove 0 1179 719
-sleep 12
-touchUp 0
-sleep 403
-touchDown 0 1186 649
-sleep 48
-touchMove 0 1181 661
-sleep 3
-touchMove 0 1180 664
-sleep 5
-touchMove 0 1179 669
-sleep 8
-touchMove 0 1178 677
-sleep 15
-touchMove 0 1177 691
-sleep 6
-touchMove 0 1176 706
-sleep 5
-touchMove 0 1173 736
-sleep 7
-touchMove 0 1170 764
-sleep 5
-touchMove 0 1167 790
-sleep 7
-touchMove 0 1163 814
-sleep 8
-touchMove 0 1159 838
-sleep 8
-touchMove 0 1154 862
-sleep 3
-touchMove 0 1150 886
-sleep 6
-touchMove 0 1145 910
-sleep 7
-touchMove 0 1141 934
-sleep 8
-touchMove 0 1138 957
-sleep 5
-touchMove 0 1134 980
-sleep 6
-touchMove 0 1130 1002
-sleep 6
-touchMove 0 1127 1024
-sleep 7
-touchMove 0 1124 1038
-sleep 6
-touchMove 0 1122 1053
-sleep 15
-touchMove 0 1119 1076
-sleep 6
-touchMove 0 1116 1098
-sleep 7
-touchMove 0 1114 1115
-sleep 6
-touchMove 0 1111 1139
-sleep 6
-touchMove 0 1108 1162
-sleep 9
-touchMove 0 1105 1183
-sleep 4
-touchMove 0 1104 1196
-sleep 6
-touchMove 0 1102 1209
-sleep 11
-touchMove 0 1100 1223
-sleep 4
-touchMove 0 1099 1237
-sleep 6
-touchMove 0 1098 1251
-sleep 6
-touchMove 0 1097 1264
-sleep 5
-touchMove 0 1096 1277
-sleep 7
-touchMove 0 1095 1290
-sleep 7
-touchMove 0 1093 1303
-sleep 6
-touchMove 0 1092 1316
-sleep 6
-touchMove 0 1092 1328
-sleep 16
-touchMove 0 1091 1337
-sleep 6
-touchMove 0 1090 1346
-sleep 7
-touchMove 0 1089 1357
-sleep 6
-touchMove 0 1087 1378
-sleep 6
-touchMove 0 1086 1390
-sleep 7
-touchMove 0 1085 1399
-sleep 7
-touchMove 0 1084 1408
-sleep 7
-touchMove 0 1083 1417
-sleep 6
-touchMove 0 1082 1426
-sleep 6
-touchMove 0 1081 1435
-sleep 9
-touchMove 0 1080 1443
-sleep 4
-touchMove 0 1079 1451
-sleep 6
-touchMove 0 1078 1457
-sleep 8
-touchMove 0 1077 1463
-sleep 8
-touchMove 0 1076 1469
-sleep 4
-touchMove 0 1075 1475
-sleep 6
-touchMove 0 1074 1480
-sleep 15
-touchMove 0 1073 1485
-sleep 7
-touchMove 0 1073 1490
-sleep 12
-touchUp 0
-sleep 601
-touchDown 0 1138 404
-sleep 56
-touchUp 0
-sleep 1473
-touchDown 0 881 1555
-sleep 28
-touchMove 0 877 1536
-sleep 7
-touchMove 0 878 1523
-sleep 7
-touchMove 0 879 1509
-sleep 6
-touchMove 0 880 1495
-sleep 7
-touchMove 0 883 1472
-sleep 6
-touchMove 0 886 1451
-sleep 7
-touchMove 0 889 1432
-sleep 6
-touchMove 0 891 1419
-sleep 7
-touchMove 0 894 1406
-sleep 8
-touchMove 0 897 1392
-sleep 15
-touchMove 0 900 1379
-sleep 5
-touchMove 0 903 1365
-sleep 6
-touchMove 0 911 1339
-sleep 7
-touchMove 0 918 1317
-sleep 6
-touchMove 0 923 1298
-sleep 7
-touchMove 0 926 1287
-sleep 6
-touchMove 0 930 1275
-sleep 6
-touchMove 0 933 1264
-sleep 7
-touchMove 0 937 1253
-sleep 6
-touchMove 0 940 1242
-sleep 7
-touchMove 0 942 1234
-sleep 6
-touchMove 0 944 1226
-sleep 7
-touchMove 0 946 1218
-sleep 8
-touchMove 0 949 1207
-sleep 5
-touchMove 0 952 1196
-sleep 8
-touchMove 0 955 1186
-sleep 6
-touchMove 0 957 1179
-sleep 15
-touchMove 0 959 1172
-sleep 6
-touchMove 0 961 1165
-sleep 7
-touchMove 0 963 1156
-sleep 5
-touchMove 0 966 1145
-sleep 7
-touchMove 0 969 1134
-sleep 7
-touchMove 0 971 1127
-sleep 6
-touchMove 0 973 1120
-sleep 6
-touchMove 0 974 1115
-sleep 7
-touchMove 0 975 1109
-sleep 6
-touchMove 0 976 1104
-sleep 7
-touchMove 0 977 1099
-sleep 6
-touchMove 0 978 1093
-sleep 6
-touchMove 0 980 1086
-sleep 7
-touchMove 0 982 1079
-sleep 6
-touchMove 0 983 1071
-sleep 7
-touchMove 0 985 1064
-sleep 7
-touchMove 0 987 1057
-sleep 15
-touchMove 0 989 1050
-sleep 8
-touchMove 0 990 1045
-sleep 6
-touchMove 0 992 1038
-sleep 6
-touchMove 0 995 1026
-sleep 6
-touchMove 0 999 1014
-sleep 7
-touchMove 0 1002 1002
-sleep 6
-touchMove 0 1006 991
-sleep 7
-touchMove 0 1010 980
-sleep 6
-touchMove 0 1014 968
-sleep 7
-touchMove 0 1018 955
-sleep 6
-touchMove 0 1022 942
-sleep 6
-touchMove 0 1027 929
-sleep 7
-touchMove 0 1032 916
-sleep 5
-touchMove 0 1039 894
-sleep 7
-touchMove 0 1046 874
-sleep 7
-touchMove 0 1050 862
-sleep 6
-touchMove 0 1055 850
-sleep 16
-touchMove 0 1060 837
-sleep 6
-touchMove 0 1069 816
-sleep 8
-touchMove 0 1079 794
-sleep 5
-touchMove 0 1087 776
-sleep 6
-touchMove 0 1091 765
-sleep 6
-touchMove 0 1096 755
-sleep 7
-touchMove 0 1099 745
-sleep 6
-touchMove 0 1103 739
-sleep 10
-touchUp 0
-sleep 618
-touchDown 0 813 1614
-sleep 70
-touchMove 0 809 1601
-sleep 7
-touchMove 0 810 1592
-sleep 6
-touchMove 0 812 1578
-sleep 6
-touchMove 0 815 1564
-sleep 29
-touchMove 0 819 1541
-sleep 11
-touchMove 0 823 1520
-touchMove 0 828 1499
-sleep 5
-touchMove 0 831 1486
-touchMove 0 834 1472
-sleep 4
-touchMove 0 840 1450
-sleep 9
-touchMove 0 845 1429
-sleep 4
-touchMove 0 852 1402
-sleep 6
-touchMove 0 858 1378
-sleep 6
-touchMove 0 865 1354
-sleep 7
-touchMove 0 871 1332
-sleep 7
-touchMove 0 877 1311
-sleep 6
-touchMove 0 883 1291
-sleep 6
-touchMove 0 887 1278
-sleep 8
-touchMove 0 891 1265
-sleep 6
-touchMove 0 895 1251
-sleep 6
-touchMove 0 902 1230
-sleep 7
-touchMove 0 908 1209
-sleep 6
-touchMove 0 914 1190
-sleep 6
-touchMove 0 917 1178
-sleep 6
-touchMove 0 921 1166
-sleep 7
-touchMove 0 925 1153
-sleep 15
-touchMove 0 929 1140
-sleep 7
-touchMove 0 934 1127
-sleep 6
-touchMove 0 941 1100
-sleep 7
-touchMove 0 949 1075
-sleep 6
-touchMove 0 957 1052
-sleep 6
-touchMove 0 964 1030
-sleep 7
-touchMove 0 971 1009
-sleep 6
-touchMove 0 977 989
-sleep 7
-touchMove 0 981 976
-sleep 7
-touchMove 0 986 962
-sleep 7
-touchMove 0 995 940
-sleep 6
-touchMove 0 1003 919
-sleep 20
-touchMove 0 1013 897
-touchMove 0 1021 876
-touchMove 0 1030 855
-sleep 5
-touchMove 0 1037 836
-sleep 7
-touchMove 0 1042 823
-sleep 15
-touchMove 0 1049 810
-sleep 6
-touchMove 0 1059 790
-sleep 6
-touchMove 0 1068 769
-sleep 6
-touchMove 0 1075 753
-sleep 11
-touchUp 0
-sleep 518
-touchDown 0 776 1668
-sleep 46
-touchMove 0 777 1652
-sleep 7
-touchMove 0 779 1639
-sleep 7
-touchMove 0 783 1620
-sleep 6
-touchMove 0 789 1592
-sleep 6
-touchMove 0 795 1565
-sleep 7
-touchMove 0 801 1539
-sleep 7
-touchMove 0 807 1514
-sleep 6
-touchMove 0 814 1490
-sleep 6
-touchMove 0 821 1466
-sleep 7
-touchMove 0 828 1443
-sleep 6
-touchMove 0 835 1420
-sleep 6
-touchMove 0 843 1398
-sleep 7
-touchMove 0 850 1377
-sleep 7
-touchMove 0 857 1356
-sleep 6
-touchMove 0 864 1334
-sleep 6
-touchMove 0 872 1312
-sleep 7
-touchMove 0 881 1291
-sleep 15
-touchMove 0 889 1270
-sleep 6
-touchMove 0 896 1250
-sleep 7
-touchMove 0 902 1233
-sleep 7
-touchMove 0 912 1207
-sleep 6
-touchMove 0 922 1183
-sleep 6
-touchMove 0 933 1160
-sleep 7
-touchMove 0 942 1138
-sleep 7
-touchMove 0 951 1118
-sleep 6
-touchMove 0 959 1098
-sleep 6
-touchMove 0 968 1076
-sleep 7
-touchMove 0 977 1055
-sleep 6
-touchMove 0 986 1034
-sleep 7
-touchMove 0 996 1012
-sleep 6
-touchMove 0 1006 991
-sleep 7
-touchMove 0 1016 970
-sleep 6
-touchMove 0 1027 949
-sleep 7
-touchMove 0 1037 929
-sleep 16
-touchMove 0 1048 909
-sleep 6
-touchMove 0 1060 889
-sleep 8
-touchMove 0 1073 865
-sleep 5
-touchMove 0 1087 844
-sleep 5
-touchMove 0 1099 826
-sleep 6
-touchMove 0 1109 810
-sleep 11
-touchUp 0
-sleep 572
-touchDown 0 824 1607
-sleep 63
-touchMove 0 821 1589
-sleep 6
-touchMove 0 824 1576
-sleep 16
-touchMove 0 827 1563
-sleep 7
-touchMove 0 831 1549
-sleep 6
-touchMove 0 839 1519
-sleep 7
-touchMove 0 846 1492
-sleep 7
-touchMove 0 853 1466
-sleep 6
-touchMove 0 859 1442
-sleep 6
-touchMove 0 866 1419
-sleep 8
-touchMove 0 873 1397
-sleep 6
-touchMove 0 879 1375
-sleep 6
-touchMove 0 885 1353
-sleep 6
-touchMove 0 891 1331
-sleep 6
-touchMove 0 898 1310
-sleep 6
-touchMove 0 904 1289
-sleep 7
-touchMove 0 911 1268
-sleep 6
-touchMove 0 918 1249
-sleep 6
-touchMove 0 922 1236
-sleep 7
-touchMove 0 927 1221
-sleep 16
-touchMove 0 935 1199
-sleep 6
-touchMove 0 943 1178
-sleep 7
-touchMove 0 953 1153
-sleep 6
-touchMove 0 962 1131
-sleep 6
-touchMove 0 969 1112
-sleep 8
-touchMove 0 973 1100
-sleep 6
-touchMove 0 978 1087
-sleep 6
-touchMove 0 983 1074
-sleep 7
-touchMove 0 988 1061
-sleep 6
-touchMove 0 994 1048
-sleep 7
-touchMove 0 999 1035
-sleep 6
-touchMove 0 1004 1023
-sleep 6
-touchMove 0 1009 1011
-sleep 8
-touchMove 0 1014 999
-sleep 6
-touchMove 0 1018 988
-sleep 7
-touchMove 0 1023 978
-sleep 5
-touchMove 0 1028 968
-sleep 16
-touchMove 0 1031 961
-sleep 7
-touchMove 0 1034 953
-sleep 8
-touchMove 0 1040 941
-sleep 5
-touchMove 0 1045 930
-sleep 7
-touchMove 0 1050 920
-sleep 6
-touchMove 0 1055 910
-sleep 6
-touchMove 0 1060 901
-sleep 7
-touchMove 0 1063 894
-sleep 6
-touchMove 0 1067 886
-sleep 7
-touchMove 0 1073 875
-sleep 8
-touchMove 0 1079 864
-sleep 5
-touchMove 0 1085 853
-sleep 6
-touchMove 0 1092 842
-sleep 7
-touchMove 0 1098 831
-sleep 5
-touchMove 0 1105 820
-sleep 6
-touchMove 0 1111 809
-sleep 21
-touchUp 0
-sleep 633
-touchDown 0 795 1684
-sleep 63
-touchMove 0 795 1673
-sleep 6
-touchMove 0 796 1667
-sleep 6
-touchMove 0 797 1659
-sleep 7
-touchMove 0 799 1651
-sleep 7
-touchMove 0 801 1640
-sleep 6
-touchMove 0 803 1629
-sleep 6
-touchMove 0 805 1621
-sleep 7
-touchMove 0 807 1613
-sleep 7
-touchMove 0 809 1605
-sleep 6
-touchMove 0 811 1597
-sleep 7
-touchMove 0 814 1585
-sleep 6
-touchMove 0 817 1574
-sleep 7
-touchMove 0 820 1563
-sleep 6
-touchMove 0 823 1556
-sleep 7
-touchMove 0 825 1549
-sleep 15
-touchMove 0 828 1541
-sleep 6
-touchMove 0 830 1533
-sleep 7
-touchMove 0 833 1524
-sleep 6
-touchMove 0 838 1512
-sleep 7
-touchMove 0 841 1502
-sleep 8
-touchMove 0 843 1495
-sleep 5
-touchMove 0 844 1490
-sleep 7
-touchMove 0 846 1485
-sleep 6
-touchMove 0 847 1480
-sleep 7
-touchMove 0 849 1475
-sleep 6
-touchMove 0 851 1469
-sleep 7
-touchMove 0 853 1462
-sleep 6
-touchMove 0 856 1455
-sleep 6
-touchMove 0 858 1448
-sleep 7
-touchMove 0 859 1443
-sleep 7
-touchMove 0 861 1438
-sleep 6
-touchMove 0 863 1433
-sleep 16
-touchMove 0 866 1426
-sleep 6
-touchMove 0 868 1419
-sleep 6
-touchMove 0 870 1412
-sleep 6
-touchMove 0 875 1400
-sleep 7
-touchMove 0 879 1389
-sleep 7
-touchMove 0 883 1378
-sleep 6
-touchMove 0 887 1368
-sleep 7
-touchMove 0 890 1361
-sleep 6
-touchMove 0 893 1354
-sleep 7
-touchMove 0 896 1346
-sleep 6
-touchMove 0 899 1338
-sleep 6
-touchMove 0 902 1327
-sleep 7
-touchMove 0 905 1319
-sleep 7
-touchMove 0 908 1312
-sleep 6
-touchMove 0 911 1305
-sleep 7
-touchMove 0 914 1298
-sleep 6
-touchMove 0 917 1291
-sleep 16
-touchMove 0 920 1284
-sleep 6
-touchMove 0 923 1277
-sleep 6
-touchMove 0 927 1269
-sleep 6
-touchMove 0 934 1260
-sleep 7
-touchMove 0 939 1251
-sleep 11
-touchUp 0
-sleep 629
-touchDown 0 385 2220
-sleep 73
-touchUp 0
-sleep 2922
-touchDown 0 1119 1839
-sleep 27
-touchMove 0 1115 1825
-sleep 6
-touchMove 0 1114 1806
-sleep 5
-touchMove 0 1113 1778
-sleep 7
-touchMove 0 1112 1752
-sleep 7
-touchMove 0 1111 1727
-sleep 6
-touchMove 0 1111 1704
-sleep 12
-touchMove 0 1111 1681
-touchMove 0 1111 1658
-sleep 7
-touchMove 0 1112 1637
-sleep 5
-touchMove 0 1113 1624
-sleep 6
-touchMove 0 1114 1610
-sleep 7
-touchMove 0 1116 1587
-sleep 7
-touchMove 0 1118 1566
-sleep 6
-touchMove 0 1120 1546
-sleep 6
-touchMove 0 1122 1533
-sleep 7
-touchMove 0 1124 1519
-sleep 15
-touchMove 0 1126 1505
-sleep 7
-touchMove 0 1129 1490
-sleep 6
-touchMove 0 1135 1463
-sleep 6
-touchMove 0 1140 1440
-sleep 6
-touchMove 0 1145 1419
-sleep 8
-touchMove 0 1148 1399
-sleep 5
-touchMove 0 1151 1387
-sleep 7
-touchMove 0 1153 1376
-sleep 6
-touchMove 0 1156 1364
-sleep 6
-touchMove 0 1158 1352
-sleep 9
-touchMove 0 1161 1339
-sleep 4
-touchMove 0 1163 1326
-sleep 7
-touchMove 0 1165 1314
-sleep 7
-touchMove 0 1167 1302
-sleep 7
-touchMove 0 1169 1290
-sleep 6
-touchMove 0 1171 1278
-sleep 5
-touchMove 0 1172 1266
-sleep 18
-touchMove 0 1174 1255
-sleep 5
-touchMove 0 1175 1247
-sleep 6
-touchMove 0 1177 1238
-sleep 7
-touchMove 0 1178 1225
-sleep 6
-touchMove 0 1180 1213
-sleep 6
-touchMove 0 1182 1201
-sleep 7
-touchMove 0 1184 1190
-sleep 6
-touchMove 0 1186 1179
-sleep 7
-touchMove 0 1188 1171
-sleep 6
-touchMove 0 1190 1164
-sleep 7
-touchMove 0 1192 1157
-sleep 6
-touchMove 0 1194 1150
-sleep 7
-touchMove 0 1196 1143
-sleep 6
-touchMove 0 1198 1136
-sleep 6
-touchMove 0 1200 1129
-sleep 6
-touchMove 0 1202 1122
-sleep 7
-touchMove 0 1205 1115
-sleep 16
-touchMove 0 1208 1108
-sleep 7
-touchMove 0 1211 1101
-sleep 5
-touchMove 0 1215 1092
-sleep 6
-touchMove 0 1222 1079
-sleep 6
-touchMove 0 1232 1063
-sleep 11
-touchUp 0
-sleep 763
-touchDown 0 1162 1765
-sleep 46
-touchUp 0
-sleep 1727
-touchDown 0 1119 413
+sleep 657
+touchDown 0 439 1868
 sleep 72
 touchUp 0
-sleep 1526
-touchDown 0 843 1682
-sleep 29
-touchMove 0 839 1655
-sleep 7
-touchMove 0 840 1641
-sleep 6
-touchMove 0 841 1627
-sleep 7
-touchMove 0 841 1612
-sleep 6
-touchMove 0 843 1588
-sleep 6
-touchMove 0 846 1566
-sleep 6
-touchMove 0 849 1544
-sleep 7
-touchMove 0 852 1522
-sleep 6
-touchMove 0 855 1501
-sleep 7
-touchMove 0 857 1487
-sleep 6
-touchMove 0 859 1472
-sleep 7
-touchMove 0 863 1449
-sleep 18
-touchMove 0 867 1428
-sleep 5
-touchMove 0 871 1406
-sleep 6
-touchMove 0 877 1379
-sleep 6
-touchMove 0 883 1353
-sleep 8
-touchMove 0 888 1330
-sleep 5
-touchMove 0 894 1308
-sleep 6
-touchMove 0 899 1286
-sleep 7
-touchMove 0 903 1266
-sleep 7
-touchMove 0 906 1254
-sleep 6
-touchMove 0 909 1241
-sleep 6
-touchMove 0 912 1227
-sleep 7
-touchMove 0 917 1205
-sleep 7
-touchMove 0 922 1185
-sleep 6
-touchMove 0 925 1173
-sleep 6
-touchMove 0 927 1161
-sleep 7
-touchMove 0 930 1148
-sleep 6
-touchMove 0 933 1135
-sleep 16
-touchMove 0 935 1122
-sleep 9
-touchMove 0 938 1109
-sleep 4
-touchMove 0 941 1092
-sleep 7
-touchMove 0 945 1069
-sleep 6
-touchMove 0 949 1048
-sleep 7
-touchMove 0 951 1036
-sleep 6
-touchMove 0 953 1024
-sleep 6
-touchMove 0 955 1011
-sleep 7
-touchMove 0 958 999
-sleep 7
-touchMove 0 961 987
-sleep 6
-touchMove 0 964 976
-sleep 6
-touchMove 0 966 964
-sleep 7
-touchMove 0 968 952
-sleep 6
-touchMove 0 970 940
-sleep 8
-touchMove 0 973 929
-sleep 6
-touchMove 0 975 918
-sleep 6
-touchMove 0 978 907
+sleep 185
+touchDown 0 1103 1698
+sleep 79
+touchUp 0
+sleep 207
+touchDown 0 1034 1549
+sleep 91
+touchUp 0
+sleep 176
+touchDown 0 826 1539
+sleep 74
+touchUp 0
+sleep 259
+touchDown 0 365 1681
+sleep 54
+touchMove 0 359 1692
+touchUp 0
+sleep 574
+touchDown 0 49 2029
+sleep 68
+touchUp 0
+sleep 524
+touchDown 0 521 1522
+sleep 72
+touchUp 0
+sleep 200
+touchDown 0 429 1512
+sleep 48
+touchUp 0
+sleep 595
+touchDown 0 1158 1534
+sleep 58
+touchUp 0
+sleep 624
+touchDown 0 656 1501
+sleep 57
+touchUp 0
+sleep 665
+touchDown 0 861 1287
+sleep 47
+touchUp 0
+sleep 10523
+touchDown 0 1098 988
+sleep 56
+touchUp 0
+sleep 1379
+touchDown 0 1034 1099
+sleep 40
+touchMove 0 1033 1088
 sleep 15
-touchMove 0 980 895
-sleep 7
-touchMove 0 983 883
-sleep 6
-touchMove 0 987 868
-sleep 6
-touchMove 0 992 845
-sleep 7
-touchMove 0 998 824
-sleep 6
-touchMove 0 1004 805
-sleep 9
-touchMove 0 1007 794
-sleep 4
-touchMove 0 1010 782
-sleep 7
-touchMove 0 1014 770
-sleep 6
-touchMove 0 1018 758
+touchMove 0 1033 1083
+sleep 3
+touchMove 0 1035 1074
+touchMove 0 1038 1061
 sleep 8
-touchMove 0 1022 746
+touchMove 0 1042 1046
+sleep 5
+touchMove 0 1048 1021
+sleep 5
+touchMove 0 1055 998
 sleep 8
-touchMove 0 1026 734
+touchMove 0 1064 976
 sleep 4
-touchMove 0 1030 722
-sleep 7
-touchMove 0 1034 709
+touchMove 0 1071 954
 sleep 6
-touchMove 0 1038 696
-sleep 7
-touchMove 0 1043 683
-sleep 7
-touchMove 0 1048 670
+touchMove 0 1078 933
 sleep 16
-touchMove 0 1053 657
+touchMove 0 1085 913
 sleep 6
-touchMove 0 1061 637
-sleep 6
-touchMove 0 1070 615
-sleep 9
-touchMove 0 1079 597
+touchMove 0 1090 902
 sleep 7
-touchMove 0 1084 587
-sleep 5
-touchMove 0 1087 581
-sleep 5
-touchMove 0 1088 575
+touchMove 0 1095 888
 sleep 6
-touchMove 0 1089 567
+touchMove 0 1104 869
+sleep 7
+touchMove 0 1108 859
+sleep 7
+touchMove 0 1110 852
+sleep 7
+touchMove 0 1111 847
+sleep 6
+touchMove 0 1113 841
+sleep 6
+touchMove 0 1115 834
+sleep 7
+touchMove 0 1118 827
+sleep 8
+touchMove 0 1121 819
+sleep 5
+touchMove 0 1124 811
+sleep 8
+touchMove 0 1129 800
+sleep 6
+touchMove 0 1134 789
+sleep 7
+touchMove 0 1139 778
+sleep 6
+touchMove 0 1145 767
+sleep 7
+touchMove 0 1150 756
+sleep 17
+touchMove 0 1155 744
+sleep 5
+touchMove 0 1161 731
+sleep 6
+touchMove 0 1173 705
+sleep 6
+touchMove 0 1186 681
+sleep 7
+touchMove 0 1198 657
+sleep 8
+touchMove 0 1210 635
+sleep 4
+touchMove 0 1223 613
+sleep 13
+touchUp 0
+sleep 1347
+touchDown 0 1119 713
+sleep 61
+touchMove 0 1111 723
+sleep 25
+touchMove 0 1110 725
+sleep 2
+touchMove 0 1109 727
 sleep 11
-touchUp 0
-sleep 2476
-touchDown 0 403 2202
-sleep 86
-touchUp 0
-sleep 1742
-touchDown 0 1125 1876
-sleep 26
-touchMove 0 1120 1860
-sleep 6
-touchMove 0 1117 1847
+touchMove 0 1107 730
 sleep 7
-touchMove 0 1115 1834
-sleep 5
-touchMove 0 1113 1820
-sleep 8
-touchMove 0 1112 1805
-sleep 5
-touchMove 0 1110 1782
+touchMove 0 1105 735
 sleep 7
-touchMove 0 1109 1762
+touchMove 0 1102 741
+sleep 3
+touchMove 0 1099 747
+touchMove 0 1096 753
 sleep 6
-touchMove 0 1108 1750
-sleep 6
-touchMove 0 1107 1737
-sleep 6
-touchMove 0 1107 1723
+touchMove 0 1093 759
 sleep 7
-touchMove 0 1107 1709
-sleep 16
-touchMove 0 1107 1695
+touchMove 0 1090 765
 sleep 6
-touchMove 0 1108 1681
-sleep 7
-touchMove 0 1110 1654
+touchMove 0 1087 773
+sleep 9
+touchMove 0 1083 781
+sleep 3
+touchMove 0 1080 789
 sleep 6
-touchMove 0 1113 1630
-sleep 5
-touchMove 0 1114 1608
-sleep 7
-touchMove 0 1117 1587
-sleep 7
-touchMove 0 1119 1575
+touchMove 0 1077 797
+sleep 11
+touchMove 0 1074 805
+sleep 3
+touchMove 0 1072 813
 sleep 6
-touchMove 0 1121 1562
-sleep 7
-touchMove 0 1124 1549
+touchMove 0 1070 819
 sleep 6
-touchMove 0 1126 1535
-sleep 7
-touchMove 0 1129 1521
-sleep 7
-touchMove 0 1134 1500
-sleep 6
-touchMove 0 1139 1480
-sleep 7
-touchMove 0 1142 1467
-sleep 6
-touchMove 0 1146 1454
-sleep 6
-touchMove 0 1150 1440
-sleep 7
-touchMove 0 1155 1418
+touchMove 0 1067 825
 sleep 15
-touchMove 0 1160 1397
-sleep 7
-touchMove 0 1165 1378
+touchMove 0 1065 831
 sleep 6
-touchMove 0 1169 1364
+touchMove 0 1063 837
 sleep 7
-touchMove 0 1175 1343
+touchMove 0 1061 844
+sleep 6
+touchMove 0 1058 853
 sleep 7
-touchMove 0 1180 1324
+touchMove 0 1055 865
 sleep 6
-touchMove 0 1183 1313
+touchMove 0 1053 873
+sleep 7
+touchMove 0 1051 879
 sleep 6
-touchMove 0 1186 1302
+touchMove 0 1049 886
+sleep 7
+touchMove 0 1047 893
+sleep 6
+touchMove 0 1045 902
+sleep 6
+touchMove 0 1043 914
+sleep 6
+touchMove 0 1042 923
+sleep 6
+touchMove 0 1040 932
+sleep 10
+touchUp 0
+sleep 1411
+touchDown 0 597 2045
+sleep 67
+touchUp 0
+sleep 4552
+touchDown 0 1028 910
+sleep 135
+touchMove 0 1027 895
+sleep 7
+touchMove 0 1027 891
+sleep 7
+touchMove 0 1027 886
+sleep 6
+touchMove 0 1027 881
+sleep 7
+touchMove 0 1028 876
+sleep 7
+touchMove 0 1028 871
+sleep 6
+touchMove 0 1028 866
+sleep 7
+touchMove 0 1029 860
+sleep 6
+touchMove 0 1030 855
+sleep 9
+touchMove 0 1030 850
+sleep 5
+touchMove 0 1031 845
+sleep 15
+touchMove 0 1032 840
+sleep 6
+touchMove 0 1033 835
+sleep 7
+touchMove 0 1033 829
+sleep 6
+touchMove 0 1033 824
+sleep 7
+touchMove 0 1034 819
+sleep 7
+touchMove 0 1035 813
+sleep 6
+touchMove 0 1036 807
+sleep 7
+touchMove 0 1037 801
+sleep 6
+touchMove 0 1038 795
+sleep 7
+touchMove 0 1039 787
+sleep 7
+touchMove 0 1040 780
+sleep 6
+touchMove 0 1042 773
+sleep 7
+touchMove 0 1043 766
+sleep 7
+touchMove 0 1044 761
+sleep 6
+touchMove 0 1045 756
+sleep 6
+touchMove 0 1046 751
+sleep 7
+touchMove 0 1047 746
+sleep 15
+touchMove 0 1047 741
+sleep 7
+touchMove 0 1047 737
+sleep 6
+touchMove 0 1048 732
+sleep 7
+touchMove 0 1049 726
+sleep 6
+touchMove 0 1051 718
+sleep 7
+touchMove 0 1055 707
+sleep 6
+touchMove 0 1058 696
+sleep 7
+touchMove 0 1061 688
+sleep 7
+touchMove 0 1065 677
+sleep 6
+touchMove 0 1070 666
+sleep 7
+touchMove 0 1076 654
+sleep 6
+touchMove 0 1082 642
+sleep 7
+touchMove 0 1088 630
+sleep 6
+touchMove 0 1095 618
+sleep 9
+touchMove 0 1102 606
+sleep 4
+touchMove 0 1113 587
+sleep 7
+touchMove 0 1123 569
+sleep 15
+touchMove 0 1130 558
 sleep 8
-touchMove 0 1188 1294
-sleep 6
-touchMove 0 1190 1286
-sleep 5
-touchMove 0 1192 1278
-sleep 6
-touchMove 0 1196 1267
-sleep 6
-touchMove 0 1200 1256
-sleep 7
-touchMove 0 1204 1245
-sleep 5
-touchMove 0 1206 1236
+touchMove 0 1137 547
 sleep 12
 touchUp 0
-sleep 1514
-touchDown 0 1214 1779
-sleep 71
-touchUp 0
-sleep 1199
-touchDown 0 1102 551
-sleep 71
-touchUp 0
-sleep 2212
-touchDown 0 402 2227
-sleep 127
-touchUp 0
-sleep 1775
-touchDown 0 989 1744
-sleep 30
-touchMove 0 987 1728
-sleep 5
-touchMove 0 989 1706
-sleep 8
-touchMove 0 993 1673
-sleep 11
-touchMove 0 997 1642
-sleep 15
-touchMove 0 1001 1612
-touchMove 0 1006 1585
-touchMove 0 1012 1558
+sleep 397
+touchDown 0 1155 543
+sleep 51
+touchMove 0 1141 559
 sleep 6
-touchMove 0 1018 1532
+touchMove 0 1139 561
+sleep 7
+touchMove 0 1137 564
+sleep 6
+touchMove 0 1135 567
+sleep 16
+touchMove 0 1133 570
+sleep 6
+touchMove 0 1131 573
+sleep 7
+touchMove 0 1128 577
+sleep 7
+touchMove 0 1125 581
+sleep 6
+touchMove 0 1122 585
+sleep 7
+touchMove 0 1119 589
+sleep 6
+touchMove 0 1116 593
+sleep 7
+touchMove 0 1113 597
+sleep 6
+touchMove 0 1110 602
+sleep 7
+touchMove 0 1106 607
+sleep 7
+touchMove 0 1102 613
+sleep 6
+touchMove 0 1099 619
+sleep 7
+touchMove 0 1095 625
+sleep 6
+touchMove 0 1091 631
+sleep 7
+touchMove 0 1086 639
+sleep 7
+touchMove 0 1081 647
+sleep 6
+touchMove 0 1075 659
+sleep 15
+touchMove 0 1069 671
+sleep 7
+touchMove 0 1063 684
+sleep 7
+touchMove 0 1054 702
+sleep 6
+touchMove 0 1041 730
+sleep 7
+touchMove 0 1030 757
+sleep 6
+touchMove 0 1019 782
+sleep 7
+touchMove 0 1008 807
+sleep 6
+touchMove 0 998 832
+sleep 7
+touchMove 0 988 856
+sleep 6
+touchMove 0 978 880
+sleep 7
+touchMove 0 970 903
+sleep 5
+touchMove 0 964 927
+sleep 6
+touchMove 0 950 950
+sleep 11
+touchUp 0
+sleep 476
+touchDown 0 910 1162
+sleep 128
+touchMove 0 911 1148
+sleep 7
+touchMove 0 913 1138
+sleep 6
+touchMove 0 916 1122
+sleep 7
+touchMove 0 922 1093
+sleep 16
+touchMove 0 930 1061
+sleep 6
+touchMove 0 940 1028
+sleep 6
+touchMove 0 957 979
+sleep 6
+touchMove 0 994 886
+sleep 6
+touchMove 0 1022 820
+sleep 7
+touchMove 0 1035 795
+sleep 6
+touchMove 0 1050 768
+sleep 5
+touchMove 0 1070 738
+sleep 6
+touchMove 0 1088 714
+sleep 11
+touchUp 0
+sleep 851
+touchDown 0 1149 515
+sleep 25
+touchMove 0 1142 529
+sleep 8
+touchMove 0 1139 535
+sleep 8
+touchMove 0 1135 541
 sleep 4
-touchMove 0 1024 1508
+touchMove 0 1130 550
+sleep 7
+touchMove 0 1122 563
+sleep 7
+touchMove 0 1109 583
+sleep 6
+touchMove 0 1095 605
+sleep 16
+touchMove 0 1080 629
+sleep 7
+touchMove 0 1063 656
+sleep 6
+touchMove 0 1036 705
+sleep 6
+touchMove 0 985 807
+sleep 6
+touchMove 0 944 882
 sleep 10
-touchMove 0 1030 1485
-sleep 3
-touchMove 0 1036 1463
-sleep 9
-touchMove 0 1044 1442
-sleep 4
-touchMove 0 1049 1422
+touchUp 0
+sleep 980
+touchDown 0 124 653
+sleep 70
+touchMove 0 118 663
 sleep 7
-touchMove 0 1053 1409
-sleep 7
-touchMove 0 1057 1395
-sleep 6
-touchMove 0 1063 1373
-sleep 15
-touchMove 0 1068 1352
+touchMove 0 118 664
 sleep 8
-touchMove 0 1073 1331
-sleep 6
-touchMove 0 1080 1306
-sleep 6
-touchMove 0 1086 1283
-sleep 6
-touchMove 0 1091 1262
+touchMove 0 117 664
+sleep 4
+touchMove 0 116 664
 sleep 7
-touchMove 0 1096 1243
-sleep 7
-touchMove 0 1099 1231
-sleep 6
-touchMove 0 1102 1219
-sleep 6
-touchMove 0 1105 1206
-sleep 7
-touchMove 0 1108 1193
-sleep 6
-touchMove 0 1111 1181
-sleep 7
-touchMove 0 1114 1169
-sleep 6
-touchMove 0 1117 1157
-sleep 7
-touchMove 0 1120 1146
-sleep 7
-touchMove 0 1123 1135
+touchMove 0 115 664
 sleep 5
-touchMove 0 1126 1124
-sleep 8
-touchMove 0 1128 1117
-sleep 14
-touchMove 0 1129 1110
+touchMove 0 114 664
+sleep 10
+touchUp 0
+sleep 5512
+touchDown 0 713 1150
+sleep 103
+touchUp 0
+sleep 1219
+touchDown 0 794 279
+sleep 127
+touchMove 0 804 281
 sleep 7
-touchMove 0 1131 1104
+touchMove 0 806 281
 sleep 6
-touchMove 0 1134 1095
+touchMove 0 808 281
 sleep 7
-touchMove 0 1138 1083
+touchMove 0 810 281
+sleep 7
+touchMove 0 812 281
+sleep 9
+touchMove 0 813 281
+sleep 5
+touchMove 0 815 281
+sleep 5
+touchMove 0 816 281
+sleep 7
+touchMove 0 818 281
 sleep 6
-touchMove 0 1141 1072
+touchMove 0 819 281
 sleep 6
-touchMove 0 1145 1062
+touchMove 0 820 281
+sleep 7
+touchMove 0 821 281
+sleep 15
+touchMove 0 822 281
 sleep 8
-touchMove 0 1147 1054
+touchMove 0 823 281
+sleep 8
+touchMove 0 824 281
 sleep 4
-touchMove 0 1148 1045
+touchMove 0 825 281
+sleep 8
+touchMove 0 826 281
+sleep 5
+touchMove 0 827 281
+sleep 7
+touchMove 0 828 281
 sleep 6
-touchMove 0 1150 1034
+touchMove 0 829 281
+sleep 9
+touchMove 0 830 281
+sleep 5
+touchMove 0 831 281
+sleep 8
+touchMove 0 832 281
+sleep 6
+touchMove 0 833 281
+sleep 6
+touchMove 0 834 281
+sleep 7
+touchMove 0 835 281
+sleep 6
+touchMove 0 836 281
+sleep 7
+touchMove 0 837 281
+sleep 6
+touchMove 0 838 281
+sleep 15
+touchMove 0 839 281
+sleep 7
+touchMove 0 840 281
+sleep 6
+touchMove 0 841 281
+sleep 7
+touchMove 0 842 281
+sleep 6
+touchMove 0 843 281
+sleep 7
+touchMove 0 844 281
+sleep 7
+touchMove 0 845 281
+sleep 7
+touchMove 0 846 281
+sleep 12
+touchMove 0 847 281
+sleep 13
+touchMove 0 848 281
+sleep 7
+touchMove 0 849 281
+sleep 40
+touchMove 0 850 281
+sleep 13
+touchMove 0 851 281
+sleep 6
+touchMove 0 852 281
+sleep 6
+touchMove 0 853 281
 sleep 11
 touchUp 0
-sleep 1235
-touchDown 0 1165 1916
-sleep 92
+sleep 1910
+touchDown 0 858 276
+sleep 103
+touchMove 0 848 279
+sleep 7
+touchMove 0 846 279
+sleep 6
+touchMove 0 844 279
+sleep 7
+touchMove 0 842 279
+sleep 9
+touchMove 0 840 279
+sleep 4
+touchMove 0 838 279
+sleep 7
+touchMove 0 836 279
+sleep 7
+touchMove 0 834 279
+sleep 6
+touchMove 0 832 279
+sleep 7
+touchMove 0 829 279
+sleep 6
+touchMove 0 826 279
+sleep 8
+touchMove 0 823 279
+sleep 6
+touchMove 0 820 279
+sleep 7
+touchMove 0 817 279
+sleep 6
+touchMove 0 814 279
+sleep 7
+touchMove 0 811 279
+sleep 15
+touchMove 0 808 279
+sleep 7
+touchMove 0 806 279
+sleep 6
+touchMove 0 803 279
+sleep 7
+touchMove 0 800 279
+sleep 7
+touchMove 0 797 279
+sleep 6
+touchMove 0 794 279
+sleep 7
+touchMove 0 791 279
+sleep 7
+touchMove 0 788 279
+sleep 6
+touchMove 0 785 279
+sleep 7
+touchMove 0 782 279
+sleep 6
+touchMove 0 779 279
+sleep 7
+touchMove 0 776 279
+sleep 7
+touchMove 0 773 279
+sleep 7
+touchMove 0 770 279
+sleep 6
+touchMove 0 767 279
+sleep 7
+touchMove 0 764 279
+sleep 6
+touchMove 0 761 279
+sleep 16
+touchMove 0 758 279
+sleep 6
+touchMove 0 756 279
+sleep 8
+touchMove 0 754 279
+sleep 7
+touchMove 0 752 279
+sleep 7
+touchMove 0 750 279
+sleep 6
+touchMove 0 748 279
+sleep 11
+touchMove 0 746 279
+sleep 2
+touchMove 0 744 279
+sleep 7
+touchMove 0 742 279
+sleep 7
+touchMove 0 740 279
+sleep 6
+touchMove 0 738 279
+sleep 9
+touchMove 0 736 279
+sleep 5
+touchMove 0 734 279
+sleep 6
+touchMove 0 732 279
+sleep 7
+touchMove 0 730 279
+sleep 6
+touchMove 0 728 279
+sleep 7
+touchMove 0 726 279
+sleep 16
+touchMove 0 724 279
+sleep 6
+touchMove 0 722 279
+sleep 7
+touchMove 0 720 279
+sleep 7
+touchMove 0 719 279
+sleep 7
+touchMove 0 717 279
+sleep 6
+touchMove 0 715 279
+sleep 7
+touchMove 0 714 279
+sleep 6
+touchMove 0 713 279
+sleep 7
+touchMove 0 712 280
+sleep 10
 touchUp 0
-sleep 4689
-touchDown 0 392 2229
-sleep 118
+sleep 1260
+touchDown 0 844 255
+sleep 124
+touchMove 0 834 261
+sleep 7
+touchMove 0 833 261
+sleep 6
+touchMove 0 832 261
+sleep 7
+touchMove 0 831 261
+sleep 15
+touchMove 0 829 261
+sleep 7
+touchMove 0 827 261
+sleep 7
+touchMove 0 825 261
+sleep 7
+touchMove 0 823 261
+sleep 7
+touchMove 0 821 261
+sleep 7
+touchMove 0 819 261
+sleep 6
+touchMove 0 817 261
+sleep 6
+touchMove 0 815 261
+sleep 7
+touchMove 0 813 261
+sleep 7
+touchMove 0 811 261
+sleep 6
+touchMove 0 809 261
+sleep 7
+touchMove 0 807 261
+sleep 7
+touchMove 0 805 261
+sleep 6
+touchMove 0 803 261
+sleep 7
+touchMove 0 801 261
+sleep 7
+touchMove 0 799 261
+sleep 6
+touchMove 0 797 261
+sleep 15
+touchMove 0 795 261
+sleep 7
+touchMove 0 793 261
+sleep 7
+touchMove 0 791 262
+sleep 6
+touchMove 0 789 263
+sleep 10
 touchUp 0
-sleep 1705
-touchDown 0 375 2228
-sleep 133
+sleep 814
+touchDown 0 866 274
+sleep 175
+touchMove 0 868 263
+sleep 6
+touchMove 0 872 260
+sleep 7
+touchMove 0 876 258
+sleep 6
+touchMove 0 880 256
+sleep 7
+touchMove 0 883 254
+sleep 7
+touchMove 0 886 252
+sleep 6
+touchMove 0 889 251
+sleep 7
+touchMove 0 892 250
+sleep 6
+touchMove 0 895 249
+sleep 7
+touchMove 0 897 248
+sleep 7
+touchMove 0 899 247
+sleep 6
+touchMove 0 901 246
+sleep 7
+touchMove 0 903 246
+sleep 15
+touchMove 0 905 246
+sleep 6
+touchMove 0 907 246
+sleep 8
+touchMove 0 909 246
+sleep 6
+touchMove 0 910 246
+sleep 6
+touchMove 0 912 246
+sleep 7
+touchMove 0 913 246
+sleep 6
+touchMove 0 914 246
+sleep 8
+touchMove 0 915 246
+sleep 7
+touchMove 0 916 246
+sleep 6
+touchMove 0 917 246
+sleep 6
+touchMove 0 918 246
+sleep 7
+touchMove 0 919 246
+sleep 6
+touchMove 0 920 246
+sleep 7
+touchMove 0 921 246
+sleep 8
+touchMove 0 922 246
+sleep 5
+touchMove 0 923 246
+sleep 8
+touchMove 0 924 246
+sleep 21
+touchMove 0 925 246
+sleep 19
+touchMove 0 926 246
+sleep 15
+touchMove 0 927 246
+sleep 11
+touchMove 0 928 246
+sleep 13
+touchMove 0 929 246
+sleep 14
+touchMove 0 930 246
+sleep 6
+touchMove 0 931 246
+sleep 35
+touchMove 0 932 246
+sleep 11
+touchMove 0 932 247
+sleep 7
+touchMove 0 933 247
+sleep 7
+touchMove 0 934 248
+sleep 6
+touchMove 0 935 248
+sleep 20
+touchMove 0 936 248
+sleep 6
+touchMove 0 937 248
+sleep 7
+touchMove 0 938 248
+sleep 6
+touchMove 0 939 249
+sleep 11
+touchUp 0
+sleep 334
+touchDown 0 850 253
+sleep 111
+touchMove 0 860 253
+sleep 7
+touchMove 0 862 253
+sleep 6
+touchMove 0 864 253
+sleep 7
+touchMove 0 866 253
+sleep 7
+touchMove 0 868 253
+sleep 7
+touchMove 0 870 253
+sleep 6
+touchMove 0 872 253
+sleep 7
+touchMove 0 874 253
+sleep 7
+touchMove 0 876 253
+sleep 6
+touchMove 0 878 253
+sleep 7
+touchMove 0 880 253
+sleep 7
+touchMove 0 882 253
+sleep 7
+touchMove 0 884 253
+sleep 7
+touchMove 0 886 253
+sleep 6
+touchMove 0 888 253
+sleep 6
+touchMove 0 890 253
+sleep 16
+touchMove 0 892 253
+sleep 6
+touchMove 0 894 253
+sleep 7
+touchMove 0 896 253
+sleep 7
+touchMove 0 898 253
+sleep 7
+touchMove 0 900 253
+sleep 6
+touchMove 0 902 253
+sleep 7
+touchMove 0 904 253
+sleep 7
+touchMove 0 906 253
+sleep 6
+touchMove 0 908 253
+sleep 7
+touchMove 0 910 253
+sleep 7
+touchMove 0 912 253
+sleep 6
+touchMove 0 913 253
+sleep 7
+touchMove 0 914 253
+sleep 7
+touchMove 0 915 253
+sleep 6
+touchMove 0 916 253
+sleep 7
+touchMove 0 917 253
+sleep 7
+touchMove 0 918 253
+sleep 15
+touchMove 0 919 253
+sleep 7
+touchMove 0 920 253
+sleep 7
+touchMove 0 921 253
+sleep 6
+touchMove 0 922 253
+sleep 7
+touchMove 0 923 253
+sleep 7
+touchMove 0 924 253
+sleep 6
+touchMove 0 925 253
+sleep 7
+touchMove 0 926 253
+sleep 6
+touchMove 0 927 253
+sleep 7
+touchMove 0 928 253
+sleep 7
+touchMove 0 929 253
+sleep 6
+touchMove 0 930 253
+sleep 7
+touchMove 0 931 253
+sleep 7
+touchMove 0 932 253
+sleep 6
+touchMove 0 933 253
+sleep 7
+touchMove 0 934 253
+sleep 7
+touchMove 0 935 253
+sleep 15
+touchMove 0 936 253
+sleep 6
+touchMove 0 937 253
+sleep 7
+touchMove 0 938 253
+sleep 7
+touchMove 0 939 253
+sleep 6
+touchMove 0 940 253
+sleep 7
+touchMove 0 941 253
+sleep 6
+touchMove 0 942 253
+sleep 11
+touchUp 0
+sleep 5655
+touchDown 0 746 1809
+sleep 99
+touchUp 0
+sleep 2362
+touchDown 0 1008 1085
+sleep 129
+touchMove 0 998 1081
+sleep 13
+touchMove 0 998 1080
+sleep 17
+touchMove 0 998 1078
+touchMove 0 998 1076
+touchMove 0 998 1073
+sleep 2
+touchMove 0 998 1069
+touchMove 0 998 1064
+touchMove 0 998 1059
+sleep 12
+touchMove 0 998 1053
+touchMove 0 998 1046
+sleep 4
+touchMove 0 998 1041
+sleep 15
+touchMove 0 998 1036
+touchMove 0 998 1031
+sleep 11
+touchMove 0 998 1026
+touchMove 0 998 1022
+sleep 12
+touchMove 0 998 1017
+touchMove 0 998 1012
+sleep 8
+touchMove 0 998 1007
+sleep 6
+touchMove 0 999 1001
+sleep 6
+touchMove 0 1000 996
+sleep 6
+touchMove 0 1001 991
+sleep 8
+touchMove 0 1002 986
+sleep 5
+touchMove 0 1003 981
+sleep 16
+touchMove 0 1004 976
+sleep 6
+touchMove 0 1004 973
+sleep 7
+touchMove 0 1004 970
+sleep 6
+touchMove 0 1004 967
+sleep 6
+touchMove 0 1004 965
+sleep 7
+touchMove 0 1004 963
+sleep 7
+touchMove 0 1004 961
+sleep 7
+touchMove 0 1004 959
+sleep 6
+touchMove 0 1004 958
+sleep 6
+touchMove 0 1004 957
+sleep 7
+touchMove 0 1004 956
+sleep 7
+touchMove 0 1004 955
+sleep 8
+touchMove 0 1004 954
+sleep 5
+touchMove 0 1004 953
+sleep 8
+touchMove 0 1004 952
+sleep 8
+touchMove 0 1004 951
+sleep 5
+touchMove 0 1004 950
+sleep 16
+touchMove 0 1004 949
+sleep 13
+touchMove 0 1004 948
+touchMove 0 1004 947
+sleep 5
+touchMove 0 1004 946
+sleep 10
+touchMove 0 1004 945
+sleep 4
+touchMove 0 1004 944
+sleep 7
+touchMove 0 1004 943
+sleep 6
+touchMove 0 1004 942
+sleep 6
+touchMove 0 1004 941
+sleep 7
+touchMove 0 1004 940
+sleep 7
+touchMove 0 1004 939
+sleep 6
+touchMove 0 1004 938
+sleep 60
+touchMove 0 1004 939
+sleep 6
+touchMove 0 1004 941
+sleep 7
+touchMove 0 1004 943
+sleep 7
+touchMove 0 1004 946
+sleep 6
+touchMove 0 1004 950
+sleep 7
+touchMove 0 1004 956
+sleep 6
+touchMove 0 1004 966
+sleep 6
+touchMove 0 1004 982
+sleep 7
+touchMove 0 1004 1007
+sleep 9
+touchMove 0 1004 1031
+sleep 4
+touchMove 0 1004 1053
+sleep 6
+touchMove 0 1004 1074
+sleep 7
+touchMove 0 1004 1088
+sleep 7
+touchMove 0 1004 1102
+sleep 6
+touchMove 0 1004 1117
+sleep 15
+touchMove 0 1005 1139
+sleep 7
+touchMove 0 1006 1160
+sleep 11
+touchUp 0
+sleep 1202
+touchDown 0 925 264
+sleep 120
+touchMove 0 915 264
+sleep 12
+touchMove 0 914 264
+touchMove 0 912 264
+sleep 11
+touchMove 0 910 264
+touchMove 0 908 264
+touchMove 0 906 264
+sleep 2
+touchMove 0 905 264
+sleep 4
+touchMove 0 903 264
+sleep 16
+touchMove 0 901 264
+sleep 6
+touchMove 0 900 264
+sleep 7
+touchMove 0 898 264
+sleep 6
+touchMove 0 896 264
+sleep 8
+touchMove 0 895 264
+sleep 5
+touchMove 0 894 264
+sleep 6
+touchMove 0 892 264
+sleep 13
+touchMove 0 891 264
+touchMove 0 890 264
+sleep 6
+touchMove 0 889 264
+sleep 6
+touchMove 0 888 264
+sleep 7
+touchMove 0 887 264
+sleep 6
+touchMove 0 886 264
+sleep 7
+touchMove 0 885 264
+sleep 6
+touchMove 0 884 264
+sleep 7
+touchMove 0 883 264
+sleep 20
+touchUp 0
+sleep 2402
+touchDown 0 1019 1261
+sleep 56
+touchMove 0 1012 1251
+sleep 6
+touchMove 0 1012 1249
+sleep 7
+touchMove 0 1012 1247
+sleep 8
+touchMove 0 1012 1244
+sleep 5
+touchMove 0 1012 1241
+sleep 7
+touchMove 0 1012 1237
+sleep 6
+touchMove 0 1012 1233
+sleep 7
+touchMove 0 1012 1229
+sleep 16
+touchMove 0 1012 1225
+sleep 6
+touchMove 0 1012 1221
+sleep 6
+touchMove 0 1012 1217
+sleep 7
+touchMove 0 1012 1212
+sleep 8
+touchMove 0 1012 1208
+sleep 5
+touchMove 0 1012 1204
+sleep 6
+touchMove 0 1012 1200
+sleep 7
+touchMove 0 1012 1196
+sleep 6
+touchMove 0 1012 1192
+sleep 10
+touchMove 0 1012 1188
+sleep 4
+touchMove 0 1012 1183
+sleep 7
+touchMove 0 1012 1179
+sleep 6
+touchMove 0 1012 1175
+sleep 6
+touchMove 0 1012 1171
+sleep 9
+touchMove 0 1012 1166
+sleep 4
+touchMove 0 1012 1161
+sleep 7
+touchMove 0 1012 1156
+sleep 15
+touchMove 0 1012 1151
+sleep 10
+touchMove 0 1012 1146
+sleep 4
+touchMove 0 1013 1140
+sleep 6
+touchMove 0 1014 1132
+sleep 6
+touchMove 0 1015 1121
+sleep 7
+touchMove 0 1016 1110
+sleep 9
+touchMove 0 1017 1101
+sleep 4
+touchMove 0 1018 1087
+sleep 7
+touchMove 0 1020 1071
+sleep 6
+touchMove 0 1024 1042
+sleep 37
+touchMove 0 1030 1012
+sleep 2
+touchMove 0 1038 980
+touchMove 0 1047 944
+touchMove 0 1058 904
+touchMove 0 1077 845
+touchMove 0 1113 747
+sleep 19
+touchUp 0
+sleep 2031
+touchDown 0 1165 599
+sleep 40
+touchMove 0 1153 619
+sleep 7
+touchMove 0 1146 633
+sleep 6
+touchMove 0 1134 656
+sleep 7
+touchMove 0 1122 681
+sleep 6
+touchMove 0 1111 706
+sleep 7
+touchMove 0 1100 732
+sleep 6
+touchMove 0 1088 760
+sleep 6
+touchMove 0 1076 789
+sleep 16
+touchMove 0 1065 819
+sleep 6
+touchMove 0 1054 850
+sleep 11
+touchUp 0
+sleep 637
+touchDown 0 1138 652
+sleep 41
+touchMove 0 1134 670
+sleep 7
+touchMove 0 1128 687
+sleep 7
+touchMove 0 1117 715
+sleep 7
+touchMove 0 1105 746
+sleep 6
+touchMove 0 1091 781
+sleep 7
+touchMove 0 1076 820
+sleep 7
+touchMove 0 1058 874
+sleep 6
+touchMove 0 1042 925
+sleep 6
+touchMove 0 1033 961
+sleep 11
+touchUp 0
+sleep 2685
+touchDown 0 235 849
+sleep 68
+touchMove 0 225 852
+sleep 7
+touchMove 0 224 852
+sleep 6
+touchMove 0 223 852
+sleep 7
+touchMove 0 222 852
+sleep 6
+touchMove 0 221 852
+sleep 6
+touchMove 0 220 852
+sleep 12
+touchMove 0 219 852
+sleep 7
+touchMove 0 218 852
+sleep 6
+touchMove 0 216 852
+sleep 9
+touchUp 0
+sleep 2378
+touchDown 0 770 1793
+sleep 35
+touchMove 0 770 1803
+sleep 11
+touchMove 0 770 1804
+sleep 17
+touchUp 0
+sleep 910
+touchDown 0 881 1647
+sleep 48
+touchMove 0 873 1636
+sleep 7
+touchMove 0 872 1634
+sleep 10
+touchMove 0 871 1632
+sleep 16
+touchMove 0 871 1630
+sleep 2
+touchMove 0 871 1627
+sleep 8
+touchMove 0 871 1624
+sleep 26
+touchMove 0 871 1620
+touchMove 0 871 1616
+sleep 3
+touchMove 0 871 1612
+sleep 12
+touchMove 0 872 1608
+sleep 3
+touchMove 0 873 1605
+sleep 3
+touchMove 0 874 1601
+sleep 7
+touchMove 0 874 1597
+sleep 2
+touchMove 0 875 1593
+touchMove 0 876 1588
+sleep 10
+touchMove 0 877 1583
+touchMove 0 878 1578
+sleep 9
+touchMove 0 879 1573
+sleep 5
+touchMove 0 880 1568
+sleep 6
+touchMove 0 881 1563
+sleep 16
+touchMove 0 882 1559
+sleep 6
+touchMove 0 882 1556
+sleep 9
+touchMove 0 882 1552
+sleep 4
+touchMove 0 883 1548
+sleep 6
+touchMove 0 884 1544
+sleep 7
+touchMove 0 884 1540
+sleep 6
+touchMove 0 885 1536
+sleep 6
+touchMove 0 886 1532
+sleep 7
+touchMove 0 887 1528
+sleep 6
+touchMove 0 888 1524
+sleep 9
+touchMove 0 889 1520
+sleep 4
+touchMove 0 890 1515
+sleep 7
+touchMove 0 891 1510
+sleep 6
+touchMove 0 892 1504
+sleep 6
+touchMove 0 893 1499
+sleep 7
+touchMove 0 894 1494
+sleep 7
+touchMove 0 895 1489
+sleep 15
+touchMove 0 896 1485
+sleep 6
+touchMove 0 897 1481
+sleep 9
+touchMove 0 897 1478
+sleep 4
+touchMove 0 898 1475
+sleep 7
+touchMove 0 899 1472
+sleep 7
+touchMove 0 900 1470
+sleep 5
+touchMove 0 900 1467
+sleep 7
+touchMove 0 901 1464
+sleep 6
+touchMove 0 902 1462
+sleep 7
+touchMove 0 902 1459
+sleep 6
+touchMove 0 902 1456
+sleep 7
+touchMove 0 903 1452
+sleep 5
+touchMove 0 904 1448
+sleep 8
+touchMove 0 905 1444
+sleep 6
+touchMove 0 906 1440
+sleep 8
+touchMove 0 907 1436
+sleep 5
+touchMove 0 908 1432
+sleep 17
+touchMove 0 909 1429
+sleep 5
+touchMove 0 910 1426
+sleep 8
+touchMove 0 911 1422
+sleep 7
+touchMove 0 912 1419
+sleep 5
+touchMove 0 913 1416
+sleep 7
+touchMove 0 914 1413
+sleep 7
+touchMove 0 915 1410
+sleep 7
+touchMove 0 916 1407
+sleep 6
+touchMove 0 917 1404
+sleep 6
+touchMove 0 918 1401
+sleep 6
+touchMove 0 919 1399
+sleep 6
+touchMove 0 920 1396
+sleep 6
+touchMove 0 921 1393
+sleep 9
+touchMove 0 922 1390
+sleep 4
+touchMove 0 923 1387
+sleep 9
+touchMove 0 924 1384
+sleep 5
+touchMove 0 925 1381
+sleep 14
+touchMove 0 926 1378
+sleep 6
+touchMove 0 927 1376
+sleep 7
+touchMove 0 928 1373
+sleep 6
+touchMove 0 929 1370
+sleep 6
+touchMove 0 931 1367
+sleep 6
+touchMove 0 932 1364
+sleep 7
+touchMove 0 933 1361
+sleep 7
+touchMove 0 934 1358
+sleep 6
+touchMove 0 935 1355
+sleep 7
+touchMove 0 936 1351
+sleep 7
+touchMove 0 938 1348
+sleep 6
+touchMove 0 939 1345
+sleep 9
+touchMove 0 941 1342
+sleep 4
+touchMove 0 942 1339
+sleep 6
+touchMove 0 943 1336
+sleep 7
+touchMove 0 945 1332
+sleep 6
+touchMove 0 946 1329
+sleep 15
+touchMove 0 947 1326
+sleep 7
+touchMove 0 948 1323
+sleep 7
+touchMove 0 950 1319
+sleep 6
+touchMove 0 952 1315
+sleep 7
+touchMove 0 954 1311
+sleep 6
+touchMove 0 956 1307
+sleep 7
+touchMove 0 958 1303
+sleep 7
+touchMove 0 960 1299
+sleep 7
+touchMove 0 963 1294
+sleep 6
+touchMove 0 965 1290
+sleep 6
+touchMove 0 967 1285
+sleep 7
+touchMove 0 970 1280
+sleep 7
+touchMove 0 973 1275
+sleep 7
+touchMove 0 976 1270
+sleep 6
+touchMove 0 979 1265
+sleep 6
+touchMove 0 983 1258
+sleep 7
+touchMove 0 989 1247
+sleep 15
+touchMove 0 996 1236
+sleep 5
+touchMove 0 1003 1225
+sleep 9
+touchUp 0
+sleep 911
+touchDown 0 187 1123
+sleep 144
+touchUp 0
+sleep 1831
+touchDown 0 990 1478
+sleep 121
+touchMove 0 989 1467
+sleep 15
+touchMove 0 989 1465
+sleep 8
+touchMove 0 989 1464
+sleep 5
+touchMove 0 989 1462
+sleep 7
+touchMove 0 989 1460
+sleep 7
+touchMove 0 989 1459
+sleep 6
+touchMove 0 989 1458
+sleep 6
+touchMove 0 989 1457
+sleep 9
+touchMove 0 989 1455
+sleep 4
+touchMove 0 989 1454
+sleep 7
+touchMove 0 989 1453
+sleep 5
+touchMove 0 989 1451
+sleep 7
+touchMove 0 989 1450
+sleep 6
+touchMove 0 989 1448
+sleep 7
+touchMove 0 989 1446
+sleep 6
+touchMove 0 989 1445
+sleep 8
+touchMove 0 989 1444
+sleep 5
+touchMove 0 989 1443
+sleep 15
+touchMove 0 989 1442
+sleep 5
+touchMove 0 989 1441
+sleep 9
+touchMove 0 989 1439
+sleep 4
+touchMove 0 989 1438
+sleep 6
+touchMove 0 989 1437
+sleep 7
+touchMove 0 989 1436
+sleep 6
+touchMove 0 989 1435
+sleep 7
+touchMove 0 989 1434
+sleep 6
+touchMove 0 989 1433
+sleep 6
+touchMove 0 989 1432
+sleep 7
+touchMove 0 989 1431
+sleep 6
+touchMove 0 989 1429
+sleep 6
+touchMove 0 989 1428
+sleep 7
+touchMove 0 989 1426
+sleep 6
+touchMove 0 989 1425
+sleep 6
+touchMove 0 989 1424
+sleep 7
+touchMove 0 989 1423
+sleep 15
+touchMove 0 989 1422
+sleep 7
+touchMove 0 989 1421
+sleep 8
+touchMove 0 989 1420
+sleep 6
+touchMove 0 989 1419
+sleep 6
+touchMove 0 989 1418
+sleep 7
+touchMove 0 990 1417
+sleep 6
+touchMove 0 990 1416
+sleep 8
+touchMove 0 990 1415
+sleep 6
+touchMove 0 990 1414
+sleep 6
+touchMove 0 990 1413
+sleep 7
+touchMove 0 990 1412
+sleep 6
+touchMove 0 990 1411
+sleep 8
+touchMove 0 990 1410
+sleep 6
+touchMove 0 990 1409
+sleep 6
+touchMove 0 990 1408
+sleep 7
+touchMove 0 990 1407
+sleep 6
+touchMove 0 990 1406
+sleep 15
+touchMove 0 990 1405
+sleep 7
+touchMove 0 990 1404
+sleep 7
+touchMove 0 990 1403
+sleep 6
+touchMove 0 990 1402
+sleep 7
+touchMove 0 991 1401
+sleep 6
+touchMove 0 991 1400
+sleep 7
+touchMove 0 991 1399
+sleep 6
+touchMove 0 991 1398
+sleep 8
+touchMove 0 991 1397
+sleep 8
+touchMove 0 991 1396
+sleep 5
+touchMove 0 991 1395
+sleep 6
+touchMove 0 991 1394
+sleep 7
+touchMove 0 992 1393
+sleep 6
+touchMove 0 992 1392
+sleep 20
+touchMove 0 992 1391
+sleep 15
+touchMove 0 992 1390
+sleep 13
+touchMove 0 992 1389
+sleep 63
+touchMove 0 992 1388
+sleep 2
+touchMove 0 993 1388
+sleep 189
+touchMove 0 993 1387
+sleep 16
+touchMove 0 993 1386
+touchMove 0 993 1385
+sleep 11
+touchMove 0 993 1384
+sleep 13
+touchMove 0 993 1383
+sleep 7
+touchMove 0 994 1383
+sleep 58
+touchMove 0 995 1382
+sleep 19
+touchMove 0 995 1381
+sleep 99
+touchMove 0 995 1380
+sleep 6
+touchMove 0 995 1379
+sleep 32
+touchMove 0 995 1378
+sleep 45
+touchMove 0 995 1377
+sleep 28
+touchMove 0 995 1376
+sleep 7
+touchMove 0 996 1376
+sleep 18
+touchMove 0 996 1375
+sleep 25
+touchMove 0 996 1374
+sleep 6
+touchMove 0 996 1373
+sleep 6
+touchMove 0 996 1372
+sleep 13
+touchMove 0 996 1371
+sleep 12
+touchMove 0 996 1370
+sleep 16
+touchMove 0 996 1369
+sleep 6
+touchMove 0 996 1368
+sleep 12
+touchMove 0 996 1367
+sleep 7
+touchMove 0 997 1366
+sleep 18
+touchMove 0 997 1365
+sleep 13
+touchMove 0 997 1364
+sleep 6
+touchMove 0 997 1363
+sleep 19
+touchMove 0 997 1362
+sleep 100
+touchMove 0 997 1361
+sleep 60
+touchMove 0 997 1360
+sleep 11
+touchMove 0 997 1359
+sleep 6
+touchMove 0 997 1358
+sleep 19
+touchMove 0 997 1357
+sleep 18
+touchMove 0 997 1356
+sleep 7
+touchMove 0 997 1355
+sleep 6
+touchMove 0 998 1355
+sleep 40
+touchMove 0 999 1354
+sleep 12
+touchMove 0 999 1353
+sleep 13
+touchMove 0 999 1352
+sleep 6
+touchMove 0 1000 1351
+sleep 13
+touchMove 0 1000 1350
+sleep 12
+touchMove 0 1000 1349
+sleep 6
+touchMove 0 1001 1348
+sleep 70
+touchMove 0 1001 1347
+sleep 50
+touchMove 0 1001 1346
+sleep 52
+touchMove 0 1002 1346
+sleep 132
+touchMove 0 1002 1345
+sleep 29
+touchMove 0 1002 1344
+sleep 10
+touchMove 0 1002 1343
+sleep 44
+touchMove 0 1002 1342
+sleep 14
+touchMove 0 1002 1341
+sleep 30
+touchMove 0 1003 1341
+sleep 56
+touchMove 0 1003 1340
+sleep 22
+touchMove 0 1003 1339
+sleep 20
+touchMove 0 1003 1338
+sleep 12
+touchMove 0 1003 1337
+sleep 43
+touchMove 0 1003 1336
+sleep 20
+touchMove 0 1003 1335
+sleep 53
+touchMove 0 1004 1335
+sleep 86
+touchMove 0 1004 1334
+sleep 25
+touchMove 0 1004 1333
+sleep 13
+touchMove 0 1004 1332
+sleep 7
+touchMove 0 1004 1331
+sleep 25
+touchMove 0 1004 1330
+sleep 13
+touchMove 0 1004 1329
+sleep 9
+touchMove 0 1005 1329
+sleep 57
+touchMove 0 1005 1328
+sleep 15
+touchMove 0 1005 1327
+sleep 11
+touchMove 0 1005 1326
+sleep 19
+touchMove 0 1005 1325
+sleep 7
+touchMove 0 1005 1324
+sleep 9
+touchMove 0 1005 1323
+sleep 4
+touchMove 0 1005 1322
+sleep 16
+touchMove 0 1005 1321
+sleep 6
+touchMove 0 1005 1320
+sleep 6
+touchMove 0 1005 1319
+sleep 7
+touchMove 0 1005 1318
+sleep 6
+touchMove 0 1005 1317
+sleep 6
+touchMove 0 1005 1316
+sleep 7
+touchMove 0 1005 1315
+sleep 6
+touchMove 0 1005 1314
+sleep 6
+touchMove 0 1004 1313
+sleep 7
+touchMove 0 1004 1312
+sleep 6
+touchMove 0 1004 1311
+sleep 6
+touchMove 0 1004 1310
+sleep 8
+touchMove 0 1004 1309
+sleep 5
+touchMove 0 1004 1308
+sleep 7
+touchMove 0 1004 1307
+sleep 8
+touchMove 0 1004 1306
+sleep 6
+touchMove 0 1004 1305
+sleep 14
+touchMove 0 1004 1304
+sleep 6
+touchMove 0 1004 1303
+sleep 7
+touchMove 0 1004 1301
+sleep 6
+touchMove 0 1004 1299
+sleep 7
+touchMove 0 1004 1297
+sleep 6
+touchMove 0 1004 1295
+sleep 7
+touchMove 0 1004 1293
+sleep 8
+touchMove 0 1004 1291
+sleep 5
+touchMove 0 1004 1289
+sleep 7
+touchMove 0 1004 1287
+sleep 7
+touchMove 0 1004 1285
+sleep 6
+touchMove 0 1004 1282
+sleep 7
+touchMove 0 1003 1279
+sleep 6
+touchMove 0 1003 1276
+sleep 8
+touchMove 0 1003 1273
+sleep 7
+touchMove 0 1003 1270
+sleep 5
+touchMove 0 1003 1267
+sleep 16
+touchMove 0 1003 1264
+sleep 6
+touchMove 0 1003 1260
+sleep 7
+touchMove 0 1003 1256
+sleep 6
+touchMove 0 1003 1250
+sleep 8
+touchMove 0 1003 1244
+sleep 6
+touchMove 0 1004 1238
+sleep 6
+touchMove 0 1005 1230
+sleep 7
+touchMove 0 1007 1218
+sleep 6
+touchMove 0 1010 1205
+sleep 8
+touchMove 0 1012 1192
+sleep 5
+touchMove 0 1014 1179
+sleep 6
+touchMove 0 1017 1165
+sleep 7
+touchMove 0 1023 1142
+sleep 6
+touchMove 0 1029 1120
+sleep 6
+touchMove 0 1034 1100
+sleep 6
+touchMove 0 1037 1087
+sleep 6
+touchMove 0 1041 1073
+sleep 15
+touchMove 0 1047 1051
+sleep 7
+touchMove 0 1053 1031
+sleep 6
+touchMove 0 1058 1016
+sleep 7
+touchMove 0 1067 995
+sleep 7
+touchMove 0 1074 977
+sleep 5
+touchMove 0 1079 966
+sleep 7
+touchMove 0 1084 955
+sleep 6
+touchMove 0 1089 944
+sleep 7
+touchMove 0 1094 934
+sleep 8
+touchMove 0 1099 924
+sleep 6
+touchMove 0 1102 916
+sleep 6
+touchMove 0 1107 905
+sleep 6
+touchMove 0 1113 894
+sleep 6
+touchMove 0 1118 883
+sleep 7
+touchMove 0 1124 872
+sleep 6
+touchMove 0 1130 861
+sleep 7
+touchMove 0 1136 849
+sleep 15
+touchMove 0 1142 838
+sleep 7
+touchMove 0 1148 826
+sleep 6
+touchMove 0 1154 812
+sleep 7
+touchMove 0 1163 791
+sleep 7
+touchMove 0 1170 774
+sleep 6
+touchMove 0 1174 764
+sleep 6
+touchMove 0 1176 758
+sleep 6
+touchMove 0 1178 753
+sleep 7
+touchMove 0 1180 748
+sleep 7
+touchMove 0 1182 743
+sleep 6
+touchMove 0 1184 738
+sleep 6
+touchMove 0 1186 734
+sleep 7
+touchMove 0 1188 730
+sleep 6
+touchMove 0 1191 726
+sleep 8
+touchMove 0 1193 723
+sleep 5
+touchMove 0 1195 720
+sleep 7
+touchMove 0 1197 717
+sleep 15
+touchMove 0 1199 714
+sleep 7
+touchMove 0 1201 711
+sleep 7
+touchMove 0 1203 708
+sleep 6
+touchMove 0 1205 705
+sleep 6
+touchMove 0 1207 702
+sleep 7
+touchMove 0 1209 699
+sleep 7
+touchMove 0 1211 697
+sleep 6
+touchMove 0 1213 695
+sleep 7
+touchMove 0 1215 693
+sleep 6
+touchMove 0 1217 691
+sleep 7
+touchMove 0 1218 689
+sleep 8
+touchMove 0 1220 687
+sleep 4
+touchMove 0 1222 685
+sleep 7
+touchMove 0 1224 683
+sleep 6
+touchMove 0 1225 681
+sleep 7
+touchMove 0 1226 679
+sleep 5
+touchMove 0 1228 677
+sleep 15
+touchMove 0 1229 675
+sleep 7
+touchMove 0 1230 673
+sleep 6
+touchMove 0 1232 671
+sleep 7
+touchMove 0 1234 669
+sleep 6
+touchMove 0 1236 667
+sleep 6
+touchMove 0 1238 664
+sleep 8
+touchMove 0 1240 661
+sleep 6
+touchMove 0 1242 658
+sleep 6
+touchMove 0 1244 656
+sleep 6
+touchMove 0 1245 654
+sleep 7
+touchMove 0 1247 652
+sleep 8
+touchMove 0 1248 650
+sleep 5
+touchMove 0 1249 648
+sleep 6
+touchMove 0 1251 646
+sleep 7
+touchMove 0 1253 643
+sleep 6
+touchMove 0 1255 640
+sleep 7
+touchMove 0 1258 637
+sleep 15
+touchMove 0 1261 633
+sleep 7
+touchMove 0 1264 628
+sleep 6
+touchMove 0 1267 622
+sleep 9
+touchMove 0 1271 615
+sleep 4
+touchMove 0 1275 608
+sleep 7
+touchMove 0 1277 603
+sleep 7
+touchMove 0 1279 598
+sleep 5
+touchMove 0 1281 593
+sleep 7
+touchMove 0 1283 588
+sleep 6
+touchMove 0 1285 583
+sleep 7
+touchMove 0 1287 578
+sleep 7
+touchMove 0 1289 574
+sleep 6
+touchMove 0 1291 570
+sleep 6
+touchMove 0 1292 566
+sleep 7
+touchMove 0 1293 562
+sleep 6
+touchMove 0 1294 558
+sleep 10
+touchMove 0 1295 554
+sleep 12
+touchMove 0 1296 549
+sleep 6
+touchMove 0 1297 545
+sleep 12
+touchUp 0
+sleep 20
+touchDown 0 1317 423
+sleep 21
+touchUp 0
+sleep 520
+touchDown 0 1003 1317
+sleep 33
+touchMove 0 1003 1306
+sleep 7
+touchMove 0 1004 1291
+sleep 6
+touchMove 0 1008 1267
+sleep 7
+touchMove 0 1012 1242
+sleep 9
+touchMove 0 1016 1215
+sleep 4
+touchMove 0 1024 1189
+sleep 8
+touchMove 0 1031 1163
+sleep 5
+touchMove 0 1039 1138
+sleep 7
+touchMove 0 1046 1115
+sleep 13
+touchMove 0 1053 1091
+touchMove 0 1060 1068
+sleep 6
+touchMove 0 1067 1046
+sleep 7
+touchMove 0 1073 1027
+sleep 6
+touchMove 0 1077 1015
+sleep 7
+touchMove 0 1081 1003
+sleep 16
+touchMove 0 1085 991
+sleep 6
+touchMove 0 1090 978
+sleep 6
+touchMove 0 1098 954
+sleep 10
+touchMove 0 1106 932
+sleep 4
+touchMove 0 1114 910
+sleep 6
+touchMove 0 1122 889
+sleep 8
+touchMove 0 1131 868
+sleep 6
+touchMove 0 1141 847
+sleep 11
+touchMove 0 1151 825
+sleep 2
+touchMove 0 1161 802
+sleep 7
+touchMove 0 1170 778
+sleep 7
+touchMove 0 1180 755
+sleep 5
+touchMove 0 1191 730
+sleep 7
+touchMove 0 1203 706
+sleep 6
+touchMove 0 1214 682
+sleep 7
+touchMove 0 1224 658
+sleep 7
+touchMove 0 1236 634
+sleep 14
+touchMove 0 1249 610
+sleep 7
+touchMove 0 1262 588
+sleep 6
+touchMove 0 1276 560
+sleep 6
+touchMove 0 1289 535
+sleep 6
+touchMove 0 1299 513
+sleep 6
+touchMove 0 1309 494
+sleep 5
+touchMove 0 1314 483
+sleep 10
+touchUp 0
+sleep 2600
+touchDown 0 757 2026
+sleep 104
+touchUp 0
+sleep 3182
+touchDown 0 1081 275
+sleep 77
+touchUp 0
+sleep 1298
+touchDown 0 1105 233
+sleep 79
+touchUp 0
+sleep 1877
+touchDown 0 921 1124
+sleep 47
+touchMove 0 920 1113
+sleep 6
+touchMove 0 920 1103
+sleep 6
+touchMove 0 920 1087
+sleep 7
+touchMove 0 921 1060
+sleep 7
+touchMove 0 923 1032
+sleep 7
+touchMove 0 925 1005
+sleep 5
+touchMove 0 928 978
+sleep 9
+touchMove 0 931 951
+sleep 5
+touchMove 0 935 923
+sleep 8
+touchMove 0 939 895
+sleep 6
+touchMove 0 943 870
+sleep 6
+touchMove 0 948 846
+sleep 15
+touchMove 0 954 823
+sleep 6
+touchMove 0 960 801
+sleep 7
+touchMove 0 970 774
+sleep 7
+touchMove 0 980 747
+sleep 8
+touchMove 0 991 722
+sleep 7
+touchMove 0 1002 698
+sleep 6
+touchMove 0 1013 673
+sleep 7
+touchMove 0 1024 649
+sleep 6
+touchMove 0 1037 623
+sleep 6
+touchMove 0 1049 597
+sleep 7
+touchMove 0 1061 572
+sleep 6
+touchMove 0 1073 546
+sleep 7
+touchMove 0 1086 520
+sleep 7
+touchMove 0 1099 494
+sleep 6
+touchMove 0 1112 469
+sleep 7
+touchMove 0 1127 445
+sleep 6
+touchMove 0 1141 422
+sleep 16
+touchMove 0 1154 401
+sleep 7
+touchMove 0 1166 382
+sleep 5
+touchMove 0 1181 361
+sleep 11
+touchUp 0
+sleep 548
+touchDown 0 944 768
+sleep 47
+touchMove 0 949 741
+sleep 6
+touchMove 0 957 718
+sleep 7
+touchMove 0 966 695
+sleep 7
+touchMove 0 976 671
+sleep 7
+touchMove 0 987 647
+sleep 6
+touchMove 0 999 621
+sleep 7
+touchMove 0 1011 596
+sleep 6
+touchMove 0 1026 571
+sleep 7
+touchMove 0 1040 546
+sleep 7
+touchMove 0 1055 522
+sleep 5
+touchMove 0 1067 491
+sleep 20
+touchUp 0
+sleep 1978
+touchDown 0 89 376
+sleep 80
+touchUp 0
+sleep 1251
+touchDown 0 1085 433
+sleep 66
+touchUp 0
+sleep 1701
+touchDown 0 1136 246
+sleep 66
+touchUp 0
+sleep 1744
+touchDown 0 961 1040
+sleep 79
+touchMove 0 962 1029
+sleep 13
+touchMove 0 963 1026
+sleep 8
+touchMove 0 964 1022
+sleep 5
+touchMove 0 965 1017
+sleep 7
+touchMove 0 966 1012
+sleep 10
+touchMove 0 967 1006
+sleep 3
+touchMove 0 969 999
+sleep 6
+touchMove 0 970 991
+sleep 9
+touchMove 0 972 983
+sleep 9
+touchMove 0 974 974
+sleep 4
+touchMove 0 977 961
+sleep 5
+touchMove 0 981 947
+sleep 7
+touchMove 0 987 922
+sleep 5
+touchMove 0 993 898
+sleep 8
+touchMove 0 999 874
+sleep 6
+touchMove 0 1007 848
+sleep 8
+touchMove 0 1015 820
+sleep 6
+touchMove 0 1024 791
+sleep 15
+touchMove 0 1034 761
+sleep 6
+touchMove 0 1046 731
+sleep 7
+touchMove 0 1066 685
+sleep 7
+touchMove 0 1107 597
+sleep 6
+touchMove 0 1143 527
+sleep 7
+touchMove 0 1158 499
+sleep 7
+touchMove 0 1177 465
+sleep 9
+touchUp 0
+sleep 1708
+touchDown 0 1161 391
+sleep 35
+touchMove 0 1154 408
+sleep 8
+touchMove 0 1150 418
+touchMove 0 1143 433
+sleep 3
+touchMove 0 1132 456
+sleep 6
+touchMove 0 1120 481
+sleep 22
+touchMove 0 1108 506
+touchMove 0 1096 532
+touchMove 0 1083 558
+sleep 5
+touchMove 0 1070 583
+sleep 12
+touchMove 0 1057 610
+sleep 11
+touchMove 0 1045 636
+sleep 7
+touchMove 0 1033 663
+sleep 5
+touchMove 0 1019 698
+sleep 7
+touchMove 0 1006 730
+sleep 6
+touchMove 0 995 761
+sleep 8
+touchMove 0 987 791
+sleep 6
+touchMove 0 980 821
+sleep 4
+touchMove 0 975 853
+sleep 9
+touchUp 0
+sleep 2541
+touchDown 0 188 620
+sleep 47
+touchUp 0
+sleep 3408
+touchDown 0 449 2054
+sleep 77
+touchUp 0
+sleep 4203
+touchDown 0 1083 1058
+sleep 31
+touchMove 0 1071 1063
+sleep 7
+touchMove 0 1067 1064
+sleep 6
+touchMove 0 1062 1066
+sleep 9
+touchMove 0 1055 1068
+sleep 11
+touchMove 0 1046 1070
+touchMove 0 1037 1072
+sleep 6
+touchMove 0 1027 1074
+sleep 9
+touchMove 0 1015 1077
+sleep 19
+touchMove 0 1002 1080
+touchMove 0 990 1082
+sleep 5
+touchMove 0 981 1084
+sleep 6
+touchMove 0 972 1086
+sleep 6
+touchMove 0 963 1087
+sleep 6
+touchMove 0 954 1088
+sleep 6
+touchMove 0 945 1089
+sleep 7
+touchMove 0 936 1090
+sleep 6
+touchMove 0 928 1091
+sleep 7
+touchMove 0 921 1092
+sleep 6
+touchMove 0 915 1093
+sleep 6
+touchMove 0 909 1094
+sleep 6
+touchMove 0 904 1094
+sleep 7
+touchMove 0 899 1094
+sleep 6
+touchMove 0 895 1094
+sleep 6
+touchMove 0 891 1094
+sleep 9
+touchMove 0 887 1094
+sleep 13
+touchMove 0 884 1093
+sleep 6
+touchMove 0 881 1092
+sleep 6
+touchMove 0 878 1091
+sleep 7
+touchMove 0 874 1089
+sleep 7
+touchMove 0 871 1087
+sleep 6
+touchMove 0 868 1085
+sleep 7
+touchMove 0 866 1083
+sleep 6
+touchMove 0 864 1081
+sleep 6
+touchMove 0 862 1078
+sleep 6
+touchMove 0 861 1074
+sleep 7
+touchMove 0 860 1069
+sleep 6
+touchMove 0 859 1063
+sleep 7
+touchMove 0 859 1057
+sleep 6
+touchMove 0 860 1049
+sleep 6
+touchMove 0 861 1041
+sleep 7
+touchMove 0 864 1028
+sleep 7
+touchMove 0 868 1015
+sleep 15
+touchMove 0 873 1003
+sleep 6
+touchMove 0 878 991
+sleep 7
+touchMove 0 886 976
+sleep 6
+touchMove 0 897 953
+sleep 7
+touchMove 0 908 933
+sleep 6
+touchMove 0 918 915
+sleep 7
+touchMove 0 925 904
+sleep 6
+touchMove 0 933 892
+sleep 8
+touchMove 0 945 873
+sleep 5
+touchMove 0 955 856
+sleep 10
+touchMove 0 962 847
+sleep 3
+touchMove 0 966 840
+sleep 7
+touchMove 0 970 833
+sleep 6
+touchMove 0 978 823
+sleep 6
+touchMove 0 985 813
+sleep 7
+touchMove 0 992 803
+sleep 6
+touchMove 0 999 793
+sleep 18
+touchMove 0 1006 783
+sleep 4
+touchMove 0 1012 774
+sleep 7
+touchMove 0 1017 766
+sleep 6
+touchMove 0 1023 755
+sleep 6
+touchMove 0 1030 746
+sleep 7
+touchMove 0 1036 737
+sleep 6
+touchMove 0 1040 731
+sleep 6
+touchMove 0 1044 726
+sleep 6
+touchMove 0 1047 722
+sleep 7
+touchMove 0 1051 718
+sleep 8
+touchMove 0 1054 714
+sleep 5
+touchMove 0 1057 710
+sleep 6
+touchMove 0 1060 706
+sleep 7
+touchMove 0 1064 702
+sleep 6
+touchMove 0 1067 699
+sleep 6
+touchMove 0 1070 696
+sleep 7
+touchMove 0 1072 694
+sleep 18
+touchMove 0 1074 692
+sleep 3
+touchMove 0 1076 690
+sleep 7
+touchMove 0 1078 688
+sleep 6
+touchMove 0 1081 686
+sleep 9
+touchMove 0 1084 684
+sleep 3
+touchMove 0 1086 682
+sleep 7
+touchMove 0 1088 681
+sleep 6
+touchMove 0 1090 680
+sleep 6
+touchMove 0 1092 679
+sleep 7
+touchMove 0 1094 678
+sleep 6
+touchMove 0 1096 677
+sleep 6
+touchMove 0 1097 676
+sleep 6
+touchMove 0 1098 675
+sleep 7
+touchMove 0 1100 674
+sleep 6
+touchMove 0 1101 673
+sleep 6
+touchMove 0 1103 672
+sleep 6
+touchMove 0 1105 671
+sleep 16
+touchMove 0 1107 670
+sleep 7
+touchMove 0 1109 669
+sleep 7
+touchMove 0 1112 668
+sleep 5
+touchMove 0 1115 666
+sleep 7
+touchMove 0 1118 664
+sleep 6
+touchMove 0 1121 662
+sleep 7
+touchMove 0 1124 660
+sleep 6
+touchMove 0 1127 658
+sleep 8
+touchMove 0 1130 656
+sleep 5
+touchMove 0 1133 655
+sleep 6
+touchMove 0 1136 653
+sleep 7
+touchMove 0 1139 652
+sleep 6
+touchMove 0 1141 651
+sleep 7
+touchMove 0 1143 650
+sleep 6
+touchMove 0 1145 648
+sleep 7
+touchMove 0 1147 646
+sleep 6
+touchMove 0 1149 644
+sleep 16
+touchMove 0 1151 642
+sleep 7
+touchMove 0 1153 640
+sleep 6
+touchMove 0 1155 638
+sleep 7
+touchMove 0 1158 636
+sleep 6
+touchMove 0 1161 634
+sleep 9
+touchMove 0 1164 631
+sleep 4
+touchMove 0 1167 628
+sleep 6
+touchMove 0 1170 625
+sleep 7
+touchMove 0 1173 621
+sleep 6
+touchMove 0 1176 617
+sleep 8
+touchMove 0 1180 613
+sleep 6
+touchMove 0 1183 609
+sleep 6
+touchMove 0 1187 605
+sleep 6
+touchMove 0 1190 601
+sleep 7
+touchMove 0 1193 597
+sleep 8
+touchMove 0 1196 593
+sleep 7
+touchMove 0 1199 589
+sleep 15
+touchMove 0 1202 585
+sleep 6
+touchMove 0 1204 581
+sleep 6
+touchMove 0 1206 577
+sleep 6
+touchMove 0 1208 572
+sleep 6
+touchMove 0 1210 567
+sleep 6
+touchMove 0 1212 562
+sleep 7
+touchMove 0 1214 557
+sleep 6
+touchMove 0 1216 552
+sleep 6
+touchMove 0 1218 547
+sleep 7
+touchMove 0 1220 542
+sleep 6
+touchMove 0 1222 537
+sleep 6
+touchMove 0 1224 532
+sleep 6
+touchMove 0 1226 527
+sleep 7
+touchMove 0 1227 522
+sleep 6
+touchMove 0 1229 517
+sleep 6
+touchMove 0 1230 513
+sleep 6
+touchMove 0 1231 509
+sleep 16
+touchMove 0 1232 506
+sleep 6
+touchMove 0 1233 503
+sleep 7
+touchMove 0 1235 500
+sleep 5
+touchMove 0 1237 497
+sleep 7
+touchMove 0 1239 494
+sleep 6
+touchMove 0 1241 491
+sleep 6
+touchMove 0 1242 489
+sleep 6
+touchMove 0 1243 487
+sleep 6
+touchMove 0 1246 486
+sleep 9
+touchUp 0
+sleep 2989
+touchDown 0 890 2047
+sleep 75
+touchUp 0
+sleep 4410
+touchDown 0 198 636
+sleep 128
+touchUp 0
+sleep 2115
+touchDown 0 131 961
+sleep 80
+touchMove 0 129 971
+touchMove 0 128 972
+sleep 11
+touchUp 0
+sleep 6098
+touchDown 0 187 1265
+sleep 37
+touchUp 0
+sleep 2913
+touchDown 0 179 1500
+sleep 78
+touchUp 0
+sleep 3012
+touchDown 0 468 2062
+sleep 50
 touchUp 0
 
 :end
